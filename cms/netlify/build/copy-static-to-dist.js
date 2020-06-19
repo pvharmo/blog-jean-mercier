@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const ncp = require('ncp').ncp
 
 ncp.limit = 16

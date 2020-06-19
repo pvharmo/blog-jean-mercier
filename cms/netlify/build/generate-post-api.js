@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import siteConfig from '../../../config/_siteConfig'
 import { createPagination, createMeta, createAll } from './helper'
 const rootDir = `${__dirname}/../../..`
@@ -12,7 +13,7 @@ const generatePostApi = () => {
   createAll(contentDir, allFile, apiDir)
     .then((all) => {
       const totalPages = createPagination(pages, all, `${apiDir}/posts`)
-      createMeta({ totalPages: totalPages }, metaFile)
+      createMeta({ totalPages }, metaFile)
       console.log(doneMessage.replace('{totalNumber}', all.length))
     })
     .catch((err) => {
