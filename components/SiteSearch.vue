@@ -26,10 +26,8 @@
             :key="match.slug"
             @click="toggleSearchBar()"
           >
-            <nuxt-link :to="`/${match.slug}`">
-              {{ match.title }}
-            </nuxt-link>
-            <small class="match-snippet" v-html="match.snippet"></small>
+            <nuxt-link :to="`/${match.slug}`">{{ match.title }}</nuxt-link>
+            <small class="match-snippet">{{ match.content }}</small>
           </li>
         </div>
 
@@ -90,12 +88,10 @@ export default {
         ? this.haystack
         : await this.$axios.$get('/api/posts.json')
       const matches = posts.filter((match) => {
-        return (
-          match.content
-            .toLowerCase()
-            .replace(/#|_|-|~|>|\*|!|\+|`|\||\[|\]|_|:/g, '')
-            .indexOf(this.query.toLowerCase()) > -1
-        )
+        return match.content
+          .toLowerCase()
+          .replace(/#|_|-|~|>|\*|!|\+|`|\||\[|\]|_|:/g, '')
+          .includes(this.query.toLowerCase())
       })
 
       this.matches = matches.map((match) => {
