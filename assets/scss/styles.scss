@@ -1,0 +1,26 @@
+@import 'vars';
+@import 'layout';
+@import 'animations';
+@import 'transitions';
+@import 'util';
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+a,
+p {
+  font-family: 'Quattrocento Sans', Roboto;
+  color: #666;
+  font-size: 18px;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-family: 'Roboto Slab', Georgia, Times, serif;
+  color: #666;
+  font-weight: 400;
+}
