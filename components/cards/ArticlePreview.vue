@@ -4,8 +4,14 @@
       <h1>{{ title }}</h1>
     </nuxt-link>
     <p class="publish-infos">{{ datePretty }}</p>
+    <youtube-media
+      v-if="youtubeVideo"
+      class="movie-trailer"
+      :video-id="youtubeVideo"
+      :player-height="340"
+    ></youtube-media>
     <opti-image
-      v-if="image"
+      v-else-if="image"
       :src="responsiveImage.src"
       :srcset="responsiveImage.srcSet"
       :width="imageRatio[0]"
@@ -23,6 +29,10 @@ import { getFormattedDate } from '~/helper'
 const imageDimensionDefault = '16x9'
 export default {
   props: {
+    youtubeVideo: {
+      type: String,
+      default: ''
+    },
     title: {
       type: String,
       default: ''

@@ -13,6 +13,7 @@
         :author="item.author"
         :date="item.date"
         :excerpt="item.excerpt"
+        :youtube-video="item.youtubeMovieTrailer"
       />
     </template>
   </resource-grid>

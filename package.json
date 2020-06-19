@@ -37,7 +37,9 @@
     "nuxt-responsive-loader": "^2.0.1",
     "opti-image": "^0.10.0",
     "url-parse": "^1.4.7",
-    "vue-disqus": "^4.0.0"
+    "v-runtime-template": "^1.10.0",
+    "vue-disqus": "^4.0.0",
+    "vue-youtube-embed": "^2.2.2"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
