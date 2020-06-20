@@ -12,7 +12,9 @@ youtubeMovieTrailer: l0fKX6VhovQ
 ---
 Chinese film by Writer-Director Zhangke Jia, 2019. Drama/romance.
 
-INTRODUCING THE STORY (this is a spoiler alert: do not read this section if you wish to follow the plot only at the screening of the film)
+# INTRODUCING THE STORY
+
+**(this is a spoiler alert: do not read this section if you wish to follow the plot only at the screening of the film)**
 
 In this most recent film presented by veteran and acclaimed director Zhangke Jia, the story revolves around Qiao, female companion of a local mafia boss named Bin. The film presents Qiao’s story, which starts in Datong, a run down and declining mining city of China, where she assists her Mafiosi husband in his various negotiations and responsibilities, working from an equally run down and non-descript semi-legal bar.
 
@@ -32,9 +34,7 @@ Qiao’s journey is also her own evolution, her personal trajectory, from a fema
 
 Men around her are weakening all along. Her father lost his former status, as we have seen, and her male companion’s social slide downward parallels her own rise.
 
-
-
-THE ELEPHANT BEHIND THE FILM
+# THE ELEPHANT BEHIND THE FILM
 
 When looking at such a film, the unavoidable question is whether this tale says something, more generally about contemporary China itself.
 
@@ -54,7 +54,7 @@ Let us return to the film’s main character, companion of the deposed mafia lea
 
 The title in Chinese, if we are to believe the literal translation, refers in part to the notion of *Jianghu*, made up of two words, river and lake, and , taken together, meaning wetlands and, sociologically, a period of uncertainty and of the suspension of normal rules and the arrival of a different and particular set of ethics. Wikipedia adds that these instances of *Jianghu* take on a particular importance in periods of uncertainty and trouble.
 
-THE BIG PICTURE
+# THE BIG PICTURE
 
 The film’s story line suggests that women are less affected than men in this period of *Jianghu*.
 
