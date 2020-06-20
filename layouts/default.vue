@@ -37,22 +37,17 @@
               </nuxt-link>
             </li>
           </ul>
-          <h3 class="subtitle">Subscribe</h3>
-          <news-letter-form class="newsletter-form" />
         </div>
       </template>
     </main-section>
-    <!-- <news-letter-slide-out v-if="$siteConfig.newsletter.on" /> -->
     <site-footer></site-footer>
   </div>
 </template>
 
 <script>
 import 'animate.css/animate.min.css'
-import NewsLetterForm from '~/components/NewsLetterForm'
 export default {
   transition: 'slide-fade',
-  components: { NewsLetterForm },
   data() {
     return {
       allCats: [],
