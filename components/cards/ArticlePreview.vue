@@ -2,25 +2,28 @@
   <div class="content">
     <nuxt-link :to="link">
       <h1>{{ title }}</h1>
+      <p class="publish-infos">{{ datePretty }}</p>
     </nuxt-link>
-    <p class="publish-infos">{{ datePretty }}</p>
-    <youtube-media
-      v-if="youtubeVideo"
-      class="movie-trailer"
-      :video-id="youtubeVideo"
-      :player-height="340"
-    ></youtube-media>
-    <opti-image
-      v-else-if="image"
-      :src="responsiveImage.src"
-      :srcset="responsiveImage.srcSet"
-      :width="imageRatio[0]"
-      :height="imageRatio[1]"
-      :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
-    />
+    <div class="movie-feature">
+      <youtube-media
+        v-if="youtubeVideo"
+        class="movie-trailer"
+        :video-id="youtubeVideo"
+        :player-height="340"
+      ></youtube-media>
+      <opti-image
+        v-else-if="image"
+        :src="responsiveImage.src"
+        :srcset="responsiveImage.srcSet"
+        :width="imageRatio[0]"
+        :height="imageRatio[1]"
+        :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
+      />
+    </div>
     <p class="excerpt">
       {{ excerpt }}
     </p>
+    <nuxt-link :to="link">Read more</nuxt-link>
   </div>
 </template>
 
@@ -86,7 +89,8 @@ export default {
 }
 </script>
 <style>
-.excerpt {
+.movie-feature {
+  margin-bottom: 18px;
   margin-top: 18px;
 }
 

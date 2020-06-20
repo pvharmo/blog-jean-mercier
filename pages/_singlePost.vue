@@ -2,7 +2,6 @@
   <div id="post-page" class="page-wrapper post-page">
     <div class="post-wrapper content">
       <h1>{{ title }}</h1>
-      <h3>{{ subtitle }}</h3>
       <div class="movie-feature">
         <youtube-media
           v-if="youtubeMovieTrailer"
@@ -19,7 +18,7 @@
           :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
         />
       </div>
-      <p class="excerpt">{{ excerpt }}</p>
+      <p v-if="excerpt" class="excerpt">{{ excerpt }}</p>
       <markdown :markdown="$store.state.content" />
       <disqus-comments :identifier="$route.params.singlePost" />
     </div>
