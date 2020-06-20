@@ -6,7 +6,7 @@
         v-for="(item, index) in itemsComputed"
         :key="item.title ? item.title : index"
         :class="`column items`"
-        :style="`width: ${100 / perRow}%`"
+        :style="`width: 100%`"
       >
         <slot :item="item"></slot>
       </div>
