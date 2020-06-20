@@ -89,7 +89,11 @@ export default {
   /*
    ** Build configuration
    */
-  build
+  build,
+  env: {
+    discusSite: process.env.DISCUS_SITE,
+    BASE_URL: process.env.URL || 'http://localhost:3000'
+  }
 }
 
 /**
