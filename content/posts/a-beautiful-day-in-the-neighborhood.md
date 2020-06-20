@@ -15,13 +15,11 @@ excerpt: "A 2019 American drama, directed by Marielle Heller, with Matthew Rhys
   september 2019, it was received with both critical praise and popular support.
   It was named one of 2019’s ten best films by Time magazine. "
 ---
-INTRODUCTION
+# INTRODUCTION
 
 The story, based essentially on real life events, is set around Lloyd Vogel (fictional name), a journalist for Esquire Magazine in the 1970 and 1980 decades, who is preparing an article on TV personality Fred Rogers, who hosts a popular show for children, where kindness and mutual understanding are the main ingredients. Vogel is a quite aggressive journalist, so much so that most prospective interviewees reject his proposals to interview them, in his search to get to know public heroes, with the underlying intent to show that they are not quite worthy of their hero status.
 
-
-
-SPOILER ALERT (do not read the following section if you want to see the unfolding plot of the movie for yourself)
+**SPOILER ALERT (do not read the following section if you want to see the unfolding plot of the movie for yourself)**
 
 While Vogel’s unstated goal is to question the merit of these popular heroes, he has to reset the initial intent of his article, because what he sees in the real Mister Rogers is genuine, authentic kindness, both on and off camera. This comes as somewhat of a surprise to him. In addition, Rogers helps out Vogel with some of the journalist’s personal issues of his own. The journalist’s relationship with his own father (Jerry) is indeed strained, and father and son even come to blows in a marriage ceremony for Lloyd’s sister. Later, when father and son argue about Jerry’s abandon of Lloyd’s mother during her terminal illness several years ago, Jerry (the father) suffers a heart attack.
 
@@ -29,9 +27,7 @@ At first, Lloyd refuses to visit his father at the hospital. But TV host Fred Ro
 
 Lloyd’s article on Rogers turns out to be, as could be expected, but not as initially planned, a story on kindness and generosity, in what became Esquire’s lead story of that issue.
 
-
-
-THE ELEPHANT BEHIND THE FILM
+# THE ELEPHANT BEHIND THE FILM
 
 So much kindness, genuine interaction and authentic attention to others appears to us, in this 2010-2020 decade, so refreshingly …..different. To the point of appearing strange. It seems so alien to what we are living today in our media environment.
 
@@ -49,7 +45,7 @@ And so, it is not It so much television that has changed, although it has, also,
 
 As McLuhan had pointed out in the 1970’s , there are also technical elements to be taken into consideration for understanding media. He had made a distinction between cool and hot media. Cool media is low definition, technically speaking, like television before high definition, where the poorly defined image elicited cognitive responses, in a two way interaction with the TV screen. And there was, on the opposite end of the scale, hot media, such as radio, where the message, cognitively, appears complete and unambiguous. Radio seemed to be prevalent in highly partisan and conflictual situations, such as, historically, the Second World War, notably in Germany, and in more recent tribal warfare un Africa. It seems. It would seem, in McLuhan terms, that our media environment has become awfully hot. Trash radio is the most telling example, but this overheated atmosphere is to be found all around our media scape.
 
-THE BIG PICTURE
+# THE BIG PICTURE
 
 It is one thing to understand some of the elements of the media situation we are in. It is quite another is to see how we can advance this reflection further, even to the point of looking at alternatives.
 
