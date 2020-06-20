@@ -1,0 +1,4 @@
+---
+name: Horror
+type: Genre
+---
