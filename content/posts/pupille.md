@@ -32,7 +32,7 @@ It is not so much that individuals in the film, in contrast, are not responsible
 
 When looked at from the vantage point of their individual lives, the public adoption officials themselves, in the film, are not always immune to some form of personal uncertainty, although these elements do not affect their work negatively. It is as if their public persona transcends their private circumstances, and they grow to something more than themselves when confronted to their public duties.
 
-THE ELEPHANT BEHIND THE FILM
+# THE ELEPHANT BEHIND THE FILM
 
 Observers of the French bureaucracy, most notably Philippe d’Iribarne in his best seller *La logique de l’honneur* of 1989, have noticed this particularly French tendency to rise, at least outwardly, to the level of one’s public office. Without idealizing French bureaucracy, the failings of which have been abundantly documented over centuries, and without closing our eyes to the inevitable cases of corruption and incompetence in any large bureaucratic setting, there is nonetheless a certain idea of the *devoir* in France, the sense of mission, of duty, incumbent to public officials, even if only in public discourse.
 
