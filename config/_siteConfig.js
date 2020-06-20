@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Un éléphant dans la pièce',
-  tagline: 'Un blogue sur le sens caché des films contemporains',
+  siteName: 'The Elephant Behind the Screen',
+  tagline: 'A blog on hidden meaning of contemporary movies',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
