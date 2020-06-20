@@ -1,6 +1,6 @@
 ---
 title: PUPILLE
-subtitle: Jeanne Herry, France, 2019, with Sandrine Kiberlain and Gilles Lellouche
+subtitle: ""
 category:
   - Sociology
   - National culture
@@ -12,6 +12,8 @@ author: Jean Mercier
 date: 2020-06-20T18:47:13.685Z
 youtubeMovieTrailer: 5ckwqQPZQag
 ---
+Jeanne Herry, France, 2019, with Sandrine Kiberlain and Gilles Lellouche
+
 # INTRODUCTION
 
 This film out of France, centered on the role played by governmental social services in contemporary adoption processes, begs the question : how French, or, conversely, how universal is this story ?
