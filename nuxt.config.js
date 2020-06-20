@@ -94,7 +94,7 @@ export default {
   build,
   env: {
     discusSite: process.env.DISCUS_SITE,
-    BASE_URL: process.env.URL || 'http://localhost:3000'
+    googleAnalyticsID: process.env.GOOGLE_ANALYTICS_ID
   }
 }
 
