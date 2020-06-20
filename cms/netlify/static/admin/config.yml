@@ -71,9 +71,41 @@ collections:
           widget: 'markdown',
           required: false,
         }
-  - name: 'tag'
-    label: 'Tag'
-    folder: 'content/tag'
+      - {
+          label: 'Type',
+          name: 'type',
+          widget: 'relation',
+          collection: 'categoryTypes',
+          searchFields: ['name'],
+          valueField: 'name',
+        }
+  - name: 'tags'
+    label: 'Tags'
+    folder: 'content/tags'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: name
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - {
+          label: 'Type',
+          name: 'type',
+          widget: 'relation',
+          collection: 'tagTypes',
+          searchFields: ['name'],
+          valueField: 'name',
+        }
+  - name: 'categoryTypes'
+    label: 'Category Types'
+    folder: 'content/categoryTypes'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: name
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+  - name: 'tagTypes'
+    label: 'Tag Types'
+    folder: 'content/tagTypes'
     create: true
     slug: '{{slug}}'
     identifier_field: name
