@@ -64,8 +64,13 @@ collections:
     identifier_field: name
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - {
+          label: 'Description',
+          name: 'description',
+          widget: 'markdown',
+          required: false,
+        }
   - name: 'tag'
     label: 'Tag'
     folder: 'content/tag'
