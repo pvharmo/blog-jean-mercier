@@ -15,7 +15,12 @@ collections:
     slug: '{{slug}}' # Filename template, e.g., title.md
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - {
+          label: 'Subtitle',
+          name: 'subtitle',
+          widget: 'string',
+          required: false,
+        }
       - {
           label: 'Category',
           name: 'category',
@@ -54,7 +59,7 @@ collections:
           widget: 'string',
           required: false,
         }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'categories'
     label: 'Categories'
