@@ -1,6 +1,6 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
-    <posts-grid :per-row="1" />
+    <posts-grid :posts="$store.state.posts" :per-row="1" />
     <news-letter-form-modal />
   </div>
 </template>

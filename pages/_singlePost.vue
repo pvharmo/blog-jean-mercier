@@ -1,12 +1,12 @@
 <template>
   <div id="post-page" class="page-wrapper post-page">
     <div class="post-wrapper content">
-      <h1>{{ title }}</h1>
+      <h1>{{ post.title }}</h1>
       <div class="movie-feature">
         <youtube-media
-          v-if="youtubeMovieTrailer"
+          v-if="post.youtubeMovieTrailer"
           class="movie-trailer"
-          :video-id="youtubeMovieTrailer"
+          :video-id="post.youtubeMovieTrailer"
           :player-height="340"
         ></youtube-media>
         <opti-image
@@ -18,8 +18,8 @@
           :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
         />
       </div>
-      <p v-if="excerpt" class="excerpt">{{ excerpt }}</p>
-      <markdown :markdown="$store.state.content" />
+      <p v-if="post.excerpt" class="excerpt">{{ excerpt }}</p>
+      <markdown :markdown="post.content" />
       <disqus-comments :identifier="$route.params.singlePost" />
     </div>
   </div>
@@ -38,6 +38,11 @@ export default {
   fetch({ store, params }) {
     setPageData(store, { resource: 'post', slug: params.singlePost })
   },
+  date() {
+    return {
+      postIndex: null
+    }
+  },
   computed: {
     ...mapState([
       'title',
@@ -50,6 +55,13 @@ export default {
       'youtubeMovieTrailer',
       'excerpt'
     ]),
+    post() {
+      const post = this.$store.state.posts[this.postIndex]
+      if (!post.content) {
+        post.content = ''
+      }
+      return post
+    },
     date() {
       return getFormattedDate(this.$store.state.date)
     },
@@ -75,6 +87,16 @@ export default {
       }
       return { src: this.featureImage, srcSet: '' }
     }
+  },
+  created() {
+    const postIndex = this.$store.state.posts.findIndex(
+      (x) => x.slug === this.$route.params.singlePost
+    )
+    this.postIndex = postIndex
+    this.$store.dispatch(
+      'loadPostContent',
+      this.$store.state.posts[postIndex].slug
+    )
   }
 }
 </script>

@@ -33,6 +33,39 @@ export function createPagination(numPages, items, dir) {
   }
   return paginated.length
 }
+export function createPostsList(items, dir) {
+  const contentDir = dir + '/content'
+  if (fs.existsSync(contentDir)) {
+    rimraf.sync(contentDir) // Delete all previous posts endpoints
+  }
+  fs.mkdirSync(contentDir)
+  items.sort((a, b) => {
+    return Date(a.date) < Date(b.date)
+  })
+  const posts = []
+  for (const item of items) {
+    const postMeta = {}
+    postMeta.tags = item.tags
+    postMeta.category = item.category
+    postMeta.slug = item.slug
+    postMeta.date = item.date
+    postMeta.title = item.title
+    posts.push(postMeta)
+  }
+  for (const post of items) {
+    fs.writeFile(
+      `${contentDir}/${post.slug}.json`,
+      JSON.stringify(post),
+      () => {
+        return true
+      }
+    )
+  }
+  fs.writeFile(`${dir}/posts-list.json`, JSON.stringify(posts), () => {
+    return true
+  })
+  return posts
+}
 export function createMeta(newMeta, file) {
   let meta = {}
   if (fs.existsSync(file)) {

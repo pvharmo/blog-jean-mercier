@@ -1,5 +1,6 @@
 <template>
   <div class="content">
+    <intersection-observer @view="load" />
     <nuxt-link :to="link">
       <h1>{{ title }}</h1>
       <p class="publish-infos">{{ datePretty }}</p>
@@ -48,6 +49,10 @@ export default {
       type: String,
       default: ''
     },
+    slug: {
+      type: String,
+      default: ''
+    },
     date: {
       type: String,
       default: ''
@@ -84,6 +89,11 @@ export default {
         return require(`~/assets${this.image}`)
       }
       return { src: this.image, srcSet: '' }
+    }
+  },
+  methods: {
+    load() {
+      this.$store.dispatch('loadPostContent', this.slug)
     }
   }
 }

@@ -9,7 +9,6 @@
       :bottom-loader="!allLoaded && firstPageLoaded"
       :theme="theme"
       :per-row="perRow"
-      @atEnd="loadMore()"
     >
       <template v-slot:default="{ item }">
         <slot :item="item"></slot>
@@ -30,7 +29,7 @@ export default {
     resource: { required: true },
     theme: { type: String, default: 'blocks' },
     perRow: { type: Number, default: 3 },
-    number: { type: Number, default: 0 },
+    number: { type: Number, default: 1 },
     order: { type: String, default: 'DESC' },
     category: {
       type: Array,
@@ -44,13 +43,13 @@ export default {
         return []
       }
     },
-    exclude: { type: String, default: '' }
+    exclude: { type: String, default: '' },
+    resources: { type: Array, default: () => [] }
   },
   data() {
     return {
       allLoaded: false,
       firstPageLoaded: false,
-      resources: [],
       page: 0,
       allPostsLoaded: false,
       loading: false
@@ -74,7 +73,6 @@ export default {
       this.allLoaded = false
       this.firstPageLoaded = false
       this.loading = false
-      this.resources = []
     },
     loadMore() {
       if (this.loading) {
@@ -90,40 +88,16 @@ export default {
     },
     async addResources() {
       this.loading = true
-      let resources = []
-      if (this.number) {
-        resources = await this.getPostsByNumber()
-        this.allLoaded = true
-      } else {
-        try {
-          resources = await this.resourceController.getByPage(
-            this.page,
-            this.resourceFilters
-          )
-        } catch (err) {
-          this.allLoaded = true
-          return
-        }
-      }
+      await this.$store.dispatch('loadNextPosts', {
+        prePage: this.number,
+        page: this.page
+      })
+      this.allLoaded = true
 
       if (!this.firstPageLoaded) {
-        this.resources = resources
         this.firstPageLoaded = true
-      } else {
-        this.resources = this.resources.concat(resources)
       }
       this.loading = false
-    },
-    async getPostsByNumber() {
-      try {
-        const resources = await this.resourceController.getByNumber(
-          this.number,
-          this.resourceFilters
-        )
-        return resources
-      } catch (err) {
-        return []
-      }
     },
     resourceFilters(resource) {
       // if (this.exclude && this.category.length) {
