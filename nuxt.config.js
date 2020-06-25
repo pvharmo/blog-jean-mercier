@@ -3,30 +3,12 @@ import colors from 'vuetify/es5/util/colors'
 import glob from 'glob'
 import head from './config/head'
 import { modules, modulesSettings } from './config/modules'
-import plugins from './config/plugins'
 import build from './config/build'
 import css from './config/css'
 import { routeMap, otherRoutes } from './config/generate'
 
 export default {
   mode: 'spa',
-  /*
-   ** Headers of the page
-   */
-  // head: {
-  //   titleTemplate: '%s - ' + process.env.npm_package_name,
-  //   title: process.env.npm_package_name || '',
-  //   meta: [
-  //     { charset: 'utf-8' },
-  //     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-  //     {
-  //       hid: 'description',
-  //       name: 'description',
-  //       content: process.env.npm_package_description || ''
-  //     }
-  //   ],
-  //   link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-  // },
   head,
   /*
    ** Customize the progress-bar color
@@ -39,7 +21,15 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins,
+  plugins: [
+    '~/plugins/Globals',
+    '~/plugins/OptiImage',
+    '~/plugins/Disqus',
+    '~/plugins/EventBus',
+    '~/plugins/Components',
+    '~/plugins/Youtube',
+    '~/plugins/init.client.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -49,14 +39,6 @@ export default {
    */
   modules,
   ...modulesSettings,
-  // modules: [
-  //   // Doc: https://axios.nuxtjs.org/usage
-  //   '@nuxtjs/axios',
-  //   '@nuxtjs/pwa',
-  //   // Doc: https://github.com/nuxt-community/dotenv-module
-  //   '@nuxtjs/dotenv',
-  //   '@nuxtjs/markdownit'
-  // ],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

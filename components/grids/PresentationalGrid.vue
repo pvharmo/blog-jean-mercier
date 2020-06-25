@@ -1,25 +1,19 @@
 <template>
-  <div :class="`grid grid-theme-${theme || 'blocks'}`">
-    <intersection-observer v-if="items.length === 0" @view="$emit('atEnd')" />
+  <div :class="`grid grid-theme-blocks`">
     <div class="columns items is-multiline">
       <div
-        v-for="(item, index) in itemsComputed"
+        v-for="(item, index) in items"
         :key="item.title ? item.title : index"
-        :class="`column items`"
-        :style="`width: 100%`"
+        class="column items"
+        style="width: 100%"
       >
         <slot :item="item"></slot>
       </div>
     </div>
-    <div v-if="bottomLoader" class="loading-posts">
-      <loading-spinner />
-    </div>
-    <intersection-observer @view="$emit('atEnd')" />
   </div>
 </template>
 
 <script>
-import { range } from 'lodash'
 export default {
   props: {
     items: {
@@ -27,25 +21,6 @@ export default {
       default: () => {
         return []
       }
-    },
-    bottomLoader: { type: Boolean, default: false },
-    theme: {
-      type: String,
-      default: 'boxes'
-    },
-    perRow: {
-      type: Number,
-      default: 3
-    }
-  },
-  data() {
-    return {
-      placeholders: range(this.perRow).fill({})
-    }
-  },
-  computed: {
-    itemsComputed() {
-      return this.items.length ? this.items : this.placeholders
     }
   }
 }

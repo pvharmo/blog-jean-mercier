@@ -10,7 +10,7 @@
           :player-height="340"
         ></youtube-media>
         <opti-image
-          v-else-if="featureImage"
+          v-else-if="post.featureImage"
           :src="responsiveImage.src"
           :srcset="responsiveImage.srcSet"
           :width="imageRatio[0]"
@@ -25,9 +25,7 @@
   </div>
 </template>
 <script>
-import { mapState } from 'vuex'
-import { setPageData, getFormattedDate } from '../helper'
-// import 'highlight.js/styles/github.css'
+import { getFormattedDate } from '../helper'
 import Markdown from '~/components/Markdown'
 const imageDimensionDefault = '16x9'
 
@@ -35,26 +33,12 @@ export default {
   components: {
     Markdown
   },
-  fetch({ store, params }) {
-    setPageData(store, { resource: 'post', slug: params.singlePost })
-  },
   date() {
     return {
       postIndex: null
     }
   },
   computed: {
-    ...mapState([
-      'title',
-      'subtitle',
-      'featureImage',
-      'underSubtitle',
-      'author',
-      'category',
-      'slug',
-      'youtubeMovieTrailer',
-      'excerpt'
-    ]),
     post() {
       const post = this.$store.state.posts[this.postIndex]
       if (!post.content) {

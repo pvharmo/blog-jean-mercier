@@ -1,19 +1,19 @@
 <template>
   <div class="content">
     <intersection-observer @view="load" />
-    <nuxt-link :to="link">
-      <h1>{{ title }}</h1>
+    <nuxt-link :to="'/' + post.slug">
+      <h1>{{ post.title }}</h1>
       <p class="publish-infos">{{ datePretty }}</p>
     </nuxt-link>
     <div class="movie-feature">
       <youtube-media
-        v-if="youtubeVideo"
+        v-if="post.youtubeMovieTrailer"
         class="movie-trailer"
-        :video-id="youtubeVideo"
+        :video-id="post.youtubeMovieTrailer"
         :player-height="340"
       ></youtube-media>
       <opti-image
-        v-else-if="image"
+        v-else-if="post.featureImage"
         :src="responsiveImage.src"
         :srcset="responsiveImage.srcSet"
         :width="imageRatio[0]"
@@ -22,9 +22,9 @@
       />
     </div>
     <p class="excerpt">
-      {{ excerpt }}
+      {{ post.excerpt }}
     </p>
-    <nuxt-link :to="link">Read more</nuxt-link>
+    <nuxt-link :to="'/' + post.slug">Read more</nuxt-link>
   </div>
 </template>
 
@@ -33,43 +33,12 @@ import { getFormattedDate } from '~/helper'
 const imageDimensionDefault = '16x9'
 export default {
   props: {
-    youtubeVideo: {
-      type: String,
-      default: ''
-    },
-    title: {
-      type: String,
-      default: ''
-    },
-    image: {
-      type: String,
-      default: ''
-    },
-    link: {
-      type: String,
-      default: ''
-    },
-    slug: {
-      type: String,
-      default: ''
-    },
-    date: {
-      type: String,
-      default: ''
-    },
-    author: {
-      type: String,
-      default: ''
-    },
-    excerpt: {
-      type: String,
-      default: ''
-    },
+    post: { type: Object, default: () => {} },
     imageDimensions: { type: String, default: imageDimensionDefault }
   },
   computed: {
     datePretty() {
-      return getFormattedDate(this.date)
+      return getFormattedDate(this.post.date)
     },
     imageRatioClass() {
       const imageDimensions = this.imageDimensions || imageDimensionDefault
@@ -85,15 +54,15 @@ export default {
         })
     },
     responsiveImage() {
-      if (this.image.indexOf('/uploads') === 0) {
-        return require(`~/assets${this.image}`)
+      if (this.post.featureImage.indexOf('/uploads') === 0) {
+        return require(`~/assets${this.post.featureImage}`)
       }
-      return { src: this.image, srcSet: '' }
+      return { src: this.post.featureImage, srcSet: '' }
     }
   },
   methods: {
     load() {
-      this.$store.dispatch('loadPostContent', this.slug)
+      this.$store.dispatch('loadPostContent', this.post.slug)
     }
   }
 }
