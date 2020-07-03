@@ -75,7 +75,7 @@ export default {
    */
   build,
   env: {
-    discusSite: process.env.DISCUS_SITE,
+    discusSite: process.env.DISCUS_SITE || 'wonderful-einstein',
     googleAnalyticsID: process.env.GOOGLE_ANALYTICS_ID
   }
 }

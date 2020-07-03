@@ -4,19 +4,17 @@
       v-if="$siteConfig.disqus.loadingStrategy === 'button' && !displayed"
       class="button is-fullwidth is-outlined is-large"
       @click="displayed = true"
+      >Load Comments</a
     >
-      Load Comments
-    </a>
     <intersection-observer
       v-if="$siteConfig.disqus.loadingStrategy === 'lazy'"
       @view="displayed = true"
     />
-    <vue-disqus
+    <Disqus
       v-if="
         $siteConfig.disqus.siteShortName &&
           (displayed || $siteConfig.disqus.loadingStrategy === 'onload')
       "
-      :shortname="$siteConfig.disqus.siteShortName"
       :identifier="identifier"
     />
 
