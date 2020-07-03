@@ -21,7 +21,7 @@
           <h3>
             John the Mercer
           </h3>
-          <img src="/aristote.jpg" />
+          <img src="/aristotle-homer.jpg" />
           <p>
             Professeur, politicologue et surtout grand amateur de cinéma, John
             the Mercer entend partager avec vous son amour du cinéma et ses
