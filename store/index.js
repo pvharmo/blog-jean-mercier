@@ -60,7 +60,7 @@ export const actions = {
   },
   async loadPostContent({ commit, state }, slug) {
     const post = state.posts.find((x) => x.slug === slug)
-    if (post && !post.loaded) {
+    if (post && !post.contentLoaded) {
       const res = await this.$axios.get(`api/content/${slug}.json`)
       commit('setContent', res.data)
     }
