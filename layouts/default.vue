@@ -23,9 +23,9 @@
           </h3>
           <img src="/aristotle-homer.jpg" />
           <p>
-            Professeur, politicologue et surtout grand amateur de cinéma, John
-            the Mercer entend partager avec vous son amour du cinéma et ses
-            analyses herméneutiques.
+            {{ $siteConfig.siteName }} is attempting to intepret and undestand
+            complex films, just as Aristotle, laying his hands on a bust of
+            Homer, is trying to get an understanding of the poet's texts.
           </p>
           <h3 class="subtitle">
             Categories
