@@ -28,3 +28,24 @@ p {
 .movie-trailer iframe {
   height: 340px;
 }
+
+.filter-infos {
+  margin: 20px 10px;
+  margin-top: 0;
+}
+
+.filter-infos p {
+  color: #999;
+}
+
+ul.categories-menu {
+  margin-left: 10px;
+}
+
+.categories-menu li {
+  padding-left: 10px !important;
+}
+
+.chip-active {
+  color: red;
+}

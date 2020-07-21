@@ -8,8 +8,12 @@ export const state = () => ({
   author: '',
   date: '',
   posts: [],
-  categories: []
+  categories: [],
+  tags: [],
+  selectedRegion: '',
+  selectedGenre: ''
 })
+
 export const mutations = {
   /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
   set(state, data) {
@@ -32,8 +36,18 @@ export const mutations = {
   },
   setCategories(state, categories) {
     state.categories = categories
+  },
+  setTags(state, tags) {
+    state.tags = tags
+  },
+  setSelectedRegion(state, name) {
+    state.selectedRegion = name
+  },
+  setSelectedGenre(state, name) {
+    state.selectedGenre = name
   }
 }
+
 export const actions = {
   nuxtServerInit(_, context) {
     this.$cms = context.store.$cms
@@ -41,6 +55,7 @@ export const actions = {
   async nuxtClientInit({ dispatch }) {
     await dispatch('loadPostsList')
     await dispatch('loadCategories')
+    await dispatch('loadTags')
   },
   set({ commit }, { resource, slug }) {
     if (!resource) {
@@ -80,6 +95,16 @@ export const actions = {
   async loadCategories({ commit }) {
     const res = await this.$axios.get('api/categories.json')
     commit('setCategories', res.data)
+  },
+  async loadTags({ commit }) {
+    const res = await this.$axios.get('api/tags.json')
+    commit('setTags', res.data)
+  },
+  selectGenre({ commit }, name) {
+    commit('setSelectedGenre', name)
+  },
+  selectRegion({ commit }, name) {
+    commit('setSelectedRegion', name)
   }
 }
 

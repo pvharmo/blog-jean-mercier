@@ -47,6 +47,22 @@
               </nuxt-link>
             </li>
           </ul>
+          <h3 class="subtitle">
+            Region
+          </h3>
+          <v-chip-group column color="#1c7c7c" @change="selectRegion">
+            <v-chip v-for="tag in regions" :key="tag.name">
+              {{ tag.name }}
+            </v-chip>
+          </v-chip-group>
+          <h3 class="subtitle">
+            Genre
+          </h3>
+          <v-chip-group column color="#1c7c7c" @change="selectGenre">
+            <v-chip v-for="tag in genres" :key="tag.name" color="">
+              {{ tag.name }}
+            </v-chip>
+          </v-chip-group>
         </div>
       </template>
     </main-section>
@@ -75,6 +91,28 @@ export default {
       ]
     }
   },
+  computed: {
+    regions() {
+      return this.$store.state.tags.filter((x) => {
+        return x.type === 'Region'
+      })
+    },
+    genres() {
+      return this.$store.state.tags.filter((x) => {
+        return x.type === 'Genre'
+      })
+    },
+    chronicles() {
+      return this.$store.state.categories.filter((x) => {
+        return x.type === 'Chronicles'
+      })
+    },
+    elephantBehindTheScreen() {
+      return this.$store.state.categories.filter((x) => {
+        return x.type === 'The elephants behind the Screen'
+      })
+    }
+  },
   watch: {
     $route() {
       this.$eventBus.$emit('route-changed', this.$route)
@@ -101,6 +139,22 @@ export default {
   },
   beforeDestroy() {
     this.$cms.lifeCycleHooks.beforeDestroy()
+  },
+  methods: {
+    selectGenre(i) {
+      if (i || i === 0) {
+        this.$store.dispatch('selectGenre', this.genres[i].name)
+      } else {
+        this.$store.dispatch('selectGenre', '')
+      }
+    },
+    selectRegion(i) {
+      if (i || i === 0) {
+        this.$store.dispatch('selectRegion', this.regions[i].name)
+      } else {
+        this.$store.dispatch('selectRegion', '')
+      }
+    }
   },
   head() {
     return {
