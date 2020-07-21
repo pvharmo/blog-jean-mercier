@@ -3,6 +3,7 @@ title: EVERYBODY KNOWS
 category:
   - Sociology
   - National culture
+  - Economics
 tags:
   - Western Europe
   - Drama

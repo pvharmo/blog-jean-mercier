@@ -4,7 +4,6 @@ subtitle: ""
 category:
   - Sociology
   - National culture
-  - Economics
 tags:
   - Drama
   - Western Europe
