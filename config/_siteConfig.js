@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'The Elephant Behind the Screen',
+  siteName: 'The Movie Shrink',
   tagline: 'A blog on hidden meaning of contemporary movies',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image

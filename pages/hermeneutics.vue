@@ -54,7 +54,7 @@
         become, as it were, the elephant behind the screen, and they are not as
         much hidden as they are in need of interpretation, in need of additional
         work for the spectator. Such is the hermeneutic approach in
-        understanding significant films.
+        {{ $siteConfig.siteName }}.
       </p>
       <p>
         The additional work required for the spectator, or the analyst, is often

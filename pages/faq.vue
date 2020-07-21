@@ -1,14 +1,14 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <div class="content">
-      <h1>FREQUENTLY ASKED QUESTIONS ON UNDERSTANDING SIGNIFICANT FILMS</h1>
+      <h1>FREQUENTLY ASKED QUESTIONS ON {{ $siteConfig.siteName }}</h1>
       <p>
         Whether from friends, colleagues, or from the web, here are a few
         frequently asked questions about our film site.
       </p>
       <h3>
-        How does Understanding Significant films go about choosing the films it
-        will comment on?
+        How does {{ $siteConfig.siteName }} go about choosing the films it will
+        comment on?
       </h3>
       <p>
         There are some accidental elements to choosing films we will comment on.
@@ -22,11 +22,11 @@
         directions, there will have to be some common thread, some unity to it.
         Most often, the meaning we will uncover will be related to the elements
         of understanding we presented in our section on the on the Foundations
-        of Understanding Significant Films. The sources mentioned there can be
+        of {{ $siteConfig.siteName }}. The sources mentioned there can be
         considered as our keys to understanding films, in this site.
       </p>
       <h3>
-        How does Understanding Significant Films go about in identifying what it
+        How does {{ $siteConfig.siteName }} go about in identifying what it
         considers as meaningful elements within a given film?
       </h3>
       <p>
@@ -53,9 +53,7 @@
         as with the documentary approach, where the opinion of the film maker is
         paramount and in a sense self-sufficient.
       </p>
-      <h3>
-        Are there not as many interpretations as there are viewers?
-      </h3>
+      <h3>Are there not as many interpretations as there are viewers?</h3>
       <p>
         In In the view taken here, there is room for different interpretations,
         and these interpretations, although different, are not necessarily in
@@ -73,7 +71,7 @@
         hermeneutics” section in later entries, but these opening comments
         constitute more information on the basic elements of our approach. And
         now, let us turn to some specific films ! Jean-Charles Mercier
-        Understanding Significant Films June 2, 2019.
+        {{ $siteConfig.siteName }} June 2, 2019.
       </p>
     </div>
   </div>

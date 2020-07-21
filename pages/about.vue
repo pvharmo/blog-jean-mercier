@@ -3,8 +3,8 @@
     <div class="content">
       <h3>ABOUT US</h3>
       <p>
-        Understanding Significant Films is a commentary site that focusses on
-        films that have something particularly meaningful to say to us about
+        {{ $siteConfig.siteName }} is a commentary site that focusses on films
+        that have something particularly meaningful to say to us about
         contemporary society.
       </p>
       <p>
@@ -29,17 +29,16 @@
         seen. So, with whom should we compare notes?
       </p>
       <p>
-        Understanding Significant Films constitutes a partial but specific
-        answer to these questions. It is a meeting place, a forum for initiating
-        a conversation, a dialogue for the understanding of particularly
+        {{ $siteConfig.siteName }} constitutes a partial but specific answer to
+        these questions. It is a meeting place, a forum for initiating a
+        conversation, a dialogue for the understanding of particularly
         significant and complex films of the world.
       </p>
       <p>
         All conversation or dialogue must begin with a specific statement.
-        Understanding Significant Films thus begins, in this site, with an
-        opening statement, in the form of a specific understanding and
-        interpretation of the film that is under scrutiny. It gets, as it were,
-        the ball rolling.
+        {{ $siteConfig.siteName }} thus begins, in this site, with an opening
+        statement, in the form of a specific understanding and interpretation of
+        the film that is under scrutiny. It gets, as it were, the ball rolling.
       </p>
       <p>
         Once an interpretation, an understanding, has been offered on this site,
@@ -65,10 +64,10 @@
       </p>
       <h3>STILL MORE ABOUT US</h3>
       <p>
-        Understanding Significant Films proposes to begin the exchanges by using
-        the hermeneutic approach, applied to films, to reach a better
-        understanding of what can be considered as the larger story behind the
-        specific and more limited story in the film.
+        {{ $siteConfig.siteName }} proposes to begin the exchanges by using the
+        hermeneutic approach, applied to films, to reach a better understanding
+        of what can be considered as the larger story behind the specific and
+        more limited story in the film.
       </p>
       <p>
         The underlying assumption of this site, indeed, is that art, and films
@@ -104,8 +103,8 @@
       </p>
       <p>
         More can be read on the hermeneutic method in our capsules entitled
-        <nuxt-link to="/hermeneutics">“A few words on hermeneutics”</nuxt-link>
-        and <nuxt-link to="/hermeneutics">“More on hermeneutics”</nuxt-link>.
+        <nuxt-link to="/hermeneutics">“A few words on hermeneutics”</nuxt-link
+        >and <nuxt-link to="/hermeneutics">“More on hermeneutics”</nuxt-link>.
       </p>
 
       <h3>ABOUT JEAN-CHARLES MERCIER</h3>
@@ -116,9 +115,9 @@
         environmental policies and interpretative methods. He started writing on
         cinema in different Canadian reviews in the 1990’s. More is available on
         his overall activities at
-        <nuxt-link to="https://www.jean-mercier.com/">
-          jean-mercier.com
-        </nuxt-link>
+        <nuxt-link to="https://www.jean-mercier.com/"
+          >jean-mercier.com</nuxt-link
+        >
       </p>
       <h3>WHAT THIS FILM SITE IS NOT</h3>
       <p>
