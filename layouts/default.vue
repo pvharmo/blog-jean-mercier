@@ -28,10 +28,20 @@
             Homer, is trying to get an understanding of the poet's texts.
           </p>
           <h3 class="subtitle">
-            Categories
+            Chronicles
           </h3>
-          <ul>
-            <li v-for="cat in allCats" :key="cat.slug">
+          <ul class="categories-menu">
+            <li v-for="cat in chronicles" :key="cat.slug">
+              <nuxt-link :to="`/categories/${cat.slug}`">
+                {{ cat.name }}
+              </nuxt-link>
+            </li>
+          </ul>
+          <h3 class="subtitle">
+            The Elephants Behind The Screen
+          </h3>
+          <ul class="categories-menu">
+            <li v-for="cat in elephantBehindTheScreen" :key="cat.slug">
               <nuxt-link :to="`/categories/${cat.slug}`">
                 {{ cat.name }}
               </nuxt-link>
