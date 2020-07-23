@@ -18,9 +18,6 @@
       </template>
       <template v-slot:sidebar>
         <div class="content">
-          <h3>
-            John the Mercer
-          </h3>
           <img src="/aristotle-homer.jpg" />
           <p>
             {{ $siteConfig.siteName }} is attempting to intepret and undestand
@@ -38,7 +35,7 @@
             </li>
           </ul>
           <h3 class="subtitle">
-            The Elephants Behind The Screen
+            The Shrink's Toolbox
           </h3>
           <ul class="categories-menu">
             <li v-for="cat in elephantBehindTheScreen" :key="cat.slug">

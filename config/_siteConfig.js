@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'The Movie Shrink',
-  tagline: 'A blog on hidden meaning of contemporary movies',
+  tagline: 'Understanding significant films',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
