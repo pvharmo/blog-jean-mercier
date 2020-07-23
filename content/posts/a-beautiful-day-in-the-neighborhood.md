@@ -1,19 +1,19 @@
 ---
-title: A BEAUTIFUL DAY IN THE NEIGHBORHOOD
-subtitle: A BEAUTIFUL DAY IN THE NEIGHBORHOOD
-category:
-  - Media transformation
-tags:
-  - North America
-  - Drama
 author: Jean Mercier
 date: 2020-01-01T17:00:29.637Z
-youtubeMovieTrailer: VLEPhfEN2M
+youtubeMovieTrailer: -VLEPhfEN2M
 excerpt: "A 2019 American drama, directed by Marielle Heller, with Matthew Rhys
   and Tom Hanks. Hanks  was nominated in different venues for best supporting
   actor in this film, in early 2020. Opening at the Toronto Film Festival in
   september 2019, it was received with both critical praise and popular support.
   It was named one of 2019’s ten best films by Time magazine. "
+subtitle: A BEAUTIFUL DAY IN THE NEIGHBORHOOD
+title: A BEAUTIFUL DAY IN THE NEIGHBORHOOD
+category:
+  - Media transformation
+tags:
+  - North America
+  - Drama
 ---
 # INTRODUCTION
 
