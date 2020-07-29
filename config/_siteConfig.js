@@ -23,7 +23,7 @@ export default {
       link: '/'
     },
     {
-      name: 'ABOUT',
+      name: 'ABOUT US',
       link: '/about'
     },
     {
