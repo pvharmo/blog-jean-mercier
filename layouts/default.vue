@@ -121,12 +121,24 @@ export default {
       } else {
         this.$store.dispatch('selectGenre', '')
       }
+      if (
+        this.$route.path !== '/' &&
+        this.$route.path.split('/')[1] !== 'categories'
+      ) {
+        this.$router.push('/')
+      }
     },
     selectRegion(i) {
       if (i || i === 0) {
         this.$store.dispatch('selectRegion', this.regions[i].name)
       } else {
         this.$store.dispatch('selectRegion', '')
+      }
+      if (
+        this.$route.path !== '/' &&
+        this.$route.path.split('/')[1] !== 'categories'
+      ) {
+        this.$router.push('/')
       }
     }
   },
