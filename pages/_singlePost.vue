@@ -18,7 +18,30 @@
           :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
         />
       </div>
-      <p v-if="post.excerpt" class="excerpt">{{ excerpt }}</p>
+      <div>
+        <span>Categories :</span>
+        <v-chip
+          v-for="category in post.category"
+          :key="category"
+          style="margin: 5px;"
+          :to="catSlug(category)"
+          nuxt
+        >
+          {{ category }}
+        </v-chip>
+      </div>
+      <div>
+        <span>Tags :</span>
+        <v-chip
+          v-for="tag in post.tags"
+          :key="tag"
+          style="margin: 5px;"
+          @click="selectTag(tag)"
+        >
+          {{ tag }}
+        </v-chip>
+      </div>
+      <p v-if="post.excerpt" class="excerpt">{{ post.excerpt }}</p>
       <markdown :markdown="post.content" />
       <disqus-comments :identifier="$route.params.singlePost" />
     </div>
@@ -81,6 +104,27 @@ export default {
       'loadPostContent',
       this.$store.state.posts[postIndex].slug
     )
+  },
+  methods: {
+    catSlug(cat) {
+      const categoryObject = this.$store.state.categories.find((x) => {
+        return cat === x.name
+      })
+      return '/categories/' + categoryObject.slug
+    },
+    selectTag(tag) {
+      const tagObject = this.$store.state.tags.find((x) => {
+        return tag === x.name
+      })
+      if (tagObject.type === 'Region') {
+        this.$store.dispatch('selectRegion', tag)
+        this.$store.dispatch('selectGenre', '')
+      } else {
+        this.$store.dispatch('selectGenre', tag)
+        this.$store.dispatch('selectRegion', '')
+      }
+      this.$router.push('/')
+    }
   }
 }
 </script>

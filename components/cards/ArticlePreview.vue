@@ -21,6 +21,29 @@
         :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
       />
     </div>
+    <div>
+      <span>Categories :</span>
+      <v-chip
+        v-for="category in post.category"
+        :key="category"
+        style="margin: 5px;"
+        :to="catSlug(category)"
+        nuxt
+      >
+        {{ category }}
+      </v-chip>
+    </div>
+    <div>
+      <span>Tags :</span>
+      <v-chip
+        v-for="tag in post.tags"
+        :key="tag"
+        style="margin: 5px;"
+        @click="selectTag(tag)"
+      >
+        {{ tag }}
+      </v-chip>
+    </div>
     <p class="excerpt">
       {{ post.excerpt }}
     </p>
@@ -63,6 +86,24 @@ export default {
   methods: {
     load() {
       this.$store.dispatch('loadPostContent', this.post.slug)
+    },
+    catSlug(cat) {
+      const categoryObject = this.$store.state.categories.find((x) => {
+        return cat === x.name
+      })
+      return '/categories/' + categoryObject.slug
+    },
+    selectTag(tag) {
+      const tagObject = this.$store.state.tags.find((x) => {
+        return tag === x.name
+      })
+      if (tagObject.type === 'Region') {
+        this.$store.dispatch('selectRegion', tag)
+        this.$store.dispatch('selectGenre', '')
+      } else {
+        this.$store.dispatch('selectGenre', tag)
+        this.$store.dispatch('selectRegion', '')
+      }
     }
   }
 }
