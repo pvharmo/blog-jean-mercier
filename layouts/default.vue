@@ -66,23 +66,6 @@
 import 'animate.css/animate.min.css'
 export default {
   transition: 'slide-fade',
-  data() {
-    return {
-      allCats: [],
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
-    }
-  },
   computed: {
     regions() {
       return this.$store.state.tags.filter((x) => {
@@ -116,9 +99,8 @@ export default {
   beforeCreate() {
     this.$cms.lifeCycleHooks.beforeCreate()
   },
-  async created() {
+  created() {
     this.$cms.lifeCycleHooks.created()
-    this.allCats = await this.$cms.category.getAll()
   },
   beforeMount() {
     this.$cms.lifeCycleHooks.beforeMount()
