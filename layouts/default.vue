@@ -4,12 +4,7 @@
       `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme}`
     "
   >
-    <site-hero
-      title="Un éléphant dans la pièce"
-      subtitle="Un blogue sur le sens caché des films contemporains"
-      image="/elephant-logo.png"
-    >
-    </site-hero>
+    <site-hero> </site-hero>
     <site-nav />
     <main-section theme="sidebar-right">
       <template v-slot:default>

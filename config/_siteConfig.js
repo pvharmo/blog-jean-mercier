@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'The Movie Shrink',
   tagline: 'Understanding significant films',
-  featureImage: '/uploads/home-hero.jpg',
+  featureImage: '/elephant-logo.png',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,

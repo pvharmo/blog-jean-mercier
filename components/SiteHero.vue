@@ -10,10 +10,10 @@
             :srcset="responsiveImage.srcSet"
           />
           <h1 class="title animated fadeInUp">
-            {{ title }}
+            {{ this.$siteConfig.siteName }}
           </h1>
           <h2 class="subtitle animated fadeInUp slower">
-            {{ subtitle }}
+            {{ this.$siteConfig.tagline }}
           </h2>
           <br />
           <div
@@ -30,25 +30,12 @@
 <script>
 export default {
   name: 'SiteHero',
-  props: {
-    title: { type: String, default: '' },
-    subtitle: { type: String, default: '' },
-    image: { type: String, default: '' },
-    color: { type: String, default: '#469af0' },
-    theme: { type: String, default: '' }
-  },
   computed: {
     responsiveImage() {
-      if (this.image.indexOf('/uploads') === 0) {
-        return require(`~/assets${this.image}`)
-      }
-      return { src: this.image, srcSet: '' }
+      return { src: this.$siteConfig.featureImage, srcSet: '' }
     },
     computedTheme() {
-      if (this.theme === '' && this.$siteConfig.hero.theme) {
-        return this.$siteConfig.hero.theme
-      }
-      return this.theme || 'mist'
+      return this.$siteConfig.hero.theme || 'mist'
     }
   }
 }
