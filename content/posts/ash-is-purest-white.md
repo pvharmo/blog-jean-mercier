@@ -9,6 +9,10 @@ tags:
 author: Jean Mercier
 date: 2020-06-20T18:30:12.253Z
 youtubeMovieTrailer: l0fKX6VhovQ
+excerpt: "China is no doubt experiencing major socio-economic transformations at
+  this moment in its history. These major changes may affect men and women
+  differently. In China, as elsewhere, the balance between the two sexes may be
+  changing. "
 ---
 Chinese film by Writer-Director Zhangke Jia, 2019. Drama/romance.
 
