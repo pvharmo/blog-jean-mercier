@@ -12,6 +12,10 @@ tags:
 author: Jean Mercier
 date: 2020-06-20T18:59:12.840Z
 youtubeMovieTrailer: QK00XTAtvKE
+excerpt: When a construction project’s only goal is to save a few decimals of a
+  second for stock market transactions, a lot of important elements are left
+  behind and neglected. This film is about some of these elements we leave
+  behind in our rush to save time.
 ---
 A 2019 Belgian-Canadian production from previously Oscar nominated director Kim Nguyen (***Rebel***), starring Jesse Eisenberg, Alexander Skarsgard and Salma Hayek.
 
