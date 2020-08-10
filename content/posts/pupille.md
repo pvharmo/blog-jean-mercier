@@ -1,15 +1,19 @@
 ---
-title: PUPILLE
+author: Jean Mercier
+date: 2020-06-20T18:47:13.685Z
+youtubeMovieTrailer: 5ckwqQPZQag
+excerpt: "Public child protection agencies, like many government services, are
+  often criticized and they  often take a beating in the media and public
+  opinion. This film offers a very different take on these services, at least as
+  they appear to operate in France. "
 subtitle: ""
+title: PUPILLE
 category:
   - Sociology
   - National culture
 tags:
   - Drama
   - Western Europe
-author: Jean Mercier
-date: 2020-06-20T18:47:13.685Z
-youtubeMovieTrailer: 5ckwqQPZQag
 ---
 Jeanne Herry, France, 2019, with Sandrine Kiberlain and Gilles Lellouche
 
