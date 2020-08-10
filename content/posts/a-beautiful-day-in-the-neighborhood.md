@@ -2,11 +2,10 @@
 author: Jean Mercier
 date: 2020-01-01T17:00:29.637Z
 youtubeMovieTrailer: -VLEPhfEN2M
-excerpt: "A 2019 American drama, directed by Marielle Heller, with Matthew Rhys
-  and Tom Hanks. Hanks  was nominated in different venues for best supporting
-  actor in this film, in early 2020. Opening at the Toronto Film Festival in
-  september 2019, it was received with both critical praise and popular support.
-  It was named one of 2019’s ten best films by Time magazine. "
+excerpt: Only a few decades ago, our media landscape was very different than our
+  present one, which sometimes appears as full of partisanship, cruelty, and
+  furor. This film gives us a measure of how far we have strayed from a gentler
+  time.
 subtitle: A BEAUTIFUL DAY IN THE NEIGHBORHOOD
 title: A BEAUTIFUL DAY IN THE NEIGHBORHOOD
 category:
@@ -15,6 +14,8 @@ tags:
   - North America
   - Drama
 ---
+A 2019 American drama, directed by Marielle Heller, with Matthew Rhys and Tom Hanks. Hanks  was nominated in different venues for best supporting actor in this film, in early 2020. Opening at the Toronto Film Festival in september 2019, it was received with both critical praise and popular support. It was named one of 2019’s ten best films by Time magazine. 
+
 # INTRODUCTION
 
 The story, based essentially on real life events, is set around Lloyd Vogel (fictional name), a journalist for Esquire Magazine in the 1970 and 1980 decades, who is preparing an article on TV personality Fred Rogers, who hosts a popular show for children, where kindness and mutual understanding are the main ingredients. Vogel is a quite aggressive journalist, so much so that most prospective interviewees reject his proposals to interview them, in his search to get to know public heroes, with the underlying intent to show that they are not quite worthy of their hero status.
