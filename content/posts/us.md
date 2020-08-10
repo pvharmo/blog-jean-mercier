@@ -9,6 +9,11 @@ tags:
 author: Jean Mercier
 date: 2020-06-20T19:02:12.518Z
 youtubeMovieTrailer: hNCmb-4oXJA
+excerpt: "Following the great critical and popular success of Get Out, any film
+  by Jordan Peele would lead us to believe that it deals with black integration
+  (or lack of it) in American society. But, in this film, that theme is less
+  obvious, and the movie may concern all those that are forgotten, those that
+  are underground, white or black. "
 ---
 Suspense, written and directed by Jordan Peele. United States, 2019.
 
