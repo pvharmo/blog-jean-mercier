@@ -3,7 +3,7 @@ title: REVISITING CLASSICS
 category:
   - Revisiting classics
 author: Jean Mercier
-date: 2020-08-10T22:46:20.727Z
+date: 2020-08-09T22:46:20.727Z
 excerpt: >-
   The Coronavirus of 2020 has fueled interest in older films, as current film
   production has been reduced.

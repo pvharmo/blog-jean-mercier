@@ -2,6 +2,8 @@
 title: THE DEAD DON’T DIE
 category:
   - National culture
+  - Media transformation
+  - Sociology
 tags:
   - Horror
   - North America
