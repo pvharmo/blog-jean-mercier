@@ -3,6 +3,8 @@ title: US
 category:
   - Sociology
   - Globalization
+  - National culture
+  - Media transformation
 tags:
   - North America
   - Horror
