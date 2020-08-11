@@ -7,7 +7,7 @@ tags:
   - North America
   - Horror
 author: Jean Mercier
-date: 2020-06-20T19:02:12.518Z
+date: 2020-06-20T12:00:12.518Z
 youtubeMovieTrailer: hNCmb-4oXJA
 excerpt: "Following the great critical and popular success of Get Out, any film
   by Jordan Peele would lead us to believe that it deals with black integration
