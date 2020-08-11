@@ -1,5 +1,5 @@
 ---
-title: Note of August 4, 2020
+title: BULLET COMMENTS
 category:
   - Bullet comments
 author: Jean Mercier
