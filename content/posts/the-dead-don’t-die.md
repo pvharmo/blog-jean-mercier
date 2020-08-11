@@ -6,7 +6,7 @@ category:
 tags:
   - Horror
 author: Jean Mercier
-date: 2020-08-10T22:54:50.761Z
+date: 2020-08-10T13:00:50.761Z
 youtubeMovieTrailer: bs5ZOcU6Bnw
 excerpt: "A horror movie can be quite significant, beyond its improbable events
   and systematic violence. This seems to be the case with this zombie movie. "
