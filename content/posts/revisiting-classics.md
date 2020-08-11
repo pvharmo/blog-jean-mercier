@@ -1,7 +1,7 @@
 ---
 title: REVISITING CLASSICS
 category:
-  - Films of the past
+  - Revisiting classics
 author: Jean Mercier
 date: 2020-08-10T22:46:20.727Z
 excerpt: >-
