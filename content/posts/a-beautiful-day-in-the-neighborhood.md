@@ -1,6 +1,6 @@
 ---
 author: Jean Mercier
-date: 2020-01-01T17:00:29.637Z
+date: 2020-08-10T15:00:29.637Z
 youtubeMovieTrailer: -VLEPhfEN2M
 excerpt: Only a few decades ago, our media landscape was very different than our
   present one, which sometimes appears as full of partisanship, cruelty, and
