@@ -3,7 +3,7 @@ title: BULLET COMMENTS
 category:
   - Bullet comments
 author: Jean Mercier
-date: 2020-08-10T22:42:14.460Z
+date: 2020-08-04T19:42:14.460Z
 excerpt: >-
   The Coronavirus pandemic of 2020 has had multiple effects on worldwide film
   production, distribution, and viewing.
