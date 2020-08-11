@@ -2,6 +2,9 @@
 title: FIRST COW
 category:
   - Sociology
+  - Economics
+tags:
+  - North America
 author: Jean Mercier
 date: 2020-08-10T17:00:37.371Z
 youtubeMovieTrailer: SRUWVT87mt8
