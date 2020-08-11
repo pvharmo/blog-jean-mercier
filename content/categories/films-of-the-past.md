@@ -1,5 +1,5 @@
 ---
-name: Films of the past
+name: Revisiting classics
 description: >-
   Although our main interest on this site are contemporary films, there were of
   course many, many significant films in the past and in the history of cinema.
