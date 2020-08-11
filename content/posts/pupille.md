@@ -1,6 +1,6 @@
 ---
 author: Jean Mercier
-date: 2020-06-20T18:47:13.685Z
+date: 2020-06-20T16:00:13.685Z
 youtubeMovieTrailer: 5ckwqQPZQag
 excerpt: "Public child protection agencies, like many government services, are
   often criticized and they  often take a beating in the media and public
