@@ -37,15 +37,19 @@ export default {
     filteredPosts() {
       return this.posts.filter((x) => {
         let valid = true
-        if (this.$store.state.selectedRegion) {
-          if (!x.tags.includes(this.$store.state.selectedRegion)) {
-            valid = false
+        if (x.tags) {
+          if (this.$store.state.selectedRegion) {
+            if (!x.tags.includes(this.$store.state.selectedRegion)) {
+              valid = false
+            }
           }
-        }
-        if (this.$store.state.selectedGenre) {
-          if (!x.tags.includes(this.$store.state.selectedGenre)) {
-            valid = false
+          if (this.$store.state.selectedGenre) {
+            if (!x.tags.includes(this.$store.state.selectedGenre)) {
+              valid = false
+            }
           }
+        } else {
+          valid = false
         }
         return valid
       })
