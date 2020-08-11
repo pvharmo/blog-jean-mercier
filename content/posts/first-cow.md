@@ -3,7 +3,7 @@ title: FIRST COW
 category:
   - Sociology
 author: Jean Mercier
-date: 2020-08-10T23:04:37.371Z
+date: 2020-08-10T17:00:37.371Z
 youtubeMovieTrailer: SRUWVT87mt8
 excerpt: "An early 1800’s settlement in Oregon where, according to one
   character, “History is not here yet”, offers the opportunity to witness the
