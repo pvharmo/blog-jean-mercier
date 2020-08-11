@@ -8,7 +8,7 @@ tags:
   - Western Europe
   - Drama
 author: Jean Mercier
-date: 2020-06-20T18:37:37.873Z
+date: 2020-06-20T15:00:37.873Z
 youtubeMovieTrailer: L68mUxKuAnA
 excerpt: A marriage celebration is of course a joyous occasion. But in this
   film, the celebration brings back memories of events and transactions that the
