@@ -7,8 +7,8 @@
         asked questions about our film site.
       </p>
       <h3>
-        Q. How does The Movie Shrink go about choosing the films it will comment
-        on?
+        Q. How does <em>The Movie Shrink</em> go about choosing the films it
+        will comment on?
       </h3>
       <p>
         A. There are some accidental elements to choosing films we will comment
@@ -25,8 +25,9 @@
         then again, in a film festival we attend. There is no pretense to say
         that the films chosen are the most significant current films. But they
         are part of them. Of course, a great many significant films, in fact,
-        most of them, do not find their way into The Movie Shrink. There are
-        more than twenty-four significant films a year on the planet, of course.
+        most of them, do not find their way into <em>The Movie Shrink</em>.
+        There are more than twenty-four significant films a year on the planet,
+        of course.
       </p>
       <p>
         It is taken for granted that if we choose to comment on a film, it is
@@ -35,15 +36,15 @@
         not be going in all directions, there will have to be some common
         thread, some unity to it. Most often, the meaning we will uncover will
         be related to the elements of understanding we presented in our section
-        on The Movie Shrink’s toolbox. The sources mentioned there can be
-        considered as our keys to understanding films, in this site.
+        on <em>The Movie Shrink’s</em> toolbox. The sources mentioned there can
+        be considered as our keys to understanding films, in this site.
         Interpretive sociology, Max Weber, Economic institutionalism, and
         Marshall McLuhan are, so to speak, the basic ingredients behind The
         Movie Shrink’s interpretations, along with some others.
       </p>
       <h3>
-        Q. How does The Movie Shrink go about in identifying what it considers
-        as meaningful elements within a given film?
+        Q. How does <em>The Movie Shrink</em> go about in identifying what it
+        considers as meaningful elements within a given film?
       </h3>
       <p>
         A. Although we try to be as explicit and systematic as possible, the
@@ -81,9 +82,10 @@
       <p>
         A. In the view taken here, there is room for different interpretations,
         and these interpretations, although different, are not necessarily in
-        opposition to each other. In our interactive site (The Movie Shrinks
-        Forum) there will be ample space for other interpretations, other
-        elements of understanding.
+        opposition to each other. In our interactive site (<b
+          >The Movie Shrinks Forum</b
+        >) there will be ample space for other interpretations, other elements
+        of understanding.
       </p>
       <p>
         However, not all interpretations are equal. There are some

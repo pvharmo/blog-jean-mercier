@@ -70,14 +70,14 @@
       </p>
       <p>
         Once an interpretation has been offered on this site, readers can join
-        the conversation at The Movie Shrinks Forum, to read comments coming
-        from others who have viewed that film, and eventually participate in the
-        exchanges by offering an understanding or interpretations of their own.
-        Of course, viewers that want to view a film from scratch, without being
-        influenced by the interpretation and understanding offered on this site,
-        could read our comments only after having viewed the movie. In our
-        capsules analyzing specific films, there are, to this end, spoiler
-        alerts to remind the reader.
+        the conversation at <b>The Movie Shrinks Forum</b>, to read comments
+        coming from others who have viewed that film, and eventually participate
+        in the exchanges by offering an understanding or interpretations of
+        their own. Of course, viewers that want to view a film from scratch,
+        without being influenced by the interpretation and understanding offered
+        on this site, could read our comments only after having viewed the
+        movie. In our capsules analyzing specific films, there are, to this end,
+        spoiler alerts to remind the reader.
       </p>
       <p>
         In offering a specific interpretation for a film, to get the ball

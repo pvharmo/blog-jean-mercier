@@ -40,8 +40,8 @@
         immediate understanding. The story that is told in the film has some
         quite explicit aspects, while, at the same time, leaving some important
         elements understated or implicit. These implicit but important aspects
-        become, as it were, the Movie Shrink’s basic material, and they are not
-        as much hidden as they are in need of interpretation, in need of
+        become, as it were, <em>The Movie Shrink’s</em> basic material, and they
+        are not as much hidden as they are in need of interpretation, in need of
         additional work for the spectator. Such is the hermeneutic approach to
         understanding significant films.
       </p>
@@ -83,7 +83,8 @@
         under study.
       </p>
       <p>
-        There are other foundational elements that make up the Movie Shrink’s
+        There are other foundational elements that make up
+        <em>The Movie Shrink’s</em>
         toolbox.
       </p>
       <p>
@@ -170,13 +171,13 @@
       </p>
       <p>
         These elements and authors can be seen as constituting an important part
-        of The Movie Shrink’s toolbox, in addition to hermeneutics. As stated
-        earlier, it is in keeping with many hermeneutic analyses to recognize
-        that there is a kind of pre-understanding, possibly abandoned later, in
-        any effort at understanding. We have just exposed some elements of our
-        pre-understanding in referring to Max Weber, to interpretative
-        sociology, institutional economics, and McLuhan theories on the history
-        of media.
+        of <em>The Movie Shrink’s</em> toolbox, in addition to hermeneutics. As
+        stated earlier, it is in keeping with many hermeneutic analyses to
+        recognize that there is a kind of pre-understanding, possibly abandoned
+        later, in any effort at understanding. We have just exposed some
+        elements of our pre-understanding in referring to Max Weber, to
+        interpretative sociology, institutional economics, and McLuhan theories
+        on the history of media.
       </p>
       <p>
         There are other sources for understanding films on this site, but the

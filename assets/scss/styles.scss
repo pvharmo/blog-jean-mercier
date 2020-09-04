@@ -7,7 +7,6 @@
 @import '~bulma';
 @import '~buefy/src/scss/buefy';
 
-a,
 p {
   font-family: 'Quattrocento Sans', Roboto;
   color: #666;
@@ -48,4 +47,10 @@ ul.categories-menu {
 
 .chip-active {
   color: red;
+}
+
+a {
+  font-family: 'Quattrocento Sans', Roboto;
+  font-size: 18px;
+  color: #1c7c7c;
 }
