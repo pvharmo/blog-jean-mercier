@@ -23,9 +23,19 @@
             Chronicles
           </h3>
           <ul class="categories-menu">
-            <li v-for="cat in chronicles" :key="cat.slug">
-              <nuxt-link :to="`/categories/${cat.slug}`">
-                {{ cat.name }}
+            <li>
+              <nuxt-link to="/categories/bullit-comments">
+                Bullet comments
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/categories/films-of-the-past">
+                Revisiting classics
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/categories/more-on-hermeneutics">
+                More on hermeneutics
               </nuxt-link>
             </li>
           </ul>
