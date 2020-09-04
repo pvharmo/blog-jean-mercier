@@ -48,7 +48,10 @@ export default {
               valid = false
             }
           }
-        } else {
+        } else if (
+          this.$store.state.selectedRegion ||
+          this.$store.state.selectedGenre
+        ) {
           valid = false
         }
         return valid
