@@ -17,7 +17,8 @@
           <p>
             {{ $siteConfig.siteName }} is attempting to intepret and undestand
             complex films, just as Aristotle, laying his hands on a bust of
-            Homer, is trying to get an understanding of the poet's texts.
+            Homer, is trying to get an understanding of the poet's texts in this
+            Rembrandt painting.
           </p>
           <h3 class="subtitle">
             Chronicles
