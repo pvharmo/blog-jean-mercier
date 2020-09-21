@@ -93,7 +93,7 @@ export default {
     // right: 0;
     // bottom: 0;
     // object-fit: cover;
-    height: 200px;
+    height: 600px;
     // height: 100%;
   }
   .opti-image {
@@ -148,6 +148,7 @@ export default {
   }
 }
 .hero-body {
+  padding-top: 0;
   padding-bottom: 3px !important;
 }
 </style>
