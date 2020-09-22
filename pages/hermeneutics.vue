@@ -120,8 +120,8 @@
       <p>
         In this spirit, we want to make explicit some of the basic elements that
         constitute our own preunderstanding of the films we look at in this
-        commentary site on cinema. These elements are, as it were, The Movie
-        Shrink’s toolbox.
+        commentary site on cinema. These elements are, as it were,
+        <em>The Movie Shrink’s</em> toolbox.
       </p>
       <p>
         First, it must be said that the author of this site comes from what is
@@ -161,13 +161,19 @@
       <p>
         Drawing from sociology, we are guided by some aspect of its
         interpretative (or interpretive) and historical tradition, found among
-        others in the work of Max Weber. In economics, we are mostly interested
-        in Economic institutionalism (sometimes referred to as New Economic
-        Institutionalism) a school very much interested in the changes brought
-        by evolving patterns of human and economic interactions. Finally, from a
-        media history point of view, the work of Canadian media philosopher
-        Marshall McLuhan (« the global village » and « the medium is the message
-        ») is for us an important source of understanding.
+        others in the work of
+        <nuxt-link to="https://en.wikipedia.org/wiki/Max_Weber"
+          >Max Weber</nuxt-link
+        >. In economics, we are mostly interested in Institutional economics
+        (sometimes referred to as New institutional economics) a school very
+        much interested in the changes brought by evolving patterns of human and
+        economic interactions. Finally, from a media history point of view, the
+        work of Canadian media philosopher
+        <nuxt-link to="https://en.wikipedia.org/wiki/Marshall_McLuhan"
+          >Marshall McLuhan</nuxt-link
+        >
+        (« the global village » and « the medium is the message ») is for us an
+        important source of understanding.
       </p>
       <p>
         These elements and authors can be seen as constituting an important part
@@ -175,9 +181,16 @@
         stated earlier, it is in keeping with many hermeneutic analyses to
         recognize that there is a kind of pre-understanding, possibly abandoned
         later, in any effort at understanding. We have just exposed some
-        elements of our pre-understanding in referring to Max Weber, to
-        interpretative sociology, institutional economics, and McLuhan theories
-        on the history of media.
+        elements of our pre-understanding in referring to
+        <nuxt-link to="https://en.wikipedia.org/wiki/Max_Weber"
+          >Max Weber</nuxt-link
+        >, to
+        <nuxt-link to="https://en.wikipedia.org/wiki/Verstehen#Meaning"
+          >interpretative sociology</nuxt-link
+        >,
+        <nuxt-link to="https://en.wikipedia.org/wiki/Institutional_economics"
+          >institutional economics</nuxt-link
+        >, and McLuhan theories on the history of media.
       </p>
       <p>
         There are other sources for understanding films on this site, but the

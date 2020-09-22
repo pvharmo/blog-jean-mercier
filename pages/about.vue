@@ -3,11 +3,11 @@
     <div class="content">
       <h2>THE MOVIE SHRINK</h2>
       <h3 style="margin-left: 10px;">
-        <i>-- Understanding significant films</i>
+        <em>- Understanding significant films</em>
       </h3>
       <p>
-        The Movie Shrink is a cinema commentary site that focuses on films that
-        have something particularly meaningful to say to us about our
+        <em>The Movie Shrink</em> is a cinema commentary site that focuses on
+        films that have something particularly meaningful to say to us about our
         contemporary world and the societies within it.
       </p>
       <p>
@@ -56,10 +56,10 @@
         So, with whom should we compare notes?
       </p>
       <p>
-        The Movie Shrink constitutes a partial but specific answer to these
-        questions. It is a meeting place, a forum for initiating a conversation,
-        a dialogue for the understanding of particularly significant and complex
-        films of the world.
+        <em>The Movie Shrink</em> constitutes a partial but specific answer to
+        these questions. It is a meeting place, a forum for initiating a
+        conversation, a dialogue for the understanding of particularly
+        significant and complex films of the world.
       </p>
       <p>
         All conversation or dialogue must begin with a specific statement. The
@@ -70,7 +70,7 @@
       </p>
       <p>
         Once an interpretation has been offered on this site, readers can join
-        the conversation at <b>The Movie Shrinks Forum</b>, to read comments
+        the conversation at <b>The Movie Shrink's Forum</b>, to read comments
         coming from others who have viewed that film, and eventually participate
         in the exchanges by offering an understanding or interpretations of
         their own. Of course, viewers that want to view a film from scratch,
@@ -97,7 +97,7 @@
         the outset.
       </p>
       <p>
-        The Movie Shrink proposes to begin the exchanges by using the
+        <em>The Movie Shrink</em> proposes to begin the exchanges by using the
         <nuxt-link to="/hermeneutics">hermeneutic</nuxt-link> approach, applied
         to films, to reach a better understanding of what can be considered as
         the larger story behind the specific and more limited story in the film.
@@ -111,7 +111,7 @@
         human story. They can be seen, indeed, as chapters in the human story.
       </p>
       <p>
-        <nuxt-link to="/hermeneutics">hermeneutics</nuxt-link> is involved in
+        <nuxt-link to="/hermeneutics">Hermeneutics</nuxt-link> is involved in
         the search for understanding when a work of art (in our case, a film)
         tells us something about where we are today, collectively, but says it
         in an indirect and understated way. The object of this site is to follow
@@ -139,42 +139,45 @@
       <p>
         Jean-Charles Mercier (a.k.a. Jean Mercier) is a professor of political
         science at Université Laval in Québec City, Canada, where he taught for
-        several decades on politics, institutional economics, environmental
-        policies, and interpretative methods. He started writing on cinema in
-        different Canadian reviews in the 1990’s. More is available on his
-        overall activities at jean-mercier.com
+        several decades on politics,
+        <nuxt-link to="https://en.wikipedia.org/wiki/Institutional_economics"
+          >institutional economics</nuxt-link
+        >, environmental policies, and interpretative methods. He started
+        writing on cinema in different Canadian reviews in the 1990’s. More is
+        available on his overall activities at jean-mercier.com
       </p>
       <h3>
         WHAT THIS FILM SITE IS NOT
       </h3>
       <p>
-        Before going further in describing what this site, The Movie Shrink, is
-        about, let us say a few words about what it is not.
+        Before going further in describing what this site,
+        <em>The Movie Shrink</em>, is about, let us say a few words about what
+        it is not.
       </p>
       <p>
         Although the title of our film site could suggest that we are looking at
-        the artist’s psychological makeup, The Movie Shrink is not about
-        individual psychology at all, but about collective and social elements
-        that are present in specific significant films. It is not, consequently,
-        about the inner-world or intention of the author, screenwriter,
-        filmmaker, or director. There is indeed no search about the intentions
-        of the artist, of the writer, or the creator. We are interested in the
-        outcome, the film itself, and believe that the film has a meaning beyond
-        its creator, as the artists are not necessarily conscious of the
-        richness of their creation. We are, on the other hand, very much
-        interested in the opinion of the artist or filmmaker concerning his
-        creation, but we are not tied by it. In this spirit, we want to draw,
-        again, the reader’s attention to Rembrandts’ painting of 1653 “
-        Aristotle contemplating a bust of Homer”, where the Greek philosopher
-        Aristotle puts his hands on the head of Homer, suggesting that Aristotle
-        will interpret and add to Homer’s rendition of Greek history. Aristotle,
-        in the view taken here, is interested above all in shedding light on the
-        story and not so much in Homer’s inner world. The film’s analyst-
-        interpreter plays the role of Aristotle trying to understand more fully
-        what Homer- the artist-creator- is expressing. In the view taken here,
-        the ultimate creator of the work of art, or story, can be seen as
-        society itself, and that story needs deciphering, beyond the work of the
-        creator-artist.
+        the artist’s psychological makeup, <em>The Movie Shrink</em> is not
+        about individual psychology at all, but about collective and social
+        elements that are present in specific significant films. It is not,
+        consequently, about the inner-world or intention of the author,
+        screenwriter, filmmaker, or director. There is indeed no search about
+        the intentions of the artist, of the writer, or the creator. We are
+        interested in the outcome, the film itself, and believe that the film
+        has a meaning beyond its creator, as the artists are not necessarily
+        conscious of the richness of their creation. We are, on the other hand,
+        very much interested in the opinion of the artist or filmmaker
+        concerning his creation, but we are not tied by it. In this spirit, we
+        want to draw, again, the reader’s attention to Rembrandts’ painting of
+        1653 “ Aristotle contemplating a bust of Homer”, where the Greek
+        philosopher Aristotle puts his hands on the head of Homer, suggesting
+        that Aristotle will interpret and add to Homer’s rendition of Greek
+        history. Aristotle, in the view taken here, is interested above all in
+        shedding light on the story and not so much in Homer’s inner world. The
+        film’s analyst- interpreter plays the role of Aristotle trying to
+        understand more fully what Homer- the artist-creator- is expressing. In
+        the view taken here, the ultimate creator of the work of art, or story,
+        can be seen as society itself, and that story needs deciphering, beyond
+        the work of the creator-artist.
       </p>
       <p>
         Second, this site is not, as stated elsewhere, about the aesthetic
@@ -193,7 +196,7 @@
         general guide and inspiration, not a detailed technique. In our daily
         lives, we are all shrinks of sorts, we interpret all the time, searching
         for the small and larger meanings around us, and so we all are
-        interpreters. The Film Shrink applies this normal activity
+        interpreters. <em>The Movie Shrink</em> applies this normal activity
         systematically to better understand particularly significant and complex
         films.
       </p>
@@ -207,9 +210,8 @@
         cinema production and many of them are quite enlightening.
       </p>
       <p>
-        After identifying some of the elements our site is not about, let us
-        return to the inspiration for this film commentary site, the art, and
-        tradition of <nuxt-link to="/hermeneutics">hermeneutics</nuxt-link>.
+        After identifying some of the elements our site is not about, the reader
+        is invited to go to other sections of this site.
       </p>
     </div>
   </div>

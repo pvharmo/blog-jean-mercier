@@ -65,15 +65,17 @@
         central theme seems absent, there is no need for us to go further. In
         the cases we “come up empty” with, that is to say in most cases of the
         films we look at before making a choice, the film can have meaning and
-        be socially relevant, even profound, but the hermeneutic method will not
+        be socially relevant, even profound, but the
+        <nuxt-link to="/hermeneutics">hermeneutic</nuxt-link> method will not
         yield more than what can be gathered from casual observations. In some
         cases, the film director is very conscious of what he wants to say, to
         the point that his film is advocacy for some cause, often political, as
         in the Costa-Gavras films of the 20th century, intent on revealing
         governmental corruption in South America and other parts of the world.
-        The hermeneutic method, as we understand it, cannot add much in those
-        cases, as with the documentary approach, where the opinion of the
-        filmmaker is paramount and in a sense self-sufficient.
+        The <nuxt-link to="/hermeneutics">hermeneutic</nuxt-link> method, as we
+        understand it, cannot add much in those cases, as with the documentary
+        approach, where the opinion of the filmmaker is paramount and in a sense
+        self-sufficient.
       </p>
 
       <h3>
@@ -83,13 +85,14 @@
         A. In the view taken here, there is room for different interpretations,
         and these interpretations, although different, are not necessarily in
         opposition to each other. In our interactive site (<b
-          >The Movie Shrinks Forum</b
+          >The Movie Shrink's Forum</b
         >) there will be ample space for other interpretations, other elements
         of understanding.
       </p>
       <p>
         However, not all interpretations are equal. There are some
-        interpretations which are, in the words of hermeneutics, « more adequate
+        interpretations which are, in the words of
+        <nuxt-link to="/hermeneutics">hermeneutics</nuxt-link>, « more adequate
         to the object » or “more sensitive to the object”. Some interpretations
         are more enlightening. We are not, as suggested earlier, in a scientific
         procedure, but that is not to conclude that everything is relative.
@@ -100,7 +103,8 @@
       </p>
 
       <p>
-        And now, let us turn to some specific films!
+        And now, let us turn to some specific films from the
+        <nuxt-link to="/">home page</nuxt-link>!
       </p>
     </div>
   </div>
