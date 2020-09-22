@@ -54,7 +54,7 @@ export default {
   color: #666;
   font-weight: 300;
   @media (min-width: 768px) {
-    font-size: 27px;
+    font-size: 40px;
     font-family: 'Roboto Slab', Georgia, Times, serif;
   }
 }
@@ -66,13 +66,13 @@ export default {
 }
 .subtitle {
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 0 !important;
   margin-top: -10px !important;
 }
 .under-subtitle {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   border-top: 2px solid $primary;
   padding-top: 5px;
 }
@@ -85,6 +85,9 @@ export default {
 }
 </style>
 <style lang="scss">
+.hero.is-medium .hero-body {
+  padding-top: 50px !important;
+}
 .hero {
   .hero-bg-img {
     // position: absolute;
@@ -93,9 +96,10 @@ export default {
     // right: 0;
     // bottom: 0;
     // object-fit: cover;
-    height: 600px;
+    height: 500px;
     // height: 100%;
   }
+
   .opti-image {
     opacity: 0;
   }
