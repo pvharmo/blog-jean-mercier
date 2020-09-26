@@ -18,7 +18,7 @@ A film of 2018, by Asghar Farhadi. Spain- France- Italy. With Penelope Cruz (as 
 
 # INTRODUCTION
 
-One of German philospher Hans Georg Gadamer’s significant legacies was to show that art, cinema in our case here, is an important tool to increase our knowledge about society. This is surely the case with ***Everybody knows***, a Spanish-French-Italian film released in late 2018.
+One of German philospher Hans-Georg Gadamer’s significant legacies was to show that art, cinema in our case here, is an important tool to increase our knowledge about society. This is surely the case with ***Everybody knows***, a Spanish-French-Italian film released in late 2018.
 
 In ***Everybody knows***, film director Asghar Farhadi (with a proven track record of two Oscars, among other prizes), tells of the unexpected series of events surrounding a marriage celebration in Spain.
 
