@@ -63,8 +63,8 @@
         While being attentive to the risk of too much interpretation, taken too
         far, we nevertheless think that artistic creation has something to say
         to us about the human experience, beyond its aesthetic dimension, as
-        suggested earlier. German philosopher Georg H. Gadamer, a specialist on
-        hermeneutics, had criticized in his long and distinguished career the
+        suggested earlier. German philosopher Hans-Georg Gadamer, a specialist
+        on hermeneutics, had criticized in his long and distinguished career the
         tendency to see art as only a question of aesthetics. Art is, according
         to Gadamer, also a source of knowledge about society, more specifically
         about the contemporary human experience. As an artist, the filmmaker
@@ -159,18 +159,22 @@
         of our preunderstanding and our hermeneutics of suspicion.
       </p>
       <p>
-        Drawing from sociology, we are guided by some aspect of its
+        Drawing from sociology, we are guided by some aspects of its
         interpretative (or interpretive) and historical tradition, found among
         others in the work of
-        <nuxt-link to="https://en.wikipedia.org/wiki/Max_Weber"
-          >Max Weber</nuxt-link
-        >. In economics, we are mostly interested in Institutional economics
-        (sometimes referred to as New institutional economics) a school very
-        much interested in the changes brought by evolving patterns of human and
-        economic interactions. Finally, from a media history point of view, the
-        work of Canadian media philosopher
-        <nuxt-link to="https://en.wikipedia.org/wiki/Marshall_McLuhan"
-          >Marshall McLuhan</nuxt-link
+        <a to="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>. In
+        economics, we are mostly interested in
+        <a to="https://en.wikipedia.org/wiki/Institutional_economics"
+          >Institutional economics</a
+        >
+        (sometimes referred to as
+        <a to="https://en.wikipedia.org/wiki/New_institutional_economics"
+          >New institutional economics</a
+        >) a school very much interested in the changes brought by evolving
+        patterns of human and economic interactions. Finally, from a media
+        history point of view, the work of Canadian media philosopher
+        <a to="https://en.wikipedia.org/wiki/Marshall_McLuhan"
+          >Marshall McLuhan</a
         >
         (« the global village » and « the medium is the message ») is for us an
         important source of understanding.
@@ -182,14 +186,12 @@
         recognize that there is a kind of pre-understanding, possibly abandoned
         later, in any effort at understanding. We have just exposed some
         elements of our pre-understanding in referring to
-        <nuxt-link to="https://en.wikipedia.org/wiki/Max_Weber"
-          >Max Weber</nuxt-link
-        >, to
-        <nuxt-link to="https://en.wikipedia.org/wiki/Verstehen#Meaning"
-          >interpretative sociology</nuxt-link
+        <a to="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>, to
+        <a to="https://en.wikipedia.org/wiki/Verstehen#Meaning"
+          >Interpretative sociology</a
         >,
-        <nuxt-link to="https://en.wikipedia.org/wiki/Institutional_economics"
-          >institutional economics</nuxt-link
+        <a to="https://en.wikipedia.org/wiki/Institutional_economics"
+          >Institutional economics</a
         >, and McLuhan theories on the history of media.
       </p>
       <p>

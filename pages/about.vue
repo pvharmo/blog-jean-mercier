@@ -62,11 +62,11 @@
         significant and complex films of the world.
       </p>
       <p>
-        All conversation or dialogue must begin with a specific statement. The
-        Movie Shrink thus begins, in this site, with an opening statement on a
-        particular film, in the form of a specific understanding and
-        interpretation of the film that is under scrutiny. It gets, as it were,
-        the ball rolling.
+        All conversation or dialogue must begin with a specific statement.
+        <em>The Movie Shrink</em> thus begins, in this site, with an opening
+        statement on a particular film, in the form of a specific understanding
+        and interpretation of the film that is under scrutiny. It gets, as it
+        were, the ball rolling.
       </p>
       <p>
         Once an interpretation has been offered on this site, readers can join
@@ -192,7 +192,7 @@
         Thirdly, there is no attempt here to analyze a film through some sort of
         explicit and pre-established formal procedure, whether semiotics or some
         other formal method.
-        <nuxt-link to="/hermeneutics">hermeneutics</nuxt-link> is essentially a
+        <nuxt-link to="/hermeneutics">Hermeneutics</nuxt-link> is essentially a
         general guide and inspiration, not a detailed technique. In our daily
         lives, we are all shrinks of sorts, we interpret all the time, searching
         for the small and larger meanings around us, and so we all are

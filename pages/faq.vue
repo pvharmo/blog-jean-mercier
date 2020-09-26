@@ -38,9 +38,17 @@
         be related to the elements of understanding we presented in our section
         on <em>The Movie Shrink’s</em> toolbox. The sources mentioned there can
         be considered as our keys to understanding films, in this site.
-        Interpretive sociology, Max Weber, Economic institutionalism, and
-        Marshall McLuhan are, so to speak, the basic ingredients behind The
-        Movie Shrink’s interpretations, along with some others.
+        <a to="https://en.wikipedia.org/wiki/Verstehen#Meaning"
+          >Interpretive sociology</a
+        >, <a to="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>,
+        <a to="https://en.wikipedia.org/wiki/Institutional_economics"
+          >Institutional economics</a
+        >, and
+        <a to="https://en.wikipedia.org/wiki/Marshall_McLuhan"
+          >Marshall McLuhan</a
+        >
+        are, so to speak, the basic ingredients behind
+        <em>The Movie Shrink’s</em> interpretations, along with some others.
       </p>
       <h3>
         Q. How does <em>The Movie Shrink</em> go about in identifying what it
