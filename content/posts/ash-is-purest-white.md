@@ -40,13 +40,13 @@ Men around her are weakening all along. Her father lost his former status, as we
 
 # THE ELEPHANT BEHIND THE FILM
 
-When looking at such a film, the unavoidable question is whether this tale says something, more generally about contemporary China itself.
+When looking at such a film, the unavoidable question is whether this tale says something, more generally, about contemporary China itself.
 
-In the spirit of The elephant behind the film, we are unable to resist this temptation here.
+In the spirit of *The Movie Shrink*, we are unable to resist this temptation here.
 
 There is a large consensus that China is experiencing profound and large scale changes. But how these mutations affect individual lives is a question more difficult to identify and understand. This is where art and art work, and of course films, can provide what formal sociology and economics cannot.
 
-And so, in this spirit, let us look more closely at some of the elements of ***Ash is purest white***.
+And so, in this spirit, let us look more closely at some of the elements of **Ash is purest white**.
 
 The film seems to suggest the possibility that men (as compared to women) may be particularly disoriented by the disconcerting mutations of modern China. Indeed men, even today, are still more involved in the work force, where these seismic changes are more directly felt. More specifically, rapid and important changes in the scale of organized life, from the local sphere, from which both Qiao’s father and her companion Bin drew their authority, to the larger, sometimes gigantic, contemporary projects of modern China, where a personal, concrete authority is more difficult to identify. Much is lost in these mutations, at least temporarily, and particularly for men in the work force (and that includes the mafia level of organization, like any organization). The dozen young men attacking veteran Mafioso Bin on the street are witnesses and participants to these changes of scale.
 
