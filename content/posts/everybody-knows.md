@@ -14,11 +14,11 @@ excerpt: A marriage celebration is of course a joyous occasion. But in this
   film, the celebration brings back memories of events and transactions that the
   participants would have preferred to forget.
 ---
-2018, by Asghar Farhadi. Spain- France- Italy. With Penelope Cruz (as Laura) and Javier Bardem (as Paco).
+A film of 2018, by Asghar Farhadi. Spain- France- Italy. With Penelope Cruz (as Laura) and Javier Bardem (as Paco).
 
 # INTRODUCTION
 
-One of German philospher Hans Georg Gadamer’s significant legacies was to show that art, cinema in our case here, is an important tool to increase our knowledge about society. This is surely the case with ***Everybody knows***, a Spanish-French-Italian film released in late 2018.
+One of German philospher Hans-Georg Gadamer’s significant legacies was to show that art, cinema in our case here, is an important tool to increase our knowledge about society. This is surely the case with ***Everybody knows***, a Spanish-French-Italian film released in late 2018.
 
 In ***Everybody knows***, film director Asghar Farhadi (with a proven track record of two Oscars, among other prizes), tells of the unexpected series of events surrounding a marriage celebration in Spain.
 
@@ -30,7 +30,7 @@ The story centers on Laura, a sister of the bride to be. Laura now lives in Arge
 
 Among the other guests attending is Paco, Laura’s former sweetheart, who is now married and a prosperous landowner and wine producer.
 
-The wedding celebrations, reminding the viewer of the opening scenes of the marriage celebrations in Godfather I, seems to be going fine. But amid the partying, Laura’s daughter is kidnapped from her room. A ransom is asked by the raptors through smart phone messages.
+The wedding celebrations, reminding the viewer of the opening scenes of the marriage celebrations in **Godfather I**, seems to be going fine. But amid the partying, Laura’s daughter is kidnapped from her room. A ransom is asked by the raptors through smart phone messages.
 
 In the following events, all that seemed so perfect before and during the start of the wedding celebrations is put into question. A retired police investigator, called to investigate by a family member, concludes on an inside job, which puts into question the authenticity of the family ties. Laura’s husband, the supposedly rich businessman from Argentina, turns out, under scrutiny, to be ruined back home, and he (Alejandro) has been in reality looking for work for the last two years. But suspicion on him, to have in fact kidnapped his own daughter for financial gain, turns out to be unfounded.
 
