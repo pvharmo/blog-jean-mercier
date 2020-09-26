@@ -43,7 +43,7 @@ Obviously, this film offers food for thought. But what is it really about? Is it
 
 # THE BIG PICTURE
 
-We have mentioned time as a unifying element, as the elephant behind the film and it is an unavoidable element of the film, even in its title.
+We have mentioned time as a unifying element, as the elephant behind the film, and it is an unavoidable element of the film, even in its title.
 
 But, in looking for the big picture, we are led to look at our conception of time as part of other contemporary developments.
 
@@ -55,7 +55,7 @@ Is this short term of time a particularly American phenomenon ?
 
 At the outset of the film, Jesse recalls his first job, when after an error he made as a beginner in a plumbing contract, he was severely punished by his employer for his error. Later in the film, we learn that his employer was in fact his own father, who tried to instill in his son the idea of being strong and independent. His father was a Russian immigrant, intent on succeeding and seeing his son succeed in America.
 
-Is this, then, story about America or about time in America? Is the American will to succeed quickly, at all costs, the elephant behind the screen? It is, after all, difficult to imagine a private cable network being planned in old Europe, traversing different countries of the European Union, including a plan to traverse thousands of kilometres of unbuilt land, including public land.
+Is this, then, a story about America or about time in America? Is the American will to succeed quickly, at all costs, the elephant behind the screen? It is, after all, difficult to imagine a private cable network being planned in old Europe, traversing different countries of the European Union, including a plan to traverse thousands of kilometres of unbuilt land, including public land.
 
 Ten years after the financially induced recession or 2008-2009, ***The Hummingbird project*** draws unwillingly the portrait of a mindset and a concept of time that set in motion those excesses, where abstract financial calculations, with minimal relations to real physical reality ( including time), had hijacked our world.
 
