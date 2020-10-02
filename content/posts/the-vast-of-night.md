@@ -8,7 +8,7 @@ tags:
   - Drama
   - Science Fiction - Fururistic
 author: Jean Mercier
-date: 2020-09-23T21:05:53.463Z
+date: 2020-10-02T17:37:42.269Z
 youtubeMovieTrailer: ZEiwpCJqMM0
 excerpt: In a story reminiscent of Close Encounters of the Third Kind (1977),
   this film about strange sounds emanating from an unusual audio frequency,
