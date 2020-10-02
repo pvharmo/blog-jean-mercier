@@ -3,6 +3,10 @@ title: The Vast of Night
 category:
   - Media transformation
   - Sociology
+tags:
+  - North America
+  - Drama
+  - Science Fiction - Fururistic
 author: Jean Mercier
 date: 2020-09-23T21:05:53.463Z
 youtubeMovieTrailer: ZEiwpCJqMM0
@@ -27,10 +31,6 @@ Mabel tells the would-be investigators she has had a lifetime to reflect on thes
 
 In Mabel Blanche’s opinion, these strange visitors from the sky “sway people to do things and, and think in certain ways- so that they stay in conflict, focused on themselves – so that we’re always ..cleaning house, or losing weight, or dressing up for other people…I’ve seen good people go bad and smart people go mad…”
 
-
-
-
-
 # THE MOVIE SHRINK’S INTERPRETATION
 
 There are many avenues to interpret this deceptively simple story.
@@ -41,9 +41,9 @@ In the Movie Shrink’s view, there could be still more to this significant film
 
 It would not be too far-fetched to propose that this film is also about America’s continuing adventure with all manner of media and communication, or as Bradshaw describes it, “America’s fear and excitement at the burgeoning power of media and mass communication”.
 
-In the first sequences of the film, as the small town’s high school prepares for the local basketball game, there are a lot of technical challenges for the broadcasting of the game, like communication wires described by rats and other animals in the school’s buildings, or registration issues caused by limited finances and limited space on the registration device. To sum up, there are many hardware problems and issues at stake.
+In the first sequences of the film, as the small town’s high school prepares for the local basketball game, there are a lot of technical challenges for the broadcasting of the game, like communication wires destroyed by rats and other animals in the school’s buildings, or tape recording issues caused by limited finances and limited space on the tape recording device. To sum up, there are many hardware problems and issues at stake.
 
-But the problems identified by Mabel Blanche have more to do with fundamental problems and issues. How are media and media communication going to change us and how we interact and live in society? As Mabel described, those beings in the sky want us to be separate, even in conflict, focused on ourselves exclusively.
+But the problems identified by Mabel Blanche have more to do with fundamental problems and issues. How are media and media communication going to change us and how we interact and live in society? As Mabel describes them, those beings in the sky want us to be separate, even in conflict, focused on ourselves exclusively.
 
 Could those “people in the sky” be in fact our own evolving media landscape? In the fifties, the structural social changes from changes in our communication apparatus had not yet happened, the problems were essentially hardware challenges, as in the opening scenes of the film. But Mabel Blanche’s description on what is to come is more than hardware problems or challenges.
 
