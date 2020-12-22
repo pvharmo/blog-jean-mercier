@@ -19,8 +19,9 @@ collections:
     folder: 'content/posts' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., title.md
+    i18n: true
     fields: # The fields for each document, usually in front matter
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
       - {
           label: 'Category',
           name: 'category',
@@ -59,22 +60,24 @@ collections:
           widget: 'string',
           required: false,
         }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: false, i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
   - name: 'categories'
     label: 'Categories'
     folder: 'content/categories'
     create: true
     slug: '{{slug}}'
     identifier_field: name
+    i18n: true
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
       - {
           label: 'Description',
           name: 'description',
           widget: 'markdown',
           required: false,
+          i18n: true,
         }
       - {
           label: 'Type',
@@ -89,9 +92,10 @@ collections:
     folder: 'content/tags'
     create: true
     slug: '{{slug}}'
-    identifier_field: name
+    identifier_field: name,
+    i18n: true
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string', i18n: true }
       - {
           label: 'Type',
           name: 'type',
@@ -106,13 +110,15 @@ collections:
     create: true
     slug: '{{slug}}'
     identifier_field: name
+    i18n: true
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string', i18n: true }
   - name: 'tagTypes'
     label: 'Tag Types'
     folder: 'content/tagTypes'
     create: true
     slug: '{{slug}}'
     identifier_field: name
+    i18n: true
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string', i18n: true }
