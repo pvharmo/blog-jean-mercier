@@ -7,7 +7,7 @@ tags:
   - North America
   - Drama
 author: Jean Mercier
-date: 2020-08-10T17:00:37.371Z
+date: 2020-10-02T17:38:01.316Z
 youtubeMovieTrailer: SRUWVT87mt8
 excerpt: "An early 1800’s settlement in Oregon where, according to one
   character, “History is not here yet”, offers the opportunity to witness the
