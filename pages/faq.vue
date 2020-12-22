@@ -38,13 +38,13 @@
         be related to the elements of understanding we presented in our section
         on <em>The Movie Shrink’s</em> toolbox. The sources mentioned there can
         be considered as our keys to understanding films, in this site.
-        <a to="https://en.wikipedia.org/wiki/Verstehen#Meaning"
+        <a href="https://en.wikipedia.org/wiki/Verstehen#Meaning"
           >Interpretive sociology</a
-        >, <a to="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>,
-        <a to="https://en.wikipedia.org/wiki/Institutional_economics"
+        >, <a href="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>,
+        <a href="https://en.wikipedia.org/wiki/Institutional_economics"
           >Institutional economics</a
         >, and
-        <a to="https://en.wikipedia.org/wiki/Marshall_McLuhan"
+        <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan"
           >Marshall McLuhan</a
         >
         are, so to speak, the basic ingredients behind

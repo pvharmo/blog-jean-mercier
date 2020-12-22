@@ -162,18 +162,18 @@
         Drawing from sociology, we are guided by some aspects of its
         interpretative (or interpretive) and historical tradition, found among
         others in the work of
-        <a to="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>. In
+        <a href="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>. In
         economics, we are mostly interested in
-        <a to="https://en.wikipedia.org/wiki/Institutional_economics"
+        <a href="https://en.wikipedia.org/wiki/Institutional_economics"
           >Institutional economics</a
         >
         (sometimes referred to as
-        <a to="https://en.wikipedia.org/wiki/New_institutional_economics"
+        <a href="https://en.wikipedia.org/wiki/New_institutional_economics"
           >New institutional economics</a
         >) a school very much interested in the changes brought by evolving
         patterns of human and economic interactions. Finally, from a media
         history point of view, the work of Canadian media philosopher
-        <a to="https://en.wikipedia.org/wiki/Marshall_McLuhan"
+        <a href="https://en.wikipedia.org/wiki/Marshall_McLuhan"
           >Marshall McLuhan</a
         >
         (« the global village » and « the medium is the message ») is for us an
@@ -186,11 +186,11 @@
         recognize that there is a kind of pre-understanding, possibly abandoned
         later, in any effort at understanding. We have just exposed some
         elements of our pre-understanding in referring to
-        <a to="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>, to
-        <a to="https://en.wikipedia.org/wiki/Verstehen#Meaning"
+        <a href="https://en.wikipedia.org/wiki/Max_Weber">Max Weber</a>, to
+        <a href="https://en.wikipedia.org/wiki/Verstehen#Meaning"
           >Interpretative sociology</a
         >,
-        <a to="https://en.wikipedia.org/wiki/Institutional_economics"
+        <a href="https://en.wikipedia.org/wiki/Institutional_economics"
           >Institutional economics</a
         >, and McLuhan theories on the history of media.
       </p>
