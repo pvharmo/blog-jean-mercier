@@ -9,7 +9,7 @@ logo_url: https://awake-template.netlify.com/logo-frames/logo-f0.svg
 
 i18n:
   structure: multiple_folders
-  locales: [fr, en]
+  locales: [en, fr]
   default_locale: en
 
 collections:
