@@ -3,6 +3,9 @@ title: Sound of Metal
 category:
   - Sociology
   - National culture
+tags:
+  - Drama
+  - North America
 author: Jean Mercier
 date: 2020-12-23T00:06:35.612Z
 youtubeMovieTrailer: VFOrGkAvjAE
