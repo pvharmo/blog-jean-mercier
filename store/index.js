@@ -11,7 +11,8 @@ export const state = () => ({
   categories: [],
   tags: [],
   selectedRegion: '',
-  selectedGenre: ''
+  selectedGenre: '',
+  lang: 'en'
 })
 
 export const mutations = {
@@ -69,14 +70,16 @@ export const actions = {
       commit('set', data)
     }
   },
-  async loadPostsList({ commit }) {
-    const res = await this.$axios.get('api/posts-list.json')
+  async loadPostsList({ state, commit }) {
+    const res = await this.$axios.get(`api/${state.lang}/posts-list.json`)
     commit('setPostsList', res.data)
   },
   async loadPostContent({ commit, state }, slug) {
     const post = state.posts.find((x) => x.slug === slug)
     if (post && !post.contentLoaded) {
-      const res = await this.$axios.get(`api/content/${slug}.json`)
+      const res = await this.$axios.get(
+        `api/${state.lang}/content/${slug}.json`
+      )
       commit('setContent', res.data)
     }
   },
@@ -84,7 +87,9 @@ export const actions = {
     for (let i = page; i < perPage; i++) {
       const post = state.posts[i]
       if (!post.contentLoaded) {
-        const res = await this.$axios.get(`api/content/${post.slug}.json`)
+        const res = await this.$axios.get(
+          `api/${state.lang}/content/${post.slug}.json`
+        )
         commit('setContentAtIndex', {
           post: res.data,
           index: state.postIndex
@@ -92,12 +97,12 @@ export const actions = {
       }
     }
   },
-  async loadCategories({ commit }) {
-    const res = await this.$axios.get('api/categories.json')
+  async loadCategories({ state, commit }) {
+    const res = await this.$axios.get(`api/${state.lang}/categories.json`)
     commit('setCategories', res.data)
   },
-  async loadTags({ commit }) {
-    const res = await this.$axios.get('api/tags.json')
+  async loadTags({ state, commit }) {
+    const res = await this.$axios.get(`api/${state.lang}/tags.json`)
     commit('setTags', res.data)
   },
   selectGenre({ commit }, name) {
