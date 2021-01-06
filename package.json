@@ -34,6 +34,7 @@
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.31",
     "nuxt-fontawesome": "^0.4.0",
+    "nuxt-i18n": "^6.17.0",
     "nuxt-responsive-loader": "^2.0.1",
     "opti-image": "^0.10.0",
     "url-parse": "^1.4.7",

@@ -46,6 +46,9 @@ export const mutations = {
   },
   setSelectedGenre(state, name) {
     state.selectedGenre = name
+  },
+  setLanguage(state, lang) {
+    state.lang = lang
   }
 }
 
