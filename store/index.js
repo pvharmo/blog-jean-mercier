@@ -56,10 +56,10 @@ export const actions = {
   nuxtServerInit(_, context) {
     this.$cms = context.store.$cms
   },
-  async nuxtClientInit({ dispatch }) {
-    await dispatch('loadPostsList')
-    await dispatch('loadCategories')
-    await dispatch('loadTags')
+  async nuxtClientInit({ dispatch }, { app }) {
+    await dispatch('loadPostsList', app.i18n.locale)
+    await dispatch('loadCategories', app.i18n.locale)
+    await dispatch('loadTags', app.i18n.locale)
   },
   set({ commit }, { resource, slug }) {
     if (!resource) {
@@ -73,15 +73,15 @@ export const actions = {
       commit('set', data)
     }
   },
-  async loadPostsList({ state, commit }) {
-    const res = await this.$axios.get(`api/${state.lang}/posts-list.json`)
+  async loadPostsList({ commit }, lang) {
+    const res = await this.$axios.get(`api/${lang}/posts-list.json`)
     commit('setPostsList', res.data)
   },
-  async loadPostContent({ commit, state }, slug) {
+  async loadPostContent({ commit, state }, { slug, lang }) {
     const post = state.posts.find((x) => x.slug === slug)
     if (post && !post.contentLoaded) {
       const res = await this.$axios.get(
-        `api/${state.lang}/content/${slug}.json`
+        `api/${lang}/content/${slug}.json`
       )
       commit('setContent', res.data)
     }

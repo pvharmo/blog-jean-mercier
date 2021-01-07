@@ -56,10 +56,19 @@ export default {
   components: {
     Markdown
   },
-  date() {
+  data() {
     return {
       postIndex: null
     }
+  },
+  async asyncData({ app, store, route }) {
+    const postIndex = store.state.posts.findIndex(
+      (x) => x.slug === route.params.singlePost
+    )
+    const slug = store.state.posts[postIndex].slug
+    const lang = app.i18n.locale
+    await store.dispatch('loadPostContent', { slug, lang })
+    return { postIndex }
   },
   computed: {
     post() {
@@ -94,16 +103,6 @@ export default {
       }
       return { src: this.featureImage, srcSet: '' }
     }
-  },
-  created() {
-    const postIndex = this.$store.state.posts.findIndex(
-      (x) => x.slug === this.$route.params.singlePost
-    )
-    this.postIndex = postIndex
-    this.$store.dispatch(
-      'loadPostContent',
-      this.$store.state.posts[postIndex].slug
-    )
   },
   methods: {
     catSlug(cat) {
