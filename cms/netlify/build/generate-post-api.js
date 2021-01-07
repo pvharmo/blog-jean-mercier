@@ -7,9 +7,9 @@ import {
   createPostsList
 } from './helper'
 const rootDir = `${__dirname}/../../..`
-const generatePostApi = () => {
-  const contentDir = `${rootDir}/content/posts`
-  const apiDir = `${rootDir}/static/api`
+const generatePostApi = (lang) => {
+  const contentDir = `${rootDir}/content/posts/${lang}`
+  const apiDir = `${rootDir}/static/api/${lang}`
   const allFile = `${apiDir}/posts.json`
   const metaFile = `${apiDir}/posts-meta.json`
   const pages = siteConfig.posts.perPage

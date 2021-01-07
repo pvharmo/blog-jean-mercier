@@ -85,7 +85,9 @@ export default {
   },
   methods: {
     load() {
-      this.$store.dispatch('loadPostContent', this.post.slug)
+      const lang = this.$i18n.locale
+      const slug = this.post.slug
+      this.$store.dispatch('loadPostContent', {slug, lang})
     },
     catSlug(cat) {
       const categoryObject = this.$store.state.categories.find((x) => {

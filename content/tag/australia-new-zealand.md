@@ -1,3 +1,0 @@
----
-name: Australia-New Zealand
----
