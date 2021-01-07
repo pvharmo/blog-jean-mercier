@@ -20,7 +20,7 @@ export function createPagination(numPages, items, dir) {
   if (fs.existsSync(paginationDir)) {
     rimraf.sync(paginationDir) // Delete all previous pagination endpoints
   }
-  fs.mkdirSync(paginationDir)
+  fs.mkdirSync(paginationDir, { recursive: true })
   const paginated = chunk(items, numPages)
   let currentPage = 0
   for (let i = 0; i < paginated.length; i++) {
@@ -38,7 +38,7 @@ export function createPostsList(items, dir) {
   if (fs.existsSync(contentDir)) {
     rimraf.sync(contentDir) // Delete all previous posts endpoints
   }
-  fs.mkdirSync(contentDir)
+  fs.mkdirSync(contentDir, { recursive: true })
   items.sort((a, b) => {
     return Date(a.date) < Date(b.date)
   })
@@ -78,7 +78,7 @@ export function createMeta(newMeta, file) {
 export function createAll(fromDir, toFile, apiDir) {
   // Create api dir if doesn't exist
   if (!fs.existsSync(apiDir)) {
-    fs.mkdirSync(apiDir)
+    fs.mkdirSync(apiDir, { recursive: true })
   }
   // Create file if doesn't exist
   if (!fs.existsSync(toFile)) {

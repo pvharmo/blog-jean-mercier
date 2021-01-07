@@ -10,7 +10,7 @@
             :srcset="responsiveImage.srcSet"
           />
           <h1 class="title animated fadeInUp">
-            {{ this.$siteConfig.siteName }}
+            {{ $t('siteTitle') }}
           </h1>
           <h2 class="subtitle animated fadeInUp slower">
             {{ this.$siteConfig.tagline }}

@@ -15,7 +15,8 @@ export const modules = [
   '@nuxtjs/eslint-module',
   '@nuxtjs/style-resources',
   'nuxt-fontawesome',
-  'nuxt-responsive-loader'
+  'nuxt-responsive-loader',
+  'nuxt-i18n'
 ]
 if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
   modules.push('@nuxtjs/google-gtag')
@@ -50,5 +51,20 @@ export const modulesSettings = {
   },
   'google-gtag': {
     id: siteConfig.googleAnalytics.id
+  },
+  i18n: {
+    locales: ['en', 'fr'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          siteTitle: 'The Movie Shrink'
+        },
+        fr: {
+          siteTitle: 'Le Movie Shrink'
+        }
+      }
+    }
   }
 }
