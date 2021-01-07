@@ -56,11 +56,6 @@ export default {
   components: {
     Markdown
   },
-  data() {
-    return {
-      postIndex: null
-    }
-  },
   async asyncData({ app, store, route }) {
     const postIndex = store.state.posts.findIndex(
       (x) => x.slug === route.params.singlePost
