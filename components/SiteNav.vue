@@ -22,6 +22,14 @@
             {{ item.name }}
           </component>
         </li>
+        <li class="navbar-item">
+          <nuxt-link v-if="$i18n.locale == 'en'" :to="switchLocalePath('fr')">
+            FRANÇAIS
+          </nuxt-link>
+          <nuxt-link v-else-if="$i18n.locale == 'fr'" :to="switchLocalePath('en')">
+            ENGLISH
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </nav>

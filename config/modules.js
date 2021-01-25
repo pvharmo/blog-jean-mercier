@@ -55,6 +55,7 @@ export const modulesSettings = {
   i18n: {
     locales: ['en', 'fr'],
     defaultLocale: 'en',
+    // strategy: 'no_prefix',
     vueI18n: {
       fallbackLocale: 'en',
       messages: {

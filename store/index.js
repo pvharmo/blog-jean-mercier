@@ -49,13 +49,13 @@ export const mutations = {
 }
 
 export const actions = {
-  nuxtServerInit(_, context) {
-    this.$cms = context.store.$cms
+  nuxtServerInit({ dispatch }, { app, store }) {
+    this.$cms = store.$cms
+    dispatch('loadPostsList', app.i18n.locale)
+    dispatch('loadCategories', app.i18n.locale)
+    dispatch('loadTags', app.i18n.locale)
   },
-  async nuxtClientInit({ dispatch }, { app }) {
-    await dispatch('loadPostsList', app.i18n.locale)
-    await dispatch('loadCategories', app.i18n.locale)
-    await dispatch('loadTags', app.i18n.locale)
+  async nuxtClientInit() {
   },
   set({ commit }, { resource, slug }) {
     if (!resource) {
@@ -69,8 +69,8 @@ export const actions = {
       commit('set', data)
     }
   },
-  async loadPostsList({ commit }, lang) {
-    const res = await this.$axios.get(`api/${lang}/posts-list.json`)
+  async loadPostsList({ commit, dispatch }, lang) {
+    const res = await dispatch('fetchContent', {url: 'posts-list.json', lang})
     commit('setPostsList', res.data)
   },
   async loadPostContent({ commit, state }, { slug, lang }) {
@@ -96,12 +96,12 @@ export const actions = {
       }
     }
   },
-  async loadCategories({ commit }, lang) {
-    const res = await this.$axios.get(`api/${lang}/categories.json`)
+  async loadCategories({ commit, dispatch }, lang) {
+    const res = await dispatch('fetchContent', {utl: 'categories.json', lang})
     commit('setCategories', res.data)
   },
-  async loadTags({ commit }, lang) {
-    const res = await this.$axios.get(`api/${lang}/tags.json`)
+  async loadTags({ commit, dispatch }, lang) {
+    const res = await dispatch('fetchContent', {url: 'tags.json', lang})
     commit('setTags', res.data)
   },
   selectGenre({ commit }, name) {
@@ -109,8 +109,19 @@ export const actions = {
   },
   selectRegion({ commit }, name) {
     commit('setSelectedRegion', name)
+  },
+  async fetchContent(_, {url, lang}) {
+    let data
+    try {
+      data = await this.$axios.get(`api/${lang}/${url}`)
+    } catch (error) {
+      data = await this.$axios.get(`api/en/${url}`)
+    }
+    return data
   }
 }
+
+
 
 function setOtherPageData(commit, siteConfig) {
   commit('set', {
