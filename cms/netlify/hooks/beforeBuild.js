@@ -7,5 +7,8 @@ export default () => {
   generatePostApi('en')
   generateCategoryApi('en')
   generateTagApi('en')
+  generatePostApi('fr')
+  generateCategoryApi('fr')
+  generateTagApi('fr')
   copyStaticToDist()
 }
