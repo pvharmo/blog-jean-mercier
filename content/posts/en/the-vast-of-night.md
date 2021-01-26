@@ -1,5 +1,5 @@
 ---
-title: The Vast of Night
+title: THE VAST OF NIGHT
 category:
   - Media transformation
   - Sociology
