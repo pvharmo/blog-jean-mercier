@@ -1,4 +1,4 @@
 ---
-name: COMMENTAIRES ÉCLAIR
+name: Commentaires éclair
 type: Chronicles
 ---
