@@ -4,7 +4,7 @@ backend:
 # This line should *not* be indented
 media_folder: 'assets/uploads' # Media files will be stored in the repo under images/uploads
 public_folder: '/uploads' # The src attribute for uploaded media will begin with /images/uploads
-site_url: https://wonderful-einstein-01cc9d.netlify.app
+site_url: https://themovieshrink.com
 logo_url: https://awake-template.netlify.com/logo-frames/logo-f0.svg
 
 i18n:
