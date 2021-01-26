@@ -1,5 +1,5 @@
 ---
-title: Sound of Metal
+title: SOUND OF METAL
 category:
   - Sociology
   - National culture
