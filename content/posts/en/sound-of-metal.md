@@ -76,7 +76,6 @@ Being set very deliberately at the very end of the film, the harmonious scenes o
 But what?
 
 
-
 # **THE BIGGER PICTURE**
 
 Sometimes, even often, things are said indirectly because they are difficult to look at directly.
