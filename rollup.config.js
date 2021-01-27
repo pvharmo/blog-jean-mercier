@@ -11,7 +11,6 @@ import pkg from './package.json';
 
 import sveltePreprocess from 'svelte-preprocess';
 import json from "@rollup/plugin-json";
-import alias from '@rollup/plugin-alias';
 
 
 const preprocess = sveltePreprocess({
@@ -26,12 +25,6 @@ const preprocess = sveltePreprocess({
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
-const aliases = alias({
-  resolve: ['.svelte', '.js'], //optional, by default this will just look for .js files or folders
-  entries: [
-	{ find: 'components', replacement: 'src/components' },
-  ]
-});
 
 const onwarn = (warning, onwarn) =>
 	(warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
@@ -44,7 +37,6 @@ export default {
 		input: config.client.input(),
 		output: config.client.output(),
 		plugins: [
-			aliases,
 			json(),
 			replace({
 				'process.browser': true,
@@ -98,7 +90,6 @@ export default {
 		input: config.server.input(),
 		output: config.server.output(),
 		plugins: [
-			aliases,
 			json(),
 			replace({
 				'process.browser': false,

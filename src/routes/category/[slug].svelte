@@ -10,7 +10,7 @@
   import { stores } from "@sapper/app";
 
   import { filteredPosts as postsStore, categories } from "../../stores";
-  import PostsGrid from "components/PostsGrid.svelte";
+  import PostsGrid from "../../components/PostsGrid.svelte";
 
   const { page } = stores();
 

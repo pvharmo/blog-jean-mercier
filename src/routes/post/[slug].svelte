@@ -6,16 +6,16 @@
     posts,
     categories,
     lang,
-  } from "../..//stores";
+  } from "../../stores";
   import { stores, goto } from "@sapper/app";
   import { onMount } from "svelte";
 
   import { fetchArticle } from "../../actions";
 
-  import Youtube from "components/Youtube.svelte";
-  import Chip from "components/Chip.svelte";
-  import Markdown from "components/Markdown.svelte";
-  import Comments from "components/Disqus.svelte";
+  import Youtube from "../../components/Youtube.svelte";
+  import Chip from "../../components/Chip.svelte";
+  import Markdown from "../../components/Markdown.svelte";
+  import Comments from "../../components/Disqus.svelte";
 
   const { page } = stores();
 
