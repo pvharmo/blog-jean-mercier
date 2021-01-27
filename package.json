@@ -7,7 +7,7 @@
   "scripts": {
     "before-build": "node -r esm ./build-tools/beforeBuild.js",
     "after-build": "node -r esm ./build-tools/afterBuild.js",
-    "dev": "sapper dev",
+    "dev": "npm run before-build && sapper dev && npm run after-build",
     "build": "sapper build --legacy",
     "export": "npm run before-build && sapper export --legacy && npm run after-build",
     "start": "node __sapper__/build"
