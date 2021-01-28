@@ -17,7 +17,7 @@ export let fetchSiteContent = async (context) => {
 }
 
 export let fetchArticle = async (post, lang = "en") => {
-    if (post && !post.loaded && post.lang !== lang) {
+    if (post && (!post.loaded || post.lang !== lang)) {
         let res;
         try {
             res = await axios.get(`/api/${lang}/content/${post.slug}.json`)

@@ -26,7 +26,7 @@
   });
 
   onMount(async () => {
-    post = await fetchArticle(post, lang);
+    await fetchArticle(post, lang);
   });
 
   let selectTag = (tag) => {
