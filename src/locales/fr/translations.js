@@ -19,5 +19,6 @@ export default {
         HERMENEUTICS: "HERMÉNEUTIQUE",
         FAQ: "FAQ",
         CONTACT: "CONTACT"
-    }
+    },
+    readMore: "Lire la suite"
 }

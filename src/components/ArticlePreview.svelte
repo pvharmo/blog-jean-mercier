@@ -6,6 +6,7 @@
   import Chip from "./Chip.svelte";
   import { stores } from "@sapper/app";
   import { getLang } from "../utils";
+  import t from "../locales/language";
 
   const { page } = stores();
 
@@ -93,7 +94,7 @@
     </div>
     <p class="excerpt">{post.excerpt}</p>
   {/if}
-  <a href="/{lang}/post/{post.slug}">Read more</a>
+  <a href="/{lang}/post/{post.slug}">{t(lang).readMore}</a>
 </div>
 
 <style>
