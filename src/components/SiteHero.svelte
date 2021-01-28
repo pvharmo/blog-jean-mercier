@@ -6,7 +6,7 @@
 
   const { page } = stores();
 
-  const lang = getLang($page.path);
+  $: lang = getLang($page.path);
 </script>
 
 <section class="hero is-medium hero-theme-light">

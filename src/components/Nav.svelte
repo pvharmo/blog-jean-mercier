@@ -5,8 +5,8 @@
 
   const { page } = stores();
 
-  const currentPath = getPath($page.path);
-  const lang = getLang($page.path);
+  $: currentPath = getPath($page.path);
+  $: lang = getLang($page.path);
 
   let changeLang = (newLang) => {
     window.localStorage.setItem("lang", newLang);

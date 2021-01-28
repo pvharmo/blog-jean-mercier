@@ -9,7 +9,7 @@
 
   const { page } = stores();
 
-  const lang = getLang($page.path);
+  $: lang = getLang($page.path);
 
   export let post;
 

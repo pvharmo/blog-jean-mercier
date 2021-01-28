@@ -19,7 +19,7 @@
 
   const { page } = stores();
 
-  const lang = getLang($page.path);
+  $: lang = getLang($page.path);
 
   $: post = $posts.find((p) => {
     return p.slug == $page.params.slug;

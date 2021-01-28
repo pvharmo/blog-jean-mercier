@@ -24,7 +24,7 @@
 
   const { page } = stores();
 
-  const lang = getLang($page.path);
+  $: lang = getLang($page.path);
 
   onMount(() => {
     let langStored = window.localStorage.getItem("lang");
