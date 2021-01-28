@@ -1,12 +1,17 @@
 <script>
   import { featureImage } from "../config";
   import t from "../locales/language";
-  import { lang } from "../stores";
+  import { stores } from "@sapper/app";
+  import { getLang } from "../utils";
+
+  const { page } = stores();
+
+  const lang = getLang($page.path);
 </script>
 
 <section class="hero is-medium hero-theme-light">
   <div class="hero-body">
-    <a href="/">
+    <a href={"/" + lang}>
       <div class="container">
         <img
           alt="The Movie Shrink logo"
@@ -14,8 +19,8 @@
           src={featureImage}
           lazy="false"
         />
-        <h1 class="title animated fadeInUp">{t($lang).siteName}</h1>
-        <h2 class="subtitle animated fadeInUp slower">{t($lang).tagline}</h2>
+        <h1 class="title animated fadeInUp">{t(lang).siteName}</h1>
+        <h2 class="subtitle animated fadeInUp slower">{t(lang).tagline}</h2>
         <br />
         <div class="under-subtitle animated fadeInDown slower">
           <slot />

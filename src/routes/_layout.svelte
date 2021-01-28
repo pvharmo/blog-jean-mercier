@@ -10,7 +10,6 @@
     selectedGenre,
     tags,
     categories,
-    lang,
   } from "../stores";
   import { onMount } from "svelte";
   import { fetchSiteContent } from "../actions";
@@ -20,6 +19,12 @@
   import SiteHero from "../components/SiteHero.svelte";
   import SiteFooter from "../components/SiteFooter.svelte";
   import Chip from "../components/Chip.svelte";
+  import { stores } from "@sapper/app";
+  import { getLang } from "../utils";
+
+  const { page } = stores();
+
+  const lang = getLang($page.path);
 
   onMount(() => {
     let langStored = window.localStorage.getItem("lang");
@@ -27,7 +32,6 @@
       langStored = "en";
       window.localStorage.setItem("lang", "en");
     }
-    lang.set(langStored);
   });
 
   function selectGenre(genre) {
@@ -87,34 +91,34 @@
     <div class="content" slot="sidebar">
       <img alt="Aristotle" src="/aristotle-homer.jpg" />
       <p>
-        {t($lang).siteName}
-        {t($lang).sidebar.intro}
+        {t(lang).siteName}
+        {t(lang).sidebar.intro}
       </p>
-      <h3 class="subtitle">{t($lang).sidebar.Chronicles}</h3>
+      <h3 class="subtitle">{t(lang).sidebar.Chronicles}</h3>
       <ul class="categories-menu">
         <li>
           <a href="/category/bullit-comments">
-            {t($lang).sidebar["Bullet comments"]}
+            {t(lang).sidebar["Bullet comments"]}
           </a>
         </li>
         <li>
           <a href="/category/films-of-the-past">
-            {t($lang).sidebar["Revisiting classics"]}
+            {t(lang).sidebar["Revisiting classics"]}
           </a>
         </li>
         <li>
           <a href="/category/more-on-hermeneutics">
-            {t($lang).sidebar["More on hermeneutics"]}
+            {t(lang).sidebar["More on hermeneutics"]}
           </a>
         </li>
       </ul>
-      <h3 class="subtitle">{t($lang).sidebar["The Shrink's Toolbox"]}</h3>
+      <h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
       <ul class="categories-menu">
         {#each elephantBehindTheScreen as cat}
           <li><a href="/category/{cat.slug}"> {cat.name} </a></li>
         {/each}
       </ul>
-      <h3 class="subtitle">{t($lang).sidebar.Region}</h3>
+      <h3 class="subtitle">{t(lang).sidebar.Region}</h3>
       {#each regions as tag}
         <Chip
           active={isSelectedRegion(tag.name)}

@@ -1,9 +1,15 @@
 <script>
   import { onMount } from "svelte";
   import { fetchArticle } from "../actions";
-  import { selectedRegion, selectedGenre, tags, lang } from "../stores";
+  import { selectedRegion, selectedGenre, tags } from "../stores";
   import Youtube from "./Youtube.svelte";
   import Chip from "./Chip.svelte";
+  import { stores } from "@sapper/app";
+  import { getLang } from "../utils";
+
+  const { page } = stores();
+
+  const lang = getLang($page.path);
 
   export let post;
 
@@ -14,7 +20,7 @@
   let loadContent = (entries) => {
     entries.forEach(async (element) => {
       if (element.isIntersecting) {
-        post = await fetchArticle(post, $lang);
+        post = await fetchArticle(post, lang);
       }
     });
   };
@@ -59,7 +65,7 @@
 </script>
 
 <div class="content" id="article-{post.slug}">
-  <a href={"post/" + post.slug}>
+  <a href="/{lang}/post/{post.slug}">
     <h1>{post.title}</h1>
     <p class="publish-infos">{date()}</p>
   </a>
@@ -87,7 +93,7 @@
     </div>
     <p class="excerpt">{post.excerpt}</p>
   {/if}
-  <a href="/post/{post.slug}">Read more</a>
+  <a href="/{lang}/post/{post.slug}">Read more</a>
 </div>
 
 <style>

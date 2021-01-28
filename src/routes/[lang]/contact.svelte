@@ -1,6 +1,5 @@
 <script>
-  import ContactForm from "../components/ContactForm.svelte";
-  import { lang } from "../stores";
+  import ContactForm from "../../components/ContactForm.svelte";
 </script>
 
 <svelte:head>

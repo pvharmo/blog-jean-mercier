@@ -1,9 +1,14 @@
 <script>
-  import { lang } from "../stores";
   import t from "../locales/language";
+  import { stores } from "@sapper/app";
+  import { getPath, getLang } from "../utils";
+
+  const { page } = stores();
+
+  const currentPath = getPath($page.path);
+  const lang = getLang($page.path);
 
   let changeLang = (newLang) => {
-    lang.set(newLang);
     window.localStorage.setItem("lang", newLang);
   };
 </script>
@@ -12,25 +17,25 @@
   <div class="navbar-menu is-active">
     <ul class="navbar-end navbar-center">
       <li class="navbar-item">
-        <a href="/">{t($lang).menu.HOME}</a>
+        <a href="/">{t(lang).menu.HOME}</a>
       </li>
       <li class="navbar-item">
-        <a href="/about">{t($lang).menu["ABOUT US"]}</a>
+        <a href="/about">{t(lang).menu["ABOUT US"]}</a>
       </li>
       <li class="navbar-item">
-        <a href="/hermeneutics">{t($lang).menu.HERMENEUTICS}</a>
+        <a href="/hermeneutics">{t(lang).menu.HERMENEUTICS}</a>
       </li>
       <li class="navbar-item">
-        <a href="/faq">{t($lang).menu.FAQ}</a>
+        <a href="/faq">{t(lang).menu.FAQ}</a>
       </li>
       <li class="navbar-item">
-        <a href="/contact">{t($lang).menu.CONTACT}</a>
+        <a href="/contact">{t(lang).menu.CONTACT}</a>
       </li>
       <li class="navbar-item">
-        {#if $lang === "fr"}
-          <a on:click={() => changeLang("en")}> ENGLISH </a>
+        {#if lang === "fr"}
+          <a href={"/en" + currentPath} on:click={() => changeLang("en")}> ENGLISH </a>
         {:else}
-          <a on:click={() => changeLang("fr")}> FRANÇAIS </a>
+          <a href={"/fr" + currentPath} on:click={() => changeLang("fr")}> FRANÇAIS </a>
         {/if}
       </li>
     </ul>

@@ -8,8 +8,6 @@ export const categories = writable([])
 
 export const posts = writable([])
 
-export const lang = writable("en")
-
 export const filteredPosts = derived([posts, selectedGenre, selectedRegion], ([$posts, $selectedGenre, $selectedRegion]) => {
     return $posts.filter((x) => {
         let valid = true;
