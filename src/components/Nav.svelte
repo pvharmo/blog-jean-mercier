@@ -2,6 +2,7 @@
   import t from "../locales/language";
   import { stores } from "@sapper/app";
   import { getPath, getLang } from "../utils";
+  import { fetchCategories, fetchTags } from "../actions";
 
   const { page } = stores();
 
@@ -10,6 +11,8 @@
 
   let changeLang = (newLang) => {
     window.localStorage.setItem("lang", newLang);
+    fetchCategories(window, newLang);
+    fetchTags(window, newLang);
   };
 </script>
 

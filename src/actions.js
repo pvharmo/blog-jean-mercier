@@ -1,19 +1,13 @@
 import axios from "./axios";
 import { tags, categories, posts } from "./stores"
 
-export let fetchSiteContent = async (context) => {
-    const postsListResponse = await context.fetch('/api/en/posts-list.json')
+export let fetchSiteContent = async (context, lang) => {
+    const postsListResponse = await context.fetch(`/api/${lang}/posts-list.json`);
     const postsListData = await postsListResponse.json();
 
-    const tagsResponse = await context.fetch('/api/en/tags.json')
-    const tagsData = await tagsResponse.json();
-
-    const categoriesResponse = await context.fetch('/api/en/categories.json')
-    const categoriesData = await categoriesResponse.json();
-
+    fetchCategories(context, lang);
+    fetchTags(context, lang);
     posts.set(postsListData)
-    categories.set(categoriesData)
-    tags.set(tagsData)
 }
 
 export let fetchArticle = async (post, lang = "en") => {
@@ -53,3 +47,17 @@ export let fetchArticle = async (post, lang = "en") => {
     }
     return post;
 };
+
+export let fetchCategories = async (context, lang) => {
+    const categoriesResponse = await context.fetch(`/api/${lang}/categories.json`);
+    const categoriesData = await categoriesResponse.json();
+
+    categories.set(categoriesData)
+}
+
+export let fetchTags = async (context, lang) => {
+    const tagsResponse = await context.fetch(`/api/${lang}/tags.json`);
+    const tagsData = await tagsResponse.json();
+
+    tags.set(tagsData)
+}

@@ -1,6 +1,6 @@
 <script context="module">
   export async function preload() {
-    await fetchSiteContent(this);
+    await fetchSiteContent(this, "en");
   }
 </script>
 
@@ -97,17 +97,17 @@
       <h3 class="subtitle">{t(lang).sidebar.Chronicles}</h3>
       <ul class="categories-menu">
         <li>
-          <a href="/category/bullit-comments">
+          <a href="/{lang}/category/bullit-comments">
             {t(lang).sidebar["Bullet comments"]}
           </a>
         </li>
         <li>
-          <a href="/category/films-of-the-past">
+          <a href="/{lang}/category/films-of-the-past">
             {t(lang).sidebar["Revisiting classics"]}
           </a>
         </li>
         <li>
-          <a href="/category/more-on-hermeneutics">
+          <a href="/{lang}/category/more-on-hermeneutics">
             {t(lang).sidebar["More on hermeneutics"]}
           </a>
         </li>
@@ -115,7 +115,7 @@
       <h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
       <ul class="categories-menu">
         {#each elephantBehindTheScreen as cat}
-          <li><a href="/category/{cat.slug}"> {cat.name} </a></li>
+          <li><a href="/{lang}/category/{cat.slug}"> {cat.name} </a></li>
         {/each}
       </ul>
       <h3 class="subtitle">{t(lang).sidebar.Region}</h3>
