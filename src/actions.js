@@ -7,21 +7,50 @@ export let fetchSiteContent = async (context, lang) => {
 
     fetchCategories(context, lang);
     fetchTags(context, lang);
-    posts.set(postsListData)
+    posts.set(postsListData);
 }
 
-export let fetchArticle = async (post, lang = "en") => {
+export let fetchArticleContent = async (context, slug, lang = "en") => {
+    let post;
+    try {
+        const postResponse = await context.fetch(`/api/${lang}/content/${slug}.json`);
+        post = await postResponse.json();
+    } catch (e) {
+        console.log(e)
+        try {
+            const postResponse = await context.get(`/api/en/content/${slug}.json`);
+            post = await postResponse.json();
+        } catch {
+            console.log("There was an error fetching article content.");
+        }
+    } finally {
+        post.loaded = true;
+    
+        if (!post.tags) {
+            post.tags = [];
+        }
+        if (!post.category) {
+            post.category = [];
+        }
+        if (!post.excerpt) {
+            post.excerpt = "";
+        }
+    }
+    return post;
+}
+
+export let fetchArticlePreview = async (post, lang = "en") => {
     if (post && (!post.loaded || post.lang !== lang)) {
         let res;
         try {
-            res = await axios.get(`/api/${lang}/content/${post.slug}.json`)
+            res = await axios.get(`/api/${lang}/content/${post.slug}.json`);
         } catch (e) {
             console.log(e)
             if (lang !== "en") {
                 try {
-                    res = await axios.get(`/api/en/content/${post.slug}.json`)
+                    res = await axios.get(`/api/en/content/${post.slug}.json`);
                 } catch {
-                    console.log("There was an error fetching article content.")
+                    console.log("There was an error fetching article content.");
                 }
             }
         } finally {

@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { fetchArticle } from "../actions";
+  import { fetchArticlePreview } from "../actions";
   import { selectedRegion, selectedGenre, tags } from "../stores";
   import Youtube from "./Youtube.svelte";
   import Chip from "./Chip.svelte";
@@ -21,7 +21,7 @@
   let loadContent = (entries) => {
     entries.forEach(async (element) => {
       if (element.isIntersecting) {
-        post = await fetchArticle(post, lang);
+        post = await fetchArticlePreview(post, lang);
       }
     });
   };

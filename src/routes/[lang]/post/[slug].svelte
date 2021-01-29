@@ -1,33 +1,27 @@
+<script context="module">
+  export async function preload({ params : { slug, lang } }) {
+    const post = await fetchArticleContent(this, slug, lang);
+    return { post };
+  }
+</script>
+
 <script>
   import {
     selectedRegion,
     selectedGenre,
     tags,
-    posts,
     categories,
   } from "../../../stores";
-  import { stores, goto } from "@sapper/app";
-  import { onMount } from "svelte";
+  import { goto } from "@sapper/app";
 
-  import { fetchArticle } from "../../../actions";
-  import { getLang } from "../../../utils";
+  import { fetchArticleContent } from "../../../actions";
 
   import Youtube from "../../../components/Youtube.svelte";
   import Chip from "../../../components/Chip.svelte";
   import Markdown from "../../../components/Markdown.svelte";
   import Comments from "../../../components/Disqus.svelte";
 
-  const { page } = stores();
-
-  $: lang = getLang($page.path);
-
-  $: post = $posts.find((p) => {
-    return p.slug == $page.params.slug;
-  });
-
-  onMount(async () => {
-    await fetchArticle(post, lang);
-  });
+  export let post;
 
   let selectTag = (tag) => {
     const tagObject = $tags.find((x) => {
@@ -85,6 +79,7 @@
   {#if post && post.loaded}
     <div class="post-wrapper content">
       <h1>{post.title}</h1>
+      <p>{getFormattedDate(post.date)}</p>
       <div class="movie-feature">
         <Youtube class="movie-trailer" videoId={post.youtubeMovieTrailer} />
       </div>
