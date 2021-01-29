@@ -1,5 +1,7 @@
 <script context="module">
   export async function preload({ params : { slug, lang } }) {
+    await fetchCategories(this, lang);
+    await fetchTags(this, lang);
     const post = await fetchArticleContent(this, slug, lang);
     return { post };
   }
@@ -14,7 +16,7 @@
   } from "../../../stores";
   import { goto } from "@sapper/app";
 
-  import { fetchArticleContent } from "../../../actions";
+  import { fetchCategories, fetchTags } from "../../../actions";
 
   import Youtube from "../../../components/Youtube.svelte";
   import Chip from "../../../components/Chip.svelte";

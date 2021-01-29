@@ -1,12 +1,10 @@
 import axios from "./axios";
 import { tags, categories, posts } from "./stores"
 
-export let fetchSiteContent = async (context, lang) => {
+export let fetchPostsList = async (context, lang) => {
     const postsListResponse = await context.fetch(`/api/${lang}/posts-list.json`);
     const postsListData = await postsListResponse.json();
 
-    fetchCategories(context, lang);
-    fetchTags(context, lang);
     posts.set(postsListData);
 }
 

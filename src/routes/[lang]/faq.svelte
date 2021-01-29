@@ -1,3 +1,10 @@
+<script context="module">
+  export async function preload({ params: {lang} }) {
+    await fetchCategories(this, lang);
+    await fetchTags(this, lang);
+  }
+</script>
+
 <script>
   import Faq_fr from "../../locales/fr/Faq.svelte";
   import Faq_en from "../../locales/en/Faq.svelte";

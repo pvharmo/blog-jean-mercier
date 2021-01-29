@@ -1,9 +1,3 @@
-<script context="module">
-  export async function preload() {
-    await fetchSiteContent(this, "en");
-  }
-</script>
-
 <script>
   import {
     selectedRegion,
@@ -12,7 +6,6 @@
     categories,
   } from "../stores";
   import { onMount } from "svelte";
-  import { fetchSiteContent } from "../actions";
   import t from "../locales/language";
   import MainSection from "../components/MainSection.svelte";
   import Nav from "../components/Nav.svelte";

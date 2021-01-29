@@ -1,3 +1,11 @@
+<script context="module">
+  export async function preload({ params: {lang} }) {
+    await fetchCategories(this, lang);
+    await fetchTags(this, lang);
+    await fetchPostsList(this, lang);
+  }
+</script>
+
 <script>
   import { onDestroy, onMount } from "svelte";
   import { filteredPosts as postsStore } from "../../stores";
@@ -5,6 +13,7 @@
   import t from "../../locales/language";
   import { stores } from "@sapper/app";
   import { getLang } from "../../utils";
+  import { fetchCategories, fetchPostsList, fetchTags } from "../../actions";
 
   const { page } = stores();
 

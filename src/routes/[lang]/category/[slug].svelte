@@ -1,7 +1,14 @@
-<script context="module">
+<!-- <script context="module">
   export function preload(page) {
     const { slug } = page.params;
     return { slug };
+  }
+</script> -->
+
+<script context="module">
+  export async function preload({ params: {lang} }) {
+    await fetchCategories(this, lang);
+    await fetchTags(this, lang);
   }
 </script>
 
@@ -10,6 +17,7 @@
   import { stores } from "@sapper/app";
 
   import { filteredPosts as postsStore, categories } from "../../../stores";
+  import { fetchCategories, fetchTags } from "../../../actions";
 
   import PostsGrid from "../../../components/PostsGrid.svelte";
 

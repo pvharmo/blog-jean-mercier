@@ -1,9 +1,17 @@
+<script context="module">
+  export async function preload({ params: {lang} }) {
+    await fetchCategories(this, lang);
+    await fetchTags(this, lang);
+  }
+</script>
+
 <script>
   import Hermeneutics_fr from "../../locales/fr/Hermeneutics.svelte";
   import Hermeneutics_en from "../../locales/en/Hermeneutics.svelte";
   import t from "../../locales/language";
   import { stores } from "@sapper/app";
   import { getLang } from "../../utils";
+  import { fetchCategories, fetchTags } from "../../actions";
 
   const { page } = stores();
 

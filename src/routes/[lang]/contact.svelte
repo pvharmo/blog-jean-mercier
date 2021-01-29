@@ -1,5 +1,13 @@
+<script context="module">
+  export async function preload({ params: {lang} }) {
+    await fetchCategories(this, lang);
+    await fetchTags(this, lang);
+  }
+</script>
+
 <script>
   import ContactForm from "../../components/ContactForm.svelte";
+  import { fetchCategories, fetchTags } from "../../actions";
 </script>
 
 <svelte:head>
