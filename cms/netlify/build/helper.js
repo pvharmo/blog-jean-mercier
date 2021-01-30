@@ -1,6 +1,5 @@
 import fs from 'fs'
 import rimraf from 'rimraf'
-import { chunk } from 'lodash'
 import matter from 'gray-matter'
 import { flattenResource } from '../helper'
 
@@ -15,24 +14,7 @@ export function compareDates(a, b) {
   }
   return 0
 }
-export function createPagination(numPages, items, dir) {
-  const paginationDir = dir
-  if (fs.existsSync(paginationDir)) {
-    rimraf.sync(paginationDir) // Delete all previous pagination endpoints
-  }
-  fs.mkdirSync(paginationDir, { recursive: true })
-  const paginated = chunk(items, numPages)
-  let currentPage = 0
-  for (let i = 0; i < paginated.length; i++) {
-    currentPage = i + 1
-    const chunkWriteStream = fs.createWriteStream(
-      `${dir}/page-${currentPage}.json`,
-      'UTF-8'
-    )
-    chunkWriteStream.write(JSON.stringify(paginated[i]))
-  }
-  return paginated.length
-}
+
 export function createPostsList(items, dir) {
   const contentDir = dir + '/content'
   if (fs.existsSync(contentDir)) {
@@ -66,15 +48,7 @@ export function createPostsList(items, dir) {
   })
   return posts
 }
-export function createMeta(newMeta, file) {
-  let meta = {}
-  if (fs.existsSync(file)) {
-    meta = require(file)
-  }
-  const combined = Object.assign(meta, newMeta)
-  const chunkWriteStream = fs.createWriteStream(file, 'UTF-8')
-  chunkWriteStream.write(JSON.stringify(combined))
-}
+
 export function createAll(fromDir, toFile, apiDir) {
   // Create api dir if doesn't exist
   if (!fs.existsSync(apiDir)) {
@@ -103,6 +77,7 @@ export function createAll(fromDir, toFile, apiDir) {
           index.push(parsed)
 
           if (index.length === files.length) {
+            console.log(index)
             const writeStream = fs.createWriteStream(toFile, 'UTF-8')
             let sorted = index.sort(compareDates).reverse()
             sorted = flattenResource(sorted)

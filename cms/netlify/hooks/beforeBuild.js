@@ -5,10 +5,10 @@ import copyStaticToDist from '../build/copy-static-to-dist'
 
 export default () => {
   generatePostApi('en')
-  generateCategoryApi('en')
-  generateTagApi('en')
-  generatePostApi('fr')
-  generateCategoryApi('fr')
-  generateTagApi('fr')
-  copyStaticToDist()
+  // generateCategoryApi('en')
+  // generateTagApi('en')
+  // generatePostApi('fr')
+  // generateCategoryApi('fr')
+  // generateTagApi('fr')
+  // copyStaticToDist()
 }
