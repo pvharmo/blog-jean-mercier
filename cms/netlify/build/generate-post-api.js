@@ -20,6 +20,9 @@ const generatePostApi = async (lang) => {
 
   postsFr = await fillMissingData(postsEn, postsFr);
 
+  postsFr = sortPosts(postsEn)
+  postsFr = sortPosts(postsFr)
+
   writePosts(postsEn, apiDir + "/en/")
   writePosts(postsFr, apiDir + "/fr/")
 }
@@ -74,6 +77,9 @@ function parseFile(content, slug) {
 }
 
 async function writePosts(posts, dir) {
+  const writeStream = fs.createWriteStream(dir + "first-post.json", 'UTF-8')
+  writeStream.write(JSON.stringify({slug: posts[0].slug}))
+
   for (const post of posts) {
     writePost(post, dir)
   }
@@ -82,4 +88,26 @@ async function writePosts(posts, dir) {
 async function writePost(post, dir) {
   const writeStream = fs.createWriteStream(dir + "content/" + post.slug + ".json", 'UTF-8')
   writeStream.write(JSON.stringify(post))
+}
+
+function sortPosts(posts) {
+  posts.sort(compareDates).reverse()
+
+  for (let i = 0; i < posts.length - 1; i++) {
+    posts[i].nextPost = posts[i + 1].slug;
+  }
+
+  return posts
+}
+
+export function compareDates(a, b) {
+  const aParsed = Date.parse(a.date)
+  const bParsed = Date.parse(b.date)
+  if (aParsed < bParsed) {
+    return -1
+  }
+  if (aParsed > bParsed) {
+    return 1
+  }
+  return 0
 }
