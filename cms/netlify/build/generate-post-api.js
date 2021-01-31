@@ -1,31 +1,25 @@
 /* eslint-disable no-console */
 
 import fs from 'fs'
-import rimraf from 'rimraf'
-import matter from 'gray-matter'
-import { flattenResource } from '../helper'
-
-import {
-  createAll,
-  createPostsList
-} from './helper'
+import { loadFilesContent, writeToFile, compareDates } from "./helper"
 
 const rootDir = `${__dirname}/../../..`
-const generatePostApi = async (lang) => {
+const generatePostApi = async () => {
   const contentDir = `${rootDir}/content/posts`
   const apiDir = `${rootDir}/static/api`
   
-  let postsEn = await loadPosts(contentDir + "/en/");
-  let postsFr = await loadPosts(contentDir + "/fr/");
+  let postsEn = await loadFilesContent(contentDir + "/en/");
+  let postsFr = await loadFilesContent(contentDir + "/fr/");
 
   postsFr = await fillMissingData(postsEn, postsFr);
 
-  postsFr = sortPosts(postsEn)
+  postsEn = sortPosts(postsEn)
   postsFr = sortPosts(postsFr)
 
   writePosts(postsEn, apiDir + "/en/")
   writePosts(postsFr, apiDir + "/fr/")
 }
+
 export default generatePostApi
 
 async function fillMissingData(postsEn, postsFr) {
@@ -34,7 +28,7 @@ async function fillMissingData(postsEn, postsFr) {
     if (postIndex === -1) {
       postsFr[postIndex] = postsEn[i]
     } else {
-      postsFr[postIndex].date = postsEn[i].slug
+      postsFr[postIndex].date = postsEn[i].date
       postsFr[postIndex].youtubeMovieTrailer = postsEn[i].youtubeMovieTrailer
       postsFr[postIndex].author = postsEn[i].author
     }
@@ -43,51 +37,20 @@ async function fillMissingData(postsEn, postsFr) {
   return postsFr
 }
 
-async function loadPosts(dir) {
-  const posts = []
-  const files = fs.readdirSync(dir)
-
-  for await (const file of files) {
-    const {content, slug} = await readFile(file, dir)
-    const post = parseFile(content, slug)
-    posts.push(post)
-  }
-
-  return posts
-}
-
-async function readFile(file, dir) {
-  let content
-  const readStream = fs.createReadStream(dir + file, 'UTF-8')
-  
-  for await (const data of readStream) {
-    content = data
-  }
-
-  const slug = file.replace(/.md$/, '')
-  
-  return { content , slug }
-}
-
-function parseFile(content, slug) {
-  const parsed = matter(content)
-  delete parsed.buffer
-  parsed.data.slug = slug
-  return flattenResource(parsed)
-}
-
 async function writePosts(posts, dir) {
-  const writeStream = fs.createWriteStream(dir + "first-post.json", 'UTF-8')
-  writeStream.write(JSON.stringify({slug: posts[0].slug}))
+  let pages = []
+  let nbPage = 0;
 
   for (const post of posts) {
-    writePost(post, dir)
+    pages.push(post.slug)
+    if (pages.length == 4) {
+      const writeStream = fs.createWriteStream(`${rootDir}/static/api/page-${nbPage}.json`, 'UTF-8')
+      writeStream.write(JSON.stringify(pages))
+      nbPage++
+      pages = []
+    }
+    writeToFile(post, dir)
   }
-}
-
-async function writePost(post, dir) {
-  const writeStream = fs.createWriteStream(dir + "content/" + post.slug + ".json", 'UTF-8')
-  writeStream.write(JSON.stringify(post))
 }
 
 function sortPosts(posts) {
@@ -98,16 +61,4 @@ function sortPosts(posts) {
   }
 
   return posts
-}
-
-export function compareDates(a, b) {
-  const aParsed = Date.parse(a.date)
-  const bParsed = Date.parse(b.date)
-  if (aParsed < bParsed) {
-    return -1
-  }
-  if (aParsed > bParsed) {
-    return 1
-  }
-  return 0
 }

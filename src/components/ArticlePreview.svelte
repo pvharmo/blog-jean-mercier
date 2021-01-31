@@ -1,6 +1,4 @@
 <script>
-  import { onMount } from "svelte";
-  import { fetchArticlePreview } from "../actions";
   import { selectedRegion, selectedGenre, tags } from "../stores";
   import Youtube from "./Youtube.svelte";
   import Chip from "./Chip.svelte";
@@ -16,14 +14,6 @@
 
   $: isSelected = (tag) => {
     return tag === $selectedRegion || tag === $selectedGenre;
-  };
-
-  let loadContent = (entries) => {
-    entries.forEach(async (element) => {
-      if (element.isIntersecting) {
-        post = await fetchArticlePreview(post, lang);
-      }
-    });
   };
 
   let selectTag = (tag) => {
@@ -43,12 +33,6 @@
         break;
     }
   };
-
-  onMount(() => {
-    let observer = new IntersectionObserver(loadContent);
-    let articleHTML = document.getElementById("article-" + post.slug);
-    observer.observe(articleHTML);
-  });
 
   function date() {
     return "";
@@ -70,30 +54,28 @@
     <h1>{post.title}</h1>
     <p class="publish-infos">{date()}</p>
   </a>
-  {#if post.loaded}
-    <div class="movie-feature">
-      <Youtube class="movie-trailer" videoId={post.youtubeMovieTrailer} />
-    </div>
-    <div class="chips-group">
-      <span>Categories :</span>
-      {#each post.category as category}
-        <Chip>{category}</Chip>
-      {/each}
-    </div>
-    <div class="chips-group">
-      <span>Tags :</span>
-      {#each post.tags as tag}
-        <Chip
-          active={isSelected(tag)}
-          style="margin: 5px;"
-          on:click={() => selectTag(tag)}
-        >
-          {tag}
-        </Chip>
-      {/each}
-    </div>
-    <p class="excerpt">{post.excerpt}</p>
-  {/if}
+  <div class="movie-feature">
+    <Youtube class="movie-trailer" videoId={post.youtubeMovieTrailer} />
+  </div>
+  <div class="chips-group">
+    <span>Categories :</span>
+    {#each post.category as category}
+      <Chip>{category}</Chip>
+    {/each}
+  </div>
+  <div class="chips-group">
+    <span>Tags :</span>
+    {#each post.tags as tag}
+      <Chip
+        active={isSelected(tag)}
+        style="margin: 5px;"
+        on:click={() => selectTag(tag)}
+      >
+        {tag}
+      </Chip>
+    {/each}
+  </div>
+  <p class="excerpt">{post.excerpt}</p>
   <a href="/{lang}/post/{post.slug}">{t(lang).readMore}</a>
 </div>
 

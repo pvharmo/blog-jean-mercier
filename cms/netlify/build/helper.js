@@ -1,11 +1,10 @@
 import fs from 'fs'
-import rimraf from 'rimraf'
 import matter from 'gray-matter'
 import { flattenResource } from '../helper'
 
 export function compareDates(a, b) {
-  const aParsed = Date.parse(a.data.date)
-  const bParsed = Date.parse(b.data.date)
+  const aParsed = Date.parse(a.date)
+  const bParsed = Date.parse(b.date)
   if (aParsed < bParsed) {
     return -1
   }
@@ -13,40 +12,6 @@ export function compareDates(a, b) {
     return 1
   }
   return 0
-}
-
-export function createPostsList(items, dir) {
-  const contentDir = dir + '/content'
-  if (fs.existsSync(contentDir)) {
-    rimraf.sync(contentDir) // Delete all previous posts endpoints
-  }
-  fs.mkdirSync(contentDir, { recursive: true })
-  items.sort((a, b) => {
-    return Date(a.date) < Date(b.date)
-  })
-  const posts = []
-  for (const item of items) {
-    const postMeta = {}
-    postMeta.tags = item.tags
-    postMeta.category = item.category
-    postMeta.slug = item.slug
-    postMeta.date = item.date
-    postMeta.title = item.title
-    posts.push(postMeta)
-  }
-  for (const post of items) {
-    fs.writeFile(
-      `${contentDir}/${post.slug}.json`,
-      JSON.stringify(post),
-      () => {
-        return true
-      }
-    )
-  }
-  fs.writeFile(`${dir}/posts-list.json`, JSON.stringify(posts), () => {
-    return true
-  })
-  return posts
 }
 
 export function createAll(fromDir, toFile, apiDir) {
@@ -77,7 +42,6 @@ export function createAll(fromDir, toFile, apiDir) {
           index.push(parsed)
 
           if (index.length === files.length) {
-            console.log(index)
             const writeStream = fs.createWriteStream(toFile, 'UTF-8')
             let sorted = index.sort(compareDates).reverse()
             sorted = flattenResource(sorted)
@@ -88,4 +52,57 @@ export function createAll(fromDir, toFile, apiDir) {
       })
     })
   })
+}
+
+export async function loadFilesContent(dir) {
+  const contents = []
+  const files = fs.readdirSync(dir)
+
+  for await (const file of files) {
+    const {content, slug} = await readFile(file, dir)
+    const post = parseFile(content, slug)
+    contents.push(post)
+  }
+
+  return contents
+}
+
+export async function writeApiFiles(contents, dir) {
+  for (const content of contents) {
+    writeToFile(content, dir)
+  }
+}
+
+export async function writeToFile(post, dir) {
+  const writeStream = fs.createWriteStream(dir + "content/" + post.slug + ".json", 'UTF-8')
+  writeStream.write(JSON.stringify(post))
+}
+
+export async function readFile(file, dir) {
+  let content
+  const readStream = fs.createReadStream(dir + file, 'UTF-8')
+  
+  for await (const data of readStream) {
+    content = data
+  }
+
+  const slug = file.replace(/.md$/, '')
+  
+  return { content , slug }
+}
+
+export function parseFile(content, slug) {
+  const parsed = matter(content)
+  if (!parsed.content) {
+    delete parsed.content
+  }
+  if (!parsed.excerpt) {
+    delete parsed.excerpt
+  }
+  if (!parsed.isEmpty) {
+    delete parsed.isEmpty
+  }
+  delete parsed.buffer
+  parsed.slug = slug
+  return flattenResource(parsed)
 }

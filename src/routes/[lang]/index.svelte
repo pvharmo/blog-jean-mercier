@@ -2,18 +2,17 @@
   export async function preload({ params: {lang} }) {
     await fetchCategories(this, lang);
     await fetchTags(this, lang);
-    await fetchPostsList(this, lang);
   }
 </script>
 
 <script>
-  import { onDestroy, onMount } from "svelte";
-  import { filteredPosts as postsStore } from "../../stores";
+  import { onMount } from "svelte";
+  import { posts } from "../../stores";
   import PostsGrid from "../../components/PostsGrid.svelte";
   import t from "../../locales/language";
   import { stores } from "@sapper/app";
   import { getLang } from "../../utils";
-  import { fetchCategories, fetchPostsList, fetchTags } from "../../actions";
+  import { fetchCategories, fetchTags } from "../../actions";
 
   const { page } = stores();
 
@@ -30,24 +29,6 @@
       });
     }
   });
-
-  let posts = [];
-  function filterPosts(posts) {
-    const filteredPosts = posts.filter((x) => {
-      return !(
-        x.category.includes("Bullet comments") ||
-        x.category.includes("Revisiting classics") ||
-        x.category.includes("More on hermeneutics")
-      );
-    });
-    return filteredPosts;
-  }
-
-  const unsubscribe = postsStore.subscribe((value) => {
-    posts = filterPosts(value);
-  });
-
-  onDestroy(unsubscribe);
 </script>
 
 <svelte:head>
@@ -56,5 +37,5 @@
 </svelte:head>
 
 <div id="home-page" class="page-wrapper home-page">
-  <PostsGrid {posts} />
+  <PostsGrid posts={$posts} lang={lang} />
 </div>

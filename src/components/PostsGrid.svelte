@@ -1,9 +1,20 @@
 <script>
-    import { selectedRegion, selectedGenre } from "../stores.js";
+    import { selectedRegion, selectedGenre, nextPage } from "../stores.js";
     import PresentationalGrid from "./PresentationalGrid.svelte";
     import ArticlePreview from "./ArticlePreview.svelte";
+    import { fetchNextPage } from "../actions2"
+    import { onMount } from "svelte";
 
     export let posts = [];
+    export let lang = ""
+
+    let fetchNext = (entries) => {
+        entries.forEach(async (element) => {
+            if (element.isIntersecting) {
+                fetchNextPage(lang, window, $nextPage)
+            }
+        });
+    }
 
     function filterPosts(posts) {
         return posts.filter((x) => {
@@ -26,8 +37,14 @@
         });
     }
 
-    // $: filteredPosts = filterPosts(posts);
-    $: filteredPosts = posts;
+    onMount(() => {
+        let observer = new IntersectionObserver(fetchNext, {threshold: 0.1})
+        let articleHTML = document.getElementById("bottom-page");
+        observer.observe(articleHTML);
+    });
+
+    $: filteredPosts = filterPosts(posts);
+    // $: filteredPosts = posts;
 </script>
 
 <div>
@@ -49,4 +66,5 @@
             <ArticlePreview post={item} />
         </PresentationalGrid>
     {/if}
+    <div id="bottom-page"></div>
 </div>

@@ -1,11 +1,25 @@
 /* eslint-disable no-console */
-import { createAll } from './helper'
-const rootDir = `${__dirname}/../../..`
-const generateCategoryApi = (lang) => {
-  const contentDir = `${rootDir}/content/categories/${lang}`
-  const apiDir = `${rootDir}/static/api/${lang}`
-  const allFile = `${apiDir}/categories.json`
+import { loadFilesContent } from './helper'
+import fs from 'fs'
 
-  createAll(contentDir, allFile, apiDir)
+const rootDir = `${__dirname}/../../..`
+const generateCategoryApi = async () => {
+  const contentDir = `${rootDir}/content/categories/`
+  const apiDir = `${rootDir}/static/api/`
+
+  try {
+    let categoriesEn = await loadFilesContent(contentDir + "en/");
+    let categoriesFr = await loadFilesContent(contentDir + "fr/");
+    
+    writeCategories(categoriesEn, apiDir + "en/")
+    writeCategories(categoriesFr, apiDir + "fr/")
+  } catch (e) {
+    console.log(e)
+  }
 }
 export default generateCategoryApi
+
+function writeCategories(tags, dir) {
+  const writeStream = fs.createWriteStream(dir + "categories.json", 'UTF-8')
+  writeStream.write(JSON.stringify(tags))
+}

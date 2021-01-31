@@ -16,7 +16,7 @@
   } from "../../../stores";
   import { goto } from "@sapper/app";
 
-  import { fetchCategories, fetchTags } from "../../../actions";
+  import { fetchCategories, fetchTags, fetchArticleContent } from "../../../actions";
 
   import Youtube from "../../../components/Youtube.svelte";
   import Chip from "../../../components/Chip.svelte";

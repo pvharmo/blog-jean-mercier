@@ -13,22 +13,22 @@
 </script>
 
 <script>
-  import { onDestroy } from "svelte";
+  // import { onDestroy } from "svelte";
   import { stores } from "@sapper/app";
 
-  import { filteredPosts as postsStore, categories } from "../../../stores";
+  import { posts, categories } from "../../../stores";
   import { fetchCategories, fetchTags } from "../../../actions";
 
   import PostsGrid from "../../../components/PostsGrid.svelte";
 
   const { page } = stores();
 
-  let posts = [];
-
   const category = $categories.find((x) => {
     return x.slug === $page.params.slug;
   });
 
+  $: filteredPosts = filterPosts($posts);
+  
   let filterPosts = (posts) => {
     const filteredPosts = posts.filter((x) => {
       return x.category.includes(category.name);
@@ -36,11 +36,11 @@
     return filteredPosts;
   };
 
-  const unsubscribe = postsStore.subscribe((value) => {
-    posts = filterPosts(value);
-  });
+  // const unsubscribe = posts.subscribe((value) => {
+  //   filteredPosts = filterPosts(value);
+  // });
 
-  onDestroy(unsubscribe);
+  // onDestroy(unsubscribe);
 </script>
 
 <svelte:head>
@@ -49,5 +49,5 @@
 
 <div id="posts-by-category-page" class="page-wrapper home-page">
   <h1 class="title" style="text-align: center">{category.name}</h1>
-  <PostsGrid {posts} />
+  <PostsGrid {filteredPosts} />
 </div>
