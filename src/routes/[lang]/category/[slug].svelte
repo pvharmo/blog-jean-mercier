@@ -13,34 +13,30 @@
 </script>
 
 <script>
-  // import { onDestroy } from "svelte";
   import { stores } from "@sapper/app";
 
   import { posts, categories } from "../../../stores";
   import { fetchCategories, fetchTags } from "../../../actions";
+  import { getLang } from "../../../utils";
 
   import PostsGrid from "../../../components/PostsGrid.svelte";
 
   const { page } = stores();
 
-  const category = $categories.find((x) => {
+  $: category = $categories.find((x) => {
     return x.slug === $page.params.slug;
   });
 
   $: filteredPosts = filterPosts($posts);
   
-  let filterPosts = (posts) => {
+  function filterPosts(posts) {
     const filteredPosts = posts.filter((x) => {
       return x.category.includes(category.name);
     });
     return filteredPosts;
   };
 
-  // const unsubscribe = posts.subscribe((value) => {
-  //   filteredPosts = filterPosts(value);
-  // });
-
-  // onDestroy(unsubscribe);
+  $: lang = getLang($page.path);
 </script>
 
 <svelte:head>
@@ -49,5 +45,5 @@
 
 <div id="posts-by-category-page" class="page-wrapper home-page">
   <h1 class="title" style="text-align: center">{category.name}</h1>
-  <PostsGrid {filteredPosts} />
+  <PostsGrid posts={filteredPosts} {lang} />
 </div>

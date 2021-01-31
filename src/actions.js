@@ -1,6 +1,4 @@
-import { tags, categories, posts } from "./stores"
-
-import { bulletComments, moreOnHermeneutics, posts, revisitingClassics, nextPage } from "./stores"
+import { bulletComments, moreOnHermeneutics, posts, revisitingClassics, nextPage, tags, categories } from "./stores"
 
 export async function fetchPost(slug, lang, context) {
     let post;

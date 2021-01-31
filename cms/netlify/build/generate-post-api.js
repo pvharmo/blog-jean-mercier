@@ -51,6 +51,11 @@ async function writePosts(posts, dir) {
     }
     writeToFile(post, dir)
   }
+  
+  const writeStream = fs.createWriteStream(`${rootDir}/static/api/page-${nbPage}.json`, 'UTF-8')
+  writeStream.write(JSON.stringify(pages))
+  nbPage++
+  pages = []
 }
 
 function sortPosts(posts) {

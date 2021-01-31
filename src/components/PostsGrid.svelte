@@ -2,10 +2,10 @@
     import { selectedRegion, selectedGenre, nextPage } from "../stores.js";
     import PresentationalGrid from "./PresentationalGrid.svelte";
     import ArticlePreview from "./ArticlePreview.svelte";
-    import { fetchNextPage } from "../actions2"
+    import { fetchNextPage } from "../actions"
     import { onMount } from "svelte";
 
-    export let posts = [];
+    export let posts;
     export let lang = ""
 
     let fetchNext = (entries) => {
@@ -17,6 +17,7 @@
     }
 
     function filterPosts(posts) {
+        console.log("test")
         return posts.filter((x) => {
             let valid = true;
             if (x.tags) {
@@ -44,7 +45,6 @@
     });
 
     $: filteredPosts = filterPosts(posts);
-    // $: filteredPosts = posts;
 </script>
 
 <div>
