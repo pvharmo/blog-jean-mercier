@@ -10,6 +10,7 @@
   import Faq_en from "../../locales/en/Faq.svelte";
   import { stores } from "@sapper/app";
   import { getLang } from "../../utils";
+  import { fetchCategories, fetchTags } from "../../actions";
 
   const { page } = stores();
 
