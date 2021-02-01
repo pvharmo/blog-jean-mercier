@@ -17,7 +17,6 @@
     }
 
     function filterPosts(posts) {
-        console.log("test")
         return posts.filter((x) => {
             let valid = true;
             if (x.tags) {

@@ -1,7 +1,5 @@
 <script context="module">
   export async function preload({ params : { slug, lang } }) {
-    await fetchCategories(this, lang);
-    await fetchTags(this, lang);
     const post = await fetchArticleContent(this, slug, lang);
     return { post };
   }
@@ -15,6 +13,8 @@
     categories,
   } from "../../../stores";
   import { goto } from "@sapper/app";
+  import { stores } from "@sapper/app";
+  import { getLang } from "../../../utils";
 
   import { fetchCategories, fetchTags, fetchArticleContent } from "../../../actions";
 
@@ -22,6 +22,16 @@
   import Chip from "../../../components/Chip.svelte";
   import Markdown from "../../../components/Markdown.svelte";
   import Comments from "../../../components/Disqus.svelte";
+  import { onMount } from "svelte";
+
+  const { page } = stores();
+
+  $: lang = getLang($page.path);
+
+  onMount(() => {
+    fetchCategories(window, lang);
+    fetchTags(window, lang);
+  })
 
   export let post;
 
@@ -78,7 +88,7 @@
 </svelte:head>
 
 <div id="post-page" class="page-wrapper post-page">
-  {#if post && post.loaded}
+  {#if post}
     <div class="post-wrapper content">
       <h1>{post.title}</h1>
       <p>{getFormattedDate(post.date)}</p>
