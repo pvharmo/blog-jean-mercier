@@ -74,17 +74,11 @@ export async function writeApiFiles(contents, dir) {
 }
 
 export async function writeToFile(post, dir) {
-  const writeStream = fs.createWriteStream(dir + "content/" + post.slug + ".json", 'UTF-8')
-  writeStream.write(JSON.stringify(post))
+  fs.writeFileSync(dir + "content/" + post.slug + ".json", JSON.stringify(post))
 }
 
 export async function readFile(file, dir) {
-  let content
-  const readStream = fs.createReadStream(dir + file, 'UTF-8')
-  
-  for await (const data of readStream) {
-    content = data
-  }
+  const content = fs.readFileSync(dir + file, 'UTF-8')
 
   const slug = file.replace(/.md$/, '')
   
