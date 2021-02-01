@@ -20,19 +20,19 @@
   <div class="navbar-menu is-active">
     <ul class="navbar-end navbar-center">
       <li class="navbar-item">
-        <a href="/">{t(lang).menu.HOME}</a>
+        <a href="/{lang}/">{t(lang).menu.HOME}</a>
       </li>
       <li class="navbar-item">
-        <a href="/about">{t(lang).menu["ABOUT US"]}</a>
+        <a href="/{lang}/about">{t(lang).menu["ABOUT US"]}</a>
       </li>
       <li class="navbar-item">
-        <a href="/hermeneutics">{t(lang).menu.HERMENEUTICS}</a>
+        <a href="/{lang}/hermeneutics">{t(lang).menu.HERMENEUTICS}</a>
       </li>
       <li class="navbar-item">
-        <a href="/faq">{t(lang).menu.FAQ}</a>
+        <a href="/{lang}/faq">{t(lang).menu.FAQ}</a>
       </li>
       <li class="navbar-item">
-        <a href="/contact">{t(lang).menu.CONTACT}</a>
+        <a href="/{lang}/contact">{t(lang).menu.CONTACT}</a>
       </li>
       <li class="navbar-item">
         {#if lang === "fr"}
