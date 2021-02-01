@@ -1,4 +1,5 @@
 ---
+id: Revisiting classics
 name: Revisiting classics
 description: >-
   Although our main interest on this site are contemporary films, there were of
