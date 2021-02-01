@@ -16,21 +16,21 @@
         });
     }
 
-    function filterPosts(posts) {
+    function filterPosts(posts, selectedRegion, selectedGenre) {
         return posts.filter((x) => {
             let valid = true;
             if (x.tags) {
-                if ($selectedRegion) {
-                    if (!x.tags.includes($selectedRegion)) {
+                if (selectedRegion) {
+                    if (!x.tags.includes(selectedRegion)) {
                         valid = false;
                     }
                 }
-                if ($selectedGenre) {
-                    if (!x.tags.includes($selectedGenre)) {
+                if (selectedGenre) {
+                    if (!x.tags.includes(selectedGenre)) {
                         valid = false;
                     }
                 }
-            } else if ($selectedRegion || $selectedGenre) {
+            } else if (selectedRegion || selectedGenre) {
                 valid = false;
             }
             return valid;
@@ -43,7 +43,7 @@
         observer.observe(articleHTML);
     });
 
-    $: filteredPosts = filterPosts(posts);
+    $: filteredPosts = filterPosts(posts, $selectedRegion, $selectedGenre);
 </script>
 
 <div>
