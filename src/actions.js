@@ -1,6 +1,9 @@
-import { bulletComments, moreOnHermeneutics, posts, revisitingClassics, nextPage, tags, categories } from "./stores"
+import { bulletComments, moreOnHermeneutics, posts, revisitingClassics, nextPage, tags, categories, loadingPosts, allPostsLoaded } from "./stores"
 
 export async function fetchPost(slug, lang, context) {
+    loadingPosts.update(val => {
+        return val++
+    })
     let post;
     try {
         const postResponse = await context.fetch(`/api/${lang}/content/${slug}.json`);
@@ -24,6 +27,9 @@ export async function fetchPost(slug, lang, context) {
             post.excerpt = "";
         }
     }
+    loadingPosts.update(val => {
+        return val--
+    })
     return post;
 }
 
@@ -53,13 +59,16 @@ export async function storePost(post) {
 
 export async function fetchNextPage(lang, context, pageToFetch) {
     const pageSlugsResponse = await context.fetch(`/api/page-${pageToFetch}.json`);
-    console.log(pageSlugsResponse)
-    const pageSlugs = await pageSlugsResponse.json();
-    nextPage.set(pageToFetch + 1)
-
-    for (const slug of pageSlugs) {
-        const post = await fetchPost(slug, lang, context)
-        storePost(post)
+    if (pageSlugsResponse.status === 404) {
+        allPostsLoaded.set(true)
+    } else {
+        const pageSlugs = await pageSlugsResponse.json();
+        nextPage.set(pageToFetch + 1)
+    
+        for (const slug of pageSlugs) {
+            const post = await fetchPost(slug, lang, context)
+            storePost(post)
+        }
     }
 }
 

@@ -13,3 +13,9 @@ export const nextPage = writable(0)
 export const bulletComments = writable([])
 export const revisitingClassics = writable([])
 export const moreOnHermeneutics = writable([])
+
+export const loadingPosts = writable(0)
+
+export const allPostsLoaded = writable(false)
+
+export const nbPostsLoaded = writable(0)

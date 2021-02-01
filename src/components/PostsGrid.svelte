@@ -1,5 +1,5 @@
 <script>
-    import { selectedRegion, selectedGenre, nextPage } from "../stores.js";
+    import { selectedRegion, selectedGenre, nextPage, loadingPosts, allPostsLoaded, nbPostsLoaded } from "../stores.js";
     import PresentationalGrid from "./PresentationalGrid.svelte";
     import ArticlePreview from "./ArticlePreview.svelte";
     import { fetchNextPage } from "../actions"
@@ -8,16 +8,22 @@
     export let posts;
     export let lang = ""
 
+    function isVisible(e) {
+        return !!( e.offsetWidth || e.offsetHeight || e.getClientRects().length );
+    }
+
     let fetchNext = (entries) => {
         entries.forEach(async (element) => {
-            if (element.isIntersecting) {
-                fetchNextPage(lang, window, $nextPage)
+            if (element.isIntersecting && !$allPostsLoaded) {
+                while (isVisible(element.target) && !$allPostsLoaded) {
+                    await fetchNextPage(lang, window, $nextPage)
+                }
             }
         });
     }
 
-    function filterPosts(posts, selectedRegion, selectedGenre) {
-        return posts.filter((x) => {
+    let filterPosts = (posts, selectedRegion, selectedGenre) => {
+        let filteredByTags = posts.filter((x) => {
             let valid = true;
             if (x.tags) {
                 if (selectedRegion) {
@@ -35,10 +41,18 @@
             }
             return valid;
         });
+        // console.log(filteredByTags.length)
+        // console.log($nbPostsLoaded)
+        // if (filteredByTags.length <= nbPostsLoaded && !$allPostsLoaded && process.browser) {
+        //     fetchNextPage(lang, window, $nextPage)
+        // } else {
+        //     nbPostsLoaded.set(filteredByTags.length)
+        // }
+        return filteredByTags
     }
 
     onMount(() => {
-        let observer = new IntersectionObserver(fetchNext, {threshold: 0.1})
+        let observer = new IntersectionObserver(fetchNext, {threshold: 0})
         let articleHTML = document.getElementById("bottom-page");
         observer.observe(articleHTML);
     });
@@ -58,12 +72,15 @@
             {/if}
         </div>
     {/if}
-    {#if !posts.length}
+    {#if !posts.length && !$loadingPosts}
         <div>No post available</div>
     {:else}
         <PresentationalGrid items={filteredPosts} let:item>
             <ArticlePreview post={item} />
         </PresentationalGrid>
+        {#if !!$loadingPosts}
+            Loading posts...
+        {/if}
     {/if}
     <div id="bottom-page"></div>
 </div>
