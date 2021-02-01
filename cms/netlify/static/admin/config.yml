@@ -70,6 +70,7 @@ collections:
     identifier_field: name
     i18n: true
     fields:
+      - { label: 'Id', name: 'id', widget: 'string', required: true }
       - { label: 'Name', name: 'name', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
       - {
@@ -95,6 +96,7 @@ collections:
     identifier_field: name,
     i18n: true
     fields:
+      - { label: 'Id', name: 'id', widget: 'string', required: true }
       - { label: 'Name', name: 'name', widget: 'string', i18n: true }
       - {
           label: 'Type',
