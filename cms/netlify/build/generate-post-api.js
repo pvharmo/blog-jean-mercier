@@ -4,9 +4,8 @@ import fs from 'fs'
 import { loadFilesContent, writeToFile, compareDates } from "./helper"
 
 const rootDir = `${__dirname}/../../..`
-const generatePostApi = async () => {
+const generatePostApi = async (apiDir) => {
   const contentDir = `${rootDir}/content/posts`
-  const apiDir = `${rootDir}/static/api`
   
   let postsEn = await loadFilesContent(contentDir + "/en/");
   let postsFr = await loadFilesContent(contentDir + "/fr/");
