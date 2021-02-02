@@ -15,9 +15,11 @@
     let fetchNext = (entries) => {
         entries.forEach(async (element) => {
             if (element.isIntersecting && !$allPostsLoaded) {
+                loadingPosts.set(true)
                 while (isVisible(element.target) && !$allPostsLoaded) {
                     await fetchNextPage(lang, window, $nextPage)
                 }
+                loadingPosts.set(false)
             }
         });
     }
@@ -41,23 +43,16 @@
             }
             return valid;
         });
-        // console.log(filteredByTags.length)
-        // console.log($nbPostsLoaded)
-        // if (filteredByTags.length <= nbPostsLoaded && !$allPostsLoaded && process.browser) {
-        //     fetchNextPage(lang, window, $nextPage)
-        // } else {
-        //     nbPostsLoaded.set(filteredByTags.length)
-        // }
         return filteredByTags
     }
 
+    $: filteredPosts = filterPosts(posts, $selectedRegion, $selectedGenre);
+    
     onMount(() => {
         let observer = new IntersectionObserver(fetchNext, {threshold: 0})
         let articleHTML = document.getElementById("bottom-page");
         observer.observe(articleHTML);
     });
-
-    $: filteredPosts = filterPosts(posts, $selectedRegion, $selectedGenre);
 </script>
 
 <div>
@@ -72,14 +67,15 @@
             {/if}
         </div>
     {/if}
-    {#if !posts.length && !$loadingPosts}
+    {#if !filteredPosts.length && !$loadingPosts}
         <div>No post available</div>
     {:else}
-        <PresentationalGrid items={filteredPosts} let:item>
-            <ArticlePreview post={item} />
-        </PresentationalGrid>
-        {#if !!$loadingPosts}
+        {#if !!$loadingPosts && !filteredPosts.length}
             Loading posts...
+        {:else}
+            <PresentationalGrid items={filteredPosts} let:item>
+                <ArticlePreview post={item} />
+            </PresentationalGrid>
         {/if}
     {/if}
     <div id="bottom-page"></div>

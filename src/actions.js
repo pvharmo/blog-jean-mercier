@@ -1,9 +1,6 @@
 import { bulletComments, moreOnHermeneutics, posts, revisitingClassics, nextPage, tags, categories, loadingPosts, allPostsLoaded } from "./stores"
 
 export async function fetchPost(slug, lang, context) {
-    loadingPosts.update(val => {
-        return val++
-    })
     let post;
     try {
         const postResponse = await context.fetch(`/api/${lang}/content/${slug}.json`);
@@ -27,9 +24,6 @@ export async function fetchPost(slug, lang, context) {
             post.excerpt = "";
         }
     }
-    loadingPosts.update(val => {
-        return val--
-    })
     return post;
 }
 

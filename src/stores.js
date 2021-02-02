@@ -14,7 +14,7 @@ export const bulletComments = writable([])
 export const revisitingClassics = writable([])
 export const moreOnHermeneutics = writable([])
 
-export const loadingPosts = writable(0)
+export const loadingPosts = writable(false)
 
 export const allPostsLoaded = writable(false)
 
