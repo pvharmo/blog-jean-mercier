@@ -27,11 +27,11 @@
     return x.slug === $page.params.slug;
   });
 
-  $: filteredPosts = filterPosts($posts);
+  $: filteredPosts = filterPosts($posts, category);
   
-  function filterPosts(posts) {
+  function filterPosts(posts, cat) {
     const filteredPosts = posts.filter((x) => {
-      return x.category.includes(category.name);
+      return x.category.includes(cat.id);
     });
     return filteredPosts;
   };

@@ -81,6 +81,26 @@
       months[dateObj.getMonth()]
     } ${dateObj.getDate()}, ${dateObj.getFullYear()}`;
   };
+
+  let getCategory = (categoryId, catsObjects) => {
+    let cat = catsObjects.find(x => {
+      return x.id === categoryId
+    })
+    if (cat) {
+      return cat.name
+    }
+    return ""
+  }
+
+  let getTag = (tagId, tagsObjects) => {
+    let tag = tagsObjects.find(x => {
+      return x.id === tagId
+    })
+    if(tag) {
+      return tag.name
+    }
+    return ""
+  }
 </script>
 
 <svelte:head>
@@ -99,7 +119,7 @@
         <span>Categories :</span>
         {#each post.category as category}
           <Chip style="margin: 5px;" on:click={() => gotoCat(category)}>
-            {category}
+            {getCategory(category, $categories)}
           </Chip>
         {/each}
       </div>
@@ -107,7 +127,7 @@
         <span>Tags :</span>
         {#each post.tags as tag}
           <Chip style="margin: 5px;" on:click={() => selectTag(tag)}>
-            {tag}
+            {getTag(tag, $tags)}
           </Chip>
         {/each}
       </div>

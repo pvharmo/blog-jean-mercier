@@ -1,5 +1,5 @@
 <script>
-  import { selectedRegion, selectedGenre, tags } from "../stores";
+  import { selectedRegion, selectedGenre, tags, categories } from "../stores";
   import Youtube from "./Youtube.svelte";
   import Chip from "./Chip.svelte";
   import { stores } from "@sapper/app";
@@ -18,7 +18,7 @@
 
   let selectTag = (tag) => {
     const tagObject = $tags.find((x) => {
-      return tag === x.name;
+      return tag === x.id;
     });
 
     switch (tagObject.type) {
@@ -47,6 +47,26 @@
   if (!post.excerpt) {
     post.excerpt = "";
   }
+
+  let getCategory = (categoryId) => {
+    let cat = $categories.find(x => {
+      return x.id === categoryId
+    })
+    if (cat) {
+      return cat.name
+    }
+    return ""
+  }
+
+  let getTag = (tagId) => {
+    let tag = $tags.find(x => {
+      return x.id === tagId
+    })
+    if(tag) {
+      return tag.name
+    }
+    return ""
+  }
 </script>
 
 <div class="content" id="article-{post.slug}">
@@ -60,7 +80,7 @@
   <div class="chips-group">
     <span>Categories :</span>
     {#each post.category as category}
-      <Chip>{category}</Chip>
+      <Chip>{getCategory(category)}</Chip>
     {/each}
   </div>
   <div class="chips-group">
@@ -71,7 +91,7 @@
         style="margin: 5px;"
         on:click={() => selectTag(tag)}
       >
-        {tag}
+        {getTag(tag)}
       </Chip>
     {/each}
   </div>

@@ -114,16 +114,16 @@
       <h3 class="subtitle">{t(lang).sidebar.Region}</h3>
       {#each regions as tag}
         <Chip
-          active={isSelectedRegion(tag.name)}
-          on:click={() => selectRegion(tag.name)}
+          active={isSelectedRegion(tag.id)}
+          on:click={() => selectRegion(tag.id)}
         >{tag.name}</Chip
         >
       {/each}
       <h3 class="subtitle">Genre</h3>
       {#each genres as tag}
         <Chip
-          active={isSelectedGenre(tag.name)}
-          on:click={() => selectGenre(tag.name)}
+          active={isSelectedGenre(tag.id)}
+          on:click={() => selectGenre(tag.id)}
         >{tag.name}</Chip
         >
       {/each}

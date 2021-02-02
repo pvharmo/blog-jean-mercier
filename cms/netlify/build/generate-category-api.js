@@ -10,6 +10,8 @@ const generateCategoryApi = async () => {
   try {
     let categoriesEn = await loadFilesContent(contentDir + "en/");
     let categoriesFr = await loadFilesContent(contentDir + "fr/");
+
+    categoriesFr = await fillMissingData(categoriesEn, categoriesFr);
     
     writeCategories(categoriesEn, apiDir + "en/")
     writeCategories(categoriesFr, apiDir + "fr/")
@@ -22,4 +24,17 @@ export default generateCategoryApi
 function writeCategories(tags, dir) {
   const writeStream = fs.createWriteStream(dir + "categories.json", 'UTF-8')
   writeStream.write(JSON.stringify(tags))
+}
+
+async function fillMissingData(catsEn, catsFr) {
+  for (let i = 0; i < catsEn.length; i++) {
+    let catIndex = catsFr.findIndex(x => x.slug === catsEn[i].slug)
+    if (catIndex === -1) {
+      catsFr[catIndex] = catsEn[i]
+    } else {
+      catsFr[catIndex].id = catsEn[i].id
+    }
+  }
+  
+  return catsFr
 }
