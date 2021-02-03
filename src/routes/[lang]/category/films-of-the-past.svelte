@@ -16,9 +16,7 @@
     import PostsGrid from "../../../components/PostsGrid.svelte";
   
     const { page } = stores();
-  
-    $: filteredPosts = $revisitingClassics
-  
+    
     $: lang = getLang($page.path);
   </script>
   
@@ -28,5 +26,5 @@
   
   <div id="posts-by-category-page" class="page-wrapper home-page">
     <h1 class="title" style="text-align: center">{t(lang).sidebar["Revisiting classics"]}</h1>
-    <PostsGrid posts={filteredPosts} {lang} />
+    <PostsGrid posts={$revisitingClassics} {lang} />
   </div>

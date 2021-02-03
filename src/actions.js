@@ -36,7 +36,7 @@ export async function storePost(post) {
     } else if (post.category.includes("Revisiting classics")) {
         revisitingClassics.update(val => {
             val.push(post)
-            return post
+            return val
         })
     } else if (post.category.includes("More on hermeneutics")) {
         moreOnHermeneutics.update(val => {
