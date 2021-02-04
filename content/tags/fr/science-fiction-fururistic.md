@@ -1,4 +1,4 @@
 ---
-name: Science fiction - Futuriste
+name: Science fiction / Futuriste
 type: Genre
 ---
