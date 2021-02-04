@@ -4,6 +4,7 @@
     import ArticlePreview from "./ArticlePreview.svelte";
     import { fetchNextPage } from "../actions"
     import { onMount } from "svelte";
+    import t from "../locales/language"
 
     export let posts;
     export let lang = ""
@@ -57,10 +58,10 @@
 
 <div>
     {#if $selectedGenre || $selectedRegion}
-        <p>Filtered by :</p>
+        <p>{t(lang)["Filtered by"]} :</p>
         <div class="filter-infos">
             {#if $selectedRegion}
-                <p>Region: {$selectedRegion}</p>
+                <p>{t(lang).sidebar.Region}: {$selectedRegion}</p>
             {/if}
             {#if $selectedGenre}
                 <p>Genre: {$selectedGenre}</p>
@@ -68,10 +69,10 @@
         </div>
     {/if}
     {#if !filteredPosts.length && !$loadingPosts}
-        <div>No post available</div>
+        <div>{t(lang)["No post available"]}</div>
     {:else}
         {#if !!$loadingPosts && !filteredPosts.length}
-            Loading posts...
+            {t(lang)["Loading posts..."]}
         {:else}
             <PresentationalGrid items={filteredPosts} let:item>
                 <ArticlePreview post={item} />

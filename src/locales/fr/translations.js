@@ -20,5 +20,8 @@ export default {
         FAQ: "QUESTIONS-RÉPONSES",
         CONTACT: "NOUS CONTACTER"
     },
-    readMore: "Pour en savoir plus"
+    readMore: "Pour en savoir plus",
+    "No post available": "Aucun article ne correspond à votre recherche",
+    "Filtered by": "Filtré par",
+    "Loading posts...": "Chargement des articles..."
 }

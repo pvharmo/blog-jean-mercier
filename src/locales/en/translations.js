@@ -20,5 +20,8 @@ export default {
         FAQ: "FAQ",
         CONTACT: "CONTACT"
     },
-    readMore: "Read more"
+    readMore: "Read more",
+    "No post available": "No post available",
+    "Filtered by": "Filtered by",
+    "Loading posts...": "Loading posts..."
 }
