@@ -66,3 +66,4 @@ Dans **Ash Is Purest White**, nous sommes témoins de cette tendance globale, bi
 
 Comme les écologistes le suggèrent : plus on s’attache à décrire le local, plus on découvre l’universel. C’est peut-être le cas ici.
 
+Traductions de l’anglais : Georges Mercier
