@@ -64,4 +64,8 @@ En commentant les difficultés qu’entretiennent certains pays à réaliser un 
 
 Mais une perspective plus large pourrait nous indiquer une cause plus grande encore : la difficulté de gérer nos interactions économiques et sociales de tous les jours. Dans certains contextes plus encore que dans d’autres. 
 
-    (1) Daniel Bertaux, « From the life-history approach to the transformation of sociological practice », Biography and Society, Sage, Beverly Hills, California, 1981, p. 29-46, p. 42
+Traductions de l’anglais : Georges Mercier
+
+```
+(1) Daniel Bertaux, « From the life-history approach to the transformation of sociological practice », Biography and Society, Sage, Beverly Hills, California, 1981, p. 29-46, p. 42
+```
