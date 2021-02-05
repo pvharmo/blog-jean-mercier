@@ -71,3 +71,5 @@ Dans le cas de l'expérience des afro-américains en Amérique, les films qui ab
 Toujours sur des films produits récemment qui traitent des inégalités, **The Favorite** (2018) et **Mary, Queen of Scots** (2018) poursuivent tous les deux dans la riche veine de la réévaluation du rôle des femmes dans la société, thème très présent ces dernières années. Un aspect plus récent de cette réévaluation, présent dans les deux films, est peut-être que la rivalité est moins exclusivement entre hommes et femmes qu’entre, parfois, entre femmes et femmes. Ce constat n'est peut-être pas bien accueilli par tous, mais il découle de l’interprétation de certains des films récents sur le sujet. Que cet élément soit un signe de progrès ou de recul n'est pas tout à fait clair.
 
 Avec cela, nous concluons notre entrée du 4 août 2020 dans cette section des Commentaires éclair.
+
+Traductions de l’anglais : Georges Mercier
