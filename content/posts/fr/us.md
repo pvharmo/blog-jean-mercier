@@ -42,7 +42,7 @@ Les familles envahissant la ville sont-elles reliées, d’une certaine manière
 
 Dans nos capsules portant sur l’interprétation et la compréhension des films, nous avons soutenu que les opinions du créateur du film à propos de son propre film ne constituaient pas nécessairement un guide certain quant au message véhiculé par le film, puisque se trouve dans le processus de création un certain élément inconscient et puisque la création d’une véritable œuvre d’art échappe aux intentions de son créateur. Dans ce cas précis, toutefois, il serait intéressant de connaître davantage les sentiments de Peel par rapport à son film.
 
-# L’ÉLÉHANT DERRIÈRE LE FILM
+# L’ÉLÉPHANT DERRIÈRE LE FILM
 
 Un film créé par un réalisateur noir reflète-t-il nécessairement une perspective noire ? Dans la même veine, un film créé par une femme reflète-t-il nécessairement une perspective féministe ? Après tout, concluons-nous qu’un film créé par un réalisateur blanc propose nécessairement l’histoire de l’Amérique mâle et blanche ? Pas nécessairement. D’un autre côté, les films réalisés par des noirs et des femmes aujourd’hui, constituant toujours l’exception à la règle, forment peut-être une catégorie spéciale, à ce moment de l’histoire, et peuvent se révéler particulièrement révélateurs d’une certaine perspective. Et ainsi, d’une certaine manière, **Mary, Queen of Scots, The Favorite** et **Second Career** reflètent nécessairement une perspective féministe et **Moonlight, If Beagle Street Could Speak** et **Get Out** reflètent nécessairement une perspective noire. Des mouvements tectoniques sont à l’œuvre sous nos pieds et nous les sentons tous, d’une manière ou d’une autre, mais certains sont mieux situés que d’autres pour les mettre en lumière.
 
