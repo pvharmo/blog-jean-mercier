@@ -12,7 +12,7 @@ excerpt: "Sans aucun doute, ce film représente exactement ce que le Movie Shrin
   musicien perdant l’ouïe, c’est, plus fondamentalement,  un film à propos de
   l’équilibre entre nos sens.  "
 ---
-Le film prend pour point de départ un duo de heavy metal en tournée dans des scènes de second rang aux États-Unis qui apprend éventuellement que le batteur a perdu son ouïe. Les dernières scènes du film se déroulent pourtant en Europe, dans un quartier assez confortable et élégant de Bruxelles. Très intriguant, en effet.
+Le film prend pour point de départ un duo de heavy metal en tournée sur des scènes de second rang aux États-Unis qui apprend éventuellement que le batteur a perdu son ouïe. Les dernières scènes du film se déroulent pourtant en Europe, dans un quartier assez confortable et élégant de Bruxelles. Très intriguant, en effet.
 
 **Sound of Metal**, drame musical américain, première réalisation de Darius Marder, produit en 2019, présenté au festival international du film de Toronto en septembre 2019 puis au festival américain du film en 2020, et sorti pour accès limité en novembre 2020. 
 
@@ -39,7 +39,6 @@ L'implant connaissant un relatif succès, Ruben décide de rendre visite à son 
 Réalisant que les choses ne seront plus jamais les mêmes, Ruben quitte les lieux en partant tôt le matin, avec ses sacs, et le film se termine lorsque Ruben, peu après avoir quitté la maison, regarde devant le jour qui se lève les scènes du  réveil de Bruxelles. Les activités matinales de celle-ci donnent toutes les apparences d'une ville idéale, située dans un environnement sophistiqué et riche.
 
 Entendant les cloches de l'église voisine, Ruben enlève son appareil auditif, s’étend  sur son banc de parc et profite du paysage, sourire aux lèvres. 
-
 
 # L’INTERPRÉTATION DU MOVIE SHRINK
 
@@ -73,4 +72,4 @@ Dans ce cas, la suggestion du film c’est que l'Europe est peut-être restée p
 
 La vieille Europe a gardé un sens de l'équilibre. C'est ce que suggère le film. Le nouveau doit s’insérer dans l'ancien, en Europe. L'Amérique, plus soumise aux oscillations de la nouveauté et manquant souvent de tradition pour tempérer celle-ci, peut parfois perdre l'équilibre et le bon sens collectif.
 
-C'est l'histoire que le film raconte. 
+C'est l'histoire que le film raconte.
