@@ -73,3 +73,5 @@ Dans ce cas, la suggestion du film c’est que l'Europe est peut-être restée p
 La vieille Europe a gardé un sens de l'équilibre. C'est ce que suggère le film. Le nouveau doit s’insérer dans l'ancien, en Europe. L'Amérique, plus soumise aux oscillations de la nouveauté et manquant souvent de tradition pour tempérer celle-ci, peut parfois perdre l'équilibre et le bon sens collectif.
 
 C'est l'histoire que le film raconte.
+
+Traductions de l’anglais : Georges Mercier
