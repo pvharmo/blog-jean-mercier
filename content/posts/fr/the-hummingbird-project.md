@@ -1,5 +1,5 @@
 ---
-title: THE HUMMINGBIRD PROJECT (Le projet Hummingbird)
+title: LE PROJET HUMMINGBIRD
 category:
   - National culture
   - Environment
@@ -45,7 +45,7 @@ La finale du film voit les deux cousins se joindre à une communauté religieuse
 
 Nous avons déjà mentionné le temps comme élément unifiant, comme l’éléphant derrière le film, pour le dire ainsi, et c’est un élément du film qui ne peut être évité.  Mais, alors que nous cherchons l’histoire plus large, nous sommes amenés à considérer notre conception du temps comme faisant partie d’autres éléments contemporains.
 
-Débutons par le monde de la finance. La théorie critique socio-économique contemporaine pose que le paradigme financier contemporain, avec ses calculs abstraits et désincarnés, avec ses excès et sa vue à court terme, aurait pris le contrôle de nous tous, de nos relations humaines, de nos pays, de nos gouvernements et de nos environnements naturels. Même les producteurs de biens et de services traditionnels de l’économie, ceux que l’on peut consommer concrètement, s’en plaignent et seraient pris ausi dans le tsunami de la finance, du moins selon ce point de vue.
+Débutons par le monde de la finance. La théorie critique socio-économique contemporaine pose que le paradigme financier contemporain, avec ses calculs abstraits et désincarnés, avec ses excès et sa vue à court terme, aurait pris le contrôle de nous tous, de nos relations humaines, de nos pays, de nos gouvernements et de nos environnements naturels. Même les producteurs de biens et de services traditionnels de l’économie, ceux que l’on peut consommer concrètement, s’en plaignent et seraient pris aussi dans le tsunami de la finance, du moins selon ce point de vue.
 
 La compression du temps nous amène à ne considérer les choses qu’en silo, une chose à la fois, ce qui cause un certain débalancement. Considérer l’ensemble d’une situation demanderait trop de temps.  Jesse est obsédé par son projet de sauver du temps pour réaliser des gains financiers. C’est une vision « tunnel » des choses, une tendance plus propre aux hommes qu’aux femmes, bien que les femmes puissent y participer, dans un monde d’hommes.
 
