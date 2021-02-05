@@ -55,3 +55,5 @@ Comme c’est souvent le cas, c’est à travers une perspective comparée que n
 Dans des films assez récents provenant du Moyen-Orient, comme par exemple des films tels que **Capernaum 2018** (**Capharnaüm** en français) ou **Le client** (2017)  il apparaît que certaines zones de la planète sont si occupées à survivre aux défis exigeants des interactions économiques quotidiennes que l’inquiétude à propos du sort de l’environnement peut être considérée comme un luxe.
 
 Mais pas en Islande.
+
+Traductions de l’anglais : Georges Mercier
