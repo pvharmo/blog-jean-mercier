@@ -104,6 +104,13 @@
             {t(lang).sidebar["More on hermeneutics"]}
           </a>
         </li>
+        {#if lang == "fr"}
+        <li>
+          <a href="/fr/films-quebecois">
+            Films québécois
+          </a>
+        </li>
+        {/if}
       </ul>
       <h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
       <ul class="categories-menu">
