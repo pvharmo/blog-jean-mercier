@@ -60,4 +60,6 @@ Le premier concerne le monde de la finance, et notamment celui de la finance int
 
 Le deuxième domaine d'institutionnalisation insuffisante concerne le Far West d'Internet et des médias sociaux. Évidemment, ce domaine d'activité réalise  beaucoup de bonnes actions , mais cause aussi beaucoup de dégâts. Il est mal réglementé, pratiquement pas du tout : il est à une phase primitive d'institutionnalisation, un peu comme la colonie de **First Cow**.
 
-Le Movie Shrink ne croit pas que le film comporte nécessairement ce message implicite, de façon claire. Mais, en parlant d’un certain passé, il nous renvoie au présent. 
+Le Movie Shrink ne croit pas que le film comporte nécessairement ce message implicite, de façon claire. Mais, en parlant d’un certain passé, il nous renvoie au présent.
+
+Traductions de l’anglais : Georges Mercier
