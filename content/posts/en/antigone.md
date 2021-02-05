@@ -1,5 +1,5 @@
 ---
-title: Antigone
+title: ANTIGONE
 category:
   - Sociology
 tags:

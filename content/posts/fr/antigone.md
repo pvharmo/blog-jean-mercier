@@ -1,5 +1,10 @@
 ---
-title: Antigone
+title: ANTIGONE
+category:
+  - Sociology
+tags:
+  - North America
+  - Drama
 date: 2021-02-05T20:20:58.842Z
 excerpt: Les défis et les tribulations d’une famille algérienne qui immigre à
   Montréal témoigne des difficultés de l’intégration dans une nouvelle société
