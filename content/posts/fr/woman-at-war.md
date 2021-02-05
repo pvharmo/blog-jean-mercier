@@ -15,9 +15,10 @@ excerpt: L’état de l’environnement est un sujet sérieux, et ce film interp
 **Woman at war**, Islande 2019, réalisé par Benedikt Erlingsson.
 
 # L’HISTOIRE
+
 **(ceci est une alerte aux divulgâcheurs : ne pas lire cette section si vous souhaitez connaître l’histoire uniquement lors du visionnement du film).**
 
-Dans l’Islande contemporaine, Halla, de métier cheffe d’un chorale locale, est également, et secrètement, une environnementaliste farouche, consacrant ses temps libres à l’assaut des pylônes électriques qui fournissent de l’énergie à une usine d’aluminium, elle-même reliée à une entreprise chinoise très impliquée dans le commerce global et la dégradation de l’environnement.
+Dans l’Islande contemporaine, Halla, de métier cheffe d’une chorale locale, est également, et secrètement, une environnementaliste farouche, consacrant ses temps libres à l’assaut des pylônes électriques qui fournissent de l’énergie à une usine d’aluminium, elle-même reliée à une entreprise chinoise très impliquée dans le commerce global et la dégradation de l’environnement.
 
 Le film suit ses secrètes, et parfois comiques, aventures écologiques de destruction d’infrastructures, à partir de leur élaboration,  jusqu’à leur réalisation. 
 
@@ -27,11 +28,11 @@ Ses activités écologistes illégales doivent dès lors être d’autant plus g
 
 Cependant, la police, comme on pouvait s’y attendre, progresse dans son enquête à propos des activités d’Halla. Le progrès de l’enquête est entièrement dû à de l’expertise technique, et non pas à des informations qui auraient été transmises par ses proches, bien qu’un grand nombre d’individus aurait pu dénoncer Halla. Son compagnon de chorale, impliqué, dans sa vie professionnelle, dans les plus hauts niveaux du gouvernement, ne dénonce pas ses activités illégales. Un fermier, dont les terres se situent à proximité des activités illégales de Halla, non seulement ne la dénonce pas, mais la protège même des patrouilles policières en lui fournissant un véhicule de fuite. 
 
-Plus tard dans le film, vers sa conclusion, après que Halla eut été identifiée et arrêtée, sa sœur jumelle, Asa, dont le projet de vie consistait à rejoindre un guru réputé en Inde pour réaliser une expérience spirituelle, accepte de truquer les autorités de la prison en changeant de place avec Halla, puisque la prison lui offrirait la solitude et les opportunités de réflexion qui auraient été possibles en Inde, permettant ainsi à Halla de  s’échapper et de rejoindre l’ Ukraine pour y chercher sa future fille d’adoption.
+Plus tard dans le film, vers sa conclusion, après que Halla eut été identifiée et arrêtée, sa sœur jumelle, Asa, dont le projet de vie consistait à rejoindre un guru réputé en Inde pour réaliser une expérience spirituelle, accepte de truquer les autorités de la prison en changeant de place avec Halla, puisque la prison lui offrirait la solitude et les opportunités de réflexion qui auraient été possibles en Inde, permettant ainsi à Halla de  s’échapper et de rejoindre l’Ukraine pour y chercher sa future fille d’adoption.
 
 # L’ANALYSE DU MOVIE SHRINK
 
-Au premier regard, ce film est une fable écologique, présentée toutefois avec un certain degré d’humour et de légèreté. Apparaissant fréquemment à l’écran se trouve un intriguant trio musical fournissant une bande sonore quelque peu comique au film. Plus tard, un autre group, cette fois-ci composé de danseurs traditionnels ukrainiens, apparaît quelque peu inopinément à l’écran. Ces apparitions dédramatisent la lutte écologique de l’héroïne. Ce faisant, la lutte écologique n’apparaît pas être si urgente ou pressante, puisque ces deux trios artistiques apparaissent et disparaissent à l’écran sans être invités, ce qui fournit une dimension comique à toute l’histoire.
+Au premier regard, ce film est une fable écologique, présentée toutefois avec un certain degré d’humour et de légèreté. Apparaissant fréquemment à l’écran se trouve un intriguant trio musical fournissant une bande sonore quelque peu comique au film. Plus tard, un autre groupe, cette fois-ci composé de danseurs traditionnels ukrainiens, apparaît quelque peu inopinément à l’écran. Ces apparitions dédramatisent la lutte écologique de l’héroïne. Ce faisant, la lutte écologique n’apparaît pas être si urgente ou pressante, puisque ces deux trios artistiques apparaissent et disparaissent à l’écran sans être invités, ce qui fournit une dimension comique à toute l’histoire.
 
 Cette dimension comique nous amène à conclure que nous devons peut-être aller par-delà la fable écologique si nous souhaitons saisir l’essence du film.
 
@@ -51,6 +52,6 @@ Une fois que notre maison est en ordre, comme apparemment en Islande, il est plu
 Afin de comprendre pleinement le film à l’étude ainsi que le processus qui engendre des préoccupations post-modernes, comme les préoccupations écologiques, il nous faut revenir aux théories de Maslow et Herzberg à propos de la hiérarchie des besoins. En prenant des êtres humains individuels pour exemples, la perspective de la hiérarchie des besoins stipule que c’est uniquement lorsque les besoins de base sont satisfaits (la sécurité, la nourriture, l’habillement et l’abri) que les besoins plus hauts (le besoin de réalisation personnelle ou d’accomplissement, par exemple) peuvent être considérés.
 Comme c’est souvent le cas, c’est à travers une perspective comparée que nous pouvons apprécier pleinement ce film et les dynamiques qui amènent des individus provenant d’un pays comme  l’Islande à s’intéresser particulièrement à la sauvegarde de l’environnement.
 
-Dans des films assez récents provenant du Moyen-Orient, comme par exemple des films tels que **Capernaum 2018; Capharnaüm** en français) ou **Le client** (2017)  il apparaît que certaines zones de la planète sont si occupées à survivre aux défis exigeants des interactions économiques quotidiennes que l’inquiétude à propos du sort de l’environnement peut être considérée comme un luxe.
+Dans des films assez récents provenant du Moyen-Orient, comme par exemple des films tels que **Capernaum 2018** (**Capharnaüm** en français) ou **Le client** (2017)  il apparaît que certaines zones de la planète sont si occupées à survivre aux défis exigeants des interactions économiques quotidiennes que l’inquiétude à propos du sort de l’environnement peut être considérée comme un luxe.
 
 Mais pas en Islande.
