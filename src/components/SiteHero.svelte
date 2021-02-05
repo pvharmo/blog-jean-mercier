@@ -39,6 +39,10 @@
     position: relative;
   }
 
+  .hero.is-medium .hero-body {
+    padding-top: 20px;
+  }
+
   .title {
     color: #666;
     font-weight: 300;
