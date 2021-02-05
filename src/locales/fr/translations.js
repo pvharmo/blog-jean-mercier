@@ -5,7 +5,7 @@ export default {
     about: "À propos",
     tagline: "Comprendre nos films, comprendre notre époque",
     sidebar: {
-        intro: "veut comprendre des films particulièrement exigeants, comme Aristote , en posant les mains sur le buste de Homère, essaie de comprendre les textes du poète, dans cette peinture de Rembrandt",
+        intro: "veut comprendre des films particulièrement exigeants, comme Aristote, en posant les mains sur le buste de Homère, essaie de comprendre les textes du poète, dans cette peinture de Rembrandt",
         Chronicles: "Chroniques",
         "Bullet comments": "Commentaires éclair",
         "Revisiting classics": "Des classiques revisités",

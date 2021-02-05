@@ -36,7 +36,7 @@
   tirer de ce film ?
 </p>
 <p>
-  rfois, nous souhaiterions partager ces interrogations et notre propre
+  Parfois, nous souhaiterions partager ces interrogations et notre propre
   compréhension du film avec celles des autres. Hélas, plus souvent
   qu’autrement, nos amis, notre famille ou nos collègues n’ont pas visionné le
   film en question, tandis qu’ils ont vu d’autres films que nous, de notre côté,
@@ -60,7 +60,7 @@
 </p>
 <p>
   Une fois qu’une interprétation a été offerte sur le site, les lecteurs peuvent
-  joindre la conversation sur <b>Le Forum du Movie Shrink</b>, afin d’y lire les
+  joindre la conversation sur <b>dans les commentaires de chaque article</b>, afin d’y lire les
   commentaires d’autres individus ayant vu le film en question et,
   éventuellement, et afin d’y participer en offrant leurs propres compréhensions
   et interprétations. Bien entendu, les spectateurs souhaitant découvrir le film
@@ -218,3 +218,4 @@
   porte pas ce site, revenons à son inspiration principale : la tradition et
   l’art de l’<a href="/herméneutique">herméneutique</a>.
 </p>
+<p>Traductions de l’anglais : Georges Mercier</p>

@@ -12,7 +12,7 @@
   although great care is taken in choosing our two films per month, our
   twenty-four films a year. We view several more films on which we choose not to
   comment on in detail. Some of them are briefly commented upon in our
-  <a href="/category/bullit-comments">Bullet comments</a>
+  <a href="/en/category/bullit-comments">Bullet comments</a>
   section of this site.
 </p>
 <p>
@@ -72,13 +72,13 @@
   “come up empty” with, that is to say in most cases of the films we look at
   before making a choice, the film can have meaning and be socially relevant,
   even profound, but the
-  <a href="/hermeneutics">hermeneutic</a> method will not yield more than what
+  <a href="/en/hermeneutics">hermeneutic</a> method will not yield more than what
   can be gathered from casual observations. In some cases, the film director is
   very conscious of what he wants to say, to the point that his film is advocacy
   for some cause, often political, as in the Costa-Gavras films of the 20th
   century, intent on revealing governmental corruption in South America and
   other parts of the world. The
-  <a href="/hermeneutics">hermeneutic</a> method, as we understand it, cannot add
+  <a href="/en/hermeneutics">hermeneutic</a> method, as we understand it, cannot add
   much in those cases, as with the documentary approach, where the opinion of the
   filmmaker is paramount and in a sense self-sufficient.
 </p>
@@ -94,7 +94,7 @@
 <p>
   However, not all interpretations are equal. There are some interpretations
   which are, in the words of
-  <a href="/hermeneutics">hermeneutics</a>, « more adequate to the object » or
+  <a href="/en/hermeneutics">hermeneutics</a>, « more adequate to the object » or
   “more sensitive to the object”. Some interpretations are more enlightening. We
   are not, as suggested earlier, in a scientific procedure, but that is not to
   conclude that everything is relative. There is the necessity to demonstrate
@@ -105,5 +105,5 @@
 
 <p>
   And now, let us turn to some specific films from the
-  <a href="/">home page</a>!
+  <a href="/en">home page</a>!
 </p>

@@ -13,12 +13,12 @@
   compte dans notre sélection. Nous visionnons plusieurs films à propos desquels
   nous choisissons éventuellement de ne pas commenter en détail. Certains de
   ceux-ci seront brièvement l’objet d’un commentaire dans notre section « <a
-    href="/categories/bullit-comments">Commentaires-éclair</a
+    href="/fr/categories/bullit-comments">Commentaires-éclair</a
   > ».
 </p>
 <p>
   Les films que nous interprétons dans notre rubrique principale sont choisis
-  parmi les films qui sont accessibles au Québec, sur le web, ou à dans les
+  parmi les films qui sont accessibles au Québec, sur le web, ou dans les
   festivals de films auxquels nous assistons. Nous ne prétendons pas que les
   films choisis sont les plus significatifs des films contemporains, mais ils en
   font certainement partie. Bien entendu, de nombreux films significatifs (et,
@@ -60,7 +60,7 @@
 </h3>
 <p>
   R. Bien que nous tentions d’être aussi explicites et systématiques que
-  possible, la méthode (<a href="/hermeneutics">herméneutique</a>) que nous
+  possible, la méthode <a href="/fr/hermeneutics">herméneutique</a> que nous
   suivons ici ne se laisse pas vérifier et valider par les procédures standards
   de la méthode scientifique. Dès le départ, il nous faut reconnaître que les
   films ne sont pas choisis de manière aléatoire. Il se trouve dans la sélection
@@ -80,19 +80,19 @@
   nous ne parvenons pas à voir ce thème central implicite, lorsque les films que
   nous avons visionnés, bien qu’ils puissent être socialement importants, voire
   profonds, ne présentent pas d’éléments à dévoiler, la méthode
-  <a href="/hermeneutics">herméneutique</a> ne révélera pas plus que ce que le
+  <a href="/fr/hermeneutics">herméneutique</a> ne révélera pas plus que ce que le
   scénario nous apprend. Dans certains cas, le réalisateur du film est
   expressément conscient de ce qu’il souhaite exprimer, au point où ses films
   plaident ouvertement pour une cause donnée, souvent politique, à l’image des
   films de Costa-Gavras du vingtième siècle, qui visaient à révéler la
   corruption gouvernementale en Amérique du Sud et dans le reste du monde. La
   méthode
-  <a href="/hermeneutics">herméneutique</a> telle que nous la comprenons, ne peut
+  <a href="/fr/hermeneutics">herméneutique</a> telle que nous la comprenons, ne peut
   rien ajouter de plus dans ces cas, comme dans un documentaire où l’opinion du réalisateur
   est primordiale et, en un sens, suffisante en elle-même.
 </p>
 
-<h3>Q. Existe-t-il autant d’interprétation qu’il existe de spectateurs?</h3>
+<h3>Q. Existe-t-il autant d’interprétations qu’il existe de spectateurs?</h3>
 <p>
   R. Selon la perspective adoptée ici, il y a place pour différentes
   interprétations d’un film et ces interprétations, bien que différentes, ne
@@ -103,7 +103,7 @@
 </p>
 <p>
   Ceci étant dit, toutes les interprétations ne sont pas équivalentes. Certaines
-  interprétations sont, dans la vision de l’<a href="/hermeneutics"
+  interprétations sont, dans la vision de l’<a href="/fr/hermeneutics"
     >herméneutique</a
   >, « plus proches de l’objet » ou « plus sensibles à l’objet ». Certaines
   interprétations nous éclairent plus que d’autres. Nous ne sommes pas ici,
@@ -117,5 +117,7 @@
 
 <p>
   Et maintenant, passons à des
-  <a href="/">films spécifiques</a>!
+  <a href="/fr">films spécifiques</a>!
 </p>
+
+<p>Traductions de l’anglais : Georges Mercier</p>

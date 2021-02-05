@@ -206,3 +206,5 @@
   que l’on vient de mentionner ici peuvent être considérées comme les
   principales.
 </p>
+
+<p>Traductions de l’anglais : Georges Mercier</p>

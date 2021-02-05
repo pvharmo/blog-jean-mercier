@@ -16,14 +16,14 @@
 <p>
   The approach taken to better understand these significant films is based on
   the tradition of
-  <a href="/hermeneutics">hermeneutics</a>.
+  <a href="/en/hermeneutics">hermeneutics</a>.
 </p>
 <p>
   Stated broadly,
-  <a href="/hermeneutics">hermeneutics</a> concerns the art and method of
+  <a href="/en/hermeneutics">hermeneutics</a> concerns the art and method of
   interpretation. It has of course many dimensions and applications. Its
   application to films is part of the larger tradition of applying
-  <a href="/hermeneutics">hermeneutics</a> to artistic creations. Seen in this light,
+  <a href="/en/hermeneutics">hermeneutics</a> to artistic creations. Seen in this light,
   art is not only a question of aesthetics, but it participates in the search for
   knowledge. More specifically, in our case, knowledge about society and its many
   contemporary dimensions.
@@ -80,15 +80,15 @@
   sorts, that helps us navigate towards a better understanding of the film under
   scrutiny? We believe to have found such explicit yet flexible guidelines in
   the tradition of
-  <a href="/hermeneutics">hermeneutics</a>, as suggested at the outset.
+  <a href="/en/hermeneutics">hermeneutics</a>, as suggested at the outset.
 </p>
 <p>
   <em>The Movie Shrink</em> proposes to begin the exchanges by using the
-  <a href="/hermeneutics">hermeneutic</a> approach, applied to films, to reach a
+  <a href="/en/hermeneutics">hermeneutic</a> approach, applied to films, to reach a
   better understanding of what can be considered as the larger story behind the
   specific and more limited story in the film. More can be read on
-  <a href="/hermeneutics">hermeneutics</a> by going to
-  <a href="/hermeneutics">hermeneutics</a> on this site.
+  <a href="/en/hermeneutics">hermeneutics</a> by going to
+  <a href="/en/hermeneutics">hermeneutics</a> on this site.
 </p>
 <p>
   The underlying assumption of this site, as stated earlier, is that art and
@@ -96,11 +96,11 @@
   They can be seen, indeed, as chapters in the human story.
 </p>
 <p>
-  <a href="/hermeneutics">Hermeneutics</a> is involved in the search for
+  <a href="/en/hermeneutics">Hermeneutics</a> is involved in the search for
   understanding when a work of art (in our case, a film) tells us something
   about where we are today, collectively, but says it in an indirect and
   understated way. The object of this site is to follow this
-  <a href="/hermeneutics">hermeneutic</a> road to understand films that present some
+  <a href="/en/hermeneutics">hermeneutic</a> road to understand films that present some
   intriguing and challenging elements which demand interpretation for a fuller understanding.
   The 1653 painting of Rembrandt, “Aristotle contemplating a bust of Homer”, represents
   a visual model of what we want to achieve in this site: the poet (Homer or, in
@@ -169,7 +169,7 @@
   Thirdly, there is no attempt here to analyze a film through some sort of
   explicit and pre-established formal procedure, whether semiotics or some other
   formal method.
-  <a href="/hermeneutics">Hermeneutics</a> is essentially a general guide and
+  <a href="/en/hermeneutics">Hermeneutics</a> is essentially a general guide and
   inspiration, not a detailed technique. In our daily lives, we are all shrinks
   of sorts, we interpret all the time, searching for the small and larger
   meanings around us, and so we all are interpreters.
