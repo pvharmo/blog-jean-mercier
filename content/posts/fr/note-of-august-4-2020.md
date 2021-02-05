@@ -16,7 +16,7 @@ Dans d'autres publications sur ce site, nous avons souligné que, pour identifie
 
 Certains de ces films pourraient se prêter à une compréhension herméneutique, mais les contraintes de temps ainsi que d'autres facteurs rendent difficile de commenter de manière approfondie un grand nombre de films. De plus, beaucoup de films ne se prêtent tout simplement pas à l'analyse herméneutique.
 
-Aussi, nous voulons éviter le risque suivant: si, en effet, l'herméneutique s’applique à tout à n’importe quoi, alors elle court le risque de ne s’appliquer à rien du tout.
+Aussi, nous voulons éviter le risque suivant: si, en effet, l'herméneutique s’applique à tout et à n’importe quoi, alors elle court le risque de ne s’appliquer à rien du tout.
 
 Ceci dit, voici néanmoins quelques commentaires limités que nous pouvons offrir sur une variété de films relativement récents. Nous sommes, dans ces cas, plus intéressés par les tendances générales que par les films en particulier.
 
