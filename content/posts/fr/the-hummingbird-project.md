@@ -58,3 +58,5 @@ Cette histoire porte-t-elle sur les États-Unis ? Ou sur le temps, aux États-Un
 Une décennie après la récession de 2008-2009 causée par le milieu financier, **Le projet Hummingbird** fait, sans le vouloir explicitement, le portrait d’un état d’esprit et d’une conception du temps qui mettent en œuvre ces excès, où d’abstraits calculs financiers, entretenant des relations minimales avec la véritable réalité physique (incluant le temps), kidnappent notre monde.
 
 La récession de 2008-2009 fut un phénomène universel. Mais les origines de ses excès et de son étroitesse d’esprit avaient un aspect particulièrement américain. La vision à court terme qu’il décrit, l’éléphant derrière l’écran, constituait la véritable histoire de ce film.
+
+Traductions de l’anglais : Georges Mercier
