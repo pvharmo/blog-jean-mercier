@@ -50,3 +50,5 @@ Pour revenir à **Us**, il est possible que le film fasse référence à tous le
 
 Ce n’est qu’une fois qu’ils sont sortis de leurs souterrains, et reconnus, qu’une chaîne humaine pourra nous unir tous, après que nous aurons confronté nos démons, tous différents, mais étrangement similaires.
 C’est bien entendu une sorte de *happy end*, idéalisé, mais qui aura nécessité par ailleurs des passages plus difficiles.
+
+Traductions de l’anglais : Georges Mercier
