@@ -49,3 +49,5 @@ Le véritable sujet de ce film n’est pas, pour autant, l’éloge des services
 Bien que le film Pupille ait une saveur définitivement française, puisque la taille proportionnelle du secteur public français est considérable, il n’est pas sans trouver écho, aussi, dans d’autres pays développés, exposés comme ils le sont aux faillites et échecs de la famille nucléaire.
 
 Nous comptons sur les services publics, bien qu’ils soient critiqués et considérés parfois comme ayant perdus leur pertinence face à des ensembles plus larges, comme ceux issus de la globalisation. La conclusion derrière ce film, c’est que nous avons toujours besoin, du moins pour le moment, de ces organisations publiques, au-delà des images que nous pouvons avoir d’elles.
+
+Traductions de l’anglais : Georges Mercier
