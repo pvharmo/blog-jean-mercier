@@ -51,3 +51,5 @@ La première réaction, vis-à-vis cet univers médiatique surchauffé, consiste
 Une autre alternative consiste à s’assurer que ce qui se retrouve sur internet soit plus facilement identifiable quant à sa source, ce qui pourrait être une manière de revenir à l’effet naturel et salutaire des vraies rencontres interactives « en présentiel ». Ce ne serait pas aussi idéal que le quartier fictif de Monsieur Rogers, mais ce serait un pas dans la bonne direction.
 
 Notre site est fondé sur l’idée que les films sont ultimement reliés à notre présent, même s’ils mettent en scène une autre époque. Le quartier idéalisé de Monsieur Rogers nous sert ainsi à mesurer notre situation présente. Nous avons besoin d’un univers médiatique plus civilisé. Si Lloyd Vogel pouvait changer son projet il y a quelques décennies, pourquoi pas nous, aujourd’hui ?
+
+Traductions de l’anglais : Georges Mercier
