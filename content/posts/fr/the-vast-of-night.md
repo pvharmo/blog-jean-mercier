@@ -53,3 +53,5 @@ Ce film est mieux compris en le comparant avec **A Beautiful Day in the Neighbor
 
 Du point de vue de Movie Shrink, ces deux films nous ramènent à une période révolue, les années 1950 et 1960, où les interactions et les dialogues étaient plus harmonieux, où les gens interagissaient  les uns avec les autres. Les médias n’avaient pas encore eu l’effet d’isoler les individus, comme Mabel Blanche l'a décrit aux jeunes enquêteurs. Est-ce que  nos tendances médiatiques actuelles, que l'on retrouve en grande partie dans les échanges intenses et hostiles à travers les réseaux sociaux (et les médias sociaux), constituent la réalisation des prédictions de Mabel, à l’effet que les gens deviendront de plus en plus séparés ? 
 Toutes les interprétations du Movie Shrink ne seront pas tirées d'interprétations médiatiques ou d'analyses inspirées de Marshall McLuhan. Mais **A Beautiful Day in the Neighborhood** (2019) et **The Vast of Night** (2020) sont mieux compris à travers cette perspective.
+
+Traductions de l’anglais : Georges Mercier
