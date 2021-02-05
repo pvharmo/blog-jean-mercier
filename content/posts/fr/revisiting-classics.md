@@ -22,3 +22,5 @@ Et donc, le film nous raconte l’élargissement croissant de la taille des orga
 [](<>)**Dances With Wolves** (1990) est un autre film important. L'une de ses scènes les plus révélatrices est celle où les membres d’une tribue amérindienne d'Amérique du Nord regardent avec consternation un troupeau de bisons abattus par des blancs, seulement pour en extraire les parties les plus monnayables. Les chasseurs américains avançant vers l’ouest, laissaient les restes des bisons pourrir, une sorte métaphore de l'avancée de la culture blanche et de la vision en silo, spécialisée qui l'accompagne, si préjudiciable, selon les *Deep Ecologists*, à notre environnement. L'attitude conquérante des premiers colons, et la dégradation de l'environnement qui s'ensuivit, constituait l'éléphant derrière le film.
 
 C'est avec ces films classiques que nous concluons notre entrée du 4 août 2020 sur les films classiques.
+
+Traductions de l’anglais : Georges Mercier
