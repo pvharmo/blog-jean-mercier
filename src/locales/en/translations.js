@@ -5,7 +5,7 @@ export default {
     hermeneutics: "Hermeneutics",
     about: "About",
     sidebar: {
-        intro: "is attempting to intepret and undestand complex films, just as Aristotle, laying his hands on a bust of Homer, is trying to get an understanding of the poet's texts in this Rembrandt painting.",
+        intro: "is attempting to interpret and undestand complex films, just as Aristotle, laying his hands on a bust of Homer, is trying to get an understanding of the poet's texts in this Rembrandt painting.",
         Chronicles: "Chronicles",
         "Bullet comments": "Bullet comments",
         "Revisiting classics": "Revisiting classics",

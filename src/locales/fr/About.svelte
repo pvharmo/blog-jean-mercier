@@ -16,7 +16,7 @@
 <p>
   Pour ce faire, le site emploie une approche qui se situe dans la tradition de
   l’
-  <a href="/herméneutique">herméneutique</a>. De manière générale,
+  <a href="/fr/hermeneutics">herméneutique</a>. De manière générale,
   l’herméneutique concerne l’art et les méthodes de l’interprétation. Si elle a
   bien entendu de nombreuses applications et dimensions, sa pertinence pour les
   films fait partie de la tradition qui veut l’appliquer à toute forme de
@@ -62,7 +62,7 @@
   Une fois qu’une interprétation a été offerte sur le site, les lecteurs peuvent
   joindre la conversation sur <b>dans les commentaires de chaque article</b>, afin d’y lire les
   commentaires d’autres individus ayant vu le film en question et,
-  éventuellement, et afin d’y participer en offrant leurs propres compréhensions
+  éventuellement, afin d’y participer en offrant leurs propres compréhensions
   et interprétations. Bien entendu, les spectateurs souhaitant découvrir le film
   à neuf, sans être influencés par les compréhensions et interprétations
   offertes sur le site, pourront vouloir lire les commentaires uniquement après
@@ -85,7 +85,7 @@
   discipline, en quelque sorte une tradition, aidant à naviguer vers une
   meilleure compréhension des films à l’étude ? Comme suggéré dès le départ,
   nous croyons avoir trouvé une telle discipline, explicite, mais flexible, dans
-  l’<a href="/herméneutique">herméneutique</a>.
+  l’<a href="/fr/hermeneutics">herméneutique</a>.
 </p>
 <p>
   <em>Le Movie Shrink</em> propose dès lors de débuter les échanges en employant
@@ -95,7 +95,7 @@
   possible que nous référions occasionnellement à cette histoire plus large
   comme étant « l’éléphant derrière l’écran ». Il est possible d’en savoir plus
   au sujet de l’herméneutique en cliquant sur le lien suivant :
-  <a href="/herméneutique">herméneutique</a>.
+  <a href="/fr/hermeneutics">herméneutique</a>.
 </p>
 <p>
   La présomption sous-jacente de ce site, telle qu’affirmée plus tôt, est que
@@ -104,7 +104,7 @@
   considérés, en effet, comme des chapitres de l’histoire humaine.
 </p>
 <p>
-  L'<a href="/herméneutique">herméneutique</a> est impliquée dans la recherche de
+  L'<a href="/fr/hermeneutics">herméneutique</a> est impliquée dans la recherche de
   compréhension lorsqu’une œuvre d’art (dans notre cas, un film) nous dit quelque
   chose à propos d’où nous nous situons aujourd’hui, collectivement, dans l’histoire
   humaine, mais le dit d’une manière indirecte et allusive.
@@ -192,7 +192,7 @@
 <p>
   Troisièmement, nous ne tentons pas ici d’analyser des films par le biais d’une
   forme de procédure explicite, préétablie et formelle telle que la sémiotique
-  ou une méthode similaire. L'<a href="/herméneutique">herméneutique</a> ,
+  ou une méthode similaire. L'<a href="/fr/hermeneutics">herméneutique</a> ,
   essentiellement un guide général et une inspiration, n’est pas une technique
   détaillée. Dans nos vies quotidiennes, nous sommes déjà en quelque sorte des
   interprètes : nous interprétons à tout instant, à la recherche du sens des
@@ -216,6 +216,6 @@
 <p>
   Maintenant que nous avons mis en lumière certains éléments sur lesquels ne
   porte pas ce site, revenons à son inspiration principale : la tradition et
-  l’art de l’<a href="/herméneutique">herméneutique</a>.
+  l’art de l’<a href="/fr/hermeneutics">herméneutique</a>.
 </p>
 <p>Traductions de l’anglais : Georges Mercier</p>

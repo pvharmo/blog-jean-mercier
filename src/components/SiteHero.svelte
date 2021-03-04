@@ -71,7 +71,7 @@
   }
 
   .hero-bg-img {
-    height: 500px;
+    height: 450px;
   }
 
   .hero-theme-light {
