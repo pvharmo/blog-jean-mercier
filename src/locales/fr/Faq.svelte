@@ -13,7 +13,7 @@
   compte dans notre sélection. Nous visionnons plusieurs films à propos desquels
   nous choisissons éventuellement de ne pas commenter en détail. Certains de
   ceux-ci seront brièvement l’objet d’un commentaire dans notre section « <a
-    href="/fr/categories/bullit-comments">Commentaires-éclair</a
+    href="/fr/category/bullit-comments">Commentaires-éclair</a
   > ».
 </p>
 <p>
