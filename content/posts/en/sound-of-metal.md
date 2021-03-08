@@ -17,10 +17,6 @@ excerpt: Without a doubt, this film is exactly what The Movie Shrink has in mind
   ends in Europe, in Brussels, in a comfortable and quite elegant neighborhood.
   Very intriguing, indeed.
 ---
-Without a doubt, this film is exactly what The Movie Shrink has in mind when he is looking for significant films that require an interpretation, a deeper understanding. Beyond the individual story about a rock-heavy metal drummer experiencing a hearing loss, this is a film about sensory balance. Contrasting with the usual scenes of the film in run-down America, the story ends in Europe, in Brussels, in a comfortable and quite elegant neighborhood. Very intriguing, indeed.
-
-
-
 **Sound of Metal**, an American music drama, by first-time director Darius Marder, produced in 2019, presented at the Toronto International Film Festival in September 2019, and later at the American Film Festival in Deauville in 2020, and released for limited access in November 2020.
 
 
@@ -29,17 +25,17 @@ Without a doubt, this film is exactly what The Movie Shrink has in mind when he 
 
 **(This is a spoiler alert: do not read this section if you want to see the plot unfold yourself at your viewing of the film).**
 
-A heavy metal performer couple, called Backgammon, made up of Ruben, the drummer, and Lou, his European born female partner, and signer, have been touring second rate stages all through the USA, in their RV- Caravane, which is also their mobile home and studio.
+A heavy metal performer couple, called Backgammon, made up of Ruben, the drummer, and Lou, his European born female partner, and singer, have been touring second rate stages all through the USA, in their RV- Caravane, which is also their mobile home and studio.
 
 Their setup and the places they perform in are quite humble and lower end.
 
-Lou, a former drug addict on heroine, has been « clean » for four years, and his partner, Lou, has been instrumental in this achievement.
+Ruben, a former drug addict on heroine, has been « clean » for four years, and his partner, Lou, has been instrumental in this achievement.
 
-When visiting a second-hand memorabilia store, Lou feels that he has lost part of his hearing.
+When visiting a second-hand memorabilia store, Ruben feels that he has lost part of his hearing.
 
 After a visit to a medical specialist on hearing problems, he is told that the problem is serious, that his previous hearing will not completely be restored, and that a cochlear implant, to restore part of his hearing, would cost between 40,000 $ and 80,000 $.
 
-Not having the money, he is left with the option of learning sign language. So, he registers at a subsidized center for learning that language at a deaf recovering addicts center, under the tutorship of Joe, a Viet-Nam veteran who lost his hearing from a bomb explosion on the battlefield. Joe brings Lou to evolve and accept his new situation, learning among other exercises to express his feelings in writing on his ordeal.
+Not having the money, he is left with the option of learning sign language. So, he registers at a subsidized center for learning that language at a deaf recovering addicts center, under the tutorship of Joe, a Vietnam veteran who lost his hearing from an explosion on the battlefield. Joe brings Lou to evolve and accept his new situation, learning among other exercises to express his feelings in writing on his ordeal.
 
 After some success at following Joe’s advice and tutorship, Lou chooses another path, selling his RV and taking 26,000 $ to be used for a down payment for the cochlear implant.
 
