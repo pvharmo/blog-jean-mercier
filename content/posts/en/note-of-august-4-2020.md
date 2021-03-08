@@ -14,12 +14,6 @@ excerpt: >-
 
   Before looking at general trends that go beyond particular films in this Bullet Comments section of The Movie Shrink site, let us say a few words about our goals in this section.
 ---
-The Coronavirus pandemic of 2020 has had multiple effects on worldwide film production, distribution, and viewing.
-
-The pandemic has had the short term effect of making some films more available for home viewing. It is not altogether clear yet if that will prove to be an enduring trend. The fact that this tendency was already emerging before the pandemic could indicate that it is a long term trend.
-
-Before looking at general trends that go beyond particular films in this *Bullet Comments* section of *The Movie Shrink* site, let us say a few words about our goals in this section.
-
 In other postings on this site, we pointed out that, to identify the films that we make somewhat extensive specific comments on, we must look at many other films for which we will make less extensive comments.
 
 Some of these films could be amenable to hermeneutic understanding, but time constraints and other factors make it difficult to comment extensively on a large number of films. In addition, other films simply do not lend themselves to hermeneutic analysis.
