@@ -11,10 +11,6 @@ excerpt: >-
 
   The Movie Shrink is principally interested in current films but significant films from the past, often now considered as classics, can also speak to us.
 ---
-The Coronavirus of 2020 has fueled interest in older films, as current film production has been reduced.
-
-*The Movie Shrink* is principally interested in current films but significant films from the past, often now considered as classics, can also speak to us.
-
 There were of course many significant films in the past and the history of cinema. In fact, one can say that the history of cinema mirrors the evolution of the 20th century, as cinema began with the beginning of the century itself.
 
 In looking at these significant films of the past, movies which helped us look at the bigger picture of those times, we must however account for the fact we are, in part, looking at them with the eyes of the present. But that does not mean they only have the meaning we can see in them today. They were also very much part of the period they appeared in.
