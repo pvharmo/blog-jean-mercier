@@ -14,11 +14,11 @@ excerpt: Les défis et les tribulations d’une famille algérienne qui immigre 
   entre le bien et le mal. C’est d’ailleurs pour cette raison qu’on est devant
   une tragédie.
 ---
-\*\*Antigone\*\* : film canadien inspiré de la tragédie grecque de Sophocles, Antigone. Film présenté en 2019, réalisé par Sophie Deraspe. A gagné le titre de meilleur film canadien au festival de films de Toronto (TIFF) en 2019.
+**Antigone** : film canadien inspiré de la tragédie grecque de Sophocles, Antigone. Film présenté en 2019, réalisé par Sophie Deraspe. A gagné le titre de meilleur film canadien au festival de films de Toronto (TIFF) en 2019.
 
-\# L’histoire
+# L’histoire
 
-\*\*(Alerte pour les divulgâcheurs : ne lisez pas cette section si vous voulez voir le film par vous-même, sans connaître le scénario à l’avance).\*\*
+**(Alerte pour les divulgâcheurs : ne lisez pas cette section si vous voulez voir le film par vous-même, sans connaître le scénario à l’avance).**
 
 Le père et la mère de quatre jeunes algériens sont tués et leurs corps jetés aux portes de leur domicile en Kabylie, en Algérie. Le spectateur n’est pas renseigné sur les causes exactes des meurtres, mais on suppose qu’il s’agit d’un règlement de compte, possiblement de nature politique.
 
@@ -38,13 +38,13 @@ Le procès qui suit, malgré les difficultés, représente un certain progrès p
 
 La conclusion du film nous montre Polynice et sa grand-mère quittant le Canada à l’aéroport, pour retourner en Algérie, alors que les deux sœurs paraissent demeurer dans leur pays d’adoption.
 
-\# L’interprétation du Movie Shrink
+# L’interprétation du Movie Shrink
 
 Ce film est riche d’interprétions possibles.
 
 Une des questions préalables qui se pose est de savoir jusqu’à quel point ce film est un reflet fidèle de la tragédie grecque qui l’inspire.
 
-On pouvait s’y attendre, certains commentateurs ont vu le film comme étant un plaidoyer contre les préjugés , la brutalité policière ou encore contre un système judiciaire et politique qui manque de compassion. Dans un commentaire dans cette veine, un commentateur bien intentionné a décrit ces éléments comme pire que la mort.
+On pouvait s’y attendre, certains commentateurs ont vu le film comme étant un plaidoyer contre les préjugés, la brutalité policière ou encore contre un système judiciaire et politique qui manque de compassion. Dans un commentaire dans cette veine, un commentateur bien intentionné a décrit ces éléments comme pire que la mort.
 
 Dans ce type de commentaires, le film est perçu comme un combat entre le bien et le mal, entre, d’un côté, des institutions défaillantes et, de l’autre, des citoyens ou futurs citoyens qui en sont les victimes.
 
@@ -56,19 +56,17 @@ En allant plus loin, le Movie Shrink pense qu’il y a une autre dimension au co
 
 Il s’agit des effets parfois paradoxaux de l’intensité
 
-Il y a indubitablement un élément d’intensité dans le choix d’Antigone en faveur de la solidarité familiale et de la lutte pour la justice pour tous les immigrants. Ces choix sont tout à fait valables, dans la perspective d’une éthique de conviction. À cause de la situation précaire de la famille, ces choix impliquent un degré, presqu’inévitable, d’intensité. Bien entendu, dans le contexte, cette intensité peut être vue comme une bonne chose.
+Il y a indubitablement un élément d’intensité dans le choix d’Antigone en faveur de la solidarité familiale et de la lutte pour la justice pour tous les immigrants. Ces choix sont tout à fait valables, dans la perspective d’une éthique de conviction. À cause de la situation précaire de la famille, ces choix impliquent un degré, presque inévitable, d’intensité. Bien entendu, dans le contexte, cette intensité peut être vue comme une bonne chose.
 
 Par ailleurs, beaucoup d’autres choix de la famille dans ce film sont marqués d’une forte intensité, incluant bien entendu le choix d’Antigone de supporter à tout prix son frère, mais aussi l’intensité des rituels d’initiation dans les gangs de rue de ses frères, au cours desquels on trouve des actes de violence qui laissent leurs marques. Bien entendu, la mort préalable des parents en Algérie constitue une sorte d’extrême au niveau de l’intensité de la violence.
 
 Ismène, la sœur cadette d’Antigone, a une ambition plus modeste et moins intense, soit de s’intégrer le mieux possible à son nouveau pays et à son nouvel environnement. Ce choix est bien entendu moins spectaculaire et moins intense. Mais peut-on affirmer que son choix est moins valable pour autant ?
 
-\# L’ÉLÉPHANT DERRIÈRE L'ÉCRAN
+# L’éléphant derrière l'écran
 
 D’une façon plus fondamentale, le film apparaît bien être un film sur l’intensité, comme facteur socio-politique.
 
-Ainsi, on peut soutenir que l’intensité ne constitue pas un ingrédient essentiel des systèmes socio-politiques qui fonctionnent relativement bien. Les discussions dans un cadre démocratique ont été traditionnellement (un peu moins vrai depuis quelques années) basées sur l’idée que des personnes autres que nous-mêmes pourraient avoir plus d’information que nous ou, même, avoir raison. Même le fait d’aller voter, dans plusieurs sociétés démocratiques, n’est pas une affaire tellement intense et, dans une élection en temps normal, environ la moitié des électeurs potentiels
-
-aux États-Unis ne se donne même pas la peine d’aller voter pour leur président.
+Ainsi, on peut soutenir que l’intensité ne constitue pas un ingrédient essentiel des systèmes socio-politiques qui fonctionnent relativement bien. Les discussions dans un cadre démocratique ont été traditionnellement (un peu moins vrai depuis quelques années) basées sur l’idée que des personnes autres que nous-mêmes pourraient avoir plus d’information que nous ou, même, avoir raison. Même le fait d’aller voter, dans plusieurs sociétés démocratiques, n’est pas une affaire tellement intense et, dans une élection en temps normal, environ la moitié des électeurs potentiels aux États-Unis ne se donne même pas la peine d’aller voter pour leur président.
 
 La forte intensité du président américain en poste entre 2016 et 2020, rendue évidente par ses discours et par ses \*tweets\*, n’a eu d’effet ultime que de mener à un assaut et à un saccage de la part de ses partisans, très intenses par ailleurs, sur les institutions les plus importantes de la démocratie américaine, dans un après-midi de violence entretenue par leur chef.
 
