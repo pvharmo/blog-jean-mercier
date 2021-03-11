@@ -1,0 +1,17 @@
+@import "./styles/styles.scss";
+
+// @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Roboto+Slab&display=swap");
+
+.title,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+a {
+  font-family: "Quattrocento Sans", sans-serif;
+}

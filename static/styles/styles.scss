@@ -1,0 +1,56 @@
+@import "vars";
+@import "layout";
+@import "animations";
+@import "transitions";
+@import "util";
+// Import Bulma and Buefy styles
+// @import "~bulma";
+// @import "../../node_modules/bulma/bulma";
+
+p {
+  font-family: "Quattrocento Sans", Roboto;
+  color: #666;
+  font-size: 18px;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-family: "Roboto Slab", Georgia, Times, serif;
+  color: #666;
+  font-weight: 400;
+}
+
+.movie-trailer iframe {
+  height: 340px;
+}
+
+.filter-infos {
+  margin: 20px 10px;
+  margin-top: 0;
+}
+
+.filter-infos p {
+  color: #999;
+}
+
+ul.categories-menu {
+  margin-left: 10px;
+}
+
+.categories-menu li {
+  padding-left: 10px !important;
+}
+
+.chip-active {
+  color: red;
+}
+
+a {
+  font-family: "Quattrocento Sans", Roboto;
+  font-size: 18px;
+  color: #1c7c7c;
+}
