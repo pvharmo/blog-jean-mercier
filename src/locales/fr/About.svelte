@@ -60,7 +60,7 @@
 </p>
 <p>
   Une fois qu’une interprétation a été offerte sur le site, les lecteurs peuvent
-  joindre la conversation sur <b>dans les commentaires de chaque article</b>, afin d’y lire les
+  joindre la conversation <b>dans les commentaires de chaque article</b>, afin d’y lire les
   commentaires d’autres individus ayant vu le film en question et,
   éventuellement, afin d’y participer en offrant leurs propres compréhensions
   et interprétations. Bien entendu, les spectateurs souhaitant découvrir le film
