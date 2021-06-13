@@ -1,14 +1,16 @@
 ---
 title: COMMENTAIRES ÉLAIR JUIN 2021
+category:
+  - Bullet comments
 date: 2021-06-13T14:58:31.855Z
 excerpt: >-
-  Beaucoup de temps s'est écoulé depuis que *Le Movie Shrink* a ajouté
-  descommentaires dans la présente section, celle des commentaires éclair.
+  Beaucoup de temps s'est écoulé depuis que *Le Movie Shrink* a ajouté des
+  commentaires dans la présente section, celle des commentaires éclair.
 
 
   Nous avons la ferme intention d'y ajouter des commentaires plus régulièrement dans l'avenir, d'autant plus que beaucoup de choses se sont passées dans les derniers mois, même si la pandémie a ralenti les processus de tournages, de productions et de sorties à l'écran des films du monde entier.
 ---
-Beaucoup de temps s'est écoulé depuis que *Le Movie Shrink* a ajouté descommentaires dans la présente section, celle des commentaires éclair.
+Beaucoup de temps s'est écoulé depuis que *Le Movie Shrink* a ajouté des commentaires dans la présente section, celle des commentaires éclair.
 
 Nous avons la ferme intention d'y ajouter des commentaires plus régulièrement dans l'avenir, d'autant plus que beaucoup de choses se sont passées dans les derniers mois, même si la pandémie a ralenti les processus de tournages, de productions et de sorties à l'écran des films du monde entier.
 
