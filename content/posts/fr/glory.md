@@ -1,5 +1,11 @@
 ---
 title: GLORY
+category:
+  - Globalization
+  - Economics
+tags:
+  - Eastern and Central Europe (including Russia)
+  - Drama
 date: 2021-06-13T14:44:06.344Z
 excerpt: "Que connaît-on vraiment de toutes les mutations sociales et
   économiques qui accompagnent l’Europe de l’Est et l’Europe centrale dans le
@@ -36,13 +42,13 @@ Bien entendu, notre première réaction est de penser qu'il s'agit d'un film sur
 
 Il est possible aussi que le film se trouve dans la mouvance de traditions cinématographiques qui vont au-delà de l'histoire spécifique qui y est racontée. Ainsi, Leslie Felperin, du *Guardian*, estd'avis que « le film se trouve ancré dans un pessimisme typique du cinéma roumain (JCM : même si le film est bulgare), tout en exhibant une tendance encore plus sombre, tout à fait typique du cinéma slave ».
 
-Même si les remarques qui viennent d'être évoquées contribuent à nous aider mieux saisir le film, et en particulier son ton et son atmosphère, le sens plus profond du film se trouve ailleurs.
+Même si les remarques qui viennent d'être évoquées contribuent à nous aider à mieux comprendre le film, et en particulier son ton et son atmosphère, le sens plus profond du film se trouve ailleurs.
 
 Le film traite avant tout du temps.
 
 C'est en effet le temps qui constitue l'essence du film, sa vedette pour ainsi dire.
 
-Le titre du film est le nom d'une montre, 'Glory' une montre qui donne l'heure juste. En l'absence de la montre, on ne peut plus connaître l'heure qu'il est, on peut perdre une référence au temps.
+Le titre du film est le nom d'une montre, 'Glory', une montre qui donne l'heure juste. En l'absence de la montre, on ne peut plus connaître l'heure qu'il est, on peut perdre une référence au temps.
 
 Mais ce n'est pas seulement Tsanko qui a des défis avec le temps. Julia, l'experte en relations publiques, en a aussi. Elle est constamment bousculée par son téléphone cellulaire. Tout comme Tsanko, qui est bègue et qui ne peut tenir la cadence des mots, elle a de la difficulté à tenir la cadence au rythme effréné du monde des « relations publiques ».
 
@@ -54,4 +60,4 @@ Elle a d'ailleurs un autre conflit avec le temps, dans le sens où elle veut dev
 
 Il serait superficiel de penser que les changements en Europe centrale et en Europe de l'Est peuvent être compris seulement à partir de l'économie. En dessous des changements économiques, d'autres changements arrivent avec eux, cachés sous la surface, loin de notre regard.
 
-Glory nous donne un aperçu.
+Glory nous en donne un aperçu.
