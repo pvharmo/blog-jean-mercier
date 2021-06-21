@@ -1,5 +1,5 @@
 ---
-title: COMMENTAIRES ÉCLAIR
+title: COMMENTAIRES ÉCLAIR AOÛT 2020
 category:
   - Bullet comments
 excerpt: La pandémie du coronavirus de 2020 a eu de multiples effets sur la

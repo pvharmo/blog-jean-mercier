@@ -1,5 +1,5 @@
 ---
-title: BULLET COMMENTS
+title: BULLET COMMENTS AUGUST 2020
 category:
   - Bullet comments
 author: Jean Mercier
