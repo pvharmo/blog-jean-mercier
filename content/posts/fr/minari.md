@@ -1,5 +1,11 @@
 ---
 title: MINARI
+category:
+  - Sociology
+  - National culture
+tags:
+  - Drama
+  - North America
 date: 2021-06-13T14:38:29.526Z
 excerpt: De la même manière que A Beautiful Day in the Neighborhood nous
   ramenait à une période où les médias étaient plus pacifiques, Minari nous
@@ -31,7 +37,7 @@ En revenant des services religieux, la famille Yi, à bord de leur automobile, a
 
 Dans son volume classique, *Trust (*1995), Francis Fukuyama présentait la famille comme étant le fondement de la société et de l'économie de la Corée du Sud. Cela est aussi évident dans un autre film récent, **Parasite,** gagnant du prix du meilleur film aux Oscars il y a un an, un film qui raconte comment une famille sud- coréenne en trompe une autre, jusqu'à lui faire croire, par divers subterfuges, à ses compétences irremplaçables pour la bonne marche de la maison.
 
-Dans **Minari**, lafamille coréenne demeure la base des opportunités économiques, même si elle n'est pas, elle non plus, la famille parfaite. Le couple en arrive même à considérer le divorce et le jeune fils, David, considère que sa grand-mère n'est pas une authentique grand-mère puisqu'elle ne sait pas vraiment comment cuisiner des biscuits pour lui. Nous avons donc affaire à une famille imparfaite. N'est-ce pas le lot de nous tous ?
+Dans **Minari**, la famille coréenne demeure la base des opportunités économiques, même si elle n'est pas, elle non plus, la famille parfaite. Le couple en arrive même à considérer le divorce et le jeune fils, David, considère que sa grand-mère n'est pas une authentique grand-mère puisqu'elle ne sait pas vraiment comment cuisiner des biscuits pour lui. Nous avons donc affaire à une famille imparfaite. N'est-ce pas le lot de nous tous ?
 
 C'est par ailleurs à travers une famille immigrante sud- coréenne que nous voyons l'Amérique. De cette façon, c'est la famille immigrante qui devient l'évaluation de ce qui est normal. Vues de cette façon, les actions du « devin » de la présence de l'eau et le chemin de croix de l'employé évangéliste pour célébrer Jésus apparaissent plus que comme des particularités, elles paraissent carrément irrationnelles. D'habitude, c'est l'immigrant qui peut paraître étrange ou pas tout à fait normal. Mais ici, les rôles sont renversés ou du moins réorganisés.
 

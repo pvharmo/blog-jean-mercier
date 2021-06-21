@@ -21,7 +21,7 @@ excerpt: Much as A beautiful day in the neighborhood took us back to a gentler
 
 The Yi family, recent immigrants from North Korea, by way of California, establish themselves in the Ozarks, more specifically in Arkansas, where they cultivate produce intended to eventually being sold to other Korean immigrants in the urban southern United States.
 
-Just as the family is quite successful In adapting to their new environment, both social and physical, not without some challenges, of course,*minari* is water-type celery that adapts quite successfully in different physical environments.
+Just as the family is quite successful In adapting to their new environment, both social and physical, not without some challenges, of course, *minari* is water-type celery that adapts quite successfully in different physical environments.
 
 Father Jacob and mother Monica have two young children. Before their farming project really takes hold and even during its start, to earn a living, they work at the improbable task of sexing chickens at a nearby hatchery.
 
