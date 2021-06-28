@@ -126,4 +126,4 @@ For more up-to-date recent comments, please return to our Facebook pages. And fo
 
 Thank you for your interest, and talk to you soon,
 
-For more up to date…. please go to our facebook page at facebook.com/The-Movie-Shrink. And for the analysis of specific films, return to our [Home page](https://themovieshrink.com).
+For more up to date comments, please go to our facebook page at facebook.com/The-Movie-Shrink. And for the analysis of specific films, return to our [Home page](https://themovieshrink.com).
