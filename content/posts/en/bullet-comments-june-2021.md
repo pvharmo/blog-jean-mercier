@@ -10,10 +10,6 @@ excerpt: >-
 
   We definitely have the intention of having more regular inputs in this section of our site, especially that a lot has occurred film-wise in the last few months, even with the pandemic slowing down filming, production, and releases of on-screen movies.
 ---
-It has been a long time since The Movie Shrink's last entry in our Bullet comments section.
-
-We definitely have the intention of having more regular inputs in this section of our site, especially that a lot has occurred film-wise in the last few months, even with the pandemic slowing down filming, production, and releases of on-screen movies.
-
 # PRIZE-WINNING FILMS
 
 Let us start with some of the recent Oscar nominations and winners that drew the attention of the film world and *The Movie Shrink*.
@@ -106,7 +102,7 @@ In the main section of *The Movie Shrink*, there are American films that are rev
 
 **The Sound of Metal** (2019), also viewed in more detail in our main section, seems to address a certain lack of equilibrium, the presence of excess in America. In that film, a hard rock drummer loses his hearing and tries to regain it. The fact the film ends in a quiet city environment in Belgium seems to tell us something, possibly alluding to the fact that older traditions are better prepared to integrate the new into the old.
 
-This idea of a lack of equilibrium, of balance, may also be at play in films about America, such as **The Dead Don't Die** (2019) and **The Hummingbird****Projec**t (2018), the first about the fact that people living in the same place are not really living in the same time zone, so to speak. The second one is about the improbable goal of connecting two distant American regions in the hope of cutting transmission time of stock market shares and profiting from it. In both those films, there is an absence of common sense, of equilibrium, of proportion, especially in the latter. Both those films are reviewed in *The Movie Shrink's* main section.
+This idea of a lack of equilibrium, of balance, may also be at play in films about America, such as **The Dead Don't Die** (2019) and **The Hummingbird\*\***Projec**t (2018), the first about the fact that people living in the same place are not really living in the same time zone, so to speak. The second one is about the improbable goal of connecting two distant American regions in the hope of cutting transmission time of stock market shares and profiting from it. In both those films, there is an absence of common sense, of equilibrium, of proportion, especially in the latter. Both those films are reviewed in* The Movie Shrink's* main section.
 
 The particular theme of American films, at least those that caught the attention of *The Movie Shrink*, seems to address themes such as time, space, the influence of media in our lives and our senses. A film like **The Vast of Night** (2019) goes very much in that direction.
 
