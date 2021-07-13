@@ -1,5 +1,14 @@
 ---
 title: NOMADLAND
+category:
+  - Economics
+  - Sociology
+  - Globalization
+  - National culture
+tags:
+  - North America
+  - Documentary
+  - Drama
 date: 2021-06-13T14:31:52.265Z
 excerpt: "Ce film de fiction, presqu’un documentaire, porte un regard tendre et
   affectueux à une réalité peu documentée au cinéma : les gens qui, sans
