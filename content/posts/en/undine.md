@@ -1,5 +1,5 @@
 ---
-title: Undine
+title: UNDINE
 category:
   - Globalization
   - Sociology
@@ -25,7 +25,7 @@ The film has received positive reviews. Because the film is also somewhat myster
 
 The Move Shrink did not need any more to be interested in this film.
 
-## THE STORY
+# THE STORY
 
 Ann Wibeau is an urban historian, who presents conferences for the municipal government of Berlin, to entertain foreign and local delegates. During those presentations, she often refers to the fact that the unification of East and West Berlin posed some challenges, as the two political traditions could sometimes see the city through different cultural lenses.
 
@@ -51,7 +51,7 @@ Meanwhile, Undine, who has now lost both her lovers, visits the first one, Johan
 
 Ann Wibeau then returns to the lake she dived in with Cristoph, to disappear underwater, returning to her previous life as a mermaid.
 
-## THE MOVIE SHRINK’S ANALYSIS
+# THE MOVIE SHRINK’S ANALYSIS
 
 Is this story, about a mermaid attempting to live outside her natural environment, who survives only if her partner continues to love her, a metaphor about some other story, or some other stories?
 
@@ -83,7 +83,7 @@ existence of different cultural modes was an important element of the American f
 
 And so there would indeed be four layers to this film. A first layer about the myth of Undine, through the life of Ann Wibeau. A second layer, about the integration of East and West Berlin. A third one about the challenges of integrating current immigration. And one last layer, reflecting the fact we are all living in different cultural universes, even among the local traditional population, buoyed by all kinds of contrasts, yet living in the same physical environment.
 
-## A WIDER PERSPECTIVE
+# A WIDER PERSPECTIVE
 
 This film offers us an opportunity to ask some fundamental questions about film interpretation.
 

@@ -1,5 +1,12 @@
 ---
-title: Ondine
+title: ONDINE
+category:
+  - Globalization
+  - Sociology
+  - National culture
+tags:
+  - Western Europe
+  - Drama
 date: 2021-09-09T13:24:03.477Z
 excerpt: "Si jamais il y a eu un film qui demandait à être interprété, c’est
   bien ce film allemand récent. En empruntant librement du mythe d’Ondine, cette
@@ -14,7 +21,7 @@ Ce film a suscité des commentaires favorables et aussi certaines pistes pour Le
 
 Il n’en fallait pas plus pour intéresser Le Movie Shrink.
 
-## L’HISTOIRE
+# L’HISTOIRE
 
 Ann Wibeau est une historienne et conférencière, spécialiste de l’histoire urbaine de Berlin, qui reçoit des invités internationaux pour les autorités de la ville et qui leur présente l’histoire de l’évolution de la ville, en particulier les aléas de l’intégration avec l’Allemagne de l’Est et des conflits des visions
 
@@ -40,7 +47,7 @@ Ayant perdu ses deux amoureux, Ann va tuer Johannes, le premier amoureux, dans l
 
 Ann Wibeau, suite au meurtre de Johannes, retourne au lac où elle a plongé avec Christophe, et y entre pour y continuer, seule, sa vie de sirène.
 
-## L’ANALYSE DU MOVIE SHRINK
+# L’ANALYSE DU MOVIE SHRINK
 
 Cette histoire poétique basée sur le mythe d’Ondine, la sirène qui ne peut survivre hors de l’eau, son élément naturel, que si son amoureux lui est fidèle, en cache-t-elle une autre, ou encore, plusieurs autres ?
 
@@ -74,11 +81,9 @@ Mais le sujet le plus profond du film, et son sujet ultime, n’a pas à se limi
 
 Il est possible aussi qu’il y ait une couche additionnelle, qui dépasserait celle de l’immigration contemporaine, et qui renverrait aux défis d’intégration que toute société porte en elle, au-delà de la question d’immigration. En effet, nous vivons tous, immigrants ou non, dans des mondes différents, des univers culturels différents, marqués par la mondialisation et les contrastes que portent à l’excès nos médias de communication.
 
-Cela reviendrait à dire que le film comporte quatre couches différentes : l’histoire d’Ondine, celle de l’intégration des deux Allemagne, celle de
+Cela reviendrait à dire que le film comporte quatre couches différentes : l’histoire d’Ondine, celle de l’intégration des deux Allemagne, celle de l’immigration récente et celle, plus récente encore, de la coexistence d’univers culturels très différents, et potentiellement opposés.
 
-l’immigration récente et celle, plus récente encore, de la coexistence d’univers culturels très différents, et potentiellement opposés.
-
-## DANS UNE PERSPECTIVE PLUS LARGE
+# DANS UNE PERSPECTIVE PLUS LARGE
 
 L’interprétation de ce film nous amène plusieurs interrogations.
 
