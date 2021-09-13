@@ -13,7 +13,7 @@
     "start": "node __sapper__/build"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "bulma": "^0.9.1",
     "compression": "^1.7.1",
     "marked": "^1.2.7",
