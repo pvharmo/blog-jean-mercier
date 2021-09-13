@@ -31,9 +31,7 @@ Ann Wibeau is an urban historian, who presents conferences for the municipal gov
 
 Little by little, we learn about Ann’s private life.
 
-At the film’s outset, she is sitting in a local café with her lover, Johannes, who is already engaged in another relationship, and Johannes tells Ann that their relationship (Johannes and Ann’s) is
-
-over. Ann refuses this possibility, and true to the Undine myth, she announces that she will have to kill him so that she may herself survive. She will attend to that later in the film.
+At the film’s outset, she is sitting in a local café with her lover, Johannes, who is already engaged in another relationship, and Johannes tells Ann that their relationship (Johannes and Ann’s) is over. Ann refuses this possibility, and true to the Undine myth, she announces that she will have to kill him so that she may herself survive. She will attend to that later in the film.
 
 In the meantime, Christoph, an underwater engineer, who was present at her latest conference, tells her of his interest in her at the local café. During that conversation, a giant aquarium in the café accidentally falls on them. When they recover, on the ground, the aquarium destroyed, they smile towards each other and become close. They soon become lovers.
 
@@ -77,9 +75,7 @@ This interpretation is suspect, as it could be portrayed as a politically incorr
 
 But the interpretation need not be politically incorrect, since the example of the challenges of East and West Germany, quite successful, at least as seen from the outside, could lead us to believe that success is also possible with the current integration challenges, involving more recent immigration.
 
-There is also another possible layer, involving contrasts and challenges of integration that go beyond the challenges of immigration. Indeed, it is possible that, in our contemporary global society, we are living in different cultural universes, beyond immigration, buoyed by globalization and the ever-present media, which marks and contrasts our different perspectives. The co
-
-existence of different cultural modes was an important element of the American film of a few years ago, “The Dead Don’t Die”, and it did not deal with immigration at all, but still dealt with the challenges of integrating different cultures.
+There is also another possible layer, involving contrasts and challenges of integration that go beyond the challenges of immigration. Indeed, it is possible that, in our contemporary global society, we are living in different cultural universes, beyond immigration, buoyed by globalization and the ever-present media, which marks and contrasts our different perspectives. The coexistence of different cultural modes was an important element of the American film of a few years ago, “The Dead Don’t Die”, and it did not deal with immigration at all, but still dealt with the challenges of integrating different cultures.
 
 And so there would indeed be four layers to this film. A first layer about the myth of Undine, through the life of Ann Wibeau. A second layer, about the integration of East and West Berlin. A third one about the challenges of integrating current immigration. And one last layer, reflecting the fact we are all living in different cultural universes, even among the local traditional population, buoyed by all kinds of contrasts, yet living in the same physical environment.
 
@@ -89,9 +85,7 @@ This film offers us an opportunity to ask some fundamental questions about film 
 
 First, it may show that a pertinent interpretation need not be obvious, but It may be one that advances our understanding, especially when it does explain some details that other understandings do not, such as the unexplained presence of the immigrant family in the apartment of the heroine, at a time she was supposed to be there herself.
 
-Another question is the possible interpretation that the director of the film offers himself. In the more conceptual part of The Movie Shrink’s website, this question is noted and it is concluded that, from a hermeneutic point of view, the analyst’s interpretation is not tied to the author’s or the creator’s view. Indeed, there is a certain amount of unconsciousness in all artistic
-
-creation, and the creator is not necessarily in command of the meaning and implications of his own work. The creator could very well protest the interpretation given to his film, for example, but this protest would not be decisive, from a hermeneutic point of view. It is the film that is of real interest, not the artist.
+Another question is the possible interpretation that the director of the film offers himself. In the more conceptual part of The Movie Shrink’s website, this question is noted and it is concluded that, from a hermeneutic point of view, the analyst’s interpretation is not tied to the author’s or the creator’s view. Indeed, there is a certain amount of unconsciousness in all artistic creation, and the creator is not necessarily in command of the meaning and implications of his own work. The creator could very well protest the interpretation given to his film, for example, but this protest would not be decisive, from a hermeneutic point of view. It is the film that is of real interest, not the artist.
 
 The last question is the possibility that an interpretation is politically sensitive or even, for some, politically incorrect. There is the risk, here, as noted elsewhere, to want to kill the messenger, symbolically of course!
 
