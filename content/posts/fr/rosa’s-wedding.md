@@ -1,5 +1,12 @@
 ---
 title: LE MARIAGE DE ROSA
+category:
+  - Sociology
+  - Globalization
+  - National culture
+tags:
+  - Western Europe
+  - Comedy
 date: 2021-09-13T14:57:21.515Z
 excerpt: "Ne nous laissons pas être trompés par l’humour de cette comédie, qui
   raconte l’histoire de Rosa, une couturière dans la quarantaine, qui décide
@@ -13,7 +20,7 @@ excerpt: "Ne nous laissons pas être trompés par l’humour de cette comédie, 
 
 C’est l’histoire d’une tranche de vie de Rosa, une couturière pour un studio de cinéma en Espagne, célibataire, qui commence à en avoir assez de tout ce qu’on exige d’elle au travail comme dans sa vie privée, alors qu’elle tente de répondre aux attentes de tous, son frère qui veut qu’elle garde ses enfants, sa meilleure amie qui lui demande de garder ses chats avec, en plus, toutes les demandes urgentes de son employeur.
 
-La goutte d’eau arrive quand son père, veuf, lui annonce son projet d’aller vivre le reste de ses jours chez elle, chez Rosa.
+La goutte d’eau qui fait déborder le vase arrive quand son père, veuf, lui annonce son projet d’aller vivre le reste de ses jours chez elle, chez Rosa.
 
 Devant ces demandes incessantes, elle projette de quitter la ville et d’aller faire revivre l’entreprise de couture de sa mère défunte, dans une ville côtière près de la plage de Benicassim.
 
@@ -37,11 +44,11 @@ Mais c’est aussi l’histoire de notre société contemporaine, où l’indivi
 
 Comme quoi nos films reflètent des réalités contrastantes. Si certains se réjouiront du fait qu’on présente une Rosa qui s’affranchit, les mêmes personnes pourraient se désoler qu’elle soit aussi mue par des courants socio-économiques individualisantes pour le faire.
 
-Tout se passe ici comme si les réalités qui nous entourent ont besoin de plusieurs dimensions pour exister, un peu comme dans le monde physique où , pour exister, il doit y avoir une dimension de largeur, de hauteur, de profondeur et d’un espace-temps.
+Tout se passe ici comme si les réalités qui nous entourent ont besoin de plusieurs dimensions pour exister, un peu comme dans le monde physique où, pour exister, il doit y avoir une dimension de largeur, de hauteur, de profondeur et d’un espace-temps.
 
 Quelles peuvent donc être ces autres dimensions de ce film intrigant?
 
-Il pourrait y avoir une dimension espagnole, dans le sens que les sociétés du Sud de l’Europe, peut-être encore plus attachées à la famille, se sentent encore plus éclatées par les politique publiques contemporaines qui renvoient de plus en plus aux dynamiques individuelles. C’est déjà le cas, même pour des sociétés moins traditionnelles, comme le souligne David Goodhart, dans son étude de la société anglaise contemporaine, The Road to Somewhere ( 2017).
+Il pourrait y avoir une dimension espagnole, dans le sens que les sociétés du Sud de l’Europe, peut-être encore plus attachées à la famille, se sentent encore plus éclatées par les politiques publiques contemporaines qui renvoient de plus en plus aux dynamiques individuelles. C’est déjà le cas, même pour des sociétés moins traditionnelles, comme le souligne David Goodhart, dans son étude de la société anglaise contemporaine, The Road to Somewhere ( 2017).
 
 Déjà, dans le film Tout le monde le sait de 2018, on présentait la famille espagnole comme fondamentale, mais tiraillée tout de même par des tensions et conflits d’aujourd’hui.
 
