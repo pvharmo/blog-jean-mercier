@@ -1,5 +1,7 @@
 ---
-title: COMMENTAIRES ÉCLAIR DU 13 SEPTEMBRE 2021
+title: COMMENTAIRES ÉCLAIR SEPTEMBRE 2021
+category:
+  - Bullet comments
 date: 2021-09-13T14:54:19.128Z
 ---
 Notre entrée précédente de juin 2021 résume déjà plusieurs des éléments que nous avons notés dans les films des années 2018-2020.
