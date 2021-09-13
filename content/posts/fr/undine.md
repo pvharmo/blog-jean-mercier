@@ -23,9 +23,7 @@ Il n’en fallait pas plus pour intéresser Le Movie Shrink.
 
 # L’HISTOIRE
 
-Ann Wibeau est une historienne et conférencière, spécialiste de l’histoire urbaine de Berlin, qui reçoit des invités internationaux pour les autorités de la ville et qui leur présente l’histoire de l’évolution de la ville, en particulier les aléas de l’intégration avec l’Allemagne de l’Est et des conflits des visions
-
-de ce que devrait être Berlin, conflits entre les anciennes autorités de l’Allemagne de l’Est et les autorités qui étaient déjà en place à l’Ouest.
+Ann Wibeau est une historienne et conférencière, spécialiste de l’histoire urbaine de Berlin, qui reçoit des invités internationaux pour les autorités de la ville et qui leur présente l’histoire de l’évolution de la ville, en particulier les aléas de l’intégration avec l’Allemagne de l’Est et des conflits des visions de ce que devrait être Berlin, conflits entre les anciennes autorités de l’Allemagne de l’Est et les autorités qui étaient déjà en place à l’Ouest.
 
 Par après, on en apprend peu à peu sur la vie privée de la conférencière.
 
