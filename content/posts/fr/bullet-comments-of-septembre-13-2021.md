@@ -16,9 +16,7 @@ Dans le cas de « Undine » (Ondine), un film allemand, l’histoire raconte un 
 
 Dans le film « Le mariage de Rosa », on raconte l’histoire d’une couturière qui travaille dans l’industrie du cinéma et qui doit composer avec d’incessantes demandes venant de son employeur et de sa famille et qui décide de changer de ville et de vie, en commençant par s’épouser… elle-même, dans une cérémonie à cet effet.
 
-Il y a aussi un film qui n’est pas encore commenté dans notre section principale, mais qui pourrait l’être, à cause de son potentiel évocateur. Il s’agit de la comédie « Les Z-Héros », un film argentin, qui raconte les aléas d’un projet de réouverture d’une usine collective désaffectée proche de Buenos Aires. Comme il arrive souvent dans les films de l’Amérique du Sud,
-
-et particulièrement ceux de l’Argentine, on assiste à des trahisons de la part des élites et à des tensions interpersonnelles dans le cadre de projets économiques.
+Il y a aussi un film qui n’est pas encore commenté dans notre section principale, mais qui pourrait l’être, à cause de son potentiel évocateur. Il s’agit de la comédie « Les Z-Héros », un film argentin, qui raconte les aléas d’un projet de réouverture d’une usine collective désaffectée proche de Buenos Aires. Comme il arrive souvent dans les films de l’Amérique du Sud, et particulièrement ceux de l’Argentine, on assiste à des trahisons de la part des élites et à des tensions interpersonnelles dans le cadre de projets économiques.
 
 Dans la liste des films qui sont définitivement à voir, du côté de l’Amérique du sud, il y a en tout premier lieu le film brésilien « Bacurau », un film dont on dit qu’il présente, en partie, une réalité imaginaire. Ce film n’est pas facile à trouver et à visionner, mais son synopsis, autour des événements étranges qui entourent la mort d’une leader locale, a de quoi intéresser le Movie Shrink.
 
