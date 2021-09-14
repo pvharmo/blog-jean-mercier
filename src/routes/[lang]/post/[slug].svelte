@@ -1,7 +1,7 @@
 <script context="module">
   export async function preload({ params : { slug, lang } }) {
     const post = await fetchArticleContent(this, slug, lang);
-    return { post };
+    return { post, lang };
   }
 </script>
 
@@ -34,6 +34,7 @@
   })
 
   export let post;
+  export let lang;
 
   let selectTag = (tag) => {
     const tagObject = $tags.find((x) => {
@@ -61,7 +62,7 @@
     goto("/category/" + categoryObject.slug);
   };
 
-  let getFormattedDate = (date) => {
+  let getEnglishFormattedDate = (date) => {
     const months = [
       "January",
       "February",
@@ -81,6 +82,32 @@
       months[dateObj.getMonth()]
     } ${dateObj.getDate()}, ${dateObj.getFullYear()}`;
   };
+
+  let getFrenchFormattedDate = (date) => {
+    const months = [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre",
+    ];
+    const dateObj = new Date(date);
+    return `${dateObj.getDate()} ${months[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
+  };
+
+  let getFormattedDate = (date) => {
+    if (lang === 'fr') {
+      return getFrenchFormattedDate(date)
+    }
+    return getEnglishFormattedDate(date)
+  }
 
   let getCategory = (categoryId, catsObjects) => {
     let cat = catsObjects.find(x => {
