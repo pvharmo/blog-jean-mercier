@@ -89,6 +89,6 @@ Another question is the possible interpretation that the director of the film of
 
 The last question is the possibility that an interpretation is politically sensitive or even, for some, politically incorrect. There is the risk, here, as noted elsewhere, to want to kill the messenger, symbolically of course!
 
-But “it is what it is”. There is the possibility that a film makes us feel uncomfortable, but The Movie Shrink does should not shy away from this eventuality. After all, some social realities are alluded to indirectly, precisely because they may be unwelcome or uncomfortable.
+But “it is what it is”. There is the possibility that a film makes us feel uncomfortable, but The Movie Shrink should not shy away from this eventuality. After all, some social realities are alluded to indirectly, precisely because they may be unwelcome or uncomfortable.
 
 What may be surprising to some is that there is not a great deal of politically incorrect elements in contemporary films, at least not in the films usually seen and interpreted by The Movie Shrink.
