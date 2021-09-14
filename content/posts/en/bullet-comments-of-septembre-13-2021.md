@@ -1,5 +1,5 @@
 ---
-title: BULLET COMMENTS SEPTEMBRE 2021
+title: BULLET COMMENTS SEPTEMBER 2021
 category:
   - Bullet comments
 author: Jean Mercier
