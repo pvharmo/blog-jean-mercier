@@ -4,11 +4,13 @@ category:
   - Bullet comments
 author: Jean Mercier
 date: 2021-09-13T14:54:19.070Z
+excerpt: >-
+  In our previous entry of June 2021, we had looked at several revealing and
+  significant films of 2018- 2020.
+
+
+  In this brief entry or September 13, we would like to add only a few comments on recent films of the summer of 2021, some of which we will come back to later in the fall.
 ---
-In our previous entry of June 2021, we had looked at several revealing and significant films of 2018- 2020.
-
-In this brief entry or September 13, we would like to add only a few comments on recent films of the summer of 2021, some of which we will come back to later in the fall.
-
 We have already added a detailed analysis of a couple of significant recent films in our main section of The Movie Shrink: “Undine” a German production, and the Spanish film, “Rosa’s wedding”.
 
 In the case of Undine (Ondine in French), the film tells the story of an urban historian of Berlin, who happens to be a mermaid-nymph who has come to earth to find love in contemporary Germany. It is a poetic film, but it could also speak to some of the challenges facing the city and the country today.

@@ -3,11 +3,13 @@ title: COMMENTAIRES ÉCLAIR SEPTEMBRE 2021
 category:
   - Bullet comments
 date: 2021-09-13T14:54:19.128Z
+excerpt: >-
+  Notre entrée précédente de juin 2021 résume déjà plusieurs des éléments que
+  nous avons notés dans les films des années 2018-2020.
+
+
+  Dans la présente entrée, du 13 septembre, nous ne voulons que faire quelques brefs commentaires sur des films récents, ceux à l’affiche à l’été 2021, d’abord sur quelques films internationaux, puis sur certaines productions québécoises.
 ---
-Notre entrée précédente de juin 2021 résume déjà plusieurs des éléments que nous avons notés dans les films des années 2018-2020.
-
-Dans la présente entrée, du 13 septembre, nous ne voulons que faire quelques brefs commentaires sur des films récents, ceux à l’affiche à l’été 2021, d’abord sur quelques films internationaux, puis sur certaines productions québécoises.
-
 Sur le site principal de notre site, Le Movie Shrink, on a ajouté ces derniers jours deux films analysés de façon plus détaillée, soit « Undine » (Ondine) et « Le mariage de Rosa ».
 
 Du point de vue du Movie Shrink, ces deux films touchent à des cordes sensibles, et les lecteurs sont donc invités à aller lire sur les cordes sensibles que ces films évoquent dans notre rubrique principale.
