@@ -7,7 +7,7 @@ tags:
   - Africa and the Middle East
   - Drama
 author: Jean Mercier
-date: 2021-11-22T20:20:42.745Z
+date: 2021-12-01T20:20:42.745Z
 youtubeMovieTrailer: piflulDSWD4
 excerpt: The film may be all the more revealing in that it was filmed in secret,
   so much its content was sensitive and disturbing. What does this film tell us

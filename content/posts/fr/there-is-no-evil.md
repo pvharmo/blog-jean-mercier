@@ -1,5 +1,11 @@
 ---
 title: LE DIABLE N’EXISTE PAS
+category:
+  - Sociology
+  - National culture
+tags:
+  - Africa and the Middle East
+  - Drama
 date: 2021-11-22T20:20:42.766Z
 excerpt: Le film est d’autant plus révélateur qu’il a dû être tourné en secret,
   tellement son propos est sensible et dérangeant. Comment ce film révèle-t-il
