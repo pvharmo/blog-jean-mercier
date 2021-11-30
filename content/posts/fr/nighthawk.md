@@ -1,5 +1,13 @@
 ---
 title: BACURAU
+category:
+  - Economics
+  - Globalization
+  - Sociology
+  - National culture
+tags:
+  - Latin America
+  - Drama
 date: 2021-11-22T20:02:36.445Z
 excerpt: Dans ce film qui défie les catégories de genre, on ne peut qu’être
   attentif à son contexte socio-politique, un Brésil en crise depuis maintenant
