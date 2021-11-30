@@ -14,7 +14,7 @@ excerpt: The film may be all the more revealing in that it was filmed in secret,
   about Iran that we do not already know, while at the same time being true to a
   well-established Iranian cinematic tradition?
 ---
-an Iranian film from Mohammad Rasoulof, available on screens in 2021, and winner of the Golden Bear award at the 2020 Berlinale Film Festival.
+An Iranian film from Mohammad Rasoulof, available on screens in 2021, and winner of the Golden Bear award at the 2020 Berlinale Film Festival.
 
 # THE STORY
 
@@ -24,9 +24,7 @@ Death sentences are still existent and applied in Iran.
 
 The first story is the only one that does not involve a young recruit, but a middle-aged man, good husband, and father, and good and delicate son to his ailing mother, who leaves home for his night shift, which involves pushing a button to have prisoners drop from a stool to their hanging death.
 
-The second story is about a young conscript who refuses to participate in an assigned execution, as he is on duty in the military service charged with those types of duties.
-
-In an elaborate plan, which he implements, he frees himself at gunpoint and flees from the military premises, and joins his fiancée in her vehicle, driving to liberty.
+The second story is about a young conscript who refuses to participate in an assigned execution, as he is on duty in the military service charged with those types of duties. In an elaborate plan, which he implements, he frees himself at gunpoint and flees from the military premises, and joins his fiancée in her vehicle, driving to liberty.
 
 The third story tells of another young military, also called upon to participate in an execution, this time clearly involving a political opponent, as we learn later, only to realize afterward that the prisoner was a hero for the family of his fiancée.
 
@@ -42,7 +40,7 @@ Robert Abele of the *Los Angeles Times* writes that the film takes us further by
 
 If it is true that Iranian films often shied away from directly criticizing the regime, they have quite directly spoken to the challenges of human relationships between Iranians themselves, whether caused by the political regime or not.
 
-This is the case for several quite recent Iranian films, among them films that received prestigious prizes, such as *A Separation* (2006) and *The Client* (2011) of acclaimed filmmaker Asghar Farhadi. It must be said, however, that Farhadi tended to the same theme in at least one film that did not refer to Iran, *Everybody Knows* (2018), this time dealing with rural Spain. These challenges of interpersonal relationships often concern economic relations, related, for example, to contracts or promises to deliver, not always kept, in a conflictual mode. These contractual conflicts are of course present all over the world, and some Iranian films, those from Farhadi in particular, may only be more open in referring to them.
+This is the case for several quite recent Iranian films, among them films that received prestigious prizes, such as *A Separation* (2011) and *The Salesman* (2016) of acclaimed filmmaker Asghar Farhadi. It must be said, however, that Farhadi tended to the same theme in at least one film that did not refer to Iran, *Everybody Knows* (2018), this time dealing with rural Spain. These challenges of interpersonal relationships often concern economic relations, related, for example, to contracts or promises to deliver, not always kept, in a conflictual mode. These contractual conflicts are of course present all over the world, and some Iranian films, those from Farhadi in particular, may only be more open in referring to them.
 
 But still, we can look further, concerning the persistence of these themes.
 
