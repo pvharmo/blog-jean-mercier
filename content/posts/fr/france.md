@@ -1,5 +1,12 @@
 ---
 title: FRANCE
+category:
+  - Sociology
+  - Media transformation
+tags:
+  - Western Europe
+  - Drama
+  - Comedy
 date: 2021-11-22T20:09:46.422Z
 excerpt: "Est-ce un film sur France, la journaliste vedette du film, ou est-ce
   un film sur la France, le pays, la France contemporaine, immergée dans la

@@ -41,4 +41,4 @@ The lack of sensibility of the heroine vis-à-vis her immediate entourage, in sh
 
 New media do not penetrate societies without a past or a history.
 
-France shows us a part of this penetration in the case of France.
+France shows us a part of this penetration in the case of France. 
