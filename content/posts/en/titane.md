@@ -28,7 +28,7 @@ Mark Feeny, of *The Boston Globe*, asks: “Does (this film) make sense? No”, 
 
 For Marc-André Lussier, of Montreal’s *La Presse*, the film is a film *de genre*, which probably dispenses it from making sense, at least in a conventional way. We could add that we could look at it as an aesthetic piece, as an artistic creation, much as we would look at a painting from Picasso, not trying to find a linear and constraining sense to it, even though some paintings of Picasso, such as Guernica (1937) can refer to an effort at showing the cruelty of war and conflict.
 
-In some interviews, the film’s director, Julia Ducournau, seems uneasy with the search to find meaning to the film, adding that the film, once produced, “has a life of its own”, an autonomous and independent life. Is her statement a coquetry of sorts*,* the addition of a mysterious quality to the film, which would make it still more interesting?
+In some interviews, the film’s director, Julia Ducournau, seems uneasy with the search to find meaning to the film, adding that the film, once produced, “has a life of its own”, an autonomous and independent life. Is her statement a coquetry of sorts, the addition of a mysterious quality to the film, which would make it still more interesting?
 
 # STILL, TRYING TO MAKE SENSE
 
