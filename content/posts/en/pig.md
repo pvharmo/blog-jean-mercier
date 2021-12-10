@@ -6,7 +6,7 @@ tags:
   - North America
   - Drama
 author: Jean Mercier
-date: 2021-12-10T16:36:50.874Z
+date: 2021-12-02T16:36:50.874Z
 youtubeMovieTrailer: -4nRpdONaAA
 excerpt: What does this melancholic film tell us? We can feel it is about
   something important. But what? Although the hero could achieve a sense of

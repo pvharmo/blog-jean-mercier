@@ -1,5 +1,10 @@
 ---
 title: COCHON
+category:
+  - Sociology
+tags:
+  - North America
+  - Drama
 date: 2021-12-10T16:36:50.897Z
 excerpt: Que nous dit ce film mélancolique? On a l’impression qu’il nous dit
   quelque chose, mais quoi ? Même si le personnage principal du film a déjà vécu
