@@ -4,14 +4,14 @@ category:
   - Bullet comments
 date: 2021-12-10T16:32:21.555Z
 excerpt: Est-ce que les films du monde racontent les mêmes histoires partout ?
-  Où racontent-ils des histoires différentes, particulières à leur contexte
+  Ou racontent-ils des histoires différentes, particulières à leur contexte
   ?  C’est ce que nous tenterons de mieux comprendre ici.
 ---
 Les tendances des films, vus sous l’angle des régions et des pays, demandent parfois une analyse sur plusieurs années et c’est pourquoi, même si nous nous concentrons sur les films récents, ceux de 2020-2021, nous devrons parfois, pour mieux les apprécier, les voir sous l’angle de films un peu moins récents, comme ceux de 2018-2019, par exemple.
 
 Il faut dire aussi qu’il faut parfois voir des films comme un ensemble, une « grappe » de films différents mais qui s’interpellent les uns les autres, d’une certaine façon. On en verra un exemple avec le thème des morts ou disparitions de jeunes enfants, un thème particulièrement présent dans les films européens récents, un thème qui se présente comme un « grappe » de films, un thème difficile à comprendre ou interpréter, mais tout de même identifiable dans le cinéma récent du vieux continent. Nous y reviendrons plus loin.
 
-D’une façon très générale, on peut dire que les films des différents continents, régions ou pays, semblent correspondre, en partie du moins, à une idée qu’on retrouve dans les science sociales et organisationnelles, soit l’idée qu’il y a une certaine hiérarchie des besoins chez les humains que nous sommes. En résumé, les humains seraient préoccupés avant tout par les besoins de base, la sécurité, le logement, la survie matérielle, et ce n’est que quand ces besoins sont relativement satisfaits que l’on se tournerait vers la satisfaction d’autres types de besoins, comme le besoin de sociabilité ou de réalisation de soi. Ce serait vrai partout dans le monde, avec des déclinaisons quelque peu différentes.
+D’une façon très générale, on peut dire que les films des différents continents, régions ou pays, semblent correspondre, en partie du moins, à une idée qu’on retrouve dans les sciences sociales et organisationnelles, soit l’idée qu’il y a une certaine hiérarchie des besoins chez les humains que nous sommes. En résumé, les humains seraient préoccupés avant tout par les besoins de base, la sécurité, le logement, la survie matérielle, et ce n’est que quand ces besoins sont relativement satisfaits que l’on se tournerait vers la satisfaction d’autres types de besoins, comme le besoin de sociabilité ou de réalisation de soi. Ce serait vrai partout dans le monde, avec des déclinaisons quelque peu différentes.
 
 C’est ainsi que les films européens, par exemple, semblent, comme on le verra un peu plus loin, avoir pour thème des défis reliés à des préoccupations qui vont au-delà de la survie immédiate, comme l’environnement, dans le film islandais *Une femme en guerre* 2018) ou l’excès de la consommation d’alcool, comme dans le film scandinave *Alcootest* (2020). Il peut être intéressant de contraster ce type de préoccupations européennes avec des préoccupations liées à un défi immédiat de survie, comme on peut voir dans des films réalisés en Afrique, comme dans *L’indomptable feu du printemps* (2019-2020) ou le film de Bosnie-Herzégovine *Quo Vadis Aïda ?* (2020) sur la survie dans les camps de réfugiés dans l’ancienne Yougoslavie, ou dans *Acasia, l’adieu au fleuve* (2020-2021), un documentaire qui relate la vie misérable de citoyens près de Bucarest, qui sont devant des choix de survie économique.
 
@@ -109,7 +109,7 @@ Dans les dernières années, les films américains ont été les témoins d’ex
 
 C’est peut-être pour répondre à ces excès que l’on a retrouvé dans des films américains récents des rappels d’années plus paisibles, comme dans *L’extraordinaire Mr. Rogers* (2019) ou un rappel d’une période moins conflictuelle sur le plan de l’immigration, comme dans le film *MInari* (2020).
 
-Certains films semblent se rattacher à des thématiques historiques plus spécifiques, et revenir par exemple sur les emprisonnements qui ont fait suite aux événements du 11 septembre 2001, dans *Le Mauritanien* (2021) , ou des phénomènes plus récents comme les pandémies, comme dans *In the Earth* (2021).
+Certains films semblent se rattacher à des thématiques historiques plus spécifiques, et revenir par exemple sur les emprisonnements qui ont fait suite aux événements du 11 septembre 2001, dans *Le Mauritanien* (2021) , ou des phénomènes plus récents comme les pandémies, comme dans le film britannique *In the Earth* (2021).
 
 Nous ne nous nous pencherons pas ici sur les films canadiens ou québécois, et nous en traiterons dans une publication séparée.
 
