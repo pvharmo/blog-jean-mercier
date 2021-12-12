@@ -45,7 +45,7 @@ The film is really about the loss of balance, of harmony. In moments of grace, s
 
 But there may be more.
 
-It may be that, beyond commercial constraints, there remains the challenge of being respectful to nature, of course, but also and to ourselves. The conversation between Rob and the restaurant’s current maître’D suggested that it is difficult to be authentic today. The great meals that could be experienced in Rob’s restaurant, with all the balance and harmony they suggested between our sensory perception, are moments that are rare indeed.
+It may be that, beyond commercial constraints, there remains the challenge of being respectful to nature, of course, but also to ourselves. The conversation between Rob and the restaurant’s current maître’D suggested that it is difficult to be authentic today. The great meals that could be experienced in Rob’s restaurant, with all the balance and harmony they suggested between our sensory perception, are moments that are rare indeed.
 
 These moments of grace may be even rarer today, for whatever reason, commercialism, greed, the urban environment, mass culture, or a loss of a sense of balance.
 
