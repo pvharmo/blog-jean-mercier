@@ -41,7 +41,7 @@
     "disqus-svelte": "^1.0.9",
     "esm": "^3.2.25",
     "ncp": "^2.0.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-root-import": "^1.0.0",
     "rollup-plugin-svelte": "^7.0.0",
