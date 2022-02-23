@@ -4,9 +4,10 @@ category:
   - Bullet comments
 author: Jean Mercier
 date: 2022-02-24T15:54:59.178Z
+excerpt: Many of the films that are nominated for awards in this season of
+  recognition for the films of 2021 can be described as continuing the trends
+  set in recent years, with however some new and different angles.
 ---
-Many of the films that are nominated for awards in this season of recognition for the films of 2021 can be described as continuing the trends set in recent years, with however some new and different angles.
-
 Let us look first at continuity
 
 # CONTINUITY
