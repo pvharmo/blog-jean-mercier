@@ -8,7 +8,7 @@ tags:
   - Drama
   - Asia
 author: Jean Mercier
-date: 2022-02-25T15:16:49.445Z
+date: 2022-02-25T13:16:00.000Z
 youtubeMovieTrailer: 6BPKPb_RTwI
 excerpt: "This film about individual stories behind people involved in
   theatrical and cultural productions also speaks to Japanese society’s

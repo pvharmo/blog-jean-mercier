@@ -1,5 +1,12 @@
 ---
 title: CONDUIS MON CHAR (DRIVE MY CAR)
+category:
+  - National culture
+  - Globalization
+  - Media transformation
+tags:
+  - Drama
+  - Asia
 date: 2022-02-23T15:16:49.486Z
 excerpt: "Ce film à propos des personnes derrière la vie artistique et théâtrale
   japonaise nous parle aussi de l’expérience de ce pays avec ce qui vient de
