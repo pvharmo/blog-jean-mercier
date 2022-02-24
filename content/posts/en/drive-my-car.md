@@ -24,7 +24,7 @@ Years later, Yusuke, while he is given the direction of the Russian play Uncle V
 
 While in Hiroshima, during the play, the two men meet accidentally in a local bar, and Koji, the young actor, tells of his love for Yusuke’s deceased wife. There is sadness, but also acceptance on Yusuke’s part.
 
-Much of these personal twists and turns are spoken to in traveling in Yusuku’s red Saab, driven by a young female assistant who was given the responsibility of chauffeuring the director in Hiroshima, where he had to assume later the leading role of Uncle Vanya, taking young actor Koji’s place, who had faltered in the leading role (of Vanya), the Russian uncle, following accusations of improper conduct he was facing. 
+Much of these personal twists and turns are spoken to in traveling in Yusuke’s red Saab, driven by a young female assistant who was given the responsibility of chauffeuring the director in Hiroshima, where he had to assume later the leading role of Uncle Vanya, taking young actor Koji’s place, who had faltered in the leading role (of Vanya), the Russian uncle, following accusations of improper conduct he was facing. 
 
 # SOME INTERPRETATIONS
 

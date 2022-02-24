@@ -16,13 +16,13 @@ Conduis mon char (Drive my Car) : film du réalisateur japonais Ryusuke Hamaguch
 
 # L’HISTOIRE
 
-Le film raconte des épisodes dans la vie (fictive) d’un réalisateur et acteur japonais reconnu, Yusuke Kafuku, au moment où il perd son épouse et partenaire Oto, morte d’une hémorragie cérébrale, peu de temps après qu’il eut découvert qu’elle avait une relation extra-conjugale avec un jeune acteur, Koji Takatsuki, au moment où Yusuku réalise la pièce française En attendant Godot.
+Le film raconte des épisodes dans la vie (fictive) d’un réalisateur et acteur japonais reconnu, Yusuke Kafuku, au moment où il perd son épouse et partenaire Oto, morte d’une hémorragie cérébrale, peu de temps après qu’il eut découvert qu’elle avait une relation extra-conjugale avec un jeune acteur, Koji Takatsuki, au moment où Yusuke réalise la pièce française En attendant Godot.
 
-Des années plus tard, Yusuku se trouve à Hiroshima pour réaliser la pièce russe L’Oncle Vanya, et il confie, de façon quelque peu surprenante, au jeune acteur qui avait eu une aventure avec son épouse, Koji Takatsuki, le rôle principal de la pièce.
+Des années plus tard, Yusuke se trouve à Hiroshima pour réaliser la pièce russe L’Oncle Vanya, et il confie, de façon quelque peu surprenante, au jeune acteur qui avait eu une aventure avec son épouse, Koji Takatsuki, le rôle principal de la pièce.
 
-Pendant la tenue de la pièce à Hiroshima, les deux hommes se rencontrent accidentellement dans un bar local et ils s’assoient pour parler, et c’est là que Koji raconte à Yusuku son amour pour sa femme décédé. Yusuku est triste devant ce rappel, mais il est aussi dans un mode d’acceptation serein.
+Pendant la tenue de la pièce à Hiroshima, les deux hommes se rencontrent accidentellement dans un bar local et ils s’assoient pour parler, et c’est là que Koji raconte à Yusuke son amour pour sa femme décédé. Yusuke est triste devant ce rappel, mais il est aussi dans un mode d’acceptation serein.
 
-Une grande partie des aléas de la vie de Yusuku est racontée à travers les conversations qu’il entretient avec une assistante du théâtre, qui lui sert de chauffeur dans son automobile allemande, une Saab rouge. Plus tard, Yusuku doit prendre le rôle principal de la pièce qu’il dirige, le jeune acteur qu’il avait choisi (Koji) étant devenu incapable de continuer dans le rôle principal, devant des accusations d’inconduite dont il est l’objet. 
+Une grande partie des aléas de la vie de Yusuke est racontée à travers les conversations qu’il entretient avec une assistante du théâtre, qui lui sert de chauffeur dans son automobile allemande, une Saab rouge. Plus tard, Yusuke doit prendre le rôle principal de la pièce qu’il dirige, le jeune acteur qu’il avait choisi (Koji) étant devenu incapable de continuer dans le rôle principal, devant des accusations d’inconduite dont il est l’objet. 
 
 # QUELQUES INTERPRÉTATIONS
 
@@ -40,4 +40,4 @@ Bien entendu, l’histoire reflète la globalisation et la mondialisation de la 
 
 Au-delà de son histoire individuelle, le film raconte les aléas et les défis de la rencontre parfois malaisée entre les cultures mondiales et les cultures locales, qui pourraient être reflétée dans les défis de la coexistence d’un mari et d’un jeune amant, comme entre Yusuke et Koji. 
 
-Le titre du film, Drive my Car, en dit beaucoup sur l’histoire collective derrière l’histoire individuelle du film. On se trouve dans on automobile, dans son char, mais ce n’est pas toujours nous-mêmes qui conduisons. 
+Le titre du film, Drive my Car, en dit beaucoup sur l’histoire collective derrière l’histoire individuelle du film. On se trouve dans son automobile, dans son char, mais ce n’est pas toujours nous-mêmes qui conduisons. 
