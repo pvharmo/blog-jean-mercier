@@ -40,6 +40,8 @@ What strikes The Movie Shrink is that almost all the cultural objects of the fil
 
 Of course, this simply reflects worldwide globalization and multiculturalism. It does so in a Japanese context, in a country not traditionally open, economically but also culturally, to imports. But here, in this film, cultural imports are plentiful and crucial, though the plays that are on stage, even in the director’s personal car (a German-made Saab). One would think that Japanese cars would offer enough choices to consumers. The foreign car does seem to have some importance in the film.
 
-Beyond its individual dimensions about individual sharing, like Yusuke who had to share his wife’s love with young actor Koji, national cultures have to share with one another. 
+Beyond its individual dimensions about individual sharing, like Yusuke who had to share his wife’s love with young actor Koji, national cultures have to share with one another.
+
+The coexistence between the local and the international reflects all the finesse and the nuances of the Japanese culture, that we can first find in the individual interactions, as the film suggests.
 
 The title of the film, Drive my Car, says a lot about the collective story behind the individual one. We are in our car, but not necessarily driving it by ourselves. 

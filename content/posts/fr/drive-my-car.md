@@ -38,6 +38,8 @@ Ce qui frappe par ailleurs Le Movie Shrink, c’est que presque tous les produit
 
 Bien entendu, l’histoire reflète la globalisation et la mondialisation de la planète entière. Mais il le fait dans un cadre japonais, un pays pas particulièrement connu pour ses emprunts culturels ou économiques de l’extérieur. Mais ici, il y a une présence particulièrement importante de produits culturels étrangers, non seulement des pièces de théâtre, mais jusque dans le choix de l’automobile, site des conversations les plus significatives, une automobile allemande. On pourra penser que le Japon lui-même produit assez d’automobiles pour satisfaire les choix des consommateurs. On serait donc justifié de penser que le choix de cette automobile (de ce « char ») est significatif.
 
-Au-delà de son histoire individuelle, le film raconte les aléas et les défis de la rencontre parfois malaisée entre les cultures mondiales et les cultures locales, qui pourraient être reflétée dans les défis de la coexistence d’un mari et d’un jeune amant, comme entre Yusuke et Koji. 
+Au-delà de son histoire individuelle, le film raconte les aléas et les défis de la rencontre parfois malaisée entre les cultures mondiales et les cultures locales, qui pourraient être reflétée dans les défis de la coexistence d’un mari et d’un jeune amant, comme entre Yusuke et Koji.
+
+Cette coexistence du local et de l’international reflète toute la subtilité et la délicatesse de la culture japonaise qu’on trouve d’abord dans les relations entre individus, comme le film le suggère.
 
 Le titre du film, Drive my Car, en dit beaucoup sur l’histoire collective derrière l’histoire individuelle du film. On se trouve dans son automobile, dans son char, mais ce n’est pas toujours nous-mêmes qui conduisons. 
