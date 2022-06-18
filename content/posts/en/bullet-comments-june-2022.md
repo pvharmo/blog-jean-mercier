@@ -1,5 +1,5 @@
 ---
-title: Bullet Comments June 2022
+title: BULLET COMMENTS JUNE 2022
 category:
   - Bullet comments
 author: Jean Mercier

@@ -1,5 +1,7 @@
 ---
 title: LES FILMS DU MONDE DE 2022
+category:
+  - Bullet comments
 date: 2022-06-18T19:15:15.785Z
 ---
 Dans cette rubrique, nous voulons revenir sur des thèmes des films de 2021 et sur quelques films du tout début 2022, surtout sur des films dits internationaux, mais aussi, parfois, sur des films récents de l’Europe et de l’Amérique du Nord.
