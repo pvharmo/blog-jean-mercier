@@ -149,7 +149,7 @@
     font-size: 18px;
   }
   .content p {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 15px;
     line-height: 31px;
   }
