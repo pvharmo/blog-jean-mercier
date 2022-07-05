@@ -1,9 +1,9 @@
 export default {
     home: "Accueil",
-    siteName: "Le Movie Shrink",
+    siteName: "DES FILMS SUR LE DIVAN",
     hermeneutics: "Herméneutiques",
     about: "À propos",
-    tagline: "Comprendre nos films, comprendre notre époque",
+    tagline: "Comprendre des films exigeants",
     sidebar: {
         intro: "veut comprendre des films particulièrement exigeants, comme Aristote, en posant les mains sur le buste de Homère, essaie de comprendre les textes du poète, dans cette peinture de Rembrandt",
         Chronicles: "Chroniques",

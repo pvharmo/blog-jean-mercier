@@ -1,7 +1,7 @@
 export default {
     home: "Home",
     siteName: "The Movie Shrink",
-    tagline: "Understanding significant films",
+    tagline: "Understanding challenging films",
     hermeneutics: "Hermeneutics",
     about: "About",
     sidebar: {

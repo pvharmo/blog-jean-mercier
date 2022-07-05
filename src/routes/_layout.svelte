@@ -71,7 +71,7 @@
   <link
     data-n-head="1"
     rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&amp;display=swap"
+    href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap"
   />
 </svelte:head>
 
