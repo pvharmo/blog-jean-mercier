@@ -43,3 +43,5 @@ When there are many different interpretations for a given film, it is either bec
 But there is another possible interpretation regarding this challenging film, according to The Movie Shrink.
 
 It may have something to do about our collective changing view of the human body. It is no longer a sacred space. It can be manipulated, changed, or modified. It has become a question of mind over matter. Software has grown beyond hardware. Delivered from the sacredness of nature, we can choose what we will or what we want. We can now, for example, change our sexual identity, if our will is different from what nature has given us at birth.  Mind over matter. Much like another recent and complex film at Cannes, *Titane*, the Palmes d’Or winner of 2021, where the female héroïne changes sexual identity to find love with the grieving father of a missing boy, after, that is, having intercourse with an automobile in the first part of the story. She does not lose blood, but leaks oil, during the pregnancy….
+
+Thus, paradoxically, two difficult and challenging films shed light on one another, instead of creating confusion.

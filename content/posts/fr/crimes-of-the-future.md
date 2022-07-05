@@ -1,5 +1,14 @@
 ---
 title: LES CRIMES DU FUTUR
+category:
+  - Environment
+  - Sociology
+tags:
+  - Drama
+  - Horror
+  - Science Fiction / Futuristic
+  - Western Europe
+  - North America
 date: 2022-06-18T19:38:53.446Z
 excerpt: À Cannes, le réalisateur du film, le Canadien David Cronenberg avait
   prédit qu’une partie de l’auditoire quitterait la salle de projection dans les
@@ -25,12 +34,14 @@ Comme on pouvait s’y attendre, ce film étrange a suscité un grand nombre d�
 
 S’agit-il par ailleurs d’un film sur « la disparition inévitable de l’espèce humaine » ou encore sur « l’érosion et la disparition de nos écosystèmes naturels », comme le suggère Tomris Laffy dans *Roger Ebert.com* ?
 
-Bien entendu, il y a plusieurs autres possibilités d’interprétations pour ce film qui « laisse en suspens une trop grande quantité d’idées », avec des « appels vagues à des notions d’évolution et de désordre social » (Tomris Laffy), en nous offrant beaucoup plus de mystères que de solutions » (David Rooney dans *The Hollywood Reporter*).
+Bien entendu, il y a plusieurs autres possibilités d’interprétations pour ce film qui « laisse en suspens une trop grande quantité d’idées », avec des « appels vagues à des notions d’évolution et de désordre social » (Tomris Laffy), en « nous offrant beaucoup plus de mystères que de solutions » (David Rooney dans *The Hollywood Reporter*).
 
-LE FILM SUR LE DIVAN DU MOVIE SHRINK
+# LE FILM SUR LE DIVAN DU MOVIE SHRINK
 
 Quand un film donne lieu à autant d’interprétations différentes, c’est souvent qu’il n’a pas de thème central, ou que nous ne réussissons pas à l’identifier, ou encore parce que le film est lié de près aux préoccupations personnelles de son créateur, en dehors de toute dynamique sociale apparente. Autrement dit, comprendre le film, ce serait comprendre le monde de l’imaginaire du créateur David Cronenberg.
 
 Mais il y a une autre interprétation de ce film exigeant.
 
 Le film pourrait se comprendre comme notre perception changeante du corps humain. Il n’est plus une entité sacrée. Il peut être changé, modifié, manipulé. Le corps se plie à notre volonté. C’est l’humain qui, au final, impose sa volonté au corps. C’est l’information qui domine la quincaillerie. Délivrés des dictats de la nature, nous pouvons choisir ce que nous désirons ou voulons. Nous pouvons changer par exemple notre identité sexuelle, notre genre, si ce qui nous a été donné au départ ne nous satisfait pas. C’est l’esprit qui domine la matière. Comme dans un film français récent, *Titane*, gagnant de la Palme d’Or à Cannes en 2021, qui racontait les péripéties d’une jeune femme, meurtrière de son premier métier, qui se déguise et se transforme  en un jeune garçon qui a récemment disparu, au grand plaisir de son père éprouvé qui croit retrouver son fils. Dans la première partie du film, l’héroïne a eu des relations sexuelles avec une automobile et en est devenue enceinte, comme en témoigne l’huile à moteur qu’elle perd, présumément en lieu du sang.
+
+Ainsi, et paradoxalement, deux films complexes et exigeants s’éclairent l’un l’autre, au lieu de nous confondre.
