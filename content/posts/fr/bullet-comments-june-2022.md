@@ -1,5 +1,5 @@
 ---
-title: LES FILMS DU MONDE DE 2022
+title: LES FILMS DU MONDE DE JUIN 2022
 category:
   - Bullet comments
 date: 2022-06-18T19:15:15.785Z
@@ -19,7 +19,7 @@ Dans plusieurs films récents de fin 2021 et du début de 2022, ce thème de la 
 
 # EUROPE CENTRALE ET EUROPE DE L’EST
 
-Nous pouvons penser que l’invasion de l’Ukraine de la part de la Russie (hiver-printemps-été 2022) est en partie dû au fait que l’Ukraine veut intégrer de différentes manières l’Europe de l’Ouest, moderne et prospère, ce qui semble poser un défi existentiel et stratégique aux dirigeants russes.
+Nous pouvons penser que l’invasion de l’Ukraine de la part de la Russie (hiver-printemps-été 2022) est en partie dûe au fait que l’Ukraine veut intégrer de différentes manières l’Europe de l’Ouest, moderne et prospère, ce qui semble poser un défi existentiel et stratégique aux dirigeants russes.
 
 Ce que les films de cette partie du monde (Europe de l’Est et Europe centrale) nous disent par ailleurs, c’est que l’intégration dans la riche et prospère Europe n’est pas exempte de défis et de difficultés, et le chemin qui y mène présente aussi des embûches et des pièges, même si l’objectif ultime est souhaitable. On a mentionné dans une chronique précédente un documentaire roumain récent, *Acasa, l’adieu au fleuve* (2021), où on présente une famille de la banlieue de Bucarest qui doit faire un choix difficile entre rejoindre l’économie de marché émergeant ou demeurer dans son état d’autarcie familiale. Le chemin qui même vers l’économie moderne européenne comporte en effet ses propres défis, surtout quand on passe d’un système économique particulier à un système très différent, comme cela est suggéré dans un autre film roumain, *L’affaire collective* (2019), au cours duquel des intérêts privés agissent en prédateurs dans le nouveau système de santé roumain. On avait déjà annoncé cette thématique avec le film bulgare, *Glory* ((2016), au cours duquel un honnête cheminot se fait troquer sa vieille montre familiale pour une montre super moderne et performante, mais qui ne donne pas l’heure correctement.
 
@@ -60,7 +60,7 @@ D’autres questions sociales apparaissent aussi dans les films des pays plus ri
 
 # EN CONCLUSION
 
-Nous avons tenté de comprendre les thèmes des films qui sont mis en nomination pour la période des prix pour films étrangers de l’année 2021, présentés en 2022 et certains films récents de 2022, tout en les comparant parfois à des films des pays plus riches.
+Nous avons tenté de comprendre les thèmes des films qui sont mis en nomination pour la période des prix pour films étrangers de l’année 2021, présentés en 2022, et certains films récents de 2022, tout en les comparant parfois à des films des pays plus riches.
 
 Même si certains films peuvent être très difficiles à comprendre, comme le film français *Titane* (2021) (voir notre site pour une analyse plus détaillée),  la plupart des films, notamment étrangers, peuvent être au moins en partie compris dans le cadre de certaines thématiques partagées. D’une façon générale, les films des pays moins prospères continuent de s’adresser à des thématiques de difficultés économiques ( et à leurs innombrables conséquences), alors que les films des pays plus prospères nous dirigent vers des questions plus sociales et moins liées à la survie économique immédiate.
 
