@@ -146,11 +146,10 @@
     margin-left: 10px;
   }
   .content h3 {
-    font-size: 18px;
+    font-size: 21px;
   }
   .content p {
     font-weight: 400;
-    font-size: 15px;
     line-height: 31px;
   }
   .content .subtitle {
