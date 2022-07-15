@@ -1,5 +1,5 @@
 ---
-title: BULLET COMMENTS JUNE 2022
+title: FILMS OF THE WORLD - june 2022
 category:
   - Bullet comments
 author: Jean Mercier

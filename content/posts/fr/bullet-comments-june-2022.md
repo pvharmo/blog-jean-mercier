@@ -1,5 +1,5 @@
 ---
-title: LES FILMS DU MONDE DE JUIN 2022
+title: LES FILMS DU MONDE - juin 2022
 category:
   - Bullet comments
 date: 2022-06-18T19:15:15.785Z
