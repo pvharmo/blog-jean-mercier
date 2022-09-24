@@ -1,33 +1,21 @@
 ---
-  export async function preload({ params: {lang} }) {
-    await fetchCategories(this, lang);
-    await fetchTags(this, lang);
-  }
+import PostsGrid from "../components/PostsGrid.astro";
+import t from "../locales/language"
+const { lang } = Astro.props
+const posts: any[] = []
 ---
 
 <script>
-  import { posts } from "../../stores";
-  import PostsGrid from "../../components/PostsGrid.svelte";
-  import t from "../../locales/language";
-  import { stores } from "@sapper/app";
-  import { getLang } from "../../utils";
-  import { fetchCategories, fetchTags } from "../../actions";
-
-  const { page } = stores();
-
-  $: lang = getLang($page.path);
-
-  onMount(() => {
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", (user) => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  });
+  let w: any = window
+  if (w.netlifyIdentity) {
+    w.netlifyIdentity.on("init", (user: any) => {
+      if (!user) {
+        w.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
 </script>
 
 <svelte:head>
@@ -36,5 +24,5 @@
 </svelte:head>
 
 <div id="home-page" class="page-wrapper home-page">
-  <PostsGrid posts={$posts} lang={lang} />
+  <PostsGrid posts={posts} lang={lang} />
 </div>

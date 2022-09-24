@@ -1,9 +1,8 @@
-<script>
-	export let status;
-	export let error;
+---
+	const { status, error } = Astro.props
 
-	const dev = process.env.NODE_ENV === 'development';
-</script>
+	const dev = import.meta.env.MODE === 'development'
+---
 
 <style>
 	h1, p {
@@ -35,6 +34,4 @@
 
 <p>{error.message}</p>
 
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
-{/if}
+{dev && error.stack && <pre>{error.stack}</pre>}

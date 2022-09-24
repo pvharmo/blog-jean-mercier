@@ -1,60 +1,136 @@
 ---
-export interface Props {
-	title: string;
-}
+	import t from "../locales/language";
+	import MainSection from "../components/MainSection.astro"
+	import Nav from "../components/Nav.astro"
+	import SiteHero from "../components/SiteHero.astro"
+	import SiteFooter from "../components/SiteFooter.astro"
+	import Chip from "../components/Chip.astro"
 
-const { title } = Astro.props;
+	const {lang, title} = Astro.props
+	const genres: any[] = []
+	const regions: any[] = []
+	const categories: any[] = []
 ---
+  
+<svelte:head>
+	<link
+	data-n-head="1"
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap"
+	/>
+	<link
+	data-n-head="1"
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap"
+	/>
+	<title>{title}</title>
+</svelte:head>
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
-<style>
-	:root {
-		--font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
-		--font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
-		--font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
-
-		--color-text: hsl(12, 5%, 4%);
-		--color-bg: hsl(10, 21%, 95%);
-		--color-border: hsl(17, 24%, 90%);
+<div class="site-layout-width-contained posts-theme-one-column">
+	<SiteHero />
+	<Nav />
+	<MainSection theme="sidebar-right">
+	<!-- All Posts -->
+	<slot />
+	<div class="content" slot="sidebar">
+		<img alt="Aristotle" src="/aristotle-homer.jpg" />
+		<p>
+		{t(lang).siteName}
+		{t(lang).sidebar.intro}
+		</p>
+		<h3 class="subtitle">{t(lang).sidebar.Chronicles}</h3>
+		<ul class="categories-menu">
+			<li>
+				<a href="/{lang}/category/bullit-comments">
+				{t(lang).sidebar["Bullet comments"]}
+				</a>
+			</li>
+			<li>
+				<a href="/{lang}/category/films-of-the-past">
+				{t(lang).sidebar["Revisiting classics"]}
+				</a>
+			</li>
+			<li>
+				<a href="/{lang}/category/more-on-hermeneutics">
+				{t(lang).sidebar["More on hermeneutics"]}
+				</a>
+			</li>
+			{lang == "fr" && 
+				<li>
+					<a href="/fr/films-quebecois">
+						Films québécois
+					</a>
+				</li>
+			}
+		</ul>
+		<h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
+		<ul class="categories-menu">
+		{categories.map((category: any) => (
+			<li><a href={`/${lang}/category/${category.slug}`}> {category.name} </a></li>
+		))}
+		</ul>
+		<h3 class="subtitle">{t(lang).sidebar.Region}</h3>
+		{regions.map((region: any) => (
+			<Chip
+				href={`${lang}/tags/${region.name}`}>
+				{region.name}
+			</Chip>
+		))}
+		<h3 class="subtitle">Genre</h3>
+		{genres.map((genre: any) => (
+			<Chip
+				href={`${lang}/tags/${genre.name}`}>
+				{genre.name}
+			</Chip>
+		))
+		}
+	</div>
+	</MainSection>
+	<SiteFooter />
+</div>
+  
+  <style lang="scss" global>
+	@import "./../static/global.scss";
+  
+	.content {
+	  margin-left: 10px;
 	}
-
-	html {
-		font-family: system-ui, sans-serif;
-		font-size: var(--font-size-base);
-		color: var(--color-text);
-		background-color: var(--color-bg);
+	.content h3 {
+	  font-size: 21px;
 	}
-
-	body {
-		margin: 0;
+	.content p {
+	  font-weight: 400;
+	  line-height: 31px;
 	}
-
-
-</style>
-
-<style is:global>
-	h1 {
-		font-size: var(--font-size-xl);
+	.content .subtitle {
+	  padding-top: 30px;
 	}
-
-	h2 {
-		font-size: var(--font-size-lg);
+  
+	ul {
+	  margin-left: 0;
 	}
-
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
+  
+	li {
+	  list-style: none;
+	  padding: 6px 0 0;
+	  margin: 6px 0 0;
+	  border-top: 1px solid #eee;
 	}
-</style>
+  
+	li a {
+	  line-height: 31px;
+	  font-size: 15px;
+	  color: #1c7c7c;
+	  transition: all 0.2s ease-in-out;
+	}
+  
+	li a:hover {
+	  color: #666;
+	}
+  
+	.content img {
+	  width: 85%;
+	  margin-left: 10px;
+	}
+  </style>
+  

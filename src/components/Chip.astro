@@ -1,9 +1,15 @@
-<script>
-  export let active;
-</script>
+---
+const {active, onclick, href} = Astro.props
+---
 
-<button class:active on:click>
+<button class={active && "active"} onclick="() => onclick && onclick()">
+  {href ?
+  <a href={href}>
+    <slot />
+  </a>
+  :
   <slot />
+  }
 </button>
 
 <style>

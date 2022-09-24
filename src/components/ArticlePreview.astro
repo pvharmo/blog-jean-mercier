@@ -1,73 +1,31 @@
-<script>
-  import { selectedRegion, selectedGenre, tags, categories } from "../stores";
+---
   import Youtube from "./Youtube.astro";
-  import Chip from "./Chip.svelte";
-  import { stores } from "@sapper/app";
-  import { getLang } from "../utils";
+  import Chip from "./Chip.astro";
   import t from "../locales/language";
 
-  const { page } = stores();
-
-  $: lang = getLang($page.path);
-
-  export let post;
-
-  $: isSelected = (tag) => {
-    return tag === $selectedRegion || tag === $selectedGenre;
-  };
-
-  let selectTag = (tag) => {
-    const tagObject = $tags.find((x) => {
-      return tag === x.id;
-    });
-
-    switch (tagObject.type) {
-      case "Region":
-        selectedRegion.set(tag);
-        break;
-      case "Genre":
-        selectedGenre.set(tag);
-        break;
-
-      default:
-        break;
+  interface ArticlePreviewProps {
+    tags: {
+      name: string,
+      selected: boolean
+    }[]
+    categories: {
+      name: string,
+      selected: boolean
+    }[]
+    post: {
+      title: string
+      youtubeMovieTrailer: string | undefined
+      excerpt: string | undefined
     }
-  };
+    lang: string
+  }
+
+  const {tags, categories, post, lang} : ArticlePreviewProps = Astro.props as ArticlePreviewProps
 
   function date() {
     return "";
   }
-
-  if (!post.tag) {
-    post.tag = [];
-  }
-  if (!post.category) {
-    post.category = [];
-  }
-  if (!post.excerpt) {
-    post.excerpt = "";
-  }
-
-  let getCategory = (categoryId) => {
-    let cat = $categories.find(x => {
-      return x.id === categoryId
-    })
-    if (cat) {
-      return cat.name
-    }
-    return ""
-  }
-
-  let getTag = (tagId) => {
-    let tag = $tags.find(x => {
-      return x.id === tagId
-    })
-    if(tag) {
-      return tag.name
-    }
-    return ""
-  }
-</script>
+---
 
 <div class="content" id="article-{post.slug}">
   <a href="/{lang}/post/{post.slug}">
@@ -79,23 +37,23 @@
   </div>
   <div class="chips-group">
     <span>Categories :</span>
-    {#each post.category as category}
-      <Chip>{getCategory(category)}</Chip>
-    {/each}
+    {categories.map((category) => (
+      <Chip active={category.selected}>{category.name}</Chip>
+    ))}
   </div>
   <div class="chips-group">
     <span>Tags :</span>
-    {#each post.tags as tag}
+    {tags.map((tag) => (
       <Chip
-        active={isSelected(tag)}
+        active={tag.selected}
         style="margin: 5px;"
-        on:click={() => selectTag(tag)}
+        href={`${lang}/tags/${tag.name}`}
       >
-        {getTag(tag)}
+        {tag.name}
       </Chip>
-    {/each}
+    ))}
   </div>
-  <p class="excerpt">{post.excerpt}</p>
+  <p class="excerpt">{post.excerpt || ""}</p>
   <a href="/{lang}/post/{post.slug}">{t(lang).readMore}</a>
 </div>
 
