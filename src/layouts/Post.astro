@@ -1,0 +1,99 @@
+---
+import Layout from "./Layout.astro"
+import Youtube from "../components/Youtube.astro"
+import Chip from "../components/Chip.astro"
+import Comments from "../components/Disqus.astro"
+const {lang, frontmatter} = Astro.props
+
+let getEnglishFormattedDate = (date: any) => {
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const dateObj = new Date(date);
+  return `${
+    months[dateObj.getMonth()]
+  } ${dateObj.getDate()}, ${dateObj.getFullYear()}`;
+};
+
+let getFrenchFormattedDate = (date: any) => {
+  const months = [
+    "janvier",
+    "février",
+    "mars",
+    "avril",
+    "mai",
+    "juin",
+    "juillet",
+    "août",
+    "septembre",
+    "octobre",
+    "novembre",
+    "décembre",
+  ];
+  const dateObj = new Date(date);
+  return `${dateObj.getDate()} ${months[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
+};
+
+let getFormattedDate = (date: any) => {
+  if (lang === 'fr') {
+    return getFrenchFormattedDate(date)
+  }
+  return getEnglishFormattedDate(date)
+}
+---
+
+<Layout title={frontmatter.title}>
+  <div id="post-page" class="page-wrapper post-page">
+      <div class="post-wrapper content">
+          <h1>{frontmatter.title}</h1>
+          <p>{getFormattedDate(frontmatter.date)}</p>
+          <div class="movie-feature">
+              <Youtube class="movie-trailer" videoId={frontmatter.youtubeMovieTrailer} />
+          </div>
+          <div>
+              <span>Categories :</span>
+              {frontmatter.category.map((category: any) => {
+                  <Chip style="margin: 5px;" href={`${lang}/categories/${category.slug}`}>
+                      {category.name}
+                  </Chip>
+              })}
+          </div>
+          <div>
+              <span>Tags :</span>
+              {frontmatter.tags.map((tag:any) => (
+                  <Chip style="margin: 5px;" href={`${lang}/tags/${tag.slug}`}>
+                      {tag.name}
+                  </Chip>
+              ))}
+          </div>
+          {frontmatter.excerpt && <p class="excerpt">{frontmatter.excerpt}</p>}
+          <slot />
+          <Comments identifier={frontmatter.slug} siteName="themovieshrink" />
+      </div>
+  </div>
+</Layout>
+  
+<style lang="scss">
+  .movie-feature {
+    margin-bottom: 20px;
+  }
+
+  .excerpt {
+    background: #f9f9f9;
+    border-right: 10px solid #ccc;
+    margin: 1.5em 0;
+    padding: 0.5em 10px;
+  }
+</style>
+  

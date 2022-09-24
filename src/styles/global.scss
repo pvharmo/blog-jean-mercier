@@ -15,3 +15,45 @@
 a {
   font-family: "Quattrocento Sans", sans-serif;
 }
+
+  
+.content {
+  margin-left: 10px;
+}
+.content h3 {
+  font-size: 21px;
+}
+.content p {
+  font-weight: 400;
+  line-height: 31px;
+}
+.content .subtitle {
+  padding-top: 30px;
+}
+
+ul {
+  margin-left: 0;
+}
+
+li {
+  list-style: none;
+  padding: 6px 0 0;
+  margin: 6px 0 0;
+  border-top: 1px solid #eee;
+}
+
+li a {
+  line-height: 31px;
+  font-size: 15px;
+  color: #1c7c7c;
+  transition: all 0.2s ease-in-out;
+}
+
+li a:hover {
+  color: #666;
+}
+
+.content img {
+  width: 85%;
+  margin-left: 10px;
+}
