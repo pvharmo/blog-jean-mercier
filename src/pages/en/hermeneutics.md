@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/BaseLayout.astro
+layout: ../../layouts/Info.astro
 ---
 
 # MORE ON HERMENEUTICS

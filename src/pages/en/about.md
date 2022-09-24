@@ -1,8 +1,8 @@
 ---
-layout: ../../layouts/BaseLayout.astro
+layout: ../../layouts/Info.astro
 ---
 
-THE MOVIE SHRINK
+# THE MOVIE SHRINK
 
 ### _\- Understanding significant films_
 

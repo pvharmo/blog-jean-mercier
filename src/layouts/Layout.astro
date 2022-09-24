@@ -1,95 +1,84 @@
 ---
-	import t from "../locales/language";
-	import MainSection from "../components/MainSection.astro"
-	import Nav from "../components/Nav.astro"
-	import SiteHero from "../components/SiteHero.astro"
-	import SiteFooter from "../components/SiteFooter.astro"
-	import Chip from "../components/Chip.astro"
+import t from "../locales/language"
+import MainSection from "../components/MainSection.astro"
+import Nav from "../components/Nav.astro"
+import SiteHero from "../components/SiteHero.astro"
+import SiteFooter from "../components/SiteFooter.astro"
+import Chip from "../components/Chip.astro"
+import Html from "./Html.astro"
 
-	const {lang, title} = Astro.props
-	const genres: any[] = []
-	const regions: any[] = []
-	const categories: any[] = []
+const {lang, title} = Astro.props
+const genres: any[] = []
+const regions: any[] = []
+const categories: any[] = []
 ---
-  
-<svelte:head>
-	<link
-	data-n-head="1"
-	rel="stylesheet"
-	href="https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap"
-	/>
-	<link
-	data-n-head="1"
-	rel="stylesheet"
-	href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap"
-	/>
-	<title>{title}</title>
-</svelte:head>
 
-<div class="site-layout-width-contained posts-theme-one-column">
-	<SiteHero />
-	<Nav />
-	<MainSection theme="sidebar-right">
-	<!-- All Posts -->
-	<slot />
-	<div class="content" slot="sidebar">
-		<img alt="Aristotle" src="/aristotle-homer.jpg" />
-		<p>
-		{t(lang).siteName}
-		{t(lang).sidebar.intro}
-		</p>
-		<h3 class="subtitle">{t(lang).sidebar.Chronicles}</h3>
-		<ul class="categories-menu">
-			<li>
-				<a href="/{lang}/category/bullit-comments">
-				{t(lang).sidebar["Bullet comments"]}
-				</a>
-			</li>
-			<li>
-				<a href="/{lang}/category/films-of-the-past">
-				{t(lang).sidebar["Revisiting classics"]}
-				</a>
-			</li>
-			<li>
-				<a href="/{lang}/category/more-on-hermeneutics">
-				{t(lang).sidebar["More on hermeneutics"]}
-				</a>
-			</li>
-			{lang == "fr" && 
+<Html title={title}>
+	<div class="site-layout-width-contained posts-theme-one-column">
+		<SiteHero />
+		<Nav />
+		<MainSection theme="sidebar-right">
+		<!-- All Posts -->
+		<slot />
+		<div class="content" slot="sidebar">
+			<img alt="Aristotle" src="/aristotle-homer.jpg" />
+			<p>
+			{t(lang).siteName}
+			{t(lang).sidebar.intro}
+			</p>
+			<h3 class="subtitle">{t(lang).sidebar.Chronicles}</h3>
+			<ul class="categories-menu">
 				<li>
-					<a href="/fr/films-quebecois">
-						Films québécois
+					<a href="/{lang}/category/bullit-comments">
+					{t(lang).sidebar["Bullet comments"]}
 					</a>
 				</li>
+				<li>
+					<a href="/{lang}/category/films-of-the-past">
+					{t(lang).sidebar["Revisiting classics"]}
+					</a>
+				</li>
+				<li>
+					<a href="/{lang}/category/more-on-hermeneutics">
+					{t(lang).sidebar["More on hermeneutics"]}
+					</a>
+				</li>
+				{lang == "fr" && 
+					<li>
+						<a href="/fr/films-quebecois">
+							Films québécois
+						</a>
+					</li>
+				}
+			</ul>
+			<h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
+			<ul class="categories-menu">
+			{categories.map((category: any) => (
+				<li><a href={`/${lang}/category/${category.slug}`}> {category.name} </a></li>
+			))}
+			</ul>
+			<h3 class="subtitle">{t(lang).sidebar.Region}</h3>
+			{regions.map((region: any) => (
+				<Chip
+					href={`${lang}/tags/${region.name}`}>
+					{region.name}
+				</Chip>
+			))}
+			<h3 class="subtitle">Genre</h3>
+			{genres.map((genre: any) => (
+				<Chip
+					href={`${lang}/tags/${genre.name}`}>
+					{genre.name}
+				</Chip>
+			))
 			}
-		</ul>
-		<h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
-		<ul class="categories-menu">
-		{categories.map((category: any) => (
-			<li><a href={`/${lang}/category/${category.slug}`}> {category.name} </a></li>
-		))}
-		</ul>
-		<h3 class="subtitle">{t(lang).sidebar.Region}</h3>
-		{regions.map((region: any) => (
-			<Chip
-				href={`${lang}/tags/${region.name}`}>
-				{region.name}
-			</Chip>
-		))}
-		<h3 class="subtitle">Genre</h3>
-		{genres.map((genre: any) => (
-			<Chip
-				href={`${lang}/tags/${genre.name}`}>
-				{genre.name}
-			</Chip>
-		))
-		}
+		</div>
+		</MainSection>
+		<SiteFooter />
 	</div>
-	</MainSection>
-	<SiteFooter />
-</div>
+</Html>
   
-  <style lang="scss" global>
+<style lang="scss" global>
 	@import "./../static/global.scss";
   
 	.content {
@@ -132,5 +121,5 @@
 	  width: 85%;
 	  margin-left: 10px;
 	}
-  </style>
+</style>
   

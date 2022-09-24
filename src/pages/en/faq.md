@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/BaseLayout.astro
+layout: ../../layouts/Info.astro
 ---
 
 # FREQUENTLY ASKED QUESTIONS ON THE MOVIE SHRINK
