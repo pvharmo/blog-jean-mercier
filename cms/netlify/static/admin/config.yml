@@ -16,7 +16,7 @@ collections:
   - name: 'posts' # Used in routes, e.g., /admin/collections/blog
     label: 'Posts' # Used in the UI
     preview_path: '{{slug}}'
-    folder: 'src/pages/blog' # The path to the folder where the documents are stored
+    folder: 'content/posts' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., title.md
     i18n: true
@@ -64,7 +64,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
   - name: 'categories'
     label: 'Categories'
-    folder: 'src/pages/categories'
+    folder: 'content/categories'
     create: true
     slug: '{{slug}}'
     identifier_field: name
@@ -90,7 +90,7 @@ collections:
         }
   - name: 'tags'
     label: 'Tags'
-    folder: 'src/pages/tags'
+    folder: 'content/tags'
     create: true
     slug: '{{slug}}'
     identifier_field: name,
@@ -108,7 +108,7 @@ collections:
         }
   - name: 'categoryTypes'
     label: 'Category Types'
-    folder: 'src/pages/categoryTypes'
+    folder: 'content/categoryTypes'
     create: true
     slug: '{{slug}}'
     identifier_field: name
@@ -117,7 +117,7 @@ collections:
       - { label: 'Name', name: 'name', widget: 'string', i18n: true }
   - name: 'tagTypes'
     label: 'Tag Types'
-    folder: 'src/pages/tagTypes'
+    folder: 'content/tagTypes'
     create: true
     slug: '{{slug}}'
     identifier_field: name
