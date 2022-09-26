@@ -61,25 +61,29 @@ let getFormattedDate = (date: any) => {
           <div class="movie-feature">
               <Youtube class="movie-trailer" videoId={frontmatter.youtubeMovieTrailer} />
           </div>
-          <div>
-              <span>Categories :</span>
-              {frontmatter.category.map((category: any) => {
-                  <Chip style="margin: 5px;" href={`${lang}/categories/${category.slug}`}>
-                      {category.name}
-                  </Chip>
-              })}
-          </div>
-          <div>
-              <span>Tags :</span>
-              {frontmatter.tags.map((tag:any) => (
-                  <Chip style="margin: 5px;" href={`${lang}/tags/${tag.slug}`}>
-                      {tag.name}
-                  </Chip>
-              ))}
-          </div>
+          {frontmatter.category &&
+            <div>
+                <span>Categories :</span>
+                {frontmatter.category.map((category: any) => {
+                    <Chip style="margin: 5px;" href={`${lang}/categories/${category.slug}`}>
+                        {category.name}
+                    </Chip>
+                })}
+            </div>
+          }
+          {frontmatter.tags &&
+            <div>
+                <span>Tags :</span>
+                {frontmatter.tags.map((tag:any) => (
+                    <Chip style="margin: 5px;" href={`${lang}/tags/${tag.slug}`}>
+                        {tag.name}
+                    </Chip>
+                ))}
+            </div>
+          }
           {frontmatter.excerpt && <p class="excerpt">{frontmatter.excerpt}</p>}
           <slot />
-          <Comments identifier={frontmatter.slug} siteName="themovieshrink" />
+          <!-- <Comments identifier={frontmatter.slug} siteName="themovieshrink" /> -->
       </div>
   </div>
 </Layout>

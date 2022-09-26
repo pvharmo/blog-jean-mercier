@@ -1,10 +1,6 @@
 ---
   import t from "../locales/language";
 
-  let changeLang = (newLang: string) => {
-    window.localStorage.setItem("lang", newLang);
-  };
-
   const {lang, currentPath} = Astro.props;
 ---
 
@@ -12,25 +8,25 @@
   <div class="navbar-menu is-active">
     <ul class="navbar-end navbar-center">
       <li class="navbar-item">
-        <a href="/{lang}/">{t(lang).menu.HOME}</a>
+        <a href={`/${lang}/`}>{t(lang).menu.HOME}</a>
       </li>
       <li class="navbar-item">
-        <a href="/{lang}/about">{t(lang).menu["ABOUT US"]}</a>
+        <a href={`/${lang}/about`}>{t(lang).menu["ABOUT US"]}</a>
       </li>
       <li class="navbar-item">
-        <a href="/{lang}/hermeneutics">{t(lang).menu.HERMENEUTICS}</a>
+        <a href={`/${lang}/hermeneutics`}>{t(lang).menu.HERMENEUTICS}</a>
       </li>
       <li class="navbar-item">
-        <a href="/{lang}/faq">{t(lang).menu.FAQ}</a>
+        <a href={`/${lang}/faq`}>{t(lang).menu.FAQ}</a>
       </li>
       <li class="navbar-item">
-        <a href="/{lang}/contact">{t(lang).menu.CONTACT}</a>
+        <a href={`/${lang}/contact`}>{t(lang).menu.CONTACT}</a>
       </li>
       <li class="navbar-item">
         {lang === "fr" ?
-          <a href={"/en" + currentPath} onclick="() => changeLang('en')"> ENGLISH </a>
+          <a href={"/en" + currentPath}> ENGLISH </a>
         :
-          <a href={"/fr" + currentPath} onclick="() => changeLang('fr')"> FRANÇAIS </a>
+          <a href={"/fr" + currentPath}> FRANÇAIS </a>
         }
       </li>
     </ul>

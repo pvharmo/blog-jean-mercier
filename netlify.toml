@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/"
+  to = "/fr/"
+  conditions = {Language = ["fr"]}

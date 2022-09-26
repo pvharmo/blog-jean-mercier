@@ -16,7 +16,7 @@ const categories: any[] = []
 <Html title={title}>
 	<div class="site-layout-width-contained posts-theme-one-column">
 		<SiteHero />
-		<Nav />
+		<Nav lang={lang} />
 		<MainSection theme="sidebar-right">
 		<!-- All Posts -->
 		<slot />
@@ -29,17 +29,17 @@ const categories: any[] = []
 			<h3 class="subtitle">{t(lang).sidebar.Chronicles}</h3>
 			<ul class="categories-menu">
 				<li>
-					<a href="/{lang}/category/bullit-comments">
+					<a href={`/${lang}/category/bullit-comments`}>
 					{t(lang).sidebar["Bullet comments"]}
 					</a>
 				</li>
 				<li>
-					<a href="/{lang}/category/films-of-the-past">
+					<a href={`/${lang}/category/films-of-the-past`}>
 					{t(lang).sidebar["Revisiting classics"]}
 					</a>
 				</li>
 				<li>
-					<a href="/{lang}/category/more-on-hermeneutics">
+					<a href={`/${lang}/category/more-on-hermeneutics`}>
 					{t(lang).sidebar["More on hermeneutics"]}
 					</a>
 				</li>
