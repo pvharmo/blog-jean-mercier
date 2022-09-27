@@ -2,25 +2,8 @@
   import Youtube from "./Youtube.astro";
   import Chip from "./Chip.astro";
   import t from "../locales/language";
-
-  interface ArticlePreviewProps {
-    tags: {
-      name: string,
-      selected: boolean
-    }[]
-    categories: {
-      name: string,
-      selected: boolean
-    }[]
-    post: {
-      title: string
-      youtubeMovieTrailer: string | undefined
-      excerpt: string | undefined
-    }
-    lang: string
-  }
-
-  const {tags, categories, post, lang} : ArticlePreviewProps = Astro.props as ArticlePreviewProps
+  
+  const {post, lang} = Astro.props
 
   function date() {
     return "";
@@ -37,19 +20,19 @@
   </div>
   <div class="chips-group">
     <span>Categories :</span>
-    {categories.map((category) => (
-      <Chip active={category.selected}>{category.name}</Chip>
+    {post.categories?.map((category: any) => (
+      <Chip active={category.selected}>{category.frontmatter.name}</Chip>
     ))}
   </div>
   <div class="chips-group">
     <span>Tags :</span>
-    {tags.map((tag) => (
+    {post.tags?.map((tag: any) => (
       <Chip
         active={tag.selected}
         style="margin: 5px;"
         href={`${lang}/tags/${tag.name}`}
       >
-        {tag.name}
+        {tag.frontmatter.name}
       </Chip>
     ))}
   </div>

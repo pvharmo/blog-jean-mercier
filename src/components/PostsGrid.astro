@@ -5,42 +5,32 @@ import t from "../locales/language"
 const {posts, lang} = Astro.props
 ---
 
-<div>
+<>
     {posts.length ?
-        <div>{t(lang)["No post available"]}</div>
-    :
         <div class="grid grid-theme-blocks">
             <div class="columns items is-multiline">
-                {posts.map((post: any) => {
+                {posts.map((post: any) => (
                     <div class="column items" style="width: 100%">
                         <ArticlePreview post={post} />
                     </div>
-                })}
+                ))}
             </div>
         </div>
+    :
+        <div>{t(lang)["No post available"]}</div>
     }
     <div id="bottom-page"></div>
-</div>
-
-<div class="grid grid-theme-blocks">
-    <div class="columns items is-multiline">
-        {posts.map((post: any) => {
-            <div class="column items" style="width: 100%">
-                <ArticlePreview post={post} />
-            </div>
-        })}
-    </div>
-</div>
+</>
   
-  <style lang="scss" scoped>
-    .grid {
-      min-height: 150px;
+<style lang="scss" scoped>
+.grid {
+    min-height: 150px;
+}
+.column {
+    flex-basis: auto;
+    flex-grow: 0;
+    @media (max-width: 768px) {
+    width: 100% !important;
     }
-    .column {
-      flex-basis: auto;
-      flex-grow: 0;
-      @media (max-width: 768px) {
-        width: 100% !important;
-      }
-    }
-  </style>
+}
+</style>

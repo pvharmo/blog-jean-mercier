@@ -1,5 +1,5 @@
 ---
-id: Globalization
-name: Globalization
+id: Sociology
+name: Sociology
 type: The elephants behind the Screen
 ---

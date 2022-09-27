@@ -1,7 +1,7 @@
 ---
   import t from "../locales/language";
 
-  const {lang, currentPath} = Astro.props;
+  const {lang} = Astro.props;
 ---
 
 <nav role="navigation" aria-label="main navigation">
@@ -24,9 +24,9 @@
       </li>
       <li class="navbar-item">
         {lang === "fr" ?
-          <a href={"/en" + currentPath}> ENGLISH </a>
+          <a href="/en"> ENGLISH </a>
         :
-          <a href={"/fr" + currentPath}> FRANÇAIS </a>
+          <a href="/fr"> FRANÇAIS </a>
         }
       </li>
     </ul>

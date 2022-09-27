@@ -1,5 +1,14 @@
 ---
-date: 2022-09-24T02:03:05.685Z
+title: Les Innocents
+category:
+  - Sociology
+tags:
+  - Drama
+  - Horror
+  - Western Europe
+author: Jean Mercier
+date: 2022-09-24T02:03:05.628Z
+youtubeMovieTrailer: hm45yGSwArY
 excerpt: "Ce n’est pas la première fois qu’un film ou un roman décrit comment
   les enfants ne sont pas toujours aussi innocents qu’il y paraît. Ce qui est
   particulier ici, dans ce film, est que les incidences de cruauté et de malice
@@ -7,7 +16,7 @@ excerpt: "Ce n’est pas la première fois qu’un film ou un roman décrit comm
   du quartier sont en grande partie absents, partis en congé de vacances d’été.
   "
 ---
-**Les Innocents.** Unfilm norvégien du directeur Eskil Vogt, qui a aussi signé le scénario, sorti en mai 2022.
+**Les Innocents.** Un film norvégien du directeur Eskil Vogt, qui a aussi signé le scénario, sorti en mai 2022.
 
 # L’HISTOIRE
 
@@ -19,9 +28,9 @@ Beaucoup de choses se passent entre les quatre enfants, y compris la tuerie d’
 
 # QUELQUES INTERPRÉTATIONS
 
-Bien entendu, on a présenté le film comme une indication que les enfants peuvent être, à leur manière, cruels et méchants, ou, comme l’exprime Richard Whittaker du *Austin* *Post*, une indication de la « présence du côté sombre de l’enfance » ou encore de « la banalité du mal », selon Tasha Robinson de *Polygon*.
+Bien entendu, on a présenté le film comme une indication que les enfants peuvent être, à leur manière, cruels et méchants, ou, comme l’exprime Richard Whittaker du *Austin Post*, une indication de la « présence du côté sombre de l’enfance » ou encore de « la banalité du mal », selon Tasha Robinson de *Polygon*.
 
-Bien entendu, Freud nous avait expliqué que les enfants ne sont pas toujours aussi innocents qu’il n’y paraît. À cet égard, rien de très nouveau que nous ne savions pas avant, surtout avec les incidences contemporaines de cruauté sur les réseaux sociaux, en plus des intimidations physiques à l’école, illustré dans le film européen récent *Un* *monde* (2021).
+Bien entendu, Freud nous avait expliqué que les enfants ne sont pas toujours aussi innocents qu’il n’y paraît. À cet égard, rien de très nouveau que nous ne savions pas avant, surtout avec les incidences contemporaines de cruauté sur les réseaux sociaux, en plus des intimidations physiques à l’école, illustré dans le film européen récent *Un monde* (2021).
 
 Pourquoi donc aller plus loin pour éclairer davantage ce film ?
 

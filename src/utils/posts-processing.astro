@@ -1,0 +1,52 @@
+---
+export const getCategories = async (lang: string) => {
+    const frCategories = (await Astro.glob(`../pages/fr/categories/*.md`))
+    const enCategories = (await Astro.glob(`../pages/en/categories/*.md`))
+
+    return lang == "fr" ? frCategories : enCategories
+}
+
+export const getTags = async (lang: string) => {
+    const frTags = (await Astro.glob(`../pages/fr/tags/*.md`))
+    const enTags = (await Astro.glob(`../pages/en/tags/*.md`))
+
+    return lang == "fr" ? frTags : enTags
+}
+
+export const getPosts = async (lang: string) => {
+    const frPosts = (await Astro.glob("../pages/fr/blog/*.md"))
+    const enPosts = (await Astro.glob("../pages/en/blog/*.md"))
+
+    const posts = lang == "fr" ? frPosts : enPosts
+    
+    const formattedPosts = await Promise.all(posts.map(async (post) => {
+        return formatPost(post, lang)
+    }))
+
+    return formattedPosts
+}
+
+export const formatPost = async (post: any, lang: string) => {
+    const categories = await getCategories(lang)
+    const tags = await getTags(lang)
+
+    const categoriesName = post.frontmatter.category?.map((id: string) => {
+        const category = categories.find((x) => x.frontmatter.id == id)
+        return category
+    })
+
+    const tagsName = post.frontmatter.tags?.map((id: string) => {
+        const tag = tags.find((x) => x.frontmatter.id == id)
+        return tag
+    })
+
+    return {
+        ...post.frontmatter,
+        categories: categoriesName,
+        tags: tagsName,
+        lang,
+        Content: post.Content,
+        url: post.url
+    }
+}
+---

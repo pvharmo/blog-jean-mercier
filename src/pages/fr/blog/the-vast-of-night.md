@@ -6,7 +6,7 @@ category:
 tags:
   - North America
   - Drama
-  - Science Fiction - Fururistic
+  - Science Fiction / Futuristic
 excerpt: Dans une histoire qui rappelle Close Encounters of the Third Kind
   (1977), ce film sur des sons étranges émanant d'une fréquence audio
   inhabituelle, entendue dans une petite ville du Nouveau-Mexique, est d'une

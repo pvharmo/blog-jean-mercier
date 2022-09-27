@@ -3,87 +3,47 @@ import Layout from "./Layout.astro"
 import Youtube from "../components/Youtube.astro"
 import Chip from "../components/Chip.astro"
 import Comments from "../components/Disqus.astro"
-const {lang, frontmatter} = Astro.props
+import { formatPost } from "../utils/posts-processing.astro"
+import { getFormattedDate } from "src/utils/date"
 
-let getEnglishFormattedDate = (date: any) => {
-  const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-  const dateObj = new Date(date);
-  return `${
-    months[dateObj.getMonth()]
-  } ${dateObj.getDate()}, ${dateObj.getFullYear()}`;
-};
+const {frontmatter} = Astro.props
 
-let getFrenchFormattedDate = (date: any) => {
-  const months = [
-    "janvier",
-    "février",
-    "mars",
-    "avril",
-    "mai",
-    "juin",
-    "juillet",
-    "août",
-    "septembre",
-    "octobre",
-    "novembre",
-    "décembre",
-  ];
-  const dateObj = new Date(date);
-  return `${dateObj.getDate()} ${months[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
-};
+const lang = frontmatter.url.substring(1,3)
 
-let getFormattedDate = (date: any) => {
-  if (lang === 'fr') {
-    return getFrenchFormattedDate(date)
-  }
-  return getEnglishFormattedDate(date)
-}
+const post = await formatPost(Astro.props, lang)
 ---
 
-<Layout title={frontmatter.title}>
+<Layout title={post.title}>
   <div id="post-page" class="page-wrapper post-page">
       <div class="post-wrapper content">
-          <h1>{frontmatter.title}</h1>
-          <p>{getFormattedDate(frontmatter.date)}</p>
+          <h1>{post.title}</h1>
+          <p>{getFormattedDate(post.date, lang)}</p>
           <div class="movie-feature">
-              <Youtube class="movie-trailer" videoId={frontmatter.youtubeMovieTrailer} />
+              <Youtube class="movie-trailer" videoId={post.youtubeMovieTrailer} />
           </div>
-          {frontmatter.category &&
+          {post.categories &&
             <div>
                 <span>Categories :</span>
-                {frontmatter.category.map((category: any) => {
-                    <Chip style="margin: 5px;" href={`${lang}/categories/${category.slug}`}>
-                        {category.name}
+                {post.categories.map((category: any) => {
+                    <Chip style="margin: 5px;" href={category.frontmatter.url}>
+                        {category.frontmatter.name}
                     </Chip>
                 })}
             </div>
           }
-          {frontmatter.tags &&
+          {post.tags &&
             <div>
                 <span>Tags :</span>
-                {frontmatter.tags.map((tag:any) => (
-                    <Chip style="margin: 5px;" href={`${lang}/tags/${tag.slug}`}>
-                        {tag.name}
+                {post.tags.map((tag:any) => (
+                    <Chip style="margin: 5px;" href={tag.frontmatter.url}>
+                        {tag.frontmatter.name}
                     </Chip>
                 ))}
             </div>
           }
-          {frontmatter.excerpt && <p class="excerpt">{frontmatter.excerpt}</p>}
+          {post.excerpt && <p class="excerpt">{post.excerpt}</p>}
           <slot />
-          <!-- <Comments identifier={frontmatter.slug} siteName="themovieshrink" /> -->
+          <!-- <Comments identifier={post.url} siteName="themovieshrink" /> -->
       </div>
   </div>
 </Layout>
