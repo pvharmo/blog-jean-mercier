@@ -3,7 +3,7 @@
   import Chip from "./Chip.astro";
   import t from "../locales/language";
   
-  const {post, lang} = Astro.props
+  const {post, lang, selected} = Astro.props
 
   function date() {
     return "";
@@ -11,7 +11,7 @@
 ---
 
 <div class="content" id="article-{post.slug}">
-  <a href="/{lang}/post/{post.slug}">
+  <a href={post.url}>
     <h1>{post.title}</h1>
     <p class="publish-infos">{date()}</p>
   </a>
@@ -21,16 +21,20 @@
   <div class="chips-group">
     <span>Categories :</span>
     {post.categories?.map((category: any) => (
-      <Chip active={category.selected}>{category.frontmatter.name}</Chip>
+      <Chip
+        href={category.url}
+        active={category.frontmatter.id == selected}>
+        {category.frontmatter.name}
+      </Chip>
     ))}
   </div>
   <div class="chips-group">
     <span>Tags :</span>
     {post.tags?.map((tag: any) => (
       <Chip
-        active={tag.selected}
+        active={tag.frontmatter.id == selected}
         style="margin: 5px;"
-        href={`${lang}/tags/${tag.name}`}
+        href={tag.url}
       >
         {tag.frontmatter.name}
       </Chip>

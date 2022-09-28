@@ -6,11 +6,19 @@ import SiteHero from "../components/SiteHero.astro"
 import SiteFooter from "../components/SiteFooter.astro"
 import Chip from "../components/Chip.astro"
 import Html from "./Html.astro"
+import { getCategories, getTags } from "src/utils/posts-processing.astro"
 
-const {lang, title} = Astro.props
-const genres: any[] = []
-const regions: any[] = []
-const categories: any[] = []
+const {lang, title, selected} = Astro.props
+const tags = await getTags(lang)
+const genres = tags.filter((tag) => {
+	return tag.frontmatter.type == "Genre"
+})
+const regions = tags.filter((tag) => {
+	return tag.frontmatter.type == "Region"
+})
+const categories = (await getCategories(lang)).filter((category) => {
+	return category.frontmatter.type != "Chronicles"
+})
 ---
 
 <Html title={title}>
@@ -54,24 +62,25 @@ const categories: any[] = []
 			<h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
 			<ul class="categories-menu">
 			{categories.map((category: any) => (
-				<li><a href={`/${lang}/category/${category.slug}`}> {category.name} </a></li>
+				<li><a href={category.url}> {category.frontmatter.name} </a></li>
 			))}
 			</ul>
 			<h3 class="subtitle">{t(lang).sidebar.Region}</h3>
 			{regions.map((region: any) => (
 				<Chip
-					href={`${lang}/tags/${region.name}`}>
-					{region.name}
+					active={region.frontmatter.id == selected}
+					href={region.url}>
+					{region.frontmatter.name}
 				</Chip>
 			))}
 			<h3 class="subtitle">Genre</h3>
 			{genres.map((genre: any) => (
 				<Chip
-					href={`${lang}/tags/${genre.name}`}>
-					{genre.name}
+					active={genre.frontmatter.id == selected}
+					href={genre.url}>
+					{genre.frontmatter.name}
 				</Chip>
-			))
-			}
+			))}
 		</div>
 		</MainSection>
 		<SiteFooter />
