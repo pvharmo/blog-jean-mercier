@@ -1,5 +1,5 @@
 ---
-title: The Innocents
+title: THE INNOCENTS
 category:
   - Sociology
 tags:

@@ -23,6 +23,12 @@ export const getPosts = async (lang: string) => {
         return formatPost(post, lang)
     }))
 
+    formattedPosts.sort((a: any, b: any) => {
+        if (a.date < b.date) return 1
+        if (a.date == b.date) return 0
+        else return -1
+    })
+
     return formattedPosts
 }
 
@@ -42,6 +48,7 @@ export const formatPost = async (post: any, lang: string) => {
 
     return {
         ...post.frontmatter,
+        date: new Date(post.frontmatter.date),
         categories: categoriesName,
         tags: tagsName,
         lang,

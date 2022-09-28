@@ -1,5 +1,5 @@
 ---
-title: Mrs. Harris goes to Paris
+title: MRS. HARRIS GOES TO PARIS
 category:
   - Sociology
   - National culture
