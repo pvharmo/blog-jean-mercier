@@ -3,6 +3,13 @@ title: UNE ROBE POUR MRS. HARRIS
 author: Jean Mercier
 date: 2022-09-24T02:11:39.849Z
 youtubeMovieTrailer: iO9JcPbbmAA
+category:
+  - Sociology
+  - National culture
+tags:
+  - Comedy
+  - Drama
+  - Western Europe
 excerpt: "Les critiques sont unanimes pour louanger ce film humoristique et
   charmant qui raconte le séjour d’une modeste femme de ménage britannique qui
   décide de se rendre à Paris pour s’acheter une robe auprès d’un grand
