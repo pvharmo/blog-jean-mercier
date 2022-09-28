@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/FilteredList.astro
 id: Bullet comments
 name: Bullet comments
 description: >-

@@ -5,6 +5,7 @@ import Chip from "../components/Chip.astro"
 import Comments from "../components/Disqus.astro"
 import { formatPost } from "../utils/posts-processing.astro"
 import { getFormattedDate } from "src/utils/date"
+import t from "../locales/language"
 
 const {frontmatter} = Astro.props
 
@@ -13,7 +14,7 @@ const lang = frontmatter.url.substring(1,3)
 const post = await formatPost(Astro.props, lang)
 ---
 
-<Layout title={post.title}>
+<Layout title={post.title} lang={lang}>
   <div id="post-page" class="page-wrapper post-page">
       <div class="post-wrapper content">
           <h1>{post.title}</h1>
@@ -23,7 +24,7 @@ const post = await formatPost(Astro.props, lang)
           </div>
           {post.categories &&
             <div>
-                <span>Categories :</span>
+                <span>{post.categories?.length == 1 ? t(lang).Category : t(lang).Categories} :</span>
                 {post.categories.map((category: any) => (
                     <Chip style="margin: 5px;" href={category.url}>
                         {category.frontmatter.name}

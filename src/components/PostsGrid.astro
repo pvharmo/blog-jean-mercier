@@ -11,7 +11,7 @@ const {posts, lang} = Astro.props
             <div class="columns items is-multiline">
                 {posts.map((post: any) => (
                     <div class="column items" style="width: 100%">
-                        <ArticlePreview post={post} />
+                        <ArticlePreview post={post} lang={lang} />
                     </div>
                 ))}
             </div>

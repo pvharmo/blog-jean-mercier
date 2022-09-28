@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/FilteredList.astro
 id: Revisiting classics
 name: Revisiting classics
 description: >-

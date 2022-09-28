@@ -1,9 +1,11 @@
 ---
 import Layout from './Layout.astro'
-const { frontmatter } = Astro.props;
+const { frontmatter } = Astro.props
+
+const lang = frontmatter.url.substring(1,3) 
 ---
 
-<Layout lang={frontmatter.language} title={frontmatter.title}>
+<Layout lang={lang} title={frontmatter.title}>
     <div id="about-page" class="page-wrapper about-page content-page">
         <div class="content">
             <slot />

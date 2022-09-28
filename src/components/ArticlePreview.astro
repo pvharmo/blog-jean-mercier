@@ -5,6 +5,8 @@
   
   const {post, lang, selected} = Astro.props
 
+  console.log(lang)
+
   function date() {
     return "";
   }
@@ -19,7 +21,7 @@
     <Youtube class="movie-trailer" videoId={post.youtubeMovieTrailer} />
   </div>
   <div class="chips-group">
-    <span>Categories :</span>
+    <span>{post.categories?.length == 1 ? t(lang).Category : t(lang).Categories} :</span>
     {post.categories?.map((category: any) => (
       <Chip
         href={category.url}
@@ -28,18 +30,20 @@
       </Chip>
     ))}
   </div>
-  <div class="chips-group">
-    <span>Tags :</span>
-    {post.tags?.map((tag: any) => (
-      <Chip
-        active={tag.frontmatter.id == selected}
-        style="margin: 5px;"
-        href={tag.url}
-      >
-        {tag.frontmatter.name}
-      </Chip>
-    ))}
-  </div>
+  {!!post.tags &&
+    <div class="chips-group">
+      <span>Tags :</span>
+      {post.tags?.map((tag: any) => (
+        <Chip
+          active={tag.frontmatter.id == selected}
+          style="margin: 5px;"
+          href={tag.url}
+        >
+          {tag.frontmatter.name}
+        </Chip>
+      ))}
+    </div>
+  }
   <p class="excerpt">{post.excerpt || ""}</p>
   <a href={post.url}>{t(lang).readMore}</a>
 </div>

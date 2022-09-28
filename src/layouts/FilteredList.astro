@@ -9,11 +9,7 @@ const splitUrl = frontmatter.url.split("/")
 const lang = splitUrl[1]
 const filter = splitUrl[2]
 
-console.log(lang)
-console.log(filter)
-
 const posts = (await getPosts(lang)).filter((post) => {
-    console.log(post)
     return !!post[filter]?.find((x: any) => {
         return x.frontmatter.id == frontmatter.id
     })

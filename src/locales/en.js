@@ -23,5 +23,11 @@ export default {
     readMore: "Read more",
     "No post available": "No post available",
     "Filtered by": "Filtered by",
-    "Loading posts...": "Loading posts..."
+    "Loading posts...": "Loading posts...",
+    Category: "Catégorie",
+    Categories: "Catégories",
+    url: {
+        hermeneutics: "hermeneutique",
+        about: "a-propos"
+    }
 }

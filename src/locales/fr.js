@@ -23,5 +23,11 @@ export default {
     readMore: "Pour en savoir plus",
     "No post available": "Aucun article ne correspond à votre recherche",
     "Filtered by": "Filtré par",
-    "Loading posts...": "Chargement des articles..."
+    "Loading posts...": "Chargement des articles...",
+    Category: "Catégorie",
+    Categories: "Catégories",
+    url: {
+        hermeneutics: "hermeneutique",
+        about: "a-propos"
+    }
 }
