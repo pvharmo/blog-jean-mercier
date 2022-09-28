@@ -10,7 +10,6 @@ const { lang } = Astro.params
 export async function getStaticPaths() {
   const frPosts = (await getPosts('fr')).filter((post) => {
     return !post.categories?.find((category: any) => {
-      console.log(category.frontmatter.id)
       return category.frontmatter.type == "Chronicles"
     })
   })
