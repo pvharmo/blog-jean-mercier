@@ -32,10 +32,12 @@ export async function getStaticPaths() {
 }
 ---
 
-<script>
-  let w: any = window
+<script define:vars={{lang}}>
+  localStorage.setItem('lang', lang)
+
+  let w = window
   if (w.netlifyIdentity) {
-    w.netlifyIdentity.on("init", (user: any) => {
+    w.netlifyIdentity.on("init", (user) => {
       if (!user) {
         w.netlifyIdentity.on("login", () => {
           document.location.href = "/admin/";

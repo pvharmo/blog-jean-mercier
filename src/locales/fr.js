@@ -29,5 +29,9 @@ export default {
     url: {
         hermeneutics: "hermeneutique",
         about: "a-propos"
+    },
+    notFound: {
+        text : "On dirait que tu t'es perdu...",
+        link : "Retourner à l'accueil"
     }
 }
