@@ -24,18 +24,18 @@ const post = await formatPost(Astro.props, lang)
           {post.categories &&
             <div>
                 <span>Categories :</span>
-                {post.categories.map((category: any) => {
-                    <Chip style="margin: 5px;" href={category.frontmatter.url}>
+                {post.categories.map((category: any) => (
+                    <Chip style="margin: 5px;" href={category.url}>
                         {category.frontmatter.name}
                     </Chip>
-                })}
+                ))}
             </div>
           }
           {post.tags &&
             <div>
                 <span>Tags :</span>
                 {post.tags.map((tag:any) => (
-                    <Chip style="margin: 5px;" href={tag.frontmatter.url}>
+                    <Chip style="margin: 5px;" href={tag.url}>
                         {tag.frontmatter.name}
                     </Chip>
                 ))}
