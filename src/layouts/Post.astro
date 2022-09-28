@@ -44,7 +44,7 @@ const post = await formatPost(Astro.props, lang)
           }
           {post.excerpt && <p class="excerpt">{post.excerpt}</p>}
           <slot />
-          <!-- <Comments identifier={post.url} siteName="themovieshrink" /> -->
+          <Comments url={post.url} postName={post.title} />
       </div>
   </div>
 </Layout>
