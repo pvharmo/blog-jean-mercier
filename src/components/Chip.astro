@@ -2,9 +2,9 @@
 const {active, onclick, href} = Astro.props
 ---
 
-<button class={active && "active"} onclick="() => onclick && onclick()">
+<button class={`chip ${active && "active"}`} onclick="() => onclick && onclick()">
   {href ?
-  <a href={href}>
+  <a href={href} class="chip">
     <slot />
   </a>
   :
@@ -13,7 +13,7 @@ const {active, onclick, href} = Astro.props
 </button>
 
 <style>
-  button {
+  button.chip {
     background-color: lightgray;
     border-radius: 25px;
     padding: 5px 10px;
@@ -21,6 +21,10 @@ const {active, onclick, href} = Astro.props
     font-size: 14px;
     border: none;
     cursor: pointer;
+  }
+  a.chip {
+    color: #4a4a4a;
+    font-size: 14px;
   }
   .active {
     background-color: lightblue;
