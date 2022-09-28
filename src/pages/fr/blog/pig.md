@@ -5,7 +5,9 @@ category:
 tags:
   - North America
   - Drama
-date: 2021-12-10T16:36:50.897Z
+author: Jean Mercier
+date: 2021-12-02T16:36:50.874Z
+youtubeMovieTrailer: -4nRpdONaAA
 excerpt: Que nous dit ce film mélancolique? On a l’impression qu’il nous dit
   quelque chose, mais quoi ? Même si le personnage principal du film a déjà vécu
   une sorte d’équilibre et d’harmonie dans sa vie antérieure comme chef dans un

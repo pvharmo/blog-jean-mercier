@@ -1,5 +1,8 @@
 ---
 title: WOMAN AT WAR
+author: Jean Mercier
+date: 2020-06-20T18:05:47.146Z
+youtubeMovieTrailer: U2v3_jHrvBQ
 category:
   - Sociology
   - National culture

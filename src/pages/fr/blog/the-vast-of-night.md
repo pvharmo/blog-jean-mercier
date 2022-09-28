@@ -1,5 +1,8 @@
 ---
 title: THE VAST OF NIGHT
+author: Jean Mercier
+date: 2020-10-02T17:37:42.269Z
+youtubeMovieTrailer: ZEiwpCJqMM0
 category:
   - Media transformation
   - Sociology

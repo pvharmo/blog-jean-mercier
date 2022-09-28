@@ -8,7 +8,9 @@ category:
 tags:
   - Latin America
   - Drama
-date: 2021-11-22T20:02:36.445Z
+author: Jean Mercier
+date: 2021-12-01T20:02:36.380Z
+youtubeMovieTrailer: LKTejyk9ZIA
 excerpt: Dans ce film qui défie les catégories de genre, on ne peut qu’être
   attentif à son contexte socio-politique, un Brésil en crise depuis maintenant
   une décennie et davantage. Crises politiques, économiques, sociales et,

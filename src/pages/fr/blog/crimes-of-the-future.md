@@ -9,7 +9,9 @@ tags:
   - Science Fiction / Futuristic
   - Western Europe
   - North America
-date: 2022-06-18T19:38:53.446Z
+author: Jean Mercier
+date: 2022-06-18T19:38:53.427Z
+youtubeMovieTrailer: QVX7df79BNo
 excerpt: À Cannes, le réalisateur du film, le Canadien David Cronenberg avait
   prédit qu’une partie de l’auditoire quitterait la salle de projection dans les
   premières minutes de son film. Il y a en effet beaucoup de choses dans ce film

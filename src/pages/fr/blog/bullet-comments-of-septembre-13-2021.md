@@ -2,7 +2,8 @@
 title: COMMENTAIRES ÉCLAIR SEPTEMBRE 2021
 category:
   - Bullet comments
-date: 2021-09-13T14:54:19.128Z
+author: Jean Mercier
+date: 2021-09-13T14:54:19.070Z
 excerpt: >-
   Notre entrée précédente de juin 2021 résume déjà plusieurs des éléments que
   nous avons notés dans les films des années 2018-2020.

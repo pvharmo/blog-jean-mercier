@@ -2,7 +2,8 @@
 title: COMMENTAIRES ÉCLAIR JUIN 2021
 category:
   - Bullet comments
-date: 2021-06-13T14:58:31.855Z
+author: Jean Mercier
+date: 2021-06-13T14:58:31.818Z
 excerpt: >-
   Beaucoup de temps s'est écoulé depuis que *Le Movie Shrink* a ajouté des
   commentaires dans la présente section, celle des commentaires éclair.

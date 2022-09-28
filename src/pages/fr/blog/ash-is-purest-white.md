@@ -1,5 +1,8 @@
 ---
 title: ASH IS PUREST WHITE
+author: Jean Mercier
+date: 2020-06-20T18:30:12.253Z
+youtubeMovieTrailer: l0fKX6VhovQ
 category:
   - Sociology
   - National culture

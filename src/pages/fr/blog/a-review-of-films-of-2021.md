@@ -2,7 +2,8 @@
 title: UNE REVUE DES FILMS DE 2021
 category:
   - Bullet comments
-date: 2022-02-22T15:54:59.194Z
+author: Jean Mercier
+date: 2022-02-24T15:54:59.178Z
 excerpt: Les films qui attirent de l’intérêt dans cette saison des nominations
   et des prix pour les films de 2021 se situent souvent dans la continuité des
   films des dernières années, avec parfois des angles nouveaux et inédits.

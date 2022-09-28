@@ -7,7 +7,9 @@ category:
 tags:
   - Western Europe
   - Drama
-date: 2021-09-09T13:24:03.477Z
+author: Jean Mercier
+date: 2021-09-09T13:24:03.380Z
+youtubeMovieTrailer: El4-2zrNppA
 excerpt: "Si jamais il y a eu un film qui demandait à être interprété, c’est
   bien ce film allemand récent. En empruntant librement du mythe d’Ondine, cette
   sirène qui vient sur terre par amour, on raconte une période dans la vie d’une

@@ -1,6 +1,14 @@
 ---
 title: "MÈRES PARALLÈLES "
-date: 2022-02-22T15:48:26.208Z
+category:
+  - Sociology
+  - National culture
+tags:
+  - Drama
+  - Western Europe
+author: Jean Mercier
+date: 2022-02-25T15:48:26.171Z
+youtubeMovieTrailer: cL6JDYkRa2g
 excerpt: Comme plusieurs autres films le suggèrent, L’Espagne est devenue une
   société très moderne, et même post-moderne, avec des défis et des choix
   résolument post-modernes. Mères parallèles traite ici de choix effectués par

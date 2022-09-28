@@ -1,5 +1,8 @@
 ---
 title: LE DIABLE N’EXISTE PAS
+author: Jean Mercier
+date: 2021-12-01T20:20:42.745Z
+youtubeMovieTrailer: piflulDSWD4
 category:
   - Sociology
   - National culture

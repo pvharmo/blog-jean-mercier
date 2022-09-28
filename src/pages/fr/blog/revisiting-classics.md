@@ -1,4 +1,6 @@
 ---
+author: Jean Mercier
+date: 2020-08-09T22:46:20.727Z
 title: LES CLASSIQUES REVISITÉS
 category:
   - Revisiting classics

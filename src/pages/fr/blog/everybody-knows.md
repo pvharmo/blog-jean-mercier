@@ -7,6 +7,9 @@ category:
 tags:
   - Western Europe
   - Drama
+author: Jean Mercier
+date: 2020-06-20T15:00:37.873Z
+youtubeMovieTrailer: L68mUxKuAnA
 excerpt: Une cérémonie de mariage est bien entendu un moment joyeux. Mais, dans
   ce film, la célébration ramène à l’avant-scène la mémoire d’évènements et de
   transactions que les participants auraient préféré oublier.

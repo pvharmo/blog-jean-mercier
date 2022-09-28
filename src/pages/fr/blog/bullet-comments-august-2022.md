@@ -1,6 +1,9 @@
 ---
 title: COMMENTAIRES ÉCLAIR AOÛT 2022
-date: 2022-09-24T02:17:38.415Z
+author: Jean Mercier
+date: 2022-09-24T02:17:38.400Z
+category:
+  - Bullet comments
 ---
 # COMPRENDRE DEUX FILMS EXIGEANTS
 

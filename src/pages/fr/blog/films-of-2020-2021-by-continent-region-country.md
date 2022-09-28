@@ -2,10 +2,11 @@
 title: LES FILMS DE 2020-2021 PAR CONTINENTS, PAR RÉGIONS, PAR PAYS
 category:
   - Bullet comments
-date: 2021-12-10T16:32:21.555Z
+author: Jean Mercier
+date: 2021-12-10T16:32:21.500Z
 excerpt: Est-ce que les films du monde racontent les mêmes histoires partout ?
-  Ou racontent-ils des histoires différentes, particulières à leur contexte
-  ?  C’est ce que nous tenterons de mieux comprendre ici.
+  Ou racontent-ils des histoires différentes, particulières à leur contexte ? 
+  C’est ce que nous tenterons de mieux comprendre ici.
 ---
 Les tendances des films, vus sous l’angle des régions et des pays, demandent parfois une analyse sur plusieurs années et c’est pourquoi, même si nous nous concentrons sur les films récents, ceux de 2020-2021, nous devrons parfois, pour mieux les apprécier, les voir sous l’angle de films un peu moins récents, comme ceux de 2018-2019, par exemple.
 

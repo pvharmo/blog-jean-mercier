@@ -1,5 +1,7 @@
 ---
 title: COMMENTAIRES ÉCLAIR AOÛT 2020
+author: Jean Mercier
+date: 2020-08-04T19:42:14.460Z
 category:
   - Bullet comments
 excerpt: La pandémie du coronavirus de 2020 a eu de multiples effets sur la

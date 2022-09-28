@@ -7,7 +7,9 @@ category:
 tags:
   - Western Europe
   - Comedy
-date: 2021-09-13T14:57:21.515Z
+author: Jean Mercier
+date: 2021-09-13T14:57:21.495Z
+youtubeMovieTrailer: 6UTCT_T9Fh4
 excerpt: "Ne nous laissons pas être trompés par l’humour de cette comédie, qui
   raconte l’histoire de Rosa, une couturière dans la quarantaine, qui décide
   d’organiser son mariage… avec elle-même. Mais que se passe-t-il donc dans nos

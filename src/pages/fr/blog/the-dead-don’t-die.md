@@ -1,4 +1,7 @@
 ---
+author: Jean Mercier
+date: 2020-08-10T13:00:50.761Z
+youtubeMovieTrailer: bs5ZOcU6Bnw
 title: THE DEAD DON’T DIE
 category:
   - National culture

@@ -1,4 +1,7 @@
 ---
+author: Jean Mercier
+date: 2020-10-02T17:40:14.035Z
+youtubeMovieTrailer: -VLEPhfEN2M
 title: A BEAUTIFUL DAY IN THE NEIGHBORDHOOD
 category:
   - Media transformation

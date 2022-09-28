@@ -1,4 +1,7 @@
 ---
+author: Jean Mercier
+date: 2020-06-20T17:00:12.840Z
+youtubeMovieTrailer: QK00XTAtvKE
 title: LE PROJET HUMMINGBIRD
 category:
   - National culture

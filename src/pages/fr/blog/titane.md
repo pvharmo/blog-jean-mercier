@@ -5,7 +5,9 @@ category:
 tags:
   - Drama
   - Horror
-date: 2021-11-22T20:16:39.532Z
+author: Jean Mercier
+date: 2021-12-01T20:16:39.510Z
+youtubeMovieTrailer: Q5_w2W5G9OM
 excerpt: Ce film, qui a obtenu la Palme d’or à Cannes en 2021, ne laisse
   personne indifférent. Il peut causer un certain malaise à son visionnement.
   Son aspect violent et son invraisemblance ont-ils un sens, ou doit-on

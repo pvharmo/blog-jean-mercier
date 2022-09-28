@@ -7,7 +7,9 @@ category:
 tags:
   - Drama
   - Asia
-date: 2022-02-23T15:16:49.486Z
+author: Jean Mercier
+date: 2022-02-25T13:16:00.000Z
+youtubeMovieTrailer: 6BPKPb_RTwI
 excerpt: "Ce film à propos des personnes derrière la vie artistique et théâtrale
   japonaise nous parle aussi de l’expérience de ce pays avec ce qui vient de
   l’extérieur, de l’étranger. "

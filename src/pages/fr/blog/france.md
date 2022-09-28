@@ -1,4 +1,7 @@
 ---
+author: Jean Mercier
+date: 2021-12-01T20:09:46.401Z
+youtubeMovieTrailer: v6UvXtC0uw4
 title: FRANCE
 category:
   - Sociology

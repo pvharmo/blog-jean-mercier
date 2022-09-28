@@ -1,4 +1,7 @@
 ---
+author: Jean Mercier
+date: 2021-06-13T14:38:29.493Z
+youtubeMovieTrailer: KQ0gFidlro8
 title: MINARI
 category:
   - Sociology
@@ -6,7 +9,6 @@ category:
 tags:
   - Drama
   - North America
-date: 2021-06-13T14:38:29.526Z
 excerpt: De la même manière que A Beautiful Day in the Neighborhood nous
   ramenait à une période où les médias étaient plus pacifiques, Minari nous
   ramène à une Amérique rurale plus paisible, quand l’immigration n’était pas un

@@ -5,7 +5,9 @@ category:
 tags:
   - North America
   - Drama
-date: 2021-02-05T20:20:58.842Z
+author: Jean Mercier
+date: 2021-02-05T20:20:58.812Z
+youtubeMovieTrailer: yoxlCXluK_k
 excerpt: Les défis et les tribulations d’une famille algérienne qui immigre à
   Montréal témoigne des difficultés de l’intégration dans une nouvelle société
   et un nouvel environnement. Mais, tout comme dans la tragédie grecque du même

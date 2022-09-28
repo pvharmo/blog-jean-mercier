@@ -6,7 +6,9 @@ category:
 tags:
   - Eastern and Central Europe (including Russia)
   - Drama
-date: 2021-06-13T14:44:06.344Z
+author: Jean Mercier
+date: 2020-06-19T14:44:06.321Z
+youtubeMovieTrailer: 0hVrYRqeT5M
 excerpt: "Que connaît-on vraiment de toutes les mutations sociales et
   économiques qui accompagnent l’Europe de l’Est et l’Europe centrale dans le
   cadre de son intégration dans la modernité européenne ? Très peu, en réalité,

@@ -9,7 +9,9 @@ tags:
   - North America
   - Documentary
   - Drama
-date: 2021-06-13T14:31:52.265Z
+author: Jean Mercier
+date: 2021-06-13T14:31:52.229Z
+youtubeMovieTrailer: 6sxCFZ8_d84
 excerpt: "Ce film de fiction, presqu’un documentaire, porte un regard tendre et
   affectueux à une réalité peu documentée au cinéma : les gens qui, sans
   domicile fixe, vivent dans leur van, leur véhicule utilitaire qui leur sert de
