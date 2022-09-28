@@ -41,7 +41,7 @@
     ))}
   </div>
   <p class="excerpt">{post.excerpt || ""}</p>
-  <a href="/{lang}/post/{post.slug}">{t(lang).readMore}</a>
+  <a href={post.url}>{t(lang).readMore}</a>
 </div>
 
 <style>
