@@ -8,7 +8,7 @@ import Chip from "../components/Chip.astro"
 import Html from "./Html.astro"
 import { getCategories, getTags } from "src/utils/posts-processing.astro"
 
-const {lang, title, selected} = Astro.props
+const {lang, title, selected, description, author, keywords} = Astro.props
 const tags = await getTags(lang)
 const genres = tags.filter((tag) => {
 	return tag.frontmatter.type == "Genre"
@@ -21,7 +21,7 @@ const categories = (await getCategories(lang)).filter((category) => {
 })
 ---
 
-<Html title={title}>
+<Html title={title} {description} {author} {keywords}>
 	<div class="site-layout-width-contained posts-theme-one-column">
 		<SiteHero lang={lang} />
 		<Nav lang={lang} />
