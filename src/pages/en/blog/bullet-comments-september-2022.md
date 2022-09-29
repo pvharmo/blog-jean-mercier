@@ -1,5 +1,5 @@
 ---
-title: BULLET COMMENTS AUGUST 2022
+title: BULLET COMMENTS SEPTEMBER 2022
 category:
   - Bullet comments
 author: Jean Mercier
@@ -11,7 +11,7 @@ We have all had the experience. After viewing a particularly challenging film, a
 
 This may be the experience many of us had after viewing *Crimes of the* *Future*, the latest film from Canadian director David Cronenberg, released during this summer of 2022, and presented at the Cannes Film Festival last spring. (you can consult The Movie Shrink’s detailed comments on the film on our site).
 
-Somehow, this Cronenberg story seemed to have much in common with another challenging film, last year’s winner of the Palme d’Or at The Cannes Film Festival, by French director Julia Ducourneau, *Titane* (2021*)*. They both seemed to address life and death matters, relating to our bodies, and bodily modifications, under a cloud of mystery and tension. (you can consult The Movie Shrink’s detailed comments on *Titane* on our site*)*
+Somehow, this Cronenberg story seemed to have much in common with another challenging film, last year’s winner of the Palme d’Or at The Cannes Film Festival, by French director Julia Ducourneau, *Titane* (2021*). They both seemed to address life and death matters, relating to our bodies, and bodily modifications, under a cloud of mystery and tension. (you can consult The Movie Shrink’s detailed comments on *Titane* on our site*)
 
 Could it be that one challenging film helps the understanding of another challenging film? As if two enigmas were more easily solved than one.
 
@@ -19,7 +19,7 @@ Both films made it to the main competition of the Cannes Festival. *Titane* even
 
 Let us recall some elements of each film’s story.
 
-# **Crimes of the Future**
+# Crimes of the Future
 
 Crimes of the Future describes the life of a scientist-showman, living in the not-too-distant future, who exhibits in public, and before a paying audience, new additions of body parts emerging from his body, as a new and emerging new bureaucracy, The National Organ Registry, is set to intervene in these proceedings. All the while, a young boy, who is capable to eat and digest plastic, is killed by his mother when she fears that he is the holder of dangerous and unwelcomed physical mutations.
 

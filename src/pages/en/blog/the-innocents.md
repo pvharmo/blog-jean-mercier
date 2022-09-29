@@ -7,7 +7,7 @@ tags:
   - Horror
   - Western Europe
 author: Jean Mercier
-date: 2022-09-24T02:03:05.628Z
+date: 2022-09-25T02:03:05.628Z
 youtubeMovieTrailer: hm45yGSwArY
 excerpt: "This is not the first time that a film or a novel reveals that
   children are not always as innocent as they may seem to be. What is revealing
