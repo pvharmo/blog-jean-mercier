@@ -27,7 +27,7 @@ Une femme qui est une tueuse en série, à temps plein ou partiel, ce n’est pa
 
 On pouvait le prévoir, les interprétations de ce film allaient dans tous les sens. Sans compter les critiques.
 
-Dans le cas des *Crimes du futur*, on a parfois dit qu’il s’agissait d’un film sur la folie humaine et sur le triste sort de l’humanité**,** parfoisrelié à la crise environnementale.
+Dans le cas des *Crimes du futur*, on a parfois dit qu’il s’agissait d’un film sur la folie humaine et sur le triste sort de l’humanité, parfois relié à la crise environnementale.
 
 Certains analystes ont vu *Titane* comme une sorte de manifeste féministe, en partie dû au fait qu’une femme semble donner naissance sans l’intervention d’un homme, du moins dans un sens conventionnel. D’autres encore y ont vu une posture post-moderne, qui tente d’ébranler nos catégories mentales au profit de relations de pouvoir fluides et changeantes. Pour d’autres encore, ce film est sauvé par ses qualités esthétiques.
 
