@@ -10,12 +10,11 @@ category:
 tags:
   - North America
   - Drama
+  - Horror
 
 excerpt: Les critiques de ce film ont souvent été sévères, mais plusieurs critiques de film de premier plan semblent en désaccord et considèrent le film comme révélateur. Le film peut apparaître superficiel dans un premier temps, mais il s’attaque à plusieurs thèmes sociaux pertinents. On va continuer à parler de ce film jusqu’à la période des Oscars, avec raison. 
 ---
 **Ne t’inquiète pas chérie** : un film américain de 2022, de la cinéaste Olivia Wilde, qui fait aussi partie de la distribution, présenté au Festival de film de Venise en tant que film prestige et candidat aux Oscars pour les films de 2022.
-
-&#x20;&#x20;
 
 # L’HISTOIRE
 
@@ -31,11 +30,9 @@ Il y a une scène intrigante dans la deuxième moitié du film, dans laquelle Al
 
 En offrant un résumé des commentaires et des critiques sur le film, le site *Rotten Tomatoes* a décrit le film comme étant une sorte de mélange quelque peu usé de thèmes déjà connus. Par ailleurs, Max Weiss du *Baltimore Magazine*, tout en reconnaissant cette dernière critique, remarque que le thème de l’inégalité des genres, quant à lui, mérite tout de même que l’on continue de s’y attarder. Weiss conclut que, de toute façon, les critiques ont été trop sévères pour ce film.
 
-Elamin Abdelmahmoud, critique de premier plan du \_BuzzFeed News\_, quant à lui, reconnaît que le film s’adresse à trop de thèmes en même temps, mais « qu’il y a quelque chose là (dans ce film) », en le comparant même au film \_Get Out\_, encensé par la critique, « en poussant des maux de la société jusqu’à leur limite métaphorique, en les transformant en histoire d’horreur ».
+Elamin Abdelmahmoud, critique de premier plan du *BuzzFeed News*, quant à lui, reconnaît que le film s’adresse à trop de thèmes en même temps, mais « qu’il y a quelque chose là (dans ce film) », en le comparant même au film *Get Out*, encensé par la critique, « en poussant des maux de la société jusqu’à leur limite métaphorique, en les transformant en histoire d’horreur ».
 
-Charlotte O’Sullivan, du \_London Evening Standard\_, compare, elle aussi, le film à \_Get Out\_, et propose que l’on abandonne le \_group think\_ autour de ce film, en suggérant qu’Olivia Wilde a quelque chose d’un génie incompris, et que son film est peut-être bien le meilleur film de l’année.
-
-&#x20;&#x20;
+Charlotte O’Sullivan, du *London Evening Standard*, compare, elle aussi, le film à *Get Out*, et propose que l’on abandonne le *group think* autour de ce film, en suggérant qu’Olivia Wilde a quelque chose d’un génie incompris, et que son film est peut-être bien le meilleur film de l’année.
 
 # L’ANALYSE DES FILMS SUR LE DIVAN
 

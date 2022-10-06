@@ -10,6 +10,7 @@ category:
 tags:
   - North America
   - Drama
+  - Horror
 
 excerpt: Criticism for this film has been often severe, but some top critics disagree and see this film as quite revealing. The film may appear superficial at first glance, yet it does tackle several socially relevant themes. The conversation about this movie will last until the Oscar season, with good reason.  
 ---
