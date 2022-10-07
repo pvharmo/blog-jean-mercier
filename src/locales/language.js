@@ -1,5 +1,5 @@
-import fr from "./fr/translations"
-import en from "./en/translations"
+import fr from "./fr"
+import en from "./en"
 
 export default (lang) => {
     if (lang === "fr") {

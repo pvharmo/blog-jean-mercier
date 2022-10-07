@@ -1,0 +1,54 @@
+---
+import PostsGrid from "../../components/PostsGrid.astro"
+import Layout from "@layouts/Layout.astro"
+import t from "../../locales/language"
+import { getPosts } from "../../utils/posts-processing.astro"
+
+const { posts } = Astro.props
+const { lang } = Astro.params
+
+export async function getStaticPaths() {
+  const frPosts = (await getPosts('fr')).filter((post) => {
+    return !post.categories?.find((category: any) => {
+      return category.frontmatter.type == "Chronicles"
+    })
+  })
+  const enPosts = (await getPosts('en')).filter((post) => {
+    return !post.categories?.find((category: any) => {
+      return category.frontmatter.type == "Chronicles"
+    })
+  })
+
+  return [
+    {
+      props: { posts: frPosts },
+      params : { lang: "fr" },
+    },
+    {
+      props: { posts: enPosts },
+      params : { lang: "en" },
+    }
+  ]
+}
+---
+
+<script define:vars={{lang}}>
+  localStorage.setItem('lang', lang)
+
+  let w = window
+  if (w.netlifyIdentity) {
+    w.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        w.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+<Layout lang={lang} title={t(lang).siteName}>
+  <div id="home-page" class="page-wrapper home-page">
+    <PostsGrid posts={posts} lang={lang} />
+  </div>
+</Layout>

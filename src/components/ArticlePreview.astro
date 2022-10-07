@@ -1,0 +1,53 @@
+---
+  import Youtube from "./Youtube.astro";
+  import Chip from "./Chip.astro";
+  import t from "../locales/language";
+  
+  const {post, lang, selected} = Astro.props
+
+  function date() {
+    return "";
+  }
+---
+
+<div class="content" id="article-{post.slug}">
+  <a href={post.url}>
+    <h1>{post.title}</h1>
+    <p class="publish-infos">{date()}</p>
+  </a>
+  <div class="movie-feature">
+    <Youtube class="movie-trailer" videoId={post.youtubeMovieTrailer} />
+  </div>
+  <div class="chips-group">
+    <span>{post.categories?.length == 1 ? t(lang).Category : t(lang).Categories} :</span>
+    {post.categories?.map((category: any) => (
+      <Chip
+        href={category.url}
+        active={category.frontmatter.id == selected}>
+        {category.frontmatter.name}
+      </Chip>
+    ))}
+  </div>
+  {!!post.tags &&
+    <div class="chips-group">
+      <span>Tags :</span>
+      {post.tags?.map((tag: any) => (
+        <Chip
+          active={tag.frontmatter.id == selected}
+          style="margin: 5px;"
+          href={tag.url}
+        >
+          {tag.frontmatter.name}
+        </Chip>
+      ))}
+    </div>
+  }
+  <p class="excerpt">{post.excerpt || ""}</p>
+  <a href={post.url}>{t(lang).readMore}</a>
+</div>
+
+<style>
+  .chips-group {
+    padding: 5px 0;
+  }
+</style>

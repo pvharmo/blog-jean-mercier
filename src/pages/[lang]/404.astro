@@ -1,0 +1,40 @@
+---
+import Layout from "@layouts/Layout.astro"
+import t from "../../locales/language"
+
+const { lang } = Astro.params
+
+export async function getStaticPaths() {
+
+  return [
+    {
+      params : { lang: "fr" },
+    },
+    {
+      params : { lang: "en" },
+    }
+  ]
+}
+---
+
+<Layout lang={lang} title={ "404 | " + t(lang).siteName}>
+    <div class="notfound">
+        <h2>{t(lang).notFound.text}</h2>
+        <a href={`/${lang}/`}>{t(lang).notFound.link}</a>
+    </div>
+</Layout>
+
+<style>
+    .notfound h2{
+        margin-top: 2.5rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .notfound {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>

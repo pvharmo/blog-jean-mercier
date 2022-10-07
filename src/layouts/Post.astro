@@ -1,0 +1,64 @@
+---
+import Layout from "./Layout.astro"
+import Youtube from "../components/Youtube.astro"
+import Chip from "../components/Chip.astro"
+import Comments from "../components/Disqus.astro"
+import { formatPost } from "../utils/posts-processing.astro"
+import { getFormattedDate } from "src/utils/date"
+import t from "../locales/language"
+
+const {frontmatter} = Astro.props
+
+const lang = frontmatter.url.substring(1,3)
+
+const post = await formatPost(Astro.props, lang)
+---
+
+<Layout title={post.title} description={post.excerpt} author={post.author} keywords={post.keywords} lang={lang}>
+  <div id="post-page" class="page-wrapper post-page">
+      <div class="post-wrapper content">
+          <h1>{post.title}</h1>
+          <p>{getFormattedDate(post.date, lang)}</p>
+          <div class="movie-feature">
+              <Youtube class="movie-trailer" videoId={post.youtubeMovieTrailer} />
+          </div>
+          {post.categories &&
+            <div>
+                <span>{post.categories?.length == 1 ? t(lang).Category : t(lang).Categories} :</span>
+                {post.categories.map((category: any) => (
+                    <Chip style="margin: 5px;" href={category.url}>
+                        {category.frontmatter.name}
+                    </Chip>
+                ))}
+            </div>
+          }
+          {post.tags &&
+            <div>
+                <span>Tags :</span>
+                {post.tags.map((tag:any) => (
+                    <Chip style="margin: 5px;" href={tag.url}>
+                        {tag.frontmatter.name}
+                    </Chip>
+                ))}
+            </div>
+          }
+          {post.excerpt && <p class="excerpt">{post.excerpt}</p>}
+          <slot />
+          <Comments url={post.url} postName={post.title} />
+      </div>
+  </div>
+</Layout>
+  
+<style lang="scss">
+  .movie-feature {
+    margin-bottom: 20px;
+  }
+
+  .excerpt {
+    background: #f9f9f9;
+    border-right: 10px solid #ccc;
+    margin: 1.5em 0;
+    padding: 0.5em 10px;
+  }
+</style>
+  

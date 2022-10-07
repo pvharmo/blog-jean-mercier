@@ -1,0 +1,89 @@
+---
+import t from "../locales/language"
+import MainSection from "../components/MainSection.astro"
+import Nav from "../components/Nav.astro"
+import SiteHero from "../components/SiteHero.astro"
+import SiteFooter from "../components/SiteFooter.astro"
+import Chip from "../components/Chip.astro"
+import Html from "./Html.astro"
+import { getCategories, getTags } from "src/utils/posts-processing.astro"
+
+const {lang, title, selected, description, author, keywords} = Astro.props
+const tags = await getTags(lang)
+const genres = tags.filter((tag) => {
+	return tag.frontmatter.type == "Genre"
+})
+const regions = tags.filter((tag) => {
+	return tag.frontmatter.type == "Region"
+})
+const categories = (await getCategories(lang)).filter((category) => {
+	return category.frontmatter.type != "Chronicles"
+})
+---
+
+<Html title={title} {description} {author} {keywords}>
+	<div class="site-layout-width-contained posts-theme-one-column">
+		<SiteHero lang={lang} />
+		<Nav lang={lang} />
+		<MainSection theme="sidebar-right">
+		<!-- All Posts -->
+		<slot />
+		<div class="content" slot="sidebar">
+			<img alt="Aristotle" src="/aristotle-homer.jpg" />
+			<p>
+			{t(lang).siteName}
+			{t(lang).sidebar.intro}
+			</p>
+			<h3 class="subtitle">{t(lang).sidebar.Chronicles}</h3>
+			<ul class="categories-menu">
+				<li>
+					<a href={`/${lang}/categories/bullet-comments`}>
+					{t(lang).sidebar["Bullet comments"]}
+					</a>
+				</li>
+				<li>
+					<a href={`/${lang}/categories/films-of-the-past`}>
+					{t(lang).sidebar["Revisiting classics"]}
+					</a>
+				</li>
+				<li>
+					<a href={`/${lang}/categories/more-on-hermeneutics`}>
+					{t(lang).sidebar["More on hermeneutics"]}
+					</a>
+				</li>
+				{lang == "fr" && 
+					<li>
+						<a href="/fr/films-quebecois">
+							Films québécois
+						</a>
+					</li>
+				}
+			</ul>
+			<h3 class="subtitle">{t(lang).sidebar["The Shrink's Toolbox"]}</h3>
+			<ul class="categories-menu">
+			{categories.map((category: any) => (
+				<li><a href={category.url}> {category.frontmatter.name} </a></li>
+			))}
+			</ul>
+			<h3 class="subtitle">{t(lang).sidebar.Region}</h3>
+			{regions.map((region: any) => (
+				<Chip
+					active={region.frontmatter.id == selected}
+					href={region.url}>
+					{region.frontmatter.name}
+				</Chip>
+			))}
+			<h3 class="subtitle">Genre</h3>
+			{genres.map((genre: any) => (
+				<Chip
+					active={genre.frontmatter.id == selected}
+					href={genre.url}>
+					{genre.frontmatter.name}
+				</Chip>
+			))}
+		</div>
+		</MainSection>
+		<SiteFooter />
+	</div>
+</Html>
+  

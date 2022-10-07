@@ -1,4 +1,0 @@
----
-name: Asie
-type: Region
----

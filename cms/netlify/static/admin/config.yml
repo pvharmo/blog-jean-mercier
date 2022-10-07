@@ -28,7 +28,7 @@ collections:
           widget: 'relation',
           collection: 'categories',
           searchFields: ['name'],
-          valueField: 'name',
+          valueField: 'id',
           multiple: true,
         }
       - {
@@ -37,7 +37,7 @@ collections:
           widget: 'relation',
           collection: 'tags',
           searchFields: ['name'],
-          valueField: 'name',
+          valueField: 'id',
           multiple: true,
           required: false,
         }
@@ -67,7 +67,7 @@ collections:
     folder: 'content/categories'
     create: true
     slug: '{{slug}}'
-    identifier_field: name
+    identifier_field: id
     i18n: true
     fields:
       - { label: 'Id', name: 'id', widget: 'string', required: true }
@@ -93,7 +93,7 @@ collections:
     folder: 'content/tags'
     create: true
     slug: '{{slug}}'
-    identifier_field: name,
+    identifier_field: id,
     i18n: true
     fields:
       - { label: 'Id', name: 'id', widget: 'string', required: true }

@@ -1,0 +1,24 @@
+---
+import { getPosts } from "src/utils/posts-processing.astro"
+import PostsGrid from "src/components/PostsGrid.astro"
+import Layout from "./Layout.astro"
+import t from "../locales/language"
+
+const { frontmatter } = Astro.props
+const splitUrl = frontmatter.url.split("/")
+const lang = splitUrl[1]
+const filter = splitUrl[2]
+
+const posts = (await getPosts(lang)).filter((post) => {
+    return !!post[filter]?.find((x: any) => {
+        return x.frontmatter.id == frontmatter.id
+    })
+})
+
+---
+
+<Layout lang={lang} title={t(lang).siteName}>
+    <div id="home-page" class="page-wrapper home-page">
+        <PostsGrid posts={posts} lang={lang} />
+    </div>
+</Layout>

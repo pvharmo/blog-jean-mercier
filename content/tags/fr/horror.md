@@ -1,4 +1,0 @@
----
-name: Horreur
-type: Genre
----

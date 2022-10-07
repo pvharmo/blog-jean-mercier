@@ -1,4 +1,0 @@
----
-name: Drame
-type: Genre
----

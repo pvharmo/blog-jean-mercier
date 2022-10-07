@@ -1,0 +1,29 @@
+---
+import ContactForm from "../../components/ContactForm.astro"
+import Layout from "../../layouts/Layout.astro"
+
+const { lang } = Astro.params
+
+export async function getStaticPaths() {
+  return [
+    {
+      params : { lang: "fr" },
+    },
+    {
+      params : { lang: "en" },
+    }
+  ]
+}
+---
+
+<Layout title="Contact">
+  <div id="contact-page" class="page-wrapper contact-page content-page">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <ContactForm />
+        </article>
+      </div>
+    </div>
+  </div>
+</Layout>

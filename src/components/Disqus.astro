@@ -1,0 +1,17 @@
+---
+import { disqus } from "src/config";
+
+const {url, postName} = Astro.props
+
+const disqusSite = import.meta.env.DISQUS_SITE
+---
+
+<div id="disqus_thread"></div>
+<script is:inline define:vars={{ url, postName }}>
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://' + disqusSite + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>

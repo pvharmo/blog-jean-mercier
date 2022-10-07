@@ -1,0 +1,33 @@
+---
+const {title, description, keywords, author} = Astro.props
+import '../styles/global.scss'
+---
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="theme-color" content="#333333">
+	{ description && <meta name="description" content={description}> }
+	{ keywords && <meta name="keywords" content={keywords}> }
+	{ author && <meta name="author" content={author}> }
+
+    <title>{title}</title>
+
+	<link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+	<link rel="icon" type="image/png" href="/favicon.png">
+    <link
+	data-n-head="1"
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap"
+	/>
+	<link
+	data-n-head="1"
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap"
+	/>
+</head>
+<body>
+	<slot />
+</body>
+</html>

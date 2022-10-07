@@ -1,4 +1,0 @@
----
-name: Comédie
-type: Genre
----
