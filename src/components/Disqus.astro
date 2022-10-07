@@ -7,7 +7,7 @@ const disqusSite = import.meta.env.DISQUS_SITE
 ---
 
 <div id="disqus_thread"></div>
-<script is:inline define:vars={{ url, postName }}>
+<script is:inline define:vars={{ url, postName, disqusSite }}>
   (function() {
     var d = document, s = d.createElement('script');
     s.src = 'https://' + disqusSite + '.disqus.com/embed.js';
