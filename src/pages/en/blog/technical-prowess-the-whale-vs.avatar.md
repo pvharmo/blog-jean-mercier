@@ -1,5 +1,5 @@
 ---
-title: Technical prowess: The Whale vs.Avatar (2)
+title: "Technical prowess: The Whale vs.Avatar"
 author: Jean Mercier
 youtubeMovieTrailer: 
 date: 2023-03-09T15:11:12.429Z
