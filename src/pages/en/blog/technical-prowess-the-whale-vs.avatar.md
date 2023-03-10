@@ -1,62 +1,54 @@
 ---
-title: "Technical prowess: The Whale vs.Avatar"
+title: Technical prowess: The Whale vs.Avatar (2)
 author: Jean Mercier
 youtubeMovieTrailer: 
-date: 2023-03-04T15:57:59.260Z
+date: 2023-03-09T15:11:12.429Z
 category:
-  - Bullet comments
+
 tags:
 
-excerpt: 
+excerpt: Entry of march 9, 2023
 ---
-**Feminism and gender films of 2022**
+**Technical prowess vs. Difficult subjects:  *Avatar* vs. *The* *Whale***
 
-** **
+Even though there are vast possibilities in technical prowess and creativity  in recent years, contemporary cinema shows vast differences in this regard, from films that are so technically basic that they could have been made in the 1950s, to films that rely essentially on technical prowess to reach the audience.
 
-In the past fifteen years, in American films and international films, themes related to gender, sexual identity, and feminism have been quite frequent, even abundant.
+In terms of technical sophistication, it would be hard to find more contrasting films than* Avatar* and *The Whale. *Yet, their differences are not only in technique, and we will come back later to other important differences between the films.
 
-In retrospect, and increasingly, the range of these themes has been widening, and we have now a quite large range of such films, from squarely militant to less militant ones,  some of the films even leaning to skepticism and criticism, with several middle-of-the-ground films.
+But let us start with how technically sophisticated, or not, some of the important films of 2022 are.
 
-Let us take strong contenders or nominated films of the present Golden Globes and Oscar season.
+**DEGREES OF TECHNICAL PROWESS**
 
-If we were beginning with the more militant, *Where the Crawdads* *Sing* would be a good start. In this story, a woman living mostly alone settles the score with a male who abused her by throwing him down a high observation tower to his death.
+In the no technical prowess category, we can find, in addition to *The Whale, TAR, Women Talking, Mrs. Harris Goes to Paris, Living, *and, to a large extent,* Triangles of Sadness.  *All of these films, in terms of technical sophistication, could have been made in the 1950s.
 
-\*Don’t Worry Darling *tells the* \*story of a suburban community, drawn directly from the 1950s, quite separated from the outside world, in the American desert, where wives were expected to keep the house nice and clean until the husbands came back from work. As the community evolves, strange things happen, and women become either revolted or depressed, and the future of the community seems to be uncertain at best.
+In the middle ground category of technical prowess, we can mention a film like *Don’t worry Darling, *where there are super-impositions between dream and reality and between present, past, and future. In that same middle ground category, there is *Aftersun,* a story of a young adult female who is remembering through home videos a vacation with her then- depressed father in Turkey. The home videos are complemented with blurring and on-and-off images of the vacation.
 
-In *Blond, *a film quite directly focused on the personal and professional life of Marilyn Monroe, the star is pigeonholed into quite specific roles, always limiting her to being beautiful and subservient, with however several moments where she tries, sometimes with success, at breaking away from her assigned position. Her eventual downfall is at the same time an accusation and a cry for help.
+In foreign films of 2021-2022, the Norwegian film *The Innocents (2022), *a story of not-really-innocent children left to themselves, some images mix the past and the future, and dream and reality. In that same category of foreign films that are moderately technically sophisticated, we can mention the Mexican film *Sundown* ( a late 2021 movie not to be confused with the previously mentioned *Aftersun*), the story of a British family vacation in Mexico, during which there are impromptu images of the family business, which is a food processing enterprise dealing with pork meat, showing the animals appearing surprisingly on the screen at the most surprising moments.
 
-In a European context, the French film *L’événement (*2021) (*Happening*, in English, 2022), not nominated for prizes in North America, but the overall winner at the Mostra of Venice),  concerns the context of the perilous conditions of women seeking abortion in the early 1960s. It is a film that is only mildly militant because it is a measure of the progress since that decade, but it is also a reminder of how fragile those advances have been, especially considering the debates in the United States today.
-
-** **
-
-**Middle of the road militant**
-
-In the middle of the road category of militancy, stands the film *Woman Talking, *where women in a strongly religious closed community meet to discuss how to deal with the males’ authority, aggressions, rapes, and sometimes murders. The women discuss at length the choice between three options: continue as is, change their community for the better, or leave. The choice is presented here as a group decision, a communal choice, but its more contemporary application could also present itself as a personal one, facing a married woman vis-à-vis her abusive husband: continue as is, bring change, or leave.
+Entering now the more technically sophisticated category of films of 2022, there are the nominated *Bullet Train* and the acclaimed* Everything* *Everywhere All at Once* where technical sophistication is an important ingredient of the films. The same can be said of *Babylone*, although in that case, the technical prowess does not distract from the story.
 
  
 
-**More disengaged, more skeptical themes**
+**RRR and Avatar**
 
-In some of this year’s films dealing with genre and women, some films seem to suggest that authoritarian attitudes, unjust behavior, favoritism, and unethical behavior are not the monopoly of the male gender.
+In the not-so-distant past, a foreign film that would qualify as one of the year’s most technically sophisticated films would have been quite surprising. Yet, this is the case with the Indian film *RRR. *As is often the case* *with Asian productions (in the case of many films from China, specifically), the technical sophistication has to do with weightlessness, with actors flying over obstacles, buildings, and enemies. There is grace through it all, even reaching a poetic dimension, all the while serving the story. In this case, the technical prowess does not distract from the story but serves it. It even reaches an almost ideal balance.
 
-In *TAR, *the female* *orchestra director is as prone as men to erratic and authoritarian behavior, trying to favor potential lovers to perform in her orchestra and trying to cover up past sexually inappropriate activities. A female can be as unethical as her male counterparts, given the opportunity. Actress Cate Blanchet had to defend this unavoidable conclusion as a feature of the film in front of media criticism.
+In the case of *Avatar*, it is the technical prowess that leads the story, and the story is a servant to the technical prowess, a simple introduction to  cinematographic wizardry. The celebration of family, friendship, fidelity, and kindness is thus all artificial and a necessary and unavoidable component of technical prowess. The film is out of whack, it is disproportionate. It is not a question of quantity, but of proportion, in the sense that if one’s complete attention is drawn to the technical, is it neglecting something else, in this case, the story
 
-In the same spirit, in *Triangles of Sadness, *after a luxury cruise encounters problems following a storm, a cleaning lady, because of her special knowledge on surviving on a lost island, transforms herself into an autocratic leader, even grabbing for herself alone the best installations and keeping for herself the most attractive young male survivor for the night.
+Let us go a little further.
 
-In a Mexican film of 2021,\* Sundown\*, mostly shown in 2022, a female business owner is as tough, or tougher, than her ailing brother, as she directs a meat packing enterprise in Britain and deals autocratically with him, while part of the family is staying at a luxury all included hotel in Mexico.   
+Let us compare *The Whale* and *Avatar.* The two films are not only different but on opposite ends of a continuum. The Whale is overflowing with  content and essentially free of sophisticated techniques, while* Avatar* is full of technical wizardry and lacks real content. Could it be that when there are real and important subjects that are addressed, such as obesity, depression, and homophobia, there is no real need for technical prowess?
 
-The conclusion suggested in these three last films, *TAR*, *Triangles of Sadness*, and *Sundown* is that the position where you stand conditions in large part your behavior. Women can thus be as erratic and authoritarian as men if given the “right” circumstances. For some, this conclusion might seem pessimistic, but for others, it may be more positive in that it suggests that there is nothing inherent or “natural” in the fact that women are  often at the losing end of authority relationships.
-
- 
-
-**In conclusion**
-
-The films considering genre dynamics and problems,  nominated or considered for The Golden Globes or the Oscars of 2023 (for the films of 2022) reveal, taken as a whole,  a surprisingly nuanced treatment of this theme, from a more militant tone (*Where the* *Crawdads Sing, Don’t Worry Darling*), to a slightly less militant one (*Blond, Women Talking*), and finally to a more nuanced and even more skeptical tone ( *TAR, Triangle of Sadness, Sundown*).
-
-This may a disappointing conclusion for some, but for others, it may be a sign that the subject of genre films has matured to more nuanced and contextual perspectives, and that may be more potent than a black-and-white perspective.
+Would it be unfair to *Avatar* to state that, by its technical wizardry, it is neglecting important and real subjects of our time, and a form of denial? If it is indeed chosen as the best film of the year, it would be another indication that when the chips are down, Hollywood,  at least this year, chooses denial over content.
 
  
 
-** **
+ 
 
-\*\* \*\*
+ 
+
+ 
+
+*** ***
+
+ 

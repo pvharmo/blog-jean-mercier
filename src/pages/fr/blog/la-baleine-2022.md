@@ -1,7 +1,7 @@
 ---
 title: La baleine 2022
 author: Jean Mercier
-youtubeMovieTrailer: 
+youtubeMovieTrailer: nWiQodhMvz4
 date: 2023-03-04T16:34:54.600Z
 category:
   - Sociology
