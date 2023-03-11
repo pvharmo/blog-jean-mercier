@@ -1,8 +1,8 @@
 ---
-title: The Whale, 2022.
+title: "The Whale, 2022."
 author: Jean Mercier
 youtubeMovieTrailer: nWiQodhMvz4
-date: 2023-02-14T00:00:00.000Z
+date: 2023-02-13T00:00:00.000Z
 category:
   - National culture
   - Sociology
@@ -13,7 +13,7 @@ tags:
 
 excerpt: It would be difficult to find in American film history a movie that deals so directly with so many delicate questions of contemporary America, including obesity, religion, homophobia, family breakdown, and health care.
 ---
-\*\*The Whale \*\*is an American drama by director Darren Aronofsky, **released in December of 2022. The main actor, Brendan Fraser**,  has been nominated for the best actor category at the coming Oscars on march 12. The film draws from a play of the same title.
+The Whale is an American drama by director Darren Aronofsky, released in December of 2022. The main actor, Brendan Fraser,  has been nominated for the best actor category at the coming Oscars on march 12. The film draws from a play of the same title.
 
  
 
