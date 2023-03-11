@@ -8,7 +8,7 @@ category:
 
 tags:
 
-excerpt: 
+excerpt: Entrée du 5 mars
 ---
 Prouesses techniques ou sujets difficiles :  *Avatar vs. La Baleine*
 
@@ -16,7 +16,7 @@ Avec tout ce qui est disponible aujourd’hui en moyens et en performances visue
 
  Les films de 2022 montrent de grandes différences à cet égard, allant de films si basiques sur le plan technique qu'ils auraient pu être réalisés dans les années 1950, jusqu’à des films qui reposent essentiellement sur des prouesses techniques pour toucher le public.
 
-En termes de sophistication technique, il serait difficile de trouver des films plus contrastés qu'Avatar et *The Whale* *(La Baleine*). Pourtant, leurs différences ne portent pas uniquement sur la technique, et nous reviendrons plus tard sur d'autres différences importantes entre les deux films.
+En termes de sophistication technique, il serait difficile de trouver des films plus contrastés qu'*Avatar* et *The Whale* *(La Baleine*). Pourtant, leurs différences ne portent pas uniquement sur la technique, et nous reviendrons plus tard sur d'autres différences importantes entre les deux films.
 
 Mais commençons par le degré de sophistication technique, ou leur absence, pour ce qui est de certains des films importants de 2022.
 

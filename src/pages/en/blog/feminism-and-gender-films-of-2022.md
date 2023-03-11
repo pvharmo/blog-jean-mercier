@@ -26,7 +26,6 @@ In *Blond*, a film quite directly focused on the personal and professional life 
 
 In a European context, the French film *L’événement* (2021) (*Happening*, in English, 2022), not nominated for prizes in North America, but the overall winner at the Mostra of Venice,  concerns the context of the perilous conditions of women seeking abortion in the early 1960s in France. It is a film that is only mildly militant because it is a measure of the progress since that decade, but it is also a reminder of how fragile those advances have been, especially considering the debates in the United States today.
 
-\*\* \*\*
 
 **Middle of the road militant**
 
@@ -42,7 +41,7 @@ In *TAR*, the female orchestra director is as prone as men to erratic and author
 
 In the same spirit, in *Triangles of Sadness*, after a luxury cruise encounters problems following a storm, a cleaning lady, because of her special knowledge on surviving on a lost island, transforms herself into an autocratic leader, even grabbing for herself alone the best installations and keeping for herself the most attractive young male survivor for the night.
 
-In a Mexican film of 2021, *Sundown*, mostly shown in 2022, a female business owner is as tough, or tougher, than he ailing brother, as she directs a meat packing enterprise in Britain and deals autocratically with him, while part of the family is staying at a luxury all included hotel in Mexico.   
+In a Mexican film of 2021, *Sundown*, mostly shown in 2022, a female business owner is as tough, or tougher, than her ailing brother, as she directs a meat packing enterprise in Britain and deals autocratically with him, while part of the family is staying at a luxury all included hotel in Mexico.   
 
 The conclusion suggested in these three last films, *TAR*, *Triangles of Sadness*, and *Sundown* is that the position where you stand conditions in large part your behavior. Women can thus be as erratic and authoritarian as men if given the “right” circumstances. For some, this conclusion might seem pessimistic, but for others, it may be more positive in that it suggests that there is nothing inherent or “natural” in the fact that women are often at the losing end of authority relationships.
 
