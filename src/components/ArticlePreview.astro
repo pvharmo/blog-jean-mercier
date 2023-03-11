@@ -42,7 +42,7 @@
       ))}
     </div>
   }
-  <p class="excerpt">{post.excerpt || ""}</p>
+  {post.excerpt && <div class="excerpt">{post.excerpt.split('\n').map((text: String) => {return <p>{text}</p>})}</div>}
   <a href={post.url}>{t(lang).readMore}</a>
 </div>
 

@@ -42,7 +42,7 @@ const post = await formatPost(Astro.props, lang)
                 ))}
             </div>
           }
-          {post.excerpt && <p class="excerpt">{post.excerpt}</p>}
+          {post.excerpt && <div class="excerpt">{post.excerpt.split('\n').map((text: String) => {return <p>{text}</p>})}</div>}
           <slot />
           <Comments url={post.url} postName={post.title} />
       </div>

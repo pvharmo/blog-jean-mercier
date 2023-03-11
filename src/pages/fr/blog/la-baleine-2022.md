@@ -11,7 +11,10 @@ tags:
   - North America
   - Drama
 
-excerpt: Il serait difficile de trouver dans l’histoire du cinéma américain un film qui traite aussi directement de tant de questions délicates de l’Amérique contemporaine tout à la fois, notamment l’obésité, la religion, l’homophobie, l’éclatement de la famille et le système de santé. Ce film est un phénomène rare. La Baleine est un drame américain du réalisateur Darren Aronofsky, sorti en décembre 2022. L'acteur principal, Brendan Fraser, a été nommé dans la catégorie du meilleur acteur  pour la course aux Oscars de 2023. Le film s'inspire d'une pièce de théâtre du même titre.
+excerpt: >-
+ Il serait difficile de trouver dans l’histoire du cinéma américain un film qui traite aussi directement de tant de questions délicates de l’Amérique contemporaine tout à la fois, notamment l’obésité, la religion, l’homophobie, l’éclatement de la famille et le système de santé. Ce film est un phénomène rare.
+
+ La Baleine est un drame américain du réalisateur Darren Aronofsky, sorti en décembre 2022. L'acteur principal, Brendan Fraser, a été nommé dans la catégorie du meilleur acteur  pour la course aux Oscars de 2023. Le film s'inspire d'une pièce de théâtre du même titre.
 ---
 
 **L'HISTOIRE**
