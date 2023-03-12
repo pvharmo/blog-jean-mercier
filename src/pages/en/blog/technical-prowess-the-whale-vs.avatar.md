@@ -8,7 +8,8 @@ category:
 
 tags:
 
-excerpt: >- March 5 2023
+excerpt: >-
+  March 5 2023
  
 ---
 **Technical prowess vs. Difficult subjects:  *Avatar* vs. *The* *Whale***
