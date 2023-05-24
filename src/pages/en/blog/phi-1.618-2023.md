@@ -1,7 +1,7 @@
 ---
 title: "PHI 1.618, 2023"
 author: Jean Mercier
-youtubeMovieTrailer: 
+youtubeMovieTrailer: thS-o3wXvyg
 date: 2023-05-24T17:20:58.591Z
 category:
   - National culture
